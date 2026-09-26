@@ -230,9 +230,12 @@ with gr.Blocks(title="発音コーチ") as demo:
             l_ans = gr.Markdown(l_ans0)
         with gr.Accordion("研究から考える練習方法", open=False):
             gr.Markdown(learning.METHODS)
-    drill = gr.Dropdown(choices=DRILLS, value=DRILLS[0], label="練習文を選ぶ", allow_custom_value=True)
+    drill = gr.Dropdown(choices=DRILLS, value=DRILLS[0], label="練習文（一覧から選ぶと下の英文が変わる）", allow_custom_value=True)
     sentence = gr.Textbox(value=DRILLS[0], label="読む英文（自由に書き換えられます）", lines=2)
-    drill.change(lambda s: s, drill, sentence)
+    # One sentence at a time: picking from the list sets the text, and any new text (typed, from a lesson,
+    # or handed over from English Express) is shown in the list box too. Runs in the browser, no round trip.
+    drill.input(None, drill, sentence, js="(s) => s")
+    sentence.change(None, sentence, drill, js="(s) => s")
     with gr.Row():
         b_play = gr.Button("手本を聞く")
         b_slow = gr.Button("ゆっくり聞く")
@@ -246,7 +249,7 @@ with gr.Blocks(title="発音コーチ") as demo:
     l_pick.change(_show_lesson, l_pick, [l_card, l_text, l_ans, l_cloze])
     l_next.click(learning.next_lesson, [l_topic, l_pick], l_pick)
     l_play.click(None, [l_text, r1], None, js=SPEAK_JS)
-    l_set.click(lambda t: t, l_text, sentence)
+    l_set.click(lambda t: (t, t), l_text, [sentence, drill])
     b_slow.click(None, [sentence, r2], None, js=SPEAK_JS)
     audio = gr.Audio(sources=["microphone", "upload"], type="numpy", label="録音（マイクボタン → 読む → 停止）")
     go = gr.Button("もう一度判定する", variant="primary")
@@ -263,6 +266,7 @@ with gr.Blocks(title="発音コーチ") as demo:
         return t[:300] if t else (gr.skip() if hasattr(gr, "skip") else gr.update())
 
     demo.load(_prefill, None, [sentence])
+    demo.load(None, sentence, drill, js="(s) => s")
     audio.stop_recording(judge, [sentence, audio], [out, summ, hist])
     audio.upload(judge, [sentence, audio], [out, summ, hist])
     go.click(judge, [sentence, audio], [out, summ, hist])
