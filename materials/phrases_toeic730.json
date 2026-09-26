@@ -1,0 +1,487 @@
+{
+ "deck": "TOEIC頻出 730",
+ "level": "TOEIC 730",
+ "scene": "paper|chart|coin",
+ "phrases": [
+  [
+   "out of order",
+   "故障中で",
+   "The copier on the third floor is out of order again.",
+   "3階のコピー機がまた故障している。"
+  ],
+  [
+   "be supposed to",
+   "～することになっている",
+   "The shipment was supposed to arrive yesterday, but it is still on its way.",
+   "荷物は昨日届くはずだったが、まだ配送中だ。"
+  ],
+  [
+   "in transit",
+   "輸送中で",
+   "Your order is currently in transit and should arrive by Thursday.",
+   "ご注文の品は現在輸送中で、木曜日までに届く予定です。"
+  ],
+  [
+   "keep in mind",
+   "心に留めておく",
+   "Keep in mind that the office closes early on national holidays.",
+   "祝日は事務所が早く閉まることを覚えておいてください。"
+  ],
+  [
+   "reach out to",
+   "～に連絡する",
+   "Please reach out to the IT help desk if you cannot access your account.",
+   "アカウントにアクセスできない場合は、ITヘルプデスクに連絡してください。"
+  ],
+  [
+   "sign off on",
+   "～を承認する",
+   "The director has to sign off on any purchase over five thousand dollars.",
+   "5千ドルを超える購入はすべて部長の承認が必要だ。"
+  ],
+  [
+   "run into",
+   "（問題など）にぶつかる",
+   "We ran into some technical problems during the software installation.",
+   "ソフトウェアのインストール中にいくつか技術的な問題にぶつかった。"
+  ],
+  [
+   "deal with",
+   "～に対処する・～を扱う",
+   "Ms Novak deals with all complaints from our international customers.",
+   "ノヴァクさんは海外顧客からの苦情すべてに対応している。"
+  ],
+  [
+   "sort out",
+   "（問題を）解決する・整理する",
+   "Our accountant is sorting out the billing error on your account.",
+   "当社の経理担当者がお客様のアカウントの請求ミスを処理しております。"
+  ],
+  [
+   "back up",
+   "バックアップを取る",
+   "Remember to back up your files before the system upgrade tonight.",
+   "今夜のシステム更新の前に、忘れずにファイルのバックアップを取ってください。"
+  ],
+  [
+   "shut down",
+   "（工場などを）停止する・閉鎖する",
+   "The factory will shut down for two weeks for annual maintenance.",
+   "工場は年次保守のため2週間操業を停止する。"
+  ],
+  [
+   "set up",
+   "設置する・準備する",
+   "Technicians will set up the projector and microphones before the seminar.",
+   "セミナーの前に技術者がプロジェクターとマイクを設置する。"
+  ],
+  [
+   "stock up on",
+   "～を買いだめする・多めに仕入れる",
+   "Many retailers stock up on popular items before the holiday season.",
+   "多くの小売業者は年末商戦の前に人気商品を多めに仕入れておく。"
+  ],
+  [
+   "restock the shelves",
+   "棚に商品を補充する",
+   "Staff members restock the shelves every evening after the store closes.",
+   "店員は毎晩閉店後に棚に商品を補充する。"
+  ],
+  [
+   "on back order",
+   "入荷待ちで",
+   "The blue model is on back order and will ship in about three weeks.",
+   "青いモデルは入荷待ちで、発送は約3週間後になります。"
+  ],
+  [
+   "express delivery",
+   "速達便",
+   "For an additional fee, we offer express delivery to most major cities.",
+   "追加料金で、主要都市のほとんどへの速達便をご利用いただけます。"
+  ],
+  [
+   "shipping and handling",
+   "送料および手数料",
+   "Prices listed on our website do not include shipping and handling.",
+   "当社ウェブサイトの表示価格には送料・手数料は含まれていません。"
+  ],
+  [
+   "issue an invoice",
+   "請求書を発行する",
+   "We will issue an invoice once the goods have been delivered.",
+   "商品の納品が済み次第、請求書を発行いたします。"
+  ],
+  [
+   "an outstanding invoice",
+   "未払いの請求書",
+   "Please settle the outstanding invoice by the end of this month.",
+   "未払いの請求書を今月末までにお支払いください。"
+  ],
+  [
+   "make a payment",
+   "支払いをする",
+   "You can make a payment online with a credit card or bank transfer.",
+   "クレジットカードまたは銀行振込でオンライン決済ができます。"
+  ],
+  [
+   "be past due",
+   "支払期限を過ぎている",
+   "Your account is past due, so a late fee has been added.",
+   "お客様のお支払いは期限を過ぎているため、延滞料が加算されました。"
+  ],
+  [
+   "charge a late fee",
+   "延滞料を課す",
+   "Our company charges a late fee on payments received after the due date.",
+   "当社では期日後に受領した支払いに延滞料を課しています。"
+  ],
+  [
+   "an expense report",
+   "経費報告書",
+   "Submit your expense report with all receipts within a week of your trip.",
+   "出張から1週間以内に、すべての領収書を添えて経費報告書を提出してください。"
+  ],
+  [
+   "be reimbursed for",
+   "～の費用を払い戻してもらう",
+   "Employees will be reimbursed for travel costs related to the conference.",
+   "会議に関連する交通費は従業員に払い戻される。"
+  ],
+  [
+   "a bank statement",
+   "銀行の取引明細書",
+   "Applicants must provide their three most recent bank statements.",
+   "申込者は直近3か月分の銀行取引明細書を提出しなければならない。"
+  ],
+  [
+   "open an account",
+   "口座を開設する",
+   "You need two forms of identification to open an account at our bank.",
+   "当行で口座を開設するには、身分証明書が2種類必要です。"
+  ],
+  [
+   "a down payment",
+   "頭金",
+   "The company made a down payment of twenty percent on the new equipment.",
+   "会社は新しい設備の頭金として20％を支払った。"
+  ],
+  [
+   "in installments",
+   "分割払いで",
+   "Customers may pay for the furniture in six monthly installments.",
+   "お客様は家具の代金を6回の月賦で支払うことができる。"
+  ],
+  [
+   "get a quote",
+   "見積もりを取る",
+   "We got a quote from three moving companies before choosing one.",
+   "引っ越し業者を1社に決める前に、3社から見積もりを取った。"
+  ],
+  [
+   "a bulk order",
+   "大口注文",
+   "We offer a fifteen percent discount on bulk orders of more than a hundred units.",
+   "100個を超える大口注文には15％の割引をいたします。"
+  ],
+  [
+   "reach a target",
+   "目標を達成する",
+   "The team reached its annual sales target two months early.",
+   "チームは年間売上目標を2か月早く達成した。"
+  ],
+  [
+   "sales figures",
+   "売上高・販売数値",
+   "The latest sales figures show strong demand for our new tablet.",
+   "最新の売上高から、当社の新しいタブレットへの強い需要がうかがえる。"
+  ],
+  [
+   "market research",
+   "市場調査",
+   "We conducted market research before launching the product in Asia.",
+   "アジアで製品を発売する前に市場調査を行った。"
+  ],
+  [
+   "a target audience",
+   "ターゲット層・対象者",
+   "Our target audience for this campaign is young professionals in large cities.",
+   "このキャンペーンのターゲット層は、大都市で働く若手社会人だ。"
+  ],
+  [
+   "an advertising campaign",
+   "広告キャンペーン",
+   "The new advertising campaign will run on television and social media.",
+   "新しい広告キャンペーンはテレビとSNSで展開される。"
+  ],
+  [
+   "launch a product",
+   "製品を発売する",
+   "The company plans to launch a new line of kitchen appliances in May.",
+   "同社は5月に新しい台所家電のシリーズを発売する予定だ。"
+  ],
+  [
+   "a press release",
+   "プレスリリース・報道発表",
+   "The merger was announced in a press release issued this morning.",
+   "合併は今朝発表されたプレスリリースで公表された。"
+  ],
+  [
+   "a trade show",
+   "見本市・展示会",
+   "We will display our latest models at the international trade show in Berlin.",
+   "ベルリンの国際見本市で当社の最新モデルを展示します。"
+  ],
+  [
+   "a free sample",
+   "無料サンプル",
+   "Visitors to our booth will receive a free sample of the new shampoo.",
+   "当社ブースへの来場者には新しいシャンプーの無料サンプルを進呈します。"
+  ],
+  [
+   "a customer survey",
+   "顧客アンケート",
+   "According to a recent customer survey, most users want faster delivery.",
+   "最近の顧客アンケートによると、ほとんどの利用者がより速い配送を望んでいる。"
+  ],
+  [
+   "customer satisfaction",
+   "顧客満足度",
+   "Improving customer satisfaction is the top priority for our service team.",
+   "顧客満足度の向上が、当社サービスチームの最優先事項だ。"
+  ],
+  [
+   "file a complaint",
+   "苦情を申し立てる",
+   "The guest filed a complaint about the noise from the construction site.",
+   "その宿泊客は工事現場からの騒音について苦情を申し立てた。"
+  ],
+  [
+   "apologize for any inconvenience",
+   "ご不便をおわびする",
+   "We apologize for any inconvenience caused by the temporary closure of the parking garage.",
+   "駐車場の一時閉鎖によりご不便をおかけしますことをおわび申し上げます。"
+  ],
+  [
+   "take care of",
+   "～を引き受ける・処理する",
+   "Don't worry about the catering; Ms Garcia will take care of it.",
+   "ケータリングの件は心配いりません。ガルシアさんが対応してくれます。"
+  ],
+  [
+   "be fully booked",
+   "予約で満杯である",
+   "The hotel near the convention center is fully booked that week.",
+   "コンベンションセンター近くのホテルはその週、満室だ。"
+  ],
+  [
+   "a job posting",
+   "求人広告・求人情報",
+   "The job posting says that applicants must be fluent in Spanish.",
+   "求人情報には、応募者はスペイン語が堪能でなければならないと書かれている。"
+  ],
+  [
+   "provide references",
+   "照会先（推薦者）を提出する",
+   "Finalists will be asked to provide references from two former employers.",
+   "最終候補者は、以前の雇用主2社を照会先として提出するよう求められる。"
+  ],
+  [
+   "conduct an interview",
+   "面接を行う",
+   "The HR manager will conduct interviews with the five shortlisted candidates.",
+   "人事部長が、最終選考に残った5人の候補者の面接を行う。"
+  ],
+  [
+   "a probationary period",
+   "試用期間",
+   "New employees are evaluated at the end of a three-month probationary period.",
+   "新入社員は3か月の試用期間の終わりに評価を受ける。"
+  ],
+  [
+   "employee benefits",
+   "福利厚生",
+   "Our employee benefits include health insurance and a generous pension plan.",
+   "当社の福利厚生には健康保険と充実した年金制度が含まれる。"
+  ],
+  [
+   "paid leave",
+   "有給休暇",
+   "Full-time staff receive twenty days of paid leave per year.",
+   "正社員には年間20日の有給休暇が与えられる。"
+  ],
+  [
+   "a pay raise",
+   "昇給",
+   "Ms Wong asked her manager about the possibility of a pay raise.",
+   "ウォンさんは上司に昇給の可能性について尋ねた。"
+  ],
+  [
+   "an orientation session",
+   "オリエンテーション・説明会",
+   "All new hires must attend an orientation session on their first morning.",
+   "新入社員は全員、初日の朝にオリエンテーションに出席しなければならない。"
+  ],
+  [
+   "company policy",
+   "会社の規定・方針",
+   "According to company policy, visitors must sign in at reception.",
+   "社内規定により、来訪者は受付で記帳しなければならない。"
+  ],
+  [
+   "a dress code",
+   "服装規定",
+   "The office has a casual dress code except on days with client meetings.",
+   "そのオフィスでは、顧客との打ち合わせがある日を除き、服装規定がカジュアルだ。"
+  ],
+  [
+   "a deadline extension",
+   "締め切りの延長",
+   "Mr Adams requested a deadline extension because two team members were absent.",
+   "チームの2人が欠勤していたため、アダムズさんは締め切りの延長を求めた。"
+  ],
+  [
+   "keep up with",
+   "～についていく・遅れずに対応する",
+   "The factory hired more workers to keep up with growing demand.",
+   "工場は増え続ける需要に対応するため、作業員を増員した。"
+  ],
+  [
+   "catch up on",
+   "（遅れていたこと）を取り戻す",
+   "I stayed late to catch up on the emails I missed during the conference.",
+   "会議中に読めなかったメールを片付けるため、遅くまで残った。"
+  ],
+  [
+   "fall behind",
+   "遅れをとる",
+   "The project fell behind when a key supplier stopped delivering parts.",
+   "主要な仕入れ先が部品の納入を止めたとき、プロジェクトは遅れをとった。"
+  ],
+  [
+   "go out of business",
+   "廃業する・倒産する",
+   "The small bookstore went out of business after thirty years on Main Street.",
+   "その小さな書店は、メインストリートで30年営業した後に廃業した。"
+  ],
+  [
+   "be short-staffed",
+   "人手不足である",
+   "The restaurant is short-staffed this week, so service may be slow.",
+   "今週そのレストランは人手不足なので、提供が遅れるかもしれない。"
+  ],
+  [
+   "cover a shift",
+   "シフトを代わる",
+   "Could you cover my shift on Saturday? I have a family event.",
+   "土曜日のシフトを代わってもらえますか。家族の行事があるんです。"
+  ],
+  [
+   "a sign-in sheet",
+   "記名表・出席表",
+   "Please write your name on the sign-in sheet at the entrance.",
+   "入口の記名表にお名前をご記入ください。"
+  ],
+  [
+   "a visitor pass",
+   "来訪者用入館証",
+   "All guests must wear a visitor pass while inside the building.",
+   "来訪者は全員、建物内では入館証を着用しなければならない。"
+  ],
+  [
+   "be temporarily unavailable",
+   "一時的に利用できない",
+   "The online banking service will be temporarily unavailable due to scheduled maintenance.",
+   "定期メンテナンスのため、オンラインバンキングは一時的にご利用いただけません。"
+  ],
+  [
+   "a power outage",
+   "停電",
+   "A power outage delayed production at the plant for several hours.",
+   "停電により工場の生産が数時間遅れた。"
+  ],
+  [
+   "a fire drill",
+   "防火訓練・避難訓練",
+   "A fire drill will take place on Tuesday at 10:30, so please follow the wardens.",
+   "火曜日の10時30分に避難訓練を行いますので、係員の指示に従ってください。"
+  ],
+  [
+   "the emergency exit",
+   "非常口",
+   "Please do not place boxes in front of the emergency exit.",
+   "非常口の前に箱を置かないでください。"
+  ],
+  [
+   "carry-on luggage",
+   "機内持ち込み手荷物",
+   "Each passenger may bring one piece of carry-on luggage onto the plane.",
+   "乗客は1人につき1個の手荷物を機内に持ち込める。"
+  ],
+  [
+   "a layover",
+   "（飛行機の）乗り継ぎ待ち",
+   "Our flight to Toronto has a three-hour layover in Chicago.",
+   "トロント行きの便は、シカゴで3時間の乗り継ぎ待ちがある。"
+  ],
+  [
+   "a travel allowance",
+   "出張手当・旅費手当",
+   "Staff traveling overseas receive a daily travel allowance for meals.",
+   "海外出張する社員には、食事用の日当が支給される。"
+  ],
+  [
+   "a complimentary breakfast",
+   "無料の朝食",
+   "All rooms include a complimentary breakfast served in the hotel restaurant.",
+   "全室、ホテルのレストランで提供される無料の朝食付きです。"
+  ],
+  [
+   "upgrade to",
+   "～にアップグレードする",
+   "For a small fee, you can upgrade to a room with an ocean view.",
+   "少額の料金で、海の見える部屋にアップグレードできます。"
+  ],
+  [
+   "a business card",
+   "名刺",
+   "Don't forget to bring plenty of business cards to the networking event.",
+   "交流会には名刺をたくさん持っていくのを忘れないでください。"
+  ],
+  [
+   "a networking event",
+   "交流会・人脈づくりのイベント",
+   "The chamber of commerce hosts a networking event for local entrepreneurs every month.",
+   "商工会議所は毎月、地元の起業家向けに交流会を開いている。"
+  ],
+  [
+   "draw up",
+   "（文書を）作成する",
+   "Our lawyers will draw up a contract based on the terms we discussed.",
+   "当社の弁護士が、話し合った条件に基づいて契約書を作成します。"
+  ],
+  [
+   "go through",
+   "（困難などを）経験する",
+   "The company went through a difficult period after losing its largest client.",
+   "その会社は最大の顧客を失った後、苦しい時期を経験した。"
+  ],
+  [
+   "put together",
+   "まとめる・作成する",
+   "Ms Brown put together a proposal for the new staff training program.",
+   "ブラウンさんは新しい社員研修プログラムの提案書をまとめた。"
+  ],
+  [
+   "take place",
+   "行われる・開催される",
+   "The annual shareholders' meeting will take place at the Grand Hotel.",
+   "年次株主総会はグランドホテルで開催される。"
+  ],
+  [
+   "take part in",
+   "～に参加する",
+   "More than two hundred companies took part in this year's job fair.",
+   "今年の就職説明会には200社以上が参加した。"
+  ]
+ ]
+}

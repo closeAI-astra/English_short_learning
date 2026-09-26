@@ -1,0 +1,37 @@
+/* Video-first layout, shared illustrated art, no remote assets. */
+.vtoolbar{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin:4px 0 24px}.vtoolbar>span{font-size:20px;font-weight:750;margin-right:auto}.vtoolbar label{display:flex;align-items:center;gap:8px}.vtoolbar select,.vcontrols select{background:var(--panel,#222);color:inherit;padding:8px;border:1px solid #444;border-radius:10px}.vcard .th{position:relative;overflow:hidden;border-radius:15px;background:#1b2932}.vkind{position:absolute;left:10px;top:10px;border-radius:6px;padding:4px 9px;font-size:11px;background:#111c;color:#fff;backdrop-filter:blur(8px)}.vwatch{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:28px;max-width:1600px;margin:auto}.vmain{min-width:0}.vplayer{position:relative;aspect-ratio:16/9;background:#111;overflow:hidden;border-radius:16px}.vtitle{font-size:24px;line-height:1.5;margin:18px 0 6px}.vcontrols{display:flex;align-items:center;gap:10px;margin-top:10px;flex-wrap:wrap}.vcontrols input{flex:1;min-width:60px;accent-color:#46a6ff}.vcontrols span{font:12px var(--mono,monospace)}.vtabs{display:flex;gap:8px;overflow-x:auto;padding:12px 0 18px;scrollbar-width:thin}.vtabs button{flex:none}.vtranscript,.vquestion,.vspeechPlan{padding:20px;background:var(--panel,#202020);border:1px solid #383838;border-radius:14px;line-height:1.8}.vtranscript p{margin:8px 0}.vquestion .btn{display:block;text-align:left;width:100%;margin:8px 0}.vwatch aside .vcard{display:block;width:100%;margin-bottom:22px}.vwatch aside .meta{padding-top:8px}.vchunk{display:inline-block;border:1px solid #415467;background:#1e2e3b;border-radius:8px;padding:7px 11px;margin:4px;color:inherit;text-align:left;font-size:17px}.villustration{overflow:hidden!important;background:#172630!important}.villustration svg{width:100%;height:100%;transform:scale(1.28)}.vshelfControls{display:flex;align-items:center;gap:12px;margin:12px 0 25px}.vshelfControls input{flex:1;accent-color:#4fa6f4}.vshelf .shelf{scroll-behavior:smooth;scrollbar-width:thin}.scard{touch-action:pan-y}.scard .rail{gap:9px}.scard .rail button{min-height:42px}.vwatch textarea{min-height:110px}.vwatch details{padding:16px;border:1px solid #444;border-radius:10px}.vwatch summary{cursor:pointer}.vspeechPlan li{padding:4px 0}.vwatch #vActivity{padding-bottom:48px}.vwatch .lab-timer{font-size:64px}.vwatch .lab-rounds{flex-wrap:wrap}
+@media(min-width:900px){#shWrap .capen{font-size:25px}#shWrap .capja{font-size:16px}.vgrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(min-width:1550px){.vgrid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:1000px){.vwatch{grid-template-columns:1fr}.vwatch aside{display:none}}
+@media(max-width:600px){.vtitle{font-size:20px}.vcontrols{gap:6px}.vcontrols .btn{padding:7px 10px}.vtoolbar{gap:9px}.vtoolbar>span{width:100%}.vtranscript,.vquestion,.vspeechPlan{padding:14px}.vwatch{gap:12px}.scard .rail{gap:6px}.vshelfControls{margin-top:8px}.vwatch .lab-timer{font-size:52px}}
+.vwatch{width:100%}.vcontrols select{width:auto;min-width:70px}
+@media(max-width:600px){.vcontrols select{max-width:85px}.vcontrols input{min-width:40px}}
+@media(min-width:601px){}
+
+/* Player: blurred full-frame backdrop + centred illustration + bottom caption overlay */
+.vplayer{aspect-ratio:16/9;border-radius:16px;background:#0d1117}
+.vplayer #vScene{position:absolute;inset:0}
+.vplayer .vbg{position:absolute;inset:-8%;filter:blur(22px) saturate(1.15);opacity:.75}
+.vplayer .vbg svg{width:100%;height:100%;display:block}
+.vplayer .vfg{position:absolute;top:0;bottom:0;left:50%;transform:translateX(-50%);aspect-ratio:300/350;height:100%;box-shadow:0 0 40px #0008}
+.vplayer .vfg svg{width:100%;height:100%;display:block}
+.vplayer #vCaption{position:absolute;left:0;right:0;bottom:0;padding:44px 6% 18px;background:linear-gradient(transparent,#000c 45%);text-align:center;font-size:clamp(16px,2vw,27px);line-height:1.45;color:#fff;text-shadow:0 1px 3px #000;max-height:62%;overflow:auto}
+.vplayer #vCaption small{display:block;font-size:.62em;line-height:1.55;color:#dbe4ea;margin-top:6px}
+.vplayer[data-cc="en"] #vCaption small{display:none}
+.vplayer[data-cc="off"] #vCaption{display:none}
+.vcontrols #vCC{min-width:92px}
+/* Drawn genre avatars */
+.vav{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;flex:none;overflow:hidden;background:radial-gradient(circle at 32% 28%,color-mix(in srgb,var(--c) 55%,#fff),var(--c) 58%,color-mix(in srgb,var(--c) 70%,#000));box-shadow:inset 0 0 0 1.5px #ffffff30,0 1px 3px #0006}
+.vav svg{width:78%;height:78%;display:block;filter:drop-shadow(0 1px 1px #0005)}
+.chan .vav{width:60px;height:60px}.subrow .vav{width:48px;height:48px}
+.vcard .meta{display:grid;grid-template-columns:36px minmax(0,1fr);gap:10px;align-items:start}
+.vcard .meta>div{min-width:0}
+.vtoolbar label{white-space:nowrap}
+@media(max-width:600px){.vplayer{border-radius:10px}.vplayer #vCaption{font-size:15px;padding:30px 4% 10px}.vplayer #vCaption small{font-size:11.5px;margin-top:3px}.vtoolbar>span{width:100%}.vtoolbar select{max-width:160px}}
+@media(max-width:600px){.vplayer{aspect-ratio:4/3}.vplayer .vfg{aspect-ratio:300/340}.vcontrols{flex-wrap:nowrap}.vcontrols #vCC{min-width:0;padding:7px 8px;font-size:12px}.vcontrols select{min-width:0;max-width:64px;padding:6px 4px}.vcontrols #vPosition{white-space:nowrap}}
+.vcompact{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-bottom:18px}
+.vcompact .vcard{display:grid;grid-template-columns:150px minmax(0,1fr);gap:12px;align-items:start;margin:0}
+.vcompact .vcard .th{border-radius:10px}.vcompact .vcard .meta{grid-template-columns:minmax(0,1fr)}.vcompact .vcard .meta .av{display:none}
+.vpick{border:1px solid var(--line,#333);border-radius:12px;padding:12px 14px;margin:10px 0}.vpick summary{cursor:pointer;font-weight:700;font-size:16px}.vpick[open] summary{margin-bottom:12px}
+.vcontrols .btn{white-space:nowrap}
+@media(max-width:600px){.vcompact{grid-template-columns:1fr}.vcompact .vcard{grid-template-columns:132px minmax(0,1fr)}}

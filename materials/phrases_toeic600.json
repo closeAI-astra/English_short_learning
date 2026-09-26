@@ -1,0 +1,487 @@
+{
+ "deck": "TOEIC頻出 600",
+ "level": "TOEIC 600",
+ "scene": "city|building|chat",
+ "phrases": [
+  [
+   "call back",
+   "折り返し電話する",
+   "Could you ask Mr Sato to call me back when he returns?",
+   "佐藤さんが戻られたら、折り返しお電話いただくようお伝えいただけますか。"
+  ],
+  [
+   "leave a message",
+   "伝言を残す",
+   "Ms Rivera is in a meeting, but you can leave a message with me.",
+   "リベラさんは会議中ですが、私に伝言を残していただけます。"
+  ],
+  [
+   "hold a meeting",
+   "会議を開く",
+   "The sales team holds a meeting every Monday morning to review weekly targets.",
+   "営業チームは毎週月曜の朝に会議を開き、週の目標を確認する。"
+  ],
+  [
+   "set up an appointment",
+   "面会の約束を取り付ける",
+   "I'd like to set up an appointment with our accountant for next Tuesday.",
+   "来週の火曜日に、当社の会計士との面会の約束を取り付けたいのですが。"
+  ],
+  [
+   "reschedule the meeting",
+   "会議の日程を変更する",
+   "We need to reschedule the meeting because the director's flight was canceled.",
+   "部長の便が欠航になったので、会議の日程を変更する必要がある。"
+  ],
+  [
+   "call off",
+   "中止する",
+   "The outdoor product demonstration was called off because of heavy rain.",
+   "大雨のため、屋外での製品実演は中止になった。"
+  ],
+  [
+   "fill in for",
+   "～の代わりを務める",
+   "Could you fill in for Kenji at the front desk while he is at lunch?",
+   "ケンジが昼食に出ている間、受付で彼の代わりをしてもらえますか。"
+  ],
+  [
+   "pick up",
+   "受け取りに行く",
+   "You can pick up your new ID badge at the security office on the first floor.",
+   "新しいIDバッジは1階の警備室で受け取れます。"
+  ],
+  [
+   "drop off",
+   "届ける・置いていく",
+   "Please drop off the signed contracts at reception by Friday afternoon.",
+   "署名済みの契約書は金曜の午後までに受付に届けてください。"
+  ],
+  [
+   "hand out",
+   "配布する",
+   "The organizers will hand out name tags at the entrance to the conference hall.",
+   "主催者が会議場の入口で名札を配布します。"
+  ],
+  [
+   "hand in",
+   "提出する",
+   "All employees must hand in their timesheets before the end of the month.",
+   "全従業員は月末までに勤務表を提出しなければならない。"
+  ],
+  [
+   "look forward to",
+   "～を楽しみにする",
+   "We look forward to working with your team on the new project.",
+   "新しいプロジェクトで御社のチームとご一緒できるのを楽しみにしております。"
+  ],
+  [
+   "thank you for your patience",
+   "お待ちいただきありがとうございます",
+   "Thank you for your patience while we update our online ordering system.",
+   "オンライン注文システムの更新中、お待ちいただきありがとうございます。"
+  ],
+  [
+   "a business trip",
+   "出張",
+   "Mr Chen will be on a business trip to Singapore until next Thursday.",
+   "チェンさんは来週の木曜日までシンガポールに出張しています。"
+  ],
+  [
+   "a staff meeting",
+   "職員会議・スタッフ会議",
+   "The monthly staff meeting has been moved to the large conference room.",
+   "月例のスタッフ会議は大会議室に場所が変更された。"
+  ],
+  [
+   "a job interview",
+   "就職面接",
+   "Please arrive fifteen minutes early for your job interview on Wednesday.",
+   "水曜日の面接には15分前にお越しください。"
+  ],
+  [
+   "a registration form",
+   "登録用紙・申込書",
+   "Participants should complete the registration form and return it by email.",
+   "参加者は申込書に記入し、メールで返送してください。"
+  ],
+  [
+   "a user manual",
+   "取扱説明書",
+   "Detailed setup instructions can be found in the user manual included in the box.",
+   "詳しい設定手順は、箱に同梱の取扱説明書に記載されています。"
+  ],
+  [
+   "a sales representative",
+   "営業担当者",
+   "A sales representative will call you to discuss your company's needs.",
+   "営業担当者が御社のご要望を伺うためにお電話いたします。"
+  ],
+  [
+   "business hours",
+   "営業時間",
+   "Our customer support line is available during regular business hours only.",
+   "カスタマーサポートの電話は通常の営業時間内のみご利用いただけます。"
+  ],
+  [
+   "a business day",
+   "営業日",
+   "Your refund will be processed within five business days.",
+   "返金は5営業日以内に処理されます。"
+  ],
+  [
+   "the front desk",
+   "フロント・受付",
+   "Guests can store their luggage at the front desk after checking out.",
+   "宿泊客はチェックアウト後、フロントで荷物を預けることができる。"
+  ],
+  [
+   "a parking lot",
+   "駐車場",
+   "The employee parking lot will be repaved over the weekend.",
+   "従業員用駐車場は週末に再舗装される。"
+  ],
+  [
+   "a floor plan",
+   "平面図・間取り図",
+   "The architect showed us a floor plan of our new office.",
+   "建築家が私たちの新しいオフィスの平面図を見せてくれた。"
+  ],
+  [
+   "office supplies",
+   "事務用品",
+   "Please let Ms Park know if we are running low on office supplies.",
+   "事務用品が残り少なくなったら、パクさんに知らせてください。"
+  ],
+  [
+   "be closed for renovations",
+   "改装のため休業している",
+   "The staff cafeteria will be closed for renovations until the end of March.",
+   "社員食堂は3月末まで改装のため休業する。"
+  ],
+  [
+   "take a day off",
+   "1日休みを取る",
+   "I'm taking a day off on Friday, so please contact Ms Lee instead.",
+   "金曜日は休みを取るので、代わりにリーさんに連絡してください。"
+  ],
+  [
+   "work overtime",
+   "残業する",
+   "Several team members had to work overtime to finish the annual report.",
+   "年次報告書を仕上げるため、チームの何人かが残業しなければならなかった。"
+  ],
+  [
+   "work from home",
+   "在宅勤務する",
+   "Employees may work from home up to two days a week.",
+   "従業員は週に2日まで在宅勤務をしてよい。"
+  ],
+  [
+   "a lunch break",
+   "昼休み",
+   "The printer was repaired during the lunch break, so it is working again.",
+   "昼休みの間にプリンターが修理されたので、また使えるようになった。"
+  ],
+  [
+   "be located on",
+   "～（階・通り）にある",
+   "The marketing department is located on the fifth floor of the east building.",
+   "マーケティング部は東棟の5階にある。"
+  ],
+  [
+   "across from",
+   "～の向かいに",
+   "Our new branch is directly across from the central train station.",
+   "当社の新しい支店は中央駅の真向かいにあります。"
+  ],
+  [
+   "get a discount",
+   "割引を受ける",
+   "Members get a discount of ten percent on all training courses.",
+   "会員はすべての研修コースで10％の割引を受けられる。"
+  ],
+  [
+   "on sale",
+   "セール中で・特価で",
+   "All winter coats are on sale this week at our downtown store.",
+   "今週、繁華街の店舗では冬物コートが全品セール中です。"
+  ],
+  [
+   "in stock",
+   "在庫がある",
+   "The printer cartridges you ordered are currently in stock and will ship today.",
+   "ご注文のプリンターカートリッジは現在在庫があり、本日発送されます。"
+  ],
+  [
+   "a price list",
+   "価格表",
+   "I've attached our updated price list for the coming year.",
+   "来年度の最新の価格表を添付いたしました。"
+  ],
+  [
+   "a delivery date",
+   "納期・配達日",
+   "Could you confirm the delivery date for the new office chairs?",
+   "新しいオフィスチェアの納期を確認していただけますか。"
+  ],
+  [
+   "track a package",
+   "荷物を追跡する",
+   "You can track your package online using the number in this email.",
+   "このメールに記載の番号を使って、オンラインで荷物を追跡できます。"
+  ],
+  [
+   "by the end of the day",
+   "今日中に・終業時までに",
+   "Please send me the revised slides by the end of the day.",
+   "修正したスライドを今日中に送ってください。"
+  ],
+  [
+   "as soon as possible",
+   "できるだけ早く",
+   "Please reply as soon as possible so that we can finalize the guest list.",
+   "招待客リストを確定できるよう、できるだけ早くご返信ください。"
+  ],
+  [
+   "first thing in the morning",
+   "朝一番に",
+   "I'll call the supplier first thing in the morning to check on the order.",
+   "朝一番に仕入れ先に電話して、注文の状況を確認します。"
+  ],
+  [
+   "at the moment",
+   "今のところ・ただ今",
+   "Mr Ito is not available at the moment, but he'll be back after lunch.",
+   "伊藤さんはただ今席を外していますが、昼食後に戻ります。"
+  ],
+  [
+   "on time",
+   "時間通りに",
+   "The shipment arrived on time despite the bad weather.",
+   "悪天候にもかかわらず、荷物は時間通りに到着した。"
+  ],
+  [
+   "in time for",
+   "～に間に合って",
+   "The new brochures were printed in time for the trade show.",
+   "新しいパンフレットは見本市に間に合うように印刷された。"
+  ],
+  [
+   "in person",
+   "直接・本人が出向いて",
+   "Applicants must submit their documents in person at the city office.",
+   "申請者は市役所に出向いて直接書類を提出しなければならない。"
+  ],
+  [
+   "by phone",
+   "電話で",
+   "Reservations can be made by phone or through our website.",
+   "予約はお電話または当社ウェブサイトから承ります。"
+  ],
+  [
+   "in a row",
+   "連続で",
+   "Sales have increased for five quarters in a row.",
+   "売上は5四半期連続で増加している。"
+  ],
+  [
+   "the latest version",
+   "最新版",
+   "Please make sure you are using the latest version of the accounting software.",
+   "会計ソフトの最新版を使っているか必ず確認してください。"
+  ],
+  [
+   "log in to",
+   "～にログインする",
+   "Staff can log in to the portal to check their remaining vacation days.",
+   "スタッフはポータルにログインして、有給休暇の残日数を確認できる。"
+  ],
+  [
+   "make a copy of",
+   "～のコピーを取る",
+   "Could you make a copy of this contract for our records?",
+   "記録用にこの契約書のコピーを取っていただけますか。"
+  ],
+  [
+   "run late",
+   "（予定より）遅れる・押す",
+   "The morning session is running late, so lunch will start at 12:30.",
+   "午前のセッションが押しているので、昼食は12時30分開始になります。"
+  ],
+  [
+   "on the way",
+   "向かっている途中で",
+   "The technician is on the way and should arrive within thirty minutes.",
+   "技術者は現在向かっており、30分以内に到着する見込みです。"
+  ],
+  [
+   "look for",
+   "～を探す",
+   "We are looking for an experienced accountant to join our finance team.",
+   "当社は財務チームに加わる経験豊富な会計士を探しています。"
+  ],
+  [
+   "be interested in",
+   "～に興味がある",
+   "If you are interested in the position, please send us your résumé.",
+   "この職に興味がおありでしたら、履歴書をお送りください。"
+  ],
+  [
+   "a cover letter",
+   "カバーレター・添え状",
+   "Please attach a cover letter explaining why you want to join our company.",
+   "当社を志望する理由を説明したカバーレターを添付してください。"
+  ],
+  [
+   "a job applicant",
+   "求職者・応募者",
+   "Each job applicant will be interviewed by two managers.",
+   "各応募者は2人の管理職による面接を受ける。"
+  ],
+  [
+   "work experience",
+   "職務経験",
+   "Candidates with work experience in retail are strongly preferred.",
+   "小売業での職務経験がある候補者を強く希望します。"
+  ],
+  [
+   "a new hire",
+   "新入社員",
+   "Every new hire receives a laptop and a security badge on the first day.",
+   "新入社員は全員、初日にノートパソコンとセキュリティバッジを受け取る。"
+  ],
+  [
+   "a welcome reception",
+   "歓迎会",
+   "A welcome reception for the new interns will be held in the lobby.",
+   "新しいインターン生の歓迎会がロビーで開かれる。"
+  ],
+  [
+   "a retirement party",
+   "退職パーティー",
+   "We are collecting money for Mr Olsen's retirement party next Friday.",
+   "来週金曜日のオルセンさんの退職パーティーのためにお金を集めています。"
+  ],
+  [
+   "a round of applause",
+   "拍手",
+   "Let's give a round of applause to this year's top sales team.",
+   "今年のトップ営業チームに拍手を送りましょう。"
+  ],
+  [
+   "give a presentation",
+   "発表をする・プレゼンをする",
+   "Ms Khan will give a presentation on the new marketing strategy.",
+   "カーンさんが新しいマーケティング戦略について発表します。"
+  ],
+  [
+   "take a look at",
+   "～を見てみる",
+   "Could you take a look at the draft before I send it to the client?",
+   "顧客に送る前に、下書きを見ていただけますか。"
+  ],
+  [
+   "get back to",
+   "（後で）～に返事をする",
+   "I'll check the schedule and get back to you by tomorrow.",
+   "予定を確認して、明日までにお返事します。"
+  ],
+  [
+   "help yourself to",
+   "～を自由に取って食べる・飲む",
+   "Please help yourself to coffee and snacks in the break room.",
+   "休憩室のコーヒーと軽食はご自由にお取りください。"
+  ],
+  [
+   "feel free to",
+   "遠慮なく～する",
+   "Feel free to contact me if you have any questions about the invoice.",
+   "請求書についてご質問があれば、遠慮なくご連絡ください。"
+  ],
+  [
+   "be happy to",
+   "喜んで～する",
+   "I'd be happy to show you around the factory tomorrow.",
+   "明日、喜んで工場をご案内いたします。"
+  ],
+  [
+   "would you mind",
+   "～していただけませんか",
+   "Would you mind sending me the figures again? I can't open the file.",
+   "数字をもう一度送っていただけませんか。ファイルが開けないのです。"
+  ],
+  [
+   "a boarding pass",
+   "搭乗券",
+   "Please have your boarding pass and passport ready at the gate.",
+   "搭乗口では搭乗券とパスポートをご用意ください。"
+  ],
+  [
+   "baggage claim",
+   "手荷物受取所",
+   "Our driver will meet you at baggage claim holding a sign with your name.",
+   "当社の運転手が、お名前を書いた札を持って手荷物受取所でお待ちしています。"
+  ],
+  [
+   "a hotel shuttle",
+   "ホテルの送迎バス",
+   "A free hotel shuttle runs between the airport and downtown every twenty minutes.",
+   "無料のホテル送迎バスが空港と市街地の間を20分ごとに運行している。"
+  ],
+  [
+   "check out of",
+   "～をチェックアウトする",
+   "Guests must check out of their rooms by eleven o'clock.",
+   "宿泊客は11時までに部屋をチェックアウトしなければならない。"
+  ],
+  [
+   "a travel itinerary",
+   "旅程表",
+   "Your travel itinerary, including flight and hotel details, is attached to this email.",
+   "航空便とホテルの詳細を含む旅程表をこのメールに添付しています。"
+  ],
+  [
+   "a wake-up call",
+   "モーニングコール",
+   "I'd like to request a wake-up call for six tomorrow morning.",
+   "明朝6時にモーニングコールをお願いしたいのですが。"
+  ],
+  [
+   "a gift certificate",
+   "ギフト券・商品券",
+   "Survey participants will receive a gift certificate worth twenty dollars.",
+   "アンケート参加者には20ドル分のギフト券が贈られる。"
+  ],
+  [
+   "a membership card",
+   "会員カード",
+   "Show your membership card at the register to receive reward points.",
+   "レジで会員カードを提示するとポイントが付きます。"
+  ],
+  [
+   "customer service",
+   "顧客サービス（窓口）",
+   "Please call customer service if your order arrives damaged.",
+   "注文品が破損して届いた場合は、カスタマーサービスにお電話ください。"
+  ],
+  [
+   "sell out",
+   "売り切れる",
+   "Tickets for the product launch sold out within two hours.",
+   "製品発表会のチケットは2時間以内に売り切れた。"
+  ],
+  [
+   "be under construction",
+   "工事中である",
+   "The main entrance is under construction, so please use the side door.",
+   "正面入口は工事中のため、通用口をご利用ください。"
+  ],
+  [
+   "a safety inspection",
+   "安全点検",
+   "The elevators will be out of service during Thursday's safety inspection.",
+   "木曜日の安全点検の間、エレベーターは使用できません。"
+  ]
+ ]
+}

@@ -1,0 +1,61 @@
+[
+ {
+  "id": "y001",
+  "g": "space",
+  "t": "金星では1日が1年より長い",
+  "sl": [
+   [
+    "space|planet|big:243 days",
+    "One spin of Venus / takes about 243 Earth days.",
+    "金星が1回自転するのに、地球の日数で約243日かかる。"
+   ],
+   [
+    "space|sun|planet",
+    "But one trip around the Sun / takes only / about 225 days.",
+    "しかし太陽を1周するのは、約225日しかかからない。"
+   ],
+   [
+    "night|planet|clock",
+    "So on Venus, / one spin lasts longer / than one trip around the Sun.",
+    "つまり金星では、1回の自転が公転1周より長い。"
+   ],
+   [
+    "space|planet|magnifier",
+    "It also spins / in the opposite direction / to most planets.",
+    "しかも金星は、ほとんどの惑星と逆向きに自転している。"
+   ]
+  ],
+  "w": [
+   [
+    "spin",
+    "回転（自転）"
+   ],
+   [
+    "trip",
+    "移動、一周"
+   ],
+   [
+    "last",
+    "続く"
+   ],
+   [
+    "opposite",
+    "反対の"
+   ],
+   [
+    "direction",
+    "方向"
+   ]
+  ],
+  "q": [
+   "Which takes longer on Venus?",
+   [
+    "One trip around the Sun",
+    "One spin",
+    "A trip to Earth",
+    "A night on the Moon"
+   ],
+   1
+  ]
+ }
+]

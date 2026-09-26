@@ -1,0 +1,8 @@
+torch>=2.6
+transformers>=4.46
+huggingface_hub
+numpy
+scipy
+gradio>=6.0,<7
+phonemizer-fork
+espeakng-loader

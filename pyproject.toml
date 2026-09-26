@@ -1,0 +1,18 @@
+[project]
+name = "pron-coach"
+version = "0.1.0"
+description = "Phoneme-level English pronunciation feedback for Japanese learners (runs locally, free)"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "torch>=2.6",
+    "transformers>=4.46",
+    "huggingface_hub",
+    "numpy",
+    "scipy",
+    "gradio>=6.0,<7",
+    "phonemizer-fork",
+    "espeakng-loader",
+]
+
+[tool.uv]
+package = false

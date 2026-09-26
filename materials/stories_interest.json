@@ -1,0 +1,594 @@
+[
+ {
+  "key": "featherdinos",
+  "g": "dino",
+  "title": "羽毛恐竜はどう見つかったか",
+  "level": "B1–B2",
+  "scene": "forest|raptor|bird",
+  "paras": [
+   [
+    "For more than a century, most people imagined dinosaurs as giant reptiles covered in scales. Old paintings often showed them with dull skin, much like crocodiles or lizards. Today, however, scientists know that many dinosaurs had feathers. This change did not happen overnight, and it is a good example of how evidence slowly reshapes an idea.",
+    "1世紀以上にわたり、多くの人は恐竜をうろこに覆われた巨大な爬虫類として思い描いていた。昔の絵では、ワニやトカゲのようなくすんだ皮膚で描かれることが多かった。しかし今日、科学者は多くの恐竜に羽毛があったことを知っている。この変化は一夜にして起きたのではなく、証拠が少しずつ考えを作り変えていく好例である。"
+   ],
+   [
+    "The first clue appeared in Germany in the nineteenth century, when Archaeopteryx was found in a limestone quarry. This animal had feathers and wings like a bird, but it also had teeth, clawed fingers and a long bony tail. Some scientists at the time noticed that its skeleton looked remarkably similar to those of small meat-eating dinosaurs.",
+    "最初の手がかりは19世紀のドイツで、石灰岩の石切り場から始祖鳥が見つかったときに現れた。この動物は鳥のような羽毛と翼を持っていたが、歯やかぎ爪のある指、骨の通った長い尾もあった。当時の一部の科学者は、その骨格が小型の肉食恐竜の骨格と驚くほど似ていることに気づいた。"
+   ],
+   [
+    "In the 1960s, the discovery of Deinonychus in the United States renewed the discussion. This fast, lightly built predator shared many features with birds, including the shape of its wrist bones. Researchers began to argue that birds were not just relatives of dinosaurs but a surviving group of them. What was missing was direct evidence of feathers on an animal that was clearly not a bird.",
+    "1960年代、アメリカでデイノニクスが発見され、議論が再燃した。この素早く身軽な捕食者は、手首の骨の形をはじめ、鳥と共通する特徴を多く持っていた。研究者たちは、鳥は恐竜の親戚というだけでなく、生き残った恐竜の一グループなのだと主張し始めた。欠けていたのは、明らかに鳥ではない動物に羽毛があったという直接の証拠だった。"
+   ],
+   [
+    "That evidence came from northeastern China in the 1990s. There, ancient lakes had buried animals in extremely fine mud and volcanic ash, which preserved soft details that normally disappear. A small dinosaur called Sinosauropteryx was found with thin, hair-like filaments along its body. Most researchers interpret these as simple feathers, much less complex than the flight feathers of modern birds.",
+    "その証拠は1990年代に中国北東部から見つかった。そこでは太古の湖がきわめて細かい泥や火山灰で動物を埋め、ふつうは失われてしまう柔らかい部分の細部まで保存していた。シノサウロプテリクスという小型恐竜が、体に沿って細い毛のような繊維をまとった状態で見つかった。多くの研究者はこれを、現代の鳥の風切羽よりずっと単純な原始的な羽毛と解釈している。"
+   ],
+   [
+    "After this discovery, feathered dinosaurs were found one after another. Some, such as Microraptor, had long feathers on both their arms and legs. On the arm bones of Velociraptor, scientists found small bumps where large feathers were once attached, just like those on the wing bones of many modern birds. In many films and games, Velociraptor still looks like a scaly lizard, but the real animal was probably covered in feathers.",
+    "この発見のあと、羽毛恐竜は次々と見つかった。ミクロラプトルのように、腕と脚の両方に長い羽毛を持つものもいた。ヴェロキラプトルの腕の骨からは、かつて大きな羽毛が付いていた小さな突起が見つかったが、これは多くの現生鳥類の翼の骨にあるものと同じだった。多くの映画やゲームではヴェロキラプトルは今もうろこのトカゲのような姿だが、実際の動物はおそらく羽毛に覆われていた。"
+   ],
+   [
+    "Some fossils even reveal color. Under powerful microscopes, researchers found tiny structures called melanosomes, which hold pigment in living animals. By comparing their shapes with those of modern birds, they suggested that Sinosauropteryx had a reddish-brown tail with light and dark stripes.",
+    "化石から色が分かることさえある。研究者は強力な顕微鏡で、生きた動物では色素を含むメラノソームという微小な構造を見つけた。その形を現生の鳥のものと比べることで、シノサウロプテリクスの尾は赤褐色で明暗の縞模様があったと推定した。"
+   ],
+   [
+    "This does not mean that every dinosaur looked like a giant chicken. Skin impressions from some large dinosaurs, including Tyrannosaurus rex, show patches of scales, and scientists still debate how much of their bodies were feathered. A good scientific picture is never final. It stays open to change whenever new fossils come out of the ground.",
+    "とはいえ、すべての恐竜が巨大なニワトリのような姿だったわけではない。ティラノサウルス・レックスを含む一部の大型恐竜の皮膚の痕跡にはうろこが見られ、体のどれほどが羽毛に覆われていたかは今も議論されている。優れた科学的な描像も、決して最終版ではない。新しい化石が地中から現れるたびに、それは変わる余地を残しているのだ。"
+   ]
+  ],
+  "qs": [
+   [
+    "Why was the discovery of Sinosauropteryx so important?",
+    [
+     "It was the first bird ever found in China.",
+     "It showed feathers on a dinosaur that was clearly not a bird.",
+     "It proved that all dinosaurs had scales."
+    ],
+    1
+   ],
+   [
+    "In paragraph 1, what does \"reshapes\" mean in \"evidence slowly reshapes an idea\"?",
+    [
+     "changes the form of",
+     "proves completely wrong",
+     "keeps exactly the same"
+    ],
+    0
+   ],
+   [
+    "What can we infer about Velociraptor in many films and games?",
+    [
+     "It is shown more accurately than in scientific papers.",
+     "It is based on the newest fossil evidence.",
+     "It often does not match what scientists now believe."
+    ],
+    2
+   ],
+   [
+    "According to the passage, what do scientists still debate?",
+    [
+     "How much of large dinosaurs such as Tyrannosaurus rex was feathered",
+     "Whether Archaeopteryx had teeth",
+     "Which country Sinosauropteryx was found in"
+    ],
+    0
+   ]
+  ]
+ },
+ {
+  "key": "manhattanwalk",
+  "g": "nyc",
+  "title": "マンハッタンを一日歩く",
+  "level": "B1–B2",
+  "scene": "city|skyline|bridge",
+  "paras": [
+   [
+    "Ren had seen Manhattan in so many films that, on his first morning there, he felt strangely at home. Yet standing on a busy corner with a paper map, he quickly realized that the real city moved much faster than the one on screen. He decided to spend the whole day walking from the north end of Central Park to the Brooklyn Bridge.",
+    "レンは映画で何度もマンハッタンを見ていたので、初めての朝なのに不思議と見慣れた感じがした。しかし紙の地図を手ににぎやかな交差点に立つと、本物の街は画面の中よりずっと速く動いていることにすぐ気づいた。彼は丸一日かけて、セントラル・パークの北の端からブルックリン・ブリッジまで歩くことにした。"
+   ],
+   [
+    "The first thing he learned was how easy the street grid made navigation. Most avenues run north and south, while the numbered streets run east and west. The numbers grow larger as you go uptown and smaller as you go downtown. A local friend had told him that about twenty short blocks make roughly one mile, so he could estimate distances in his head.",
+    "最初に学んだのは、碁盤の目の街路のおかげで道を探すのがいかに簡単かということだった。ほとんどのアベニューは南北に、番号の付いたストリートは東西に走っている。番号はアップタウンに向かうほど大きく、ダウンタウンに向かうほど小さくなる。地元の友人から短いブロック約20個でおよそ1マイルになると聞いていたので、頭の中で距離を見積もることができた。"
+   ],
+   [
+    "Central Park surprised him most. Its hills, lakes and winding paths looked completely natural, but the park was actually designed in the nineteenth century by Frederick Law Olmsted and Calvert Vaux. Workers moved enormous amounts of soil and rock to create the landscape. Ren sat by a lake for a while and watched joggers, dog walkers and street musicians share the same paths.",
+    "いちばん驚いたのはセントラル・パークだった。丘や湖、曲がりくねった小道はまったく自然のままに見えたが、実はこの公園は19世紀にフレデリック・ロー・オルムステッドとカルバート・ヴォークスによって設計されたものだった。その景観をつくるため、作業員たちは膨大な量の土や岩を動かした。レンはしばらく湖のそばに座り、ジョギングする人や犬を散歩させる人、路上ミュージシャンが同じ道を行き交うのを眺めた。"
+   ],
+   [
+    "By noon his feet were tired, so he tried the subway. At first the signs confused him, because the same line could have both local trains, which stop at every station, and express trains, which skip many of them. He also had to choose the correct entrance, since some stations have separate entrances for uptown and downtown platforms. After one wrong turn, he found the right train and rode it south.",
+    "昼ごろには足が疲れたので、地下鉄に乗ってみた。同じ路線に各駅に止まるローカル列車と多くの駅を通過するエクスプレス列車の両方が走ることがあり、最初は表示に戸惑った。駅によってはアップタウン方面とダウンタウン方面のホームで入口が分かれているため、正しい入口を選ぶ必要もあった。一度間違えたあと、彼は正しい列車を見つけて南へ向かった。"
+   ],
+   [
+    "In lower Manhattan, he noticed that the neat grid disappeared. The oldest part of the city had grown before the grid was planned, so its streets were narrow, curved and full of surprising corners. Here he put his map away and simply followed the crowds toward the river.",
+    "マンハッタン南部では、整った碁盤の目がなくなっていることに気づいた。街で最も古いこの地区は碁盤の目が計画される前に発展したので、通りは狭く曲がっていて、思いがけない角だらけだった。ここで彼は地図をしまい、ただ人の流れについて川の方へ歩いた。"
+   ],
+   [
+    "He reached the Brooklyn Bridge just as the sun was going down. The wooden walkway runs above the car lanes, so walkers can enjoy the view without standing right next to traffic. Looking back, Ren saw the skyline begin to glow as thousands of office windows lit up one by one.",
+    "ブルックリン・ブリッジに着いたのは、ちょうど日が沈むころだった。木の遊歩道は車道より高い位置を通っているので、歩行者は車のすぐ横に立たずに景色を楽しめる。振り返ると、何千ものオフィスの窓が一つずつ明るくなり、摩天楼の輪郭が輝き始めていた。"
+   ],
+   [
+    "That night, he checked his phone and found that he had walked farther than ever before in a single day. His legs hurt, but he felt that he finally understood the city. Films had shown him the famous buildings. Walking had shown him how the pieces fit together.",
+    "その夜スマートフォンを確認すると、1日でこれまでにないほど長い距離を歩いていた。脚は痛んだが、ようやくこの街が分かった気がした。映画は有名な建物を見せてくれた。歩くことは、それらのかけらがどうつながっているかを見せてくれたのだ。"
+   ]
+  ],
+  "qs": [
+   [
+    "In which direction do most numbered streets in Manhattan run?",
+    [
+     "North and south",
+     "East and west",
+     "Diagonally across the island"
+    ],
+    1
+   ],
+   [
+    "What does \"skip\" mean in \"express trains, which skip many of them\"?",
+    [
+     "pass without stopping at",
+     "stop twice at",
+     "are built underneath"
+    ],
+    0
+   ],
+   [
+    "Why did Ren probably put his map away in lower Manhattan?",
+    [
+     "His phone had a better map.",
+     "The irregular streets made the map less useful.",
+     "He had already reached the bridge."
+    ],
+    1
+   ],
+   [
+    "What surprised Ren about Central Park?",
+    [
+     "It was built only recently.",
+     "It has no paths for walkers.",
+     "It was carefully designed even though it looks natural."
+    ],
+    2
+   ]
+  ]
+ },
+ {
+  "key": "issdaily",
+  "g": "space",
+  "title": "宇宙ステーションの一日",
+  "level": "B1–B2",
+  "scene": "space|planet|clock",
+  "paras": [
+   [
+    "Imagine waking up and finding that there is no up or down. For astronauts on the International Space Station, this is ordinary life. The station circles Earth about every ninety minutes, so the crew can see around sixteen sunrises and sunsets in a single day. Everyday tasks such as sleeping, eating and exercising all have to be rethought.",
+    "目覚めたら上も下もなかったと想像してみよう。国際宇宙ステーションの宇宙飛行士にとって、これはごく普通の生活だ。ステーションは約90分ごとに地球を一周するので、乗組員は1日におよそ16回の日の出と日の入りを見ることができる。眠る、食べる、運動するといった日常の作業も、すべて考え直さなければならない。"
+   ],
+   [
+    "Sleeping is surprisingly simple. Each astronaut has a small private cabin about the size of a phone booth, with a sleeping bag attached to the wall. Because they float, astronauts do not need a bed, but they zip themselves into the bag so that they do not drift into equipment. Many wear eye masks and earplugs, since the station is bright and full of the constant noise of fans and pumps.",
+    "睡眠は意外と単純だ。宇宙飛行士にはそれぞれ電話ボックスほどの小さな個室があり、壁に寝袋が取り付けられている。浮いているのでベッドは必要ないが、漂って機器にぶつからないよう、寝袋に入ってファスナーを閉める。ステーションは明るく、ファンやポンプの音が絶えず響いているため、アイマスクや耳栓を使う人も多い。"
+   ],
+   [
+    "Eating requires more planning. Most food arrives in sealed packages, and some meals are dried so that astronauts can add water before eating. Crumbs are a real danger, because floating pieces can get into equipment or into someone's eyes. For this reason, astronauts often use tortillas instead of bread, and salt and pepper come in liquid form.",
+    "食事にはもっと計画が必要だ。ほとんどの食べ物は密封されたパックで届き、食べる前に水を加えられるよう乾燥させてある食事もある。浮いたかけらは機器や人の目に入りかねないため、パンくずは本当に危険だ。そのため宇宙飛行士はパンの代わりにトルティーヤをよく使い、塩やこしょうも液体の形で用意されている。"
+   ],
+   [
+    "Water is precious on the station. A recycling system collects moisture from the air and even from urine, then cleans it until it is safe to drink. Recycling in this way greatly reduces the amount of water that has to be launched from Earth.",
+    "ステーションでは水が貴重だ。再生装置が空気中の水分や尿まで集め、飲めるほどきれいになるまで浄化する。こうして再利用することで、地球から打ち上げなければならない水の量を大きく減らしている。"
+   ],
+   [
+    "Exercise may be the most important part of the daily routine. In weightlessness, muscles and bones do not have to work against gravity, so they gradually become weaker. To slow this loss, astronauts usually exercise for about two hours every day. They run on a treadmill while elastic straps hold them down, pedal a stationary bike, and lift against a machine that uses vacuum cylinders to create resistance.",
+    "運動は日課の中で最も大切な部分かもしれない。無重力状態では筋肉や骨が重力に逆らって働く必要がないので、しだいに弱くなってしまう。この衰えを遅らせるため、宇宙飛行士はふつう毎日約2時間運動する。伸縮するベルトで体を押さえてトレッドミルで走り、固定式の自転車をこぎ、真空シリンダーで負荷を生み出す装置を使って筋力トレーニングを行う。"
+   ],
+   [
+    "Even with all this effort, returning to Earth is hard. After a long mission, astronauts often feel dizzy and heavy, and it can take weeks to recover their normal balance and strength. Their experiences help doctors understand how the human body might cope with a much longer journey, such as a future trip to Mars.",
+    "これだけ努力しても、地球への帰還は大変だ。長期滞在の後、宇宙飛行士はめまいや体の重さを感じることが多く、普段のバランス感覚と筋力を取り戻すのに数週間かかることもある。彼らの経験は、将来の火星への旅のようなはるかに長い旅に人の体がどう対応しうるかを、医師が理解する助けになっている。"
+   ]
+  ],
+  "qs": [
+   [
+    "Why do astronauts zip themselves into their sleeping bags?",
+    [
+     "To keep warm in a cold cabin",
+     "To avoid drifting into equipment",
+     "To keep their eye masks in place"
+    ],
+    1
+   ],
+   [
+    "Why are tortillas often used instead of bread?",
+    [
+     "Bread produces floating crumbs.",
+     "Tortillas are cheaper to launch.",
+     "Bread cannot be sealed in packages."
+    ],
+    0
+   ],
+   [
+    "What does \"precious\" mean in \"Water is precious on the station\"?",
+    [
+     "dangerous",
+     "cold",
+     "very valuable"
+    ],
+    2
+   ],
+   [
+    "What can we infer from the fact that recovery on Earth can take weeks?",
+    [
+     "Exercise in space does not completely stop the body from weakening.",
+     "Astronauts stop exercising long before they return.",
+     "Gravity on Earth is weaker than on the station."
+    ],
+    0
+   ]
+  ]
+ },
+ {
+  "key": "skycolors",
+  "g": "science",
+  "title": "空が青く夕焼けが赤いわけ",
+  "level": "B1–B2",
+  "scene": "dusk|sun|cloud",
+  "paras": [
+   [
+    "On a clear afternoon, the sky is a bright blue, yet a few hours later the same sky can burn orange and red. The reason involves light, air and the size of very small particles. Physicists worked out the explanation in the nineteenth century, and it is still taught in schools today.",
+    "晴れた午後の空は鮮やかな青なのに、数時間後には同じ空がオレンジや赤に燃えることがある。その理由には、光と空気、そしてとても小さな粒の大きさが関わっている。この説明は19世紀に物理学者たちが解き明かし、今でも学校で教えられている。"
+   ],
+   [
+    "Sunlight looks white, but it is actually a mixture of many colors. You can see this when light passes through a prism or when a rainbow appears after rain. Each color has a different wavelength. Blue and violet light have short wavelengths, while red and orange light have longer ones.",
+    "日光は白く見えるが、実はたくさんの色が混ざったものだ。光がプリズムを通るときや、雨上がりに虹が出るときに、それを確かめられる。それぞれの色は異なる波長を持っている。青や紫の光は波長が短く、赤やオレンジの光は波長が長い。"
+   ],
+   [
+    "When sunlight enters the atmosphere, it meets countless gas molecules, mostly nitrogen and oxygen. These molecules are much smaller than the wavelength of light, and they scatter short wavelengths far more strongly than long ones. This effect is called Rayleigh scattering. As a result, blue light is bounced around the sky in every direction, and whichever way we look, some of it reaches our eyes.",
+    "日光が大気に入ると、主に窒素と酸素からなる無数の気体分子に出会う。これらの分子は光の波長よりずっと小さく、短い波長の光を長い波長の光よりはるかに強く散乱させる。この現象はレイリー散乱と呼ばれる。その結果、青い光が空のあらゆる方向に跳ね回り、どちらを見てもその一部が目に届くのだ。"
+   ],
+   [
+    "If short wavelengths scatter most, why is the sky not violet? One reason is that sunlight contains less violet light than blue light. Another is that our eyes are much more sensitive to blue. Together, these factors make the sky look blue to us rather than purple.",
+    "短い波長ほど強く散乱するのなら、なぜ空は紫ではないのだろうか。理由の一つは、日光に含まれる紫の光が青の光より少ないことだ。もう一つは、私たちの目が青にずっと敏感なことである。これらが合わさって、空は紫ではなく青に見えるのだ。"
+   ],
+   [
+    "At sunset, the situation changes. When the sun is low, its light must travel through much more air before reaching us. Along this long path, most of the blue light is scattered away to the sides. The light that remains is mostly orange and red, which is why the setting sun and the clouds around it glow with warm colors. Dust and tiny particles from fires or volcanoes can make sunsets even more dramatic.",
+    "日没時には状況が変わる。太陽が低い位置にあると、その光は私たちに届くまでにずっと多くの空気を通らなければならない。この長い道のりの途中で、青い光のほとんどは横へ散乱されてしまう。残るのは主にオレンジと赤の光で、だから沈む太陽やその周りの雲は暖かい色に輝くのだ。火事や火山から出るちりや微粒子によって、夕焼けがさらに劇的になることもある。"
+   ],
+   [
+    "Clouds follow different rules. Their water droplets are much larger than gas molecules, so they scatter all colors of light about equally. When all the colors are mixed together, we see white, and when a cloud is thick enough to block much of the light, it looks gray.",
+    "雲は別の規則に従う。雲の水滴は気体分子よりずっと大きいので、あらゆる色の光をほぼ均等に散乱させる。すべての色が混ざると白に見え、雲が厚く多くの光をさえぎると灰色に見える。"
+   ],
+   [
+    "Other worlds show how much the sky depends on its atmosphere. On the Moon, which has almost no air, the sky stays black even during the day. On Mars, where fine dust floats in the thin air, rovers have photographed sunsets with a bluish glow around the sun. The same physics, applied to different air, paints a completely different picture.",
+    "ほかの天体を見ると、空の色がどれほど大気しだいかが分かる。空気がほとんどない月では、昼間でも空は黒いままだ。薄い大気に細かいちりが漂う火星では、探査車が太陽の周りに青みがかった光が広がる夕焼けを撮影している。同じ物理法則でも、大気が違えばまったく異なる景色が描かれるのだ。"
+   ]
+  ],
+  "qs": [
+   [
+    "Why does blue light fill the daytime sky?",
+    [
+     "Blue light is scattered strongly by air molecules.",
+     "The ocean reflects blue light upward.",
+     "Blue light has the longest wavelength."
+    ],
+    0
+   ],
+   [
+    "What does \"sensitive\" mean in \"our eyes are much more sensitive to blue\"?",
+    [
+     "tired of",
+     "quick to notice or react to",
+     "protected from"
+    ],
+    1
+   ],
+   [
+    "On an evening with a lot of volcanic dust in the air, what would you most likely expect?",
+    [
+     "No sunset at all",
+     "A violet sky at noon",
+     "An especially colorful sunset"
+    ],
+    2
+   ],
+   [
+    "Why do clouds usually look white?",
+    [
+     "They contain only violet light.",
+     "Their droplets scatter all colors about equally.",
+     "They absorb all the blue light."
+    ],
+    1
+   ]
+  ]
+ },
+ {
+  "key": "birdnavigation",
+  "g": "animal",
+  "title": "渡り鳥はどう道を知るのか",
+  "level": "B2",
+  "scene": "day|bird|globe",
+  "paras": [
+   [
+    "Every autumn, billions of birds leave their breeding grounds and fly toward warmer places, sometimes crossing whole continents and oceans. Many travel at night, and some young birds make the journey without any adult to follow. Yet they often arrive in the same region their species has used for generations. How do they find the way?",
+    "毎年秋になると何十億羽もの鳥が繁殖地を離れ、ときには大陸や海をまるごと越えて暖かい土地へ向かう。多くは夜に移動し、若い鳥の中には後を追う成鳥もなしに旅をするものもいる。それでも彼らは、その種が何世代にもわたって使ってきた地域にたどり着くことが多い。いったいどうやって道を見つけるのだろうか。"
+   ],
+   [
+    "Scientists have discovered that birds do not rely on a single method. Instead, they seem to combine several kinds of information, much as a sailor might use a compass, the stars and familiar coastlines together. If one source is unavailable, such as on a cloudy night, another can take its place.",
+    "科学者たちは、鳥が一つの方法だけに頼っているわけではないことを発見した。むしろ、船乗りがコンパスと星と見慣れた海岸線を組み合わせるように、いくつもの情報を組み合わせているらしい。曇った夜のように一つの手がかりが使えないときは、別の手がかりがその代わりを務められる。"
+   ],
+   [
+    "One tool is the sun. Because the sun moves across the sky during the day, a bird must know the time to use it as a compass. In experiments, birds whose internal clocks had been shifted by keeping them under artificial light chose the wrong direction in a predictable way.",
+    "手がかりの一つは太陽だ。太陽は日中に空を移動するので、鳥がそれをコンパスとして使うには時刻を知っていなければならない。実験では、人工の照明の下で飼って体内時計をずらした鳥が、予測どおりのずれ方で間違った方向を選んだ。"
+   ],
+   [
+    "Night migrants can use the stars. In a famous series of experiments, young songbirds were raised under a planetarium sky. They learned to identify the point around which the stars appeared to turn, and they used it to find north. When the artificial sky was made to turn around a different star, the birds changed their direction accordingly.",
+    "夜に渡る鳥は星を使うことができる。有名な一連の実験では、若い小鳥をプラネタリウムの星空の下で育てた。鳥たちは星が回って見える中心の点を見分けることを覚え、それを使って北を知った。人工の星空を別の星を中心に回すと、鳥たちはそれに合わせて進む方向を変えた。"
+   ],
+   [
+    "Birds can also sense Earth's magnetic field. Experiments with European robins showed that the birds could choose the right direction without seeing the sun or stars, and that changing the magnetic field around them changed their choices. Exactly how they detect magnetism is still being studied. One leading idea is that special molecules in the eye may let birds perceive the field in a way we cannot easily imagine.",
+    "鳥は地球の磁場を感じ取ることもできる。ヨーロッパコマドリを使った実験では、太陽や星が見えなくても正しい方向を選べること、そして周囲の磁場を変えると選ぶ方向も変わることが示された。鳥がどのように磁気を感知しているのかは、今も研究が続いている。有力な考えの一つは、目の中の特殊な分子によって、鳥が私たちには想像しにくい形で磁場を知覚しているのかもしれないというものだ。"
+   ],
+   [
+    "Closer to their destination, many birds use landmarks such as coastlines, rivers and mountain ranges. Some seabirds seem to use smell to find their nesting islands in the open ocean. Older birds that have made the trip before usually navigate more accurately than first-time travelers, which suggests that experience adds a kind of map to their inborn sense of direction.",
+    "目的地が近づくと、多くの鳥は海岸線や川、山脈などの目印を使う。広い海の中で営巣する島を見つけるのに、においを使っているらしい海鳥もいる。以前に旅をしたことのある年長の鳥はふつう初めての鳥より正確に進路をとれるので、生まれつきの方向感覚に経験が一種の地図を加えていると考えられる。"
+   ],
+   [
+    "Human activity can confuse these systems. Bright city lights at night can attract migrating birds and pull them off course, so some cities encourage tall buildings to dim their lights during migration seasons. Understanding how birds navigate is not only fascinating science but also a way to protect them.",
+    "人間の活動がこうした仕組みを混乱させることもある。夜の明るい都市の光は渡り鳥を引き寄せて進路から外してしまうため、渡りの季節に高層ビルの照明を暗くするよう呼びかけている都市もある。鳥がどのように道を見つけるのかを理解することは、興味深い科学であるだけでなく、鳥を守る手段にもなるのだ。"
+   ]
+  ],
+  "qs": [
+   [
+    "Why must a bird know the time to use the sun as a compass?",
+    [
+     "The sun's position changes during the day.",
+     "Birds sleep at noon.",
+     "The sun can only be seen in autumn."
+    ],
+    0
+   ],
+   [
+    "What does \"accordingly\" mean in \"the birds changed their direction accordingly\"?",
+    [
+     "randomly",
+     "slowly and carefully",
+     "in a way that matched the change"
+    ],
+    2
+   ],
+   [
+    "What did the experiments with European robins show?",
+    [
+     "Robins cannot migrate on cloudy nights.",
+     "Changing the magnetic field changed the birds' choices.",
+     "Robins use smell to find north."
+    ],
+    1
+   ],
+   [
+    "What can we infer about a young bird on its first migration?",
+    [
+     "It depends largely on its inborn sense of direction.",
+     "It always follows an adult bird.",
+     "It navigates better than older birds."
+    ],
+    0
+   ]
+  ]
+ },
+ {
+  "key": "brooklynbridge",
+  "g": "history",
+  "title": "ブルックリン・ブリッジとローブリング家",
+  "level": "B2",
+  "scene": "dusk|bridge|ship",
+  "paras": [
+   [
+    "In the middle of the nineteenth century, Manhattan and Brooklyn were two separate cities, and the usual way to travel between them was by ferry. In winter, ice on the East River could slow or stop the boats. Many people dreamed of a bridge, but the river was wide, deep and crowded with ships.",
+    "19世紀半ば、マンハッタンとブルックリンは別々の市で、両者の間を行き来する通常の手段はフェリーだった。冬にはイースト川の氷で船が遅れたり止まったりすることもあった。多くの人が橋を夢見たが、川は広く深く、船でいっぱいだった。"
+   ],
+   [
+    "The engineer John Roebling designed a bold solution. Two massive stone towers would rise from the river, and huge cables would hang between them to support the roadway. Roebling was known for his work with wire rope, and he believed a suspension bridge could be both strong and elegant. Tragically, while he was surveying the site, a ferry crushed his foot, and he died from an infection soon afterward.",
+    "技師のジョン・ローブリングは大胆な解決策を設計した。川から二つの巨大な石の塔を建て、その間に巨大なケーブルを張って道路を支えるというものだ。ローブリングはワイヤーロープの仕事で知られ、吊り橋は丈夫でありながら優美にもなりうると信じていた。悲劇的なことに、現地を測量していたときにフェリーに足を押しつぶされ、その後まもなく感染症で亡くなった。"
+   ],
+   [
+    "His son, Washington Roebling, took over the project. To build the foundations of the towers, workers used caissons, enormous wooden boxes without bottoms that were sunk to the riverbed. Inside, compressed air kept the water out while men dug away the mud and rock beneath them. As they dug, the heavy caissons slowly sank deeper.",
+    "息子のワシントン・ローブリングが事業を引き継いだ。塔の基礎をつくるため、作業員たちは、川底まで沈める底のない巨大な木箱であるケーソンを使った。中では圧縮空気が水を押し出し、その間に男たちが足元の泥や岩を掘り出した。掘り進めるにつれて、重いケーソンはゆっくりと深く沈んでいった。"
+   ],
+   [
+    "Working in compressed air had a hidden danger. When men returned to the surface too quickly, many suffered severe pain, and some died. This condition, now called decompression sickness, was poorly understood at the time. Washington Roebling himself became seriously ill and could no longer visit the construction site.",
+    "圧縮空気の中での作業には見えない危険があった。急いで地上に戻った作業員の多くが激しい痛みに苦しみ、命を落とす者もいた。現在では減圧症と呼ばれるこの症状は、当時はよく理解されていなかった。ワシントン・ローブリング自身も重い病気になり、建設現場に行くことができなくなった。"
+   ],
+   [
+    "This is where Emily Warren Roebling, Washington's wife, became essential. She studied engineering subjects such as the strength of materials and cable construction, and she carried her husband's instructions to the engineers at the site. From a window in Brooklyn Heights, Washington followed the progress through a telescope. Over time, Emily handled so much of the communication that she became a central figure in the project.",
+    "ここで欠かせない存在となったのが、ワシントンの妻エミリー・ウォーレン・ローブリングだった。彼女は材料の強度やケーブルの建設といった工学の分野を学び、夫の指示を現場の技師たちに伝えた。ワシントンはブルックリン・ハイツの窓から望遠鏡で工事の進み具合を見守った。やがてエミリーは非常に多くの連絡を担うようになり、事業の中心人物の一人となった。"
+   ],
+   [
+    "The bridge opened in 1883, after more than a decade of work. Emily Roebling was given the honor of being the first person to ride across it. With its steel-wire cables and pointed Gothic stone arches, it was one of the wonders of its age, and at the time it was the longest suspension bridge in the world.",
+    "10年以上の工事を経て、橋は1883年に開通した。エミリー・ローブリングは、最初に橋を渡るという栄誉を与えられた。鋼鉄ワイヤーのケーブルととがったゴシック様式の石のアーチを持つこの橋は時代の驚異の一つであり、当時は世界最長の吊り橋だった。"
+   ],
+   [
+    "Not everyone trusted the bridge at first. To show that it was safe, a famous circus showman later led a line of elephants across it. Today, the Brooklyn Bridge still carries traffic and crowds of walkers every day, and it stands as a reminder of the three Roeblings who, in different ways, gave so much to build it.",
+    "最初は誰もがこの橋を信頼したわけではなかった。安全であることを示すため、のちに有名なサーカスの興行師がゾウの列を率いて橋を渡った。今日でもブルックリン・ブリッジは毎日車と大勢の歩行者を運び、それぞれの形で建設に多くを捧げた3人のローブリングを思い出させる存在となっている。"
+   ]
+  ],
+  "qs": [
+   [
+    "How did people usually travel between Manhattan and Brooklyn before the bridge?",
+    [
+     "By train through a tunnel",
+     "By ferry",
+     "By an older wooden bridge"
+    ],
+    1
+   ],
+   [
+    "What was the purpose of the caissons?",
+    [
+     "To let workers dig the foundations under the river",
+     "To carry passengers across the river",
+     "To store the steel cables"
+    ],
+    0
+   ],
+   [
+    "What does \"essential\" mean in \"Emily Warren Roebling became essential\"?",
+    [
+     "slightly helpful",
+     "famous abroad",
+     "absolutely necessary"
+    ],
+    2
+   ],
+   [
+    "Why did Washington Roebling most likely watch the work through a telescope?",
+    [
+     "He preferred to work alone.",
+     "His illness kept him away from the site.",
+     "Visitors were not allowed near the river."
+    ],
+    1
+   ]
+  ]
+ },
+ {
+  "key": "filmscores",
+  "g": "music",
+  "title": "映画音楽が感情を動かすしくみ",
+  "level": "B1–B2",
+  "scene": "night|film|note",
+  "paras": [
+   [
+    "Try watching a scary scene from a film with the sound turned off. Very often, the fear almost disappears. The images have not changed, but without music, the scene loses much of its power. Film music works quietly in the background, yet it strongly shapes how we feel about what we see.",
+    "映画の怖い場面を、音を消して見てみよう。多くの場合、恐怖はほとんど消えてしまう。映像は何も変わっていないのに、音楽がないと場面の力の多くが失われる。映画音楽は背景でひっそりと働きながら、私たちが目にするものをどう感じるかを強く形づくっているのだ。"
+   ],
+   [
+    "Music has been part of cinema since the early days. So-called silent films were rarely watched in silence, because theaters often hired a pianist or organist to play along with the pictures. The musicians changed the mood as the story moved from romance to danger to comedy, guiding the audience's emotions.",
+    "音楽は映画の初期から映画の一部だった。いわゆる無声映画が本当に無音で見られることはめったになく、劇場はよくピアニストやオルガン奏者を雇って映像に合わせて演奏させた。演奏者は物語が恋愛から危険へ、そして喜劇へと移るのに合わせて雰囲気を変え、観客の感情を導いた。"
+   ],
+   [
+    "Composers use many tools to create feelings. Slow music in a minor key often suggests sadness, while fast rhythms can create excitement. Dissonant chords, in which the notes seem to clash, make listeners uneasy. Low, repeated notes can build tension even before anything frightening appears on screen.",
+    "作曲家は感情を生み出すためにさまざまな手段を使う。短調のゆっくりした音楽はしばしば悲しみを感じさせ、速いリズムは興奮を生み出す。音同士がぶつかり合うように聞こえる不協和音は、聞き手を落ち着かない気持ちにさせる。低く繰り返される音は、画面に恐ろしいものが現れる前から緊張を高めることができる。"
+   ],
+   [
+    "A famous example is the theme from Jaws, composed by John Williams. It is built mainly on two alternating low notes that gradually speed up. For much of the film, the shark is barely seen, but whenever the audience hears those notes, they know it is near. In a sense, the music becomes the monster.",
+    "有名な例が、ジョン・ウィリアムズが作曲した『ジョーズ』のテーマだ。この曲は主に、交互に鳴る二つの低い音がだんだん速くなるという作りになっている。映画の大部分でサメはほとんど姿を見せないが、観客はその音を聞くたびにサメが近くにいると分かる。ある意味で、音楽そのものが怪物になるのだ。"
+   ],
+   [
+    "Another technique is the leitmotif, a short musical idea linked to a character, place or idea. The technique is closely associated with the operas of Richard Wagner. In the Star Wars films, also scored by John Williams, many characters have their own themes. When a familiar theme returns in a new form, audiences can sense a change in the story without a single word being spoken.",
+    "もう一つの技法がライトモチーフで、これは登場人物や場所、考えと結びついた短い音楽のフレーズのことだ。この技法は、リヒャルト・ワーグナーのオペラと深く結びついている。同じくジョン・ウィリアムズが音楽を手がけた『スター・ウォーズ』シリーズでは、多くの登場人物がそれぞれのテーマを持っている。聞き慣れたテーマが新しい形で戻ってくると、観客はひと言のせりふがなくても物語の変化を感じ取れる。"
+   ],
+   [
+    "Filmmakers also distinguish between music that the characters can hear, such as a band playing at a party, and music that only the audience hears. Sometimes the two are combined in clever ways. A song on a car radio might begin as part of the scene and then swell into the full soundtrack as the story reaches an emotional moment.",
+    "映画の作り手は、パーティーで演奏するバンドのように登場人物にも聞こえる音楽と、観客にしか聞こえない音楽とを区別している。この二つが巧みに組み合わされることもある。カーラジオの曲が場面の一部として流れ始め、物語が感情の高まる瞬間を迎えると、本格的な劇伴へと盛り上がっていくこともある。"
+   ],
+   [
+    "Silence can be just as powerful. When the music suddenly stops, the audience often leans forward, waiting for something to happen. The next time you watch a film, try listening as carefully as you watch. You may discover that much of what you felt was shaped by sounds you barely noticed.",
+    "沈黙も同じくらい力を持つ。音楽が突然止まると、観客は何かが起こるのを待って思わず身を乗り出すことが多い。次に映画を見るときは、見るのと同じくらい注意深く聞いてみよう。自分が感じたことの多くが、ほとんど気づかなかった音によって形づくられていたと分かるかもしれない。"
+   ]
+  ],
+  "qs": [
+   [
+    "How were silent films usually shown in theaters?",
+    [
+     "In complete silence",
+     "With live music played by musicians",
+     "With recorded dialogue"
+    ],
+    1
+   ],
+   [
+    "What does \"dissonant\" mean in \"Dissonant chords make listeners uneasy\"?",
+    [
+     "sounding harsh because the notes clash",
+     "very quiet and gentle",
+     "played only on the piano"
+    ],
+    0
+   ],
+   [
+    "Why does the Jaws theme work even when the shark is not shown?",
+    [
+     "The shark appears in every scene.",
+     "Audiences cannot hear low notes clearly.",
+     "The audience learns to connect the notes with the shark."
+    ],
+    2
+   ],
+   [
+    "What is a leitmotif?",
+    [
+     "A song heard on a car radio",
+     "A short musical idea linked to a character, place or idea",
+     "A moment of silence in a film"
+    ],
+    1
+   ]
+  ]
+ },
+ {
+  "key": "dinoskeleton",
+  "g": "dino",
+  "title": "恐竜の全身骨格ができるまで",
+  "level": "B1–B2",
+  "scene": "paper|trex|bone",
+  "paras": [
+   [
+    "Visitors often assume that the giant skeleton in a museum hall was dug out of the ground exactly as it stands. In reality, complete dinosaur skeletons are extremely rare. Bodies were often scattered by rivers or eaten by scavengers before they were buried, so paleontologists usually find only part of an individual. Turning those pieces into a standing skeleton is a long process that mixes science with careful craftsmanship.",
+    "来館者はよく、博物館のホールにある巨大な骨格は、今立っている姿のまま地中から掘り出されたものだと思い込む。実際には、完全な恐竜の骨格はきわめてまれだ。死体は埋まる前に川で流されてばらばらになったり、ほかの動物に食べられたりすることが多いため、古生物学者が見つけるのはふつう1個体の一部だけである。そうした断片を立ち上がった骨格に仕上げるのは、科学と入念な職人技が合わさった長い作業だ。"
+   ],
+   [
+    "The work begins in the field. Fossils are fragile, so before lifting them, teams wrap the bones in protective jackets made of plaster and cloth, much like a cast for a broken arm. Back in the laboratory, specialists called preparators can spend months removing rock with small tools, sometimes working under a microscope.",
+    "作業は発掘現場から始まる。化石は壊れやすいので、持ち上げる前に、骨折した腕のギプスのような石こうと布の保護ジャケットで骨を包む。研究室に戻ると、プレパレーターと呼ばれる専門家が小さな道具で岩を取り除く作業に何か月も費やすことがあり、ときには顕微鏡をのぞきながら作業する。"
+   ],
+   [
+    "Next, scientists must work out which bones are missing and how to fill the gaps. Because the left and right sides of a body are usually mirror images, a missing bone from the left leg can be modeled on the matching bone from the right. Other gaps are filled using bones from different specimens of the same species, scaled to the correct size. Replacement parts are often made in a slightly different color so that researchers can tell them apart from real fossils.",
+    "次に科学者は、どの骨が欠けていて、その隙間をどう埋めるかを見極めなければならない。体の左右はふつう鏡に映したような形なので、左脚の欠けた骨は右脚の対応する骨をもとに作ることができる。ほかの欠けた部分は、同じ種の別の標本の骨を正しい大きさに合わせて使って埋める。補った部分は、研究者が本物の化石と区別できるよう、少し違う色で作られることが多い。"
+   ],
+   [
+    "Many skeletons on display are not real bone at all. Original fossils are heavy and can be damaged if they are hung on a frame for years. Museums therefore often display lightweight casts and keep the originals in storage, where scientists can study them safely. Each mount is supported by a hidden steel frame designed to hold every piece in place.",
+    "展示されている骨格の多くは、実は本物の骨ではない。本物の化石は重く、何年も骨組みに取り付けたままにすると傷むおそれがある。そのため博物館ではよく軽いレプリカを展示し、本物は科学者が安全に研究できる収蔵庫に保管している。組み立てた骨格はどれも、すべての部品を所定の位置に固定するよう設計された、目立たない鋼鉄の骨組みで支えられている。"
+   ],
+   [
+    "Choosing the pose is where ideas about the living animal matter most. Older mounts of Tyrannosaurus rex stood upright like a giant kangaroo, with the tail dragging on the ground. Later studies of the bones and of fossil trackways, which rarely show tail marks, led scientists to a new posture. Modern mounts hold the body roughly horizontal, balanced over the hips, with the tail held off the ground.",
+    "ポーズを決める段階こそ、生きていたときの姿についての考え方が最も重要になる。昔のティラノサウルス・レックスの骨格は巨大なカンガルーのように直立し、尾を地面に引きずっていた。その後、骨の研究や、尾の跡がほとんど残っていない足跡化石の研究によって、科学者は新しい姿勢にたどり着いた。現在の骨格は、腰を支点に体をほぼ水平に保ち、尾を地面から浮かせている。"
+   ],
+   [
+    "Mistakes do happen. For many decades, some museums displayed the long-necked Apatosaurus with a skull that belonged to a different kind of dinosaur, because no matching head had been found with the body. When better evidence appeared, the skulls were replaced. Every skeleton in a museum is really a carefully tested hypothesis, built from bone, metal and the best knowledge available at the time.",
+    "間違いが起こることもある。何十年もの間、一部の博物館は首の長いアパトサウルスを別の種類の恐竜の頭骨をつけて展示していたが、それは体と一緒に対応する頭が見つかっていなかったからだ。よりよい証拠が現れると、頭骨は付け替えられた。博物館の骨格はどれも、骨と金属、そしてその時点で得られる最善の知識で組み立てられた、入念に検証された仮説なのである。"
+   ]
+  ],
+  "qs": [
+   [
+    "Why are complete dinosaur skeletons so rare?",
+    [
+     "Bodies were often scattered or eaten before burial.",
+     "Museums throw away extra bones.",
+     "Dinosaurs had very few bones."
+    ],
+    0
+   ],
+   [
+    "What does \"fragile\" mean in \"Fossils are fragile\"?",
+    [
+     "very valuable",
+     "easily broken",
+     "extremely old"
+    ],
+    1
+   ],
+   [
+    "Why do museums often display casts instead of real fossils?",
+    [
+     "Casts are more scientifically accurate.",
+     "Visitors prefer the color of casts.",
+     "Real fossils are heavy and can be damaged."
+    ],
+    2
+   ],
+   [
+    "What does the Apatosaurus example suggest?",
+    [
+     "Museum skeletons never change.",
+     "Displays may be corrected when new evidence appears.",
+     "Apatosaurus had no head."
+    ],
+    1
+   ]
+  ]
+ }
+]

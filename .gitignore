@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+results.csv
+*.wav
+*.mp3
+*.webm
+*.m4a
+*.ogg
+.env
+.env.*
+*.log
+english-express-github-pages.zip
+github-pages/
+materials/_old_*
+/pron-coach/

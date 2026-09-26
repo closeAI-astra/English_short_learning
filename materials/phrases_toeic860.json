@@ -1,0 +1,757 @@
+{
+ "deck": "TOEIC頻出 860+",
+ "level": "TOEIC 860+",
+ "scene": "paper|laptop|clock",
+ "phrases": [
+  [
+   "a keynote speech",
+   "基調講演",
+   "The keynote speech will be delivered by the founder of Arvo Robotics.",
+   "基調講演はアルボ・ロボティクスの創業者が行う。"
+  ],
+  [
+   "a question-and-answer session",
+   "質疑応答",
+   "The presentation will be followed by a short question-and-answer session.",
+   "発表の後に短い質疑応答の時間を設けます。"
+  ],
+  [
+   "a follow-up email",
+   "フォローアップのメール",
+   "I'll send a follow-up email summarizing today's decisions.",
+   "今日の決定事項をまとめたフォローアップのメールをお送りします。"
+  ],
+  [
+   "take effect",
+   "（規則などが）発効する",
+   "The new travel policy will take effect on the first of April.",
+   "新しい出張規定は4月1日に発効する。"
+  ],
+  [
+   "be aware of",
+   "～を承知している・知っている",
+   "Please be aware of the new security procedures at the main gate.",
+   "正門での新しい警備手順にご留意ください。"
+  ],
+  [
+   "comply with",
+   "～に従う・準拠する",
+   "All products must comply with national safety standards.",
+   "すべての製品は国の安全基準に準拠していなければならない。"
+  ],
+  [
+   "adhere to",
+   "～を厳守する",
+   "Contractors are required to adhere to strict safety regulations on site.",
+   "請負業者は現場で厳格な安全規則を守ることが求められる。"
+  ],
+  [
+   "be accountable for",
+   "～に対して責任を負う",
+   "Each department head is accountable for staying within budget.",
+   "各部門長は予算内に収める責任を負っている。"
+  ],
+  [
+   "be familiar with",
+   "～に精通している",
+   "Candidates should be familiar with basic accounting software.",
+   "候補者は基本的な会計ソフトに精通している必要がある。"
+  ],
+  [
+   "be capable of",
+   "～する能力がある",
+   "The new printer is capable of producing sixty pages per minute.",
+   "新しいプリンターは毎分60枚の印刷が可能だ。"
+  ],
+  [
+   "be committed to",
+   "～に全力で取り組んでいる",
+   "We are committed to reducing our energy use by thirty percent.",
+   "当社はエネルギー使用量を30％削減することに全力で取り組んでいます。"
+  ],
+  [
+   "be based in",
+   "～に拠点を置く",
+   "Lumora Foods is a family-owned company based in Osaka.",
+   "ルモラ・フーズは大阪に拠点を置く同族経営の会社だ。"
+  ],
+  [
+   "be known for",
+   "～で知られている",
+   "The hotel is known for its excellent service and quiet location.",
+   "そのホテルは優れたサービスと静かな立地で知られている。"
+  ],
+  [
+   "be pleased to announce",
+   "～を謹んでお知らせする",
+   "We are pleased to announce the opening of our third store in Lisbon.",
+   "リスボンに3号店を開店することを謹んでお知らせいたします。"
+  ],
+  [
+   "regret to inform",
+   "残念ながら～をお知らせする",
+   "We regret to inform you that the position has already been filled.",
+   "残念ながら、この職はすでに採用者が決まったことをお知らせいたします。"
+  ],
+  [
+   "until further notice",
+   "追って通知があるまで",
+   "The north parking lot will be closed until further notice.",
+   "北側駐車場は追って通知があるまで閉鎖される。"
+  ],
+  [
+   "effective immediately",
+   "即時発効で・直ちに",
+   "Effective immediately, all visitors must show photo identification at reception.",
+   "本日より、すべての来訪者は受付で写真付き身分証を提示しなければならない。"
+  ],
+  [
+   "as of",
+   "～付けで・～の時点で",
+   "As of next Monday, the cafeteria will open at seven thirty.",
+   "来週月曜日から、社員食堂は7時30分に開店します。"
+  ],
+  [
+   "in light of",
+   "～を考慮して・～を踏まえて",
+   "In light of rising fuel costs, we have adjusted our delivery fees.",
+   "燃料費の高騰を踏まえ、配送料を改定いたしました。"
+  ],
+  [
+   "owing to",
+   "～のために・～が原因で",
+   "Owing to high demand, some items may take longer to ship.",
+   "需要が高いため、一部の商品は発送にお時間をいただく場合があります。"
+  ],
+  [
+   "regardless of",
+   "～に関係なく",
+   "The same shipping rate applies regardless of the size of the order.",
+   "注文の量に関係なく、同じ送料が適用される。"
+  ],
+  [
+   "with regard to",
+   "～に関して",
+   "I'm writing with regard to the invoice I received last week.",
+   "先週受け取った請求書の件でご連絡しております。"
+  ],
+  [
+   "in terms of",
+   "～の点で",
+   "In terms of cost, the second proposal is clearly the better option.",
+   "費用の点では、2つ目の提案のほうが明らかに良い選択肢だ。"
+  ],
+  [
+   "according to",
+   "～によると",
+   "According to the forecast, sales will rise steadily next year.",
+   "予測によると、来年の売上は着実に伸びる見込みだ。"
+  ],
+  [
+   "along with",
+   "～と一緒に",
+   "Please return the form along with a copy of your receipt.",
+   "用紙を領収書のコピーと一緒にご返送ください。"
+  ],
+  [
+   "as well as",
+   "～だけでなく…も",
+   "The package includes installation as well as a one-year service plan.",
+   "このパッケージには1年間のサービスプランに加えて設置も含まれる。"
+  ],
+  [
+   "in the meantime",
+   "その間に・それまでは",
+   "The new server arrives Monday; in the meantime, please save your work locally.",
+   "新しいサーバーは月曜日に届きます。それまでは作業内容を手元のパソコンに保存してください。"
+  ],
+  [
+   "so far",
+   "今までのところ",
+   "So far, more than five hundred people have registered for the webinar.",
+   "今までのところ、500人以上がウェビナーに登録している。"
+  ],
+  [
+   "on average",
+   "平均して",
+   "On average, our customers receive their orders within three days.",
+   "平均して、当社のお客様は3日以内に注文品を受け取っている。"
+  ],
+  [
+   "up to",
+   "最大～まで",
+   "The conference room can hold up to forty people.",
+   "その会議室は最大40人まで収容できる。"
+  ],
+  [
+   "at least",
+   "少なくとも",
+   "Applicants need at least three years of experience in project management.",
+   "応募者にはプロジェクト管理の経験が少なくとも3年必要だ。"
+  ],
+  [
+   "no later than",
+   "遅くとも～までに",
+   "Proposals must be submitted no later than five o'clock on Friday.",
+   "提案書は遅くとも金曜日の5時までに提出しなければならない。"
+  ],
+  [
+   "on a first-come, first-served basis",
+   "先着順で",
+   "Seats at the workshop are available on a first-come, first-served basis.",
+   "ワークショップの席は先着順でご利用いただけます。"
+  ],
+  [
+   "a waiting list",
+   "キャンセル待ちリスト",
+   "The seminar is full, but we can put your name on the waiting list.",
+   "セミナーは満席ですが、キャンセル待ちリストにお名前を載せることはできます。"
+  ],
+  [
+   "qualify for",
+   "～の資格を得る・対象となる",
+   "All orders over fifty dollars qualify for free standard shipping.",
+   "50ドルを超えるご注文はすべて通常配送が無料になります。"
+  ],
+  [
+   "be exempt from",
+   "～を免除されている",
+   "Nonprofit organizations are exempt from the registration fee.",
+   "非営利団体は登録料を免除される。"
+  ],
+  [
+   "waive the fee",
+   "料金を免除する",
+   "The hotel agreed to waive the cancellation fee because of the storm.",
+   "ホテルは嵐を理由にキャンセル料を免除することに同意した。"
+  ],
+  [
+   "be charged for",
+   "～の料金を請求される",
+   "You will not be charged for the replacement since the item is under warranty.",
+   "商品は保証期間内なので、交換品の代金は請求されません。"
+  ],
+  [
+   "a flat rate",
+   "定額料金・均一料金",
+   "We charge a flat rate of thirty dollars for all local deliveries.",
+   "市内配送はすべて30ドルの均一料金をいただいております。"
+  ],
+  [
+   "on a tight budget",
+   "限られた予算で",
+   "We need to organize the event on a tight budget this year.",
+   "今年は限られた予算でイベントを企画しなければならない。"
+  ],
+  [
+   "go over budget",
+   "予算を超過する",
+   "The renovation went over budget because of unexpected repairs to the roof.",
+   "屋根の予想外の修理のため、改装は予算を超過した。"
+  ],
+  [
+   "allocate funds",
+   "資金を割り当てる",
+   "The board decided to allocate more funds to research and development.",
+   "取締役会は研究開発により多くの資金を割り当てることを決めた。"
+  ],
+  [
+   "cut back on",
+   "～を削減する・減らす",
+   "The company is cutting back on business travel to save money.",
+   "会社は経費節約のため出張を減らしている。"
+  ],
+  [
+   "boost sales",
+   "売上を伸ばす",
+   "The holiday promotion helped boost sales by nearly twenty percent.",
+   "年末の販促キャンペーンで売上が20％近く伸びた。"
+  ],
+  [
+   "a decline in",
+   "～の減少・低下",
+   "Analysts blamed the decline in profits on higher material costs.",
+   "アナリストは利益減少の原因を材料費の上昇にあるとした。"
+  ],
+  [
+   "a surge in demand",
+   "需要の急増",
+   "A surge in demand for electric bikes has led to supply shortages.",
+   "電動自転車の需要の急増が供給不足を招いている。"
+  ],
+  [
+   "a shortage of",
+   "～の不足",
+   "A shortage of skilled workers is slowing construction projects nationwide.",
+   "熟練労働者の不足が全国で建設プロジェクトを遅らせている。"
+  ],
+  [
+   "market share",
+   "市場シェア",
+   "The company aims to increase its market share in Southeast Asia.",
+   "同社は東南アジアでの市場シェア拡大を目指している。"
+  ],
+  [
+   "a competitive edge",
+   "競争上の優位",
+   "Fast delivery gives us a competitive edge over larger retailers.",
+   "迅速な配送が、大手小売業者に対する当社の強みとなっている。"
+  ],
+  [
+   "stay competitive",
+   "競争力を保つ",
+   "We must invest in new technology to stay competitive.",
+   "競争力を保つためには、新しい技術に投資しなければならない。"
+  ],
+  [
+   "expand into",
+   "～に進出する",
+   "Norwell Pharmacy plans to expand into three new regions next year.",
+   "ノーウェル薬局は来年、新たに3つの地域に進出する計画だ。"
+  ],
+  [
+   "merge with",
+   "～と合併する",
+   "Kestrel Airlines announced that it will merge with a regional carrier.",
+   "ケストレル航空は地方航空会社と合併すると発表した。"
+  ],
+  [
+   "a joint venture",
+   "合弁事業・合弁会社",
+   "The two firms formed a joint venture to develop solar panels.",
+   "両社は太陽光パネルを開発するために合弁会社を設立した。"
+  ],
+  [
+   "enter into an agreement",
+   "契約を締結する",
+   "Brightline Media entered into an agreement with a Korean streaming service.",
+   "ブライトライン・メディアは韓国の動画配信サービスと契約を締結した。"
+  ],
+  [
+   "the terms and conditions",
+   "契約条件・利用規約",
+   "Please read the terms and conditions carefully before signing the lease.",
+   "賃貸契約に署名する前に、契約条件をよくお読みください。"
+  ],
+  [
+   "renew a contract",
+   "契約を更新する",
+   "We decided to renew our contract with the cleaning company for another year.",
+   "清掃会社との契約をもう1年更新することにした。"
+  ],
+  [
+   "an expiration date",
+   "有効期限",
+   "Please check the expiration date on your coupon before using it.",
+   "クーポンを使う前に有効期限をご確認ください。"
+  ],
+  [
+   "be valid for",
+   "～の間有効である",
+   "This voucher is valid for thirty days from the date of purchase.",
+   "この引換券は購入日から30日間有効です。"
+  ],
+  [
+   "be liable for",
+   "～に対して法的責任がある",
+   "The company is not liable for items left in the lockers overnight.",
+   "ロッカーに一晩置いたままの物品について、当社は責任を負いません。"
+  ],
+  [
+   "in the process of",
+   "～の最中で",
+   "We are in the process of moving our headquarters to a larger building.",
+   "当社は現在、本社をより大きなビルに移転している最中です。"
+  ],
+  [
+   "on track",
+   "順調に進んで",
+   "The construction project is on track to finish by December.",
+   "建設プロジェクトは12月までに完了する見込みで順調に進んでいる。"
+  ],
+  [
+   "a tentative schedule",
+   "暫定的な予定",
+   "Here is a tentative schedule for the visit; details may still change.",
+   "こちらが訪問の暫定的な予定です。詳細はまだ変わる可能性があります。"
+  ],
+  [
+   "finalize the details",
+   "詳細を最終決定する",
+   "We will finalize the details of the contract at next week's meeting.",
+   "契約の詳細は来週の会議で最終決定します。"
+  ],
+  [
+   "iron out",
+   "（問題点を）解消する・詰める",
+   "The two sides met again to iron out the remaining issues.",
+   "双方は残りの問題点を解消するため再び会談した。"
+  ],
+  [
+   "touch base with",
+   "～と連絡を取る・打ち合わせる",
+   "Let's touch base with the designers next week to review the website's progress.",
+   "来週デザイナーと連絡を取って、ウェブサイトの進捗を確認しましょう。"
+  ],
+  [
+   "get the ball rolling",
+   "（物事を）始める・動き出させる",
+   "Let's get the ball rolling by assigning a leader to each task.",
+   "まずは各作業にリーダーを割り当てることから始めましょう。"
+  ],
+  [
+   "be on the same page",
+   "認識が一致している",
+   "Before we begin, let's make sure everyone is on the same page.",
+   "始める前に、全員の認識が一致しているか確認しましょう。"
+  ],
+  [
+   "a rough estimate",
+   "おおよその見積もり・概算",
+   "Can you give me a rough estimate of the total cost?",
+   "総費用のおおよその見積もりを出してもらえますか。"
+  ],
+  [
+   "streamline the process",
+   "手順を効率化する",
+   "The new software will streamline the process of approving expense claims.",
+   "新しいソフトウェアは経費精算の承認手続きを効率化する。"
+  ],
+  [
+   "cost-effective",
+   "費用対効果の高い",
+   "Online advertising proved more cost-effective than printed flyers.",
+   "オンライン広告は紙のチラシより費用対効果が高いとわかった。"
+  ],
+  [
+   "a cost-cutting measure",
+   "経費削減策",
+   "As a cost-cutting measure, the company will stop printing internal newsletters.",
+   "経費削減策として、会社は社内報の印刷を取りやめる。"
+  ],
+  [
+   "implement a policy",
+   "方針を実施する",
+   "The city will implement a new recycling policy starting next month.",
+   "市は来月から新しいリサイクル方針を実施する。"
+  ],
+  [
+   "key stakeholders",
+   "主要な利害関係者",
+   "The plan was presented to key stakeholders, including investors and local officials.",
+   "その計画は投資家や地元自治体の担当者を含む主要な利害関係者に提示された。"
+  ],
+  [
+   "the board of directors",
+   "取締役会",
+   "The board of directors approved the budget at its quarterly meeting.",
+   "取締役会は四半期ごとの会議で予算を承認した。"
+  ],
+  [
+   "a fiscal year",
+   "会計年度",
+   "Revenue rose by twelve percent in the last fiscal year.",
+   "前会計年度の売上高は12％増加した。"
+  ],
+  [
+   "a financial statement",
+   "財務諸表",
+   "Auditors reviewed the financial statements before they were published.",
+   "監査人は財務諸表を公表前に精査した。"
+  ],
+  [
+   "net profit",
+   "純利益",
+   "The firm reported a net profit of four million dollars for the quarter.",
+   "その会社は当四半期に400万ドルの純利益を計上した。"
+  ],
+  [
+   "operating costs",
+   "運営費・営業費用",
+   "Switching to LED lighting has lowered our operating costs significantly.",
+   "LED照明に切り替えたことで、運営費が大幅に下がった。"
+  ],
+  [
+   "break even",
+   "損益がとんとんになる",
+   "The new café expects to break even within its first eighteen months.",
+   "新しいカフェは最初の18か月以内に収支が均衡する見込みだ。"
+  ],
+  [
+   "a return on investment",
+   "投資利益・投資収益率",
+   "Management expects a high return on investment from the new warehouse system.",
+   "経営陣は新しい倉庫システムから高い投資収益を見込んでいる。"
+  ],
+  [
+   "rise sharply",
+   "急上昇する",
+   "International shipping costs rose sharply after fuel prices increased last spring.",
+   "昨春に燃料価格が上がった後、国際輸送費が急上昇した。"
+  ],
+  [
+   "remain stable",
+   "安定したままである",
+   "Interest rates are expected to remain stable for the rest of the year.",
+   "金利は年内は安定したまま推移すると予想されている。"
+  ],
+  [
+   "be on the rise",
+   "増加傾向にある",
+   "Online sales of groceries are on the rise in many countries.",
+   "多くの国で食料品のネット販売が増加傾向にある。"
+  ],
+  [
+   "a growing number of",
+   "ますます多くの",
+   "A growing number of employees prefer flexible working hours.",
+   "柔軟な勤務時間を望む従業員が増えている。"
+  ],
+  [
+   "play a key role in",
+   "～で重要な役割を果たす",
+   "Local suppliers play a key role in keeping our costs low.",
+   "地元の仕入れ先は、当社のコストを低く抑えるうえで重要な役割を果たしている。"
+  ],
+  [
+   "have an impact on",
+   "～に影響を与える",
+   "The new tax law will have an impact on small businesses.",
+   "新しい税法は中小企業に影響を与えるだろう。"
+  ],
+  [
+   "contribute to",
+   "～に貢献する・～の一因となる",
+   "Better training contributed to a drop in workplace accidents.",
+   "研修の改善が労働災害の減少につながった。"
+  ],
+  [
+   "lead to",
+   "～につながる・～を引き起こす",
+   "Poor communication between departments can lead to costly mistakes.",
+   "部署間の意思疎通の不足は、高くつくミスにつながりかねない。"
+  ],
+  [
+   "result in",
+   "～という結果になる",
+   "The system error resulted in several duplicate orders.",
+   "システムエラーにより、いくつかの注文が重複した。"
+  ],
+  [
+   "stem from",
+   "～に起因する",
+   "Most customer complaints stem from delays in delivery.",
+   "顧客からの苦情のほとんどは配送の遅れに起因している。"
+  ],
+  [
+   "be attributed to",
+   "～が原因とされる",
+   "The increase in sales was largely attributed to the new online store.",
+   "売上の増加は、主に新しいオンラインストアによるものとされた。"
+  ],
+  [
+   "account for",
+   "（割合を）占める",
+   "Overseas sales account for about forty percent of our total revenue.",
+   "海外売上は当社の総収益の約40％を占めている。"
+  ],
+  [
+   "on the grounds that",
+   "～という理由で",
+   "The request was rejected on the grounds that it lacked supporting documents.",
+   "その申請は裏付け書類が不足しているという理由で却下された。"
+  ],
+  [
+   "with the exception of",
+   "～を除いて",
+   "All branches, with the exception of the airport shop, will close early today.",
+   "空港店を除く全店舗が、本日は早めに閉店します。"
+  ],
+  [
+   "to date",
+   "現在までに",
+   "To date, the fundraiser has collected over ten thousand dollars.",
+   "現在までに、募金活動で1万ドル以上が集まった。"
+  ],
+  [
+   "for the foreseeable future",
+   "当面の間",
+   "Remote work will remain an option for staff for the foreseeable future.",
+   "当面の間、社員はリモートワークを選べる状態が続く。"
+  ],
+  [
+   "in the wake of",
+   "～を受けて・～の後で",
+   "In the wake of the recall, the manufacturer improved its quality checks.",
+   "リコールを受けて、メーカーは品質検査を改善した。"
+  ],
+  [
+   "at the discretion of",
+   "～の裁量で",
+   "Refunds on sale items are given at the discretion of the store manager.",
+   "セール品の返金は店長の裁量で行われる。"
+  ],
+  [
+   "pending approval",
+   "承認待ちで",
+   "The new hiring plan is pending approval from the finance department.",
+   "新しい採用計画は財務部の承認待ちだ。"
+  ],
+  [
+   "be contingent on",
+   "～次第である・～を条件とする",
+   "The job offer is contingent on a successful background check.",
+   "採用内定は身元調査に問題がないことが条件となる。"
+  ],
+  [
+   "be in high demand",
+   "需要が高い",
+   "Experienced software engineers are in high demand across the industry.",
+   "経験豊富なソフトウェアエンジニアは業界全体で需要が高い。"
+  ],
+  [
+   "a proven track record",
+   "確かな実績",
+   "We are seeking a manager with a proven track record in sales.",
+   "当社は営業で確かな実績のある管理職を求めています。"
+  ],
+  [
+   "meet the requirements",
+   "要件を満たす",
+   "Unfortunately, your application does not meet the requirements for this role.",
+   "残念ながら、あなたの応募はこの職の要件を満たしていません。"
+  ],
+  [
+   "at full capacity",
+   "フル稼働で・満員で",
+   "The factory has been running at full capacity since January.",
+   "その工場は1月からフル稼働している。"
+  ],
+  [
+   "lay off",
+   "（従業員を）解雇する",
+   "The airline had to lay off hundreds of workers during the downturn.",
+   "その航空会社は景気後退の間に数百人の従業員を解雇せざるを得なかった。"
+  ],
+  [
+   "step down",
+   "辞任する・退任する",
+   "The CEO will step down at the end of the year after a decade in charge.",
+   "CEOは10年間の在任を経て、年末に退任する。"
+  ],
+  [
+   "take on",
+   "（仕事・責任を）引き受ける",
+   "Ms Fischer agreed to take on additional responsibilities while her manager is away.",
+   "フィッシャーさんは上司の不在中、追加の業務を引き受けることに同意した。"
+  ],
+  [
+   "delegate tasks",
+   "仕事を任せる・委任する",
+   "Good managers delegate tasks according to each person's strengths.",
+   "優れた管理職は各人の強みに応じて仕事を任せる。"
+  ],
+  [
+   "a tight deadline",
+   "厳しい締め切り",
+   "The design team is working under a tight deadline for the product launch.",
+   "デザインチームは製品発売に向けた厳しい締め切りの中で作業している。"
+  ],
+  [
+   "brainstorm ideas",
+   "アイデアを出し合う",
+   "Let's brainstorm ideas for the anniversary campaign this afternoon.",
+   "今日の午後、記念キャンペーンのアイデアを出し合いましょう。"
+  ],
+  [
+   "a pilot program",
+   "試験的な取り組み",
+   "The bank launched a pilot program offering loans to small farmers.",
+   "その銀行は小規模農家に融資する試験的なプログラムを始めた。"
+  ],
+  [
+   "roll out",
+   "（新製品・制度を）展開する・導入する",
+   "The new app will be rolled out to all users by the end of June.",
+   "新しいアプリは6月末までに全ユーザーに提供される。"
+  ],
+  [
+   "phase out",
+   "段階的に廃止する",
+   "The company is phasing out plastic packaging over the next two years.",
+   "同社は今後2年かけてプラスチック包装を段階的に廃止する。"
+  ],
+  [
+   "scale up",
+   "規模を拡大する",
+   "After a successful trial, we plan to scale up production next spring.",
+   "試験が成功したので、来春には生産規模を拡大する予定だ。"
+  ],
+  [
+   "a feasibility study",
+   "実現可能性調査",
+   "A feasibility study will be carried out before construction begins.",
+   "建設開始前に実現可能性調査が行われる。"
+  ],
+  [
+   "shed light on",
+   "～を明らかにする",
+   "The report sheds light on why younger customers are switching brands.",
+   "その報告書は、若い顧客がブランドを乗り換える理由を明らかにしている。"
+  ],
+  [
+   "raise awareness of",
+   "～の認識を高める",
+   "The campaign aims to raise awareness of recycling in the workplace.",
+   "このキャンペーンは職場でのリサイクルへの意識を高めることを目指している。"
+  ],
+  [
+   "in collaboration with",
+   "～と協力して",
+   "The museum organized the exhibition in collaboration with local schools.",
+   "博物館は地元の学校と協力してその展覧会を企画した。"
+  ],
+  [
+   "on a trial basis",
+   "試験的に",
+   "Flexible hours will be introduced on a trial basis for three months.",
+   "フレックスタイム制が3か月間試験的に導入される。"
+  ],
+  [
+   "be in line with",
+   "～と一致している",
+   "Our results were in line with market expectations for the quarter.",
+   "当社の業績は当四半期の市場予想と一致していた。"
+  ],
+  [
+   "fall short of",
+   "～に達しない・届かない",
+   "Unfortunately, third-quarter earnings fell short of analysts' expectations.",
+   "残念ながら、第3四半期の利益はアナリストの予想に届かなかった。"
+  ],
+  [
+   "turn a profit",
+   "利益を出す・黒字になる",
+   "The startup finally turned a profit in its fourth year of operation.",
+   "その新興企業は創業4年目にようやく黒字化した。"
+  ],
+  [
+   "conduct a study",
+   "研究・調査を行う",
+   "Researchers conducted a study on how office design affects productivity.",
+   "研究者たちは、オフィスのデザインが生産性にどう影響するかを調査した。"
+  ],
+  [
+   "draw a conclusion",
+   "結論を導く",
+   "It is too early to draw a conclusion from such a small survey.",
+   "これほど小規模な調査から結論を導くのは時期尚早だ。"
+  ],
+  [
+   "pose a threat to",
+   "～に脅威を与える",
+   "Rising sea levels pose a threat to coastal factories and ports.",
+   "海面上昇は沿岸部の工場や港に脅威を与えている。"
+  ]
+ ]
+}

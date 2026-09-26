@@ -1,0 +1,19 @@
+{
+ "deck": "会議で使う表現",
+ "level": "TOEIC 730",
+ "scene": "city|building|chat",
+ "phrases": [
+  [
+   "put forward a proposal",
+   "提案を出す",
+   "Our team put forward a proposal to reduce shipping costs.",
+   "私たちのチームは配送費を減らす提案を出した。"
+  ],
+  [
+   "reach a consensus",
+   "合意に達する",
+   "After a long discussion, the board reached a consensus on the budget.",
+   "長い議論の末、役員会は予算について合意に達した。"
+  ]
+ ]
+}

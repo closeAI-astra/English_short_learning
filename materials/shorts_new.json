@@ -1,0 +1,4010 @@
+[
+ {
+  "id": "x001",
+  "g": "dino",
+  "t": "泳ぐ恐竜スピノサウルス",
+  "sl": [
+   [
+    "sea|fish|big:Spinosaurus",
+    "Meet Spinosaurus, / a giant dinosaur / that may have been / even longer than Tyrannosaurus rex.",
+    "スピノサウルスを紹介しよう。ティラノサウルスよりさらに長かったかもしれない巨大な恐竜だ。"
+   ],
+   [
+    "desert|bone|rock",
+    "Its first fossils / were found in Egypt / in the early 1900s, / but they were destroyed / during World War Two.",
+    "最初の化石は1900年代初めにエジプトで見つかったが、第二次世界大戦中に失われてしまった。"
+   ],
+   [
+    "sea|fish|bone",
+    "Newer fossils from Morocco / show a long, narrow snout / like a crocodile's, / perfect for catching fish.",
+    "モロッコで見つかった新しい化石からは、ワニのように細長い口先があり、魚をとるのにぴったりだったことがわかる。"
+   ],
+   [
+    "sea|wave|fish",
+    "In 2020, / scientists described its tail. / It was tall and flat, / like a paddle for swimming.",
+    "2020年、科学者たちはその尾について報告した。尾は高く平たく、泳ぐためのパドルのようだった。"
+   ],
+   [
+    "dusk|wave|fish",
+    "So not every giant dinosaur / hunted on land. / Spinosaurus likely spent / much of its time in water.",
+    "つまり、巨大な恐竜がみな陸で狩りをしていたわけではない。スピノサウルスは、多くの時間を水中で過ごしていたらしい。"
+   ]
+  ],
+  "w": [
+   [
+    "fossil",
+    "化石"
+   ],
+   [
+    "destroy",
+    "破壊する"
+   ],
+   [
+    "narrow",
+    "細い・狭い"
+   ],
+   [
+    "describe",
+    "記述する・報告する"
+   ],
+   [
+    "likely",
+    "おそらく"
+   ]
+  ],
+  "q": [
+   "What did the 2020 study show about Spinosaurus's tail?",
+   [
+    "It was short and round",
+    "It was tall and flat, like a paddle",
+    "It had sharp spikes",
+    "It was covered in feathers"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "x002",
+  "g": "dino",
+  "t": "ステゴサウルスとティラノは出会っていない",
+  "sl": [
+   [
+    "day|film|trex",
+    "In many movies and toys, / Stegosaurus and Tyrannosaurus rex / appear side by side.",
+    "映画やおもちゃでは、ステゴサウルスとティラノサウルスがよく並んで登場する。"
+   ],
+   [
+    "forest|clock|big:150M",
+    "But Stegosaurus lived / about 150 million years ago, / in the Late Jurassic period.",
+    "しかしステゴサウルスが生きていたのは、約1億5000万年前のジュラ紀後期だ。"
+   ],
+   [
+    "forest|trex|big:68M",
+    "Tyrannosaurus rex appeared / much later, / about 68 million years ago, / near the end / of the dinosaur age.",
+    "ティラノサウルスが現れたのはずっと後の約6800万年前、恐竜時代の終わり近くだ。"
+   ],
+   [
+    "paper|clock|chart",
+    "That means / more than 80 million years / separated these two animals.",
+    "つまり、この2種の間には8000万年以上の隔たりがあった。"
+   ],
+   [
+    "city|skyline|trex",
+    "In fact, / we live closer in time / to Tyrannosaurus rex / than Tyrannosaurus lived to Stegosaurus.",
+    "実は、ティラノサウルスとステゴサウルスの間より、私たちとティラノサウルスの間のほうが時間的に近いのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "appear",
+    "登場する・現れる"
+   ],
+   [
+    "side by side",
+    "並んで"
+   ],
+   [
+    "period",
+    "時代・期間"
+   ],
+   [
+    "separate",
+    "隔てる・分ける"
+   ],
+   [
+    "in fact",
+    "実は"
+   ]
+  ],
+  "q": [
+   "About how long ago did Stegosaurus live?",
+   [
+    "About 150 million years ago",
+    "About 66 million years ago",
+    "About 10,000 years ago",
+    "About 500 million years ago"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "x003",
+  "g": "dino",
+  "t": "プテラノドンは恐竜じゃない",
+  "sl": [
+   [
+    "dusk|pterosaur|mountain",
+    "Pteranodon is often called / a flying dinosaur, / but that is not quite right.",
+    "プテラノドンはよく「空飛ぶ恐竜」と呼ばれるが、それは正確ではない。"
+   ],
+   [
+    "paper|book|pterosaur",
+    "Pteranodon was a pterosaur, / a flying reptile / closely related to dinosaurs, / but not a dinosaur itself.",
+    "プテラノドンは翼竜という空飛ぶ爬虫類で、恐竜と近い関係にあるが、恐竜そのものではない。"
+   ],
+   [
+    "sea|fish|wave",
+    "The same is true / for the giant sea reptiles / of that time, / such as plesiosaurs.",
+    "同じ時代の巨大な海の爬虫類、たとえば首長竜についても同じことが言える。"
+   ],
+   [
+    "day|pterosaur|big:10 m",
+    "Still, pterosaurs were amazing. / The largest, Quetzalcoatlus, / had wings about ten meters across.",
+    "それでも翼竜はすごかった。最大級のケツァルコアトルスは、翼を広げると約10メートルもあった。"
+   ],
+   [
+    "dusk|pterosaur|film",
+    "So next time / you see one in a movie, / you can proudly say, / \"That's not a dinosaur!\"",
+    "だから次に映画で見かけたら、胸を張ってこう言おう。「あれは恐竜じゃないよ」"
+   ]
+  ],
+  "w": [
+   [
+    "reptile",
+    "爬虫類"
+   ],
+   [
+    "closely related",
+    "密接に関係した"
+   ],
+   [
+    "the same is true for",
+    "〜についても同じことが言える"
+   ],
+   [
+    "such as",
+    "たとえば〜のような"
+   ],
+   [
+    "proudly",
+    "誇らしげに・胸を張って"
+   ]
+  ],
+  "q": [
+   "What was Pteranodon?",
+   [
+    "A flying dinosaur",
+    "An early bird",
+    "A sea reptile",
+    "A flying reptile related to dinosaurs"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "x004",
+  "g": "dino",
+  "t": "トリケラトプス vs ティラノ",
+  "sl": [
+   [
+    "forest|trike",
+    "Triceratops means / \"three-horned face,\" / and it is easy / to see why.",
+    "トリケラトプスとは「3本の角のある顔」という意味で、その理由はすぐにわかる。"
+   ],
+   [
+    "day|trike|big:3 HORNS",
+    "It had two long horns / above its eyes, / a short horn on its nose, / and a large bony frill.",
+    "目の上に長い角が2本、鼻の上に短い角が1本、そして骨でできた大きなえり飾りがあった。"
+   ],
+   [
+    "forest|trike|trex",
+    "Triceratops lived / at the very end / of the age of dinosaurs, / in the same place and time / as Tyrannosaurus rex.",
+    "トリケラトプスは恐竜時代の最後の最後に、ティラノサウルスと同じ場所・同じ時代に生きていた。"
+   ],
+   [
+    "desert|bone|magnifier",
+    "Scientists have found / Triceratops bones / with Tyrannosaurus bite marks / on them.",
+    "科学者たちは、ティラノサウルスの噛み跡が残るトリケラトプスの骨を見つけている。"
+   ],
+   [
+    "dusk|trex|trike",
+    "So the famous battle / between these two giants / was not just a movie idea. / Tyrannosaurus really did bite Triceratops.",
+    "つまり、この2大恐竜の有名な対決は、映画だけの話ではなかった。ティラノサウルスは本当にトリケラトプスに噛みついていたのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "horn",
+    "角"
+   ],
+   [
+    "above",
+    "〜の上に"
+   ],
+   [
+    "at the very end of",
+    "〜の最後の最後に"
+   ],
+   [
+    "bite mark",
+    "噛み跡"
+   ],
+   [
+    "battle",
+    "戦い・対決"
+   ]
+  ],
+  "q": [
+   "What does the name Triceratops mean?",
+   [
+    "King of lizards",
+    "Fast thief",
+    "Three-horned face",
+    "Terrible lizard"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "x005",
+  "g": "dino",
+  "t": "「恐竜」の名付け親",
+  "sl": [
+   [
+    "paper|book|big:1842",
+    "The word \"dinosaur\" / is younger / than you might think. / It was created in 1842.",
+    "「ダイナソー（恐竜）」という言葉は、思ったより新しい。1842年に作られたのだ。"
+   ],
+   [
+    "city|building|bone",
+    "A British scientist, / Richard Owen, / needed a name / for a new group / of giant fossil reptiles.",
+    "イギリスの科学者リチャード・オーウェンは、巨大な爬虫類の化石の新しいグループに名前をつける必要があった。"
+   ],
+   [
+    "paper|scroll|big:deinos",
+    "He combined two Greek words, / \"deinos\" for terrible / and \"sauros\" for lizard.",
+    "彼は2つのギリシャ語を組み合わせた。「恐ろしい」を表す「デイノス」と、「トカゲ」を表す「サウロス」だ。"
+   ],
+   [
+    "day|trex|rock",
+    "But here is the funny part: / dinosaurs were not lizards at all. / They were a very different group.",
+    "でも面白いのは、恐竜はトカゲではまったくなかったこと。まったく別のグループだったのだ。"
+   ],
+   [
+    "dusk|sauropod|book",
+    "So every time you say \"dinosaur,\" / you are using a name / from the 1800s / that is not quite accurate.",
+    "だから「ダイナソー」と言うたびに、あなたは1800年代に生まれた、少し不正確な名前を使っていることになる。"
+   ]
+  ],
+  "w": [
+   [
+    "create",
+    "作る・生み出す"
+   ],
+   [
+    "combine",
+    "組み合わせる"
+   ],
+   [
+    "at all",
+    "（否定文で）まったく"
+   ],
+   [
+    "different",
+    "異なる"
+   ],
+   [
+    "accurate",
+    "正確な"
+   ]
+  ],
+  "q": [
+   "What does \"sauros\" mean?",
+   [
+    "Dragon",
+    "Lizard",
+    "Bird",
+    "Giant"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "x006",
+  "g": "nyc",
+  "t": "セントラルパークはモナコより広い",
+  "sl": [
+   [
+    "city|tree|skyline",
+    "Here is a surprising fact: / Central Park in New York / is larger than / the whole country of Monaco.",
+    "驚きの事実。ニューヨークのセントラルパークは、モナコという国全体よりも広い。"
+   ],
+   [
+    "sea|flag|big:Monaco",
+    "Monaco covers / only about two square kilometers, / while Central Park / is more than three.",
+    "モナコの面積は約2平方キロメートルしかないが、セントラルパークは3平方キロメートルを超える。"
+   ],
+   [
+    "day|tree|flower",
+    "The park looks natural, / but its lakes, meadows, and paths / were carefully designed / by people.",
+    "公園は自然に見えるが、湖も草地も小道も、人の手で入念に設計されたものだ。"
+   ],
+   [
+    "paper|book|pin",
+    "Its designers, / Frederick Law Olmsted and Calvert Vaux, / won a design competition / in 1858.",
+    "設計者のフレデリック・ロー・オルムステッドとカルバート・ヴォークスは、1858年の設計コンペで勝った。"
+   ],
+   [
+    "dusk|skyline|tree",
+    "So when you walk / across Central Park, / you are crossing an area / bigger than a whole country.",
+    "だからセントラルパークを横切って歩くとき、あなたは一つの国より広い場所を渡っているのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "surprising",
+    "驚くべき"
+   ],
+   [
+    "whole",
+    "全体の"
+   ],
+   [
+    "cover",
+    "（面積を）占める・覆う"
+   ],
+   [
+    "while",
+    "〜である一方で"
+   ],
+   [
+    "competition",
+    "競争・コンペ"
+   ]
+  ],
+  "q": [
+   "Which is larger, Central Park or Monaco?",
+   [
+    "Central Park",
+    "Monaco",
+    "They are exactly the same",
+    "It changes every year"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "x007",
+  "g": "nyc",
+  "t": "自分専用の郵便番号を持つビル",
+  "sl": [
+   [
+    "city|building|big:10118",
+    "In New York, / one building is so big / that it has / its own ZIP code: 10118.",
+    "ニューヨークには、専用の郵便番号「10118」を持つほど巨大なビルがある。"
+   ],
+   [
+    "city|building|skyline",
+    "It is the Empire State Building, / which opened in 1931 / on Fifth Avenue in Manhattan.",
+    "それはエンパイア・ステート・ビルで、1931年にマンハッタンの5番街に開業した。"
+   ],
+   [
+    "day|building|clock",
+    "Amazingly, it was built / in just over a year / during the Great Depression.",
+    "驚くことに、大恐慌のさなか、わずか1年あまりで建てられた。"
+   ],
+   [
+    "dusk|building|big:40 years",
+    "For nearly 40 years, / it was the tallest building / in the world.",
+    "40年近くの間、それは世界一高いビルだった。"
+   ],
+   [
+    "night|skyline|building",
+    "Today, thousands of people / work inside, / so it gets enough mail / to need its own code.",
+    "今も何千人もの人が中で働いていて、専用の番号が必要なほど郵便物が届くのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "own",
+    "自分自身の"
+   ],
+   [
+    "open",
+    "開業する・開く"
+   ],
+   [
+    "amazingly",
+    "驚くことに"
+   ],
+   [
+    "the Great Depression",
+    "大恐慌"
+   ],
+   [
+    "enough",
+    "十分な"
+   ]
+  ],
+  "q": [
+   "How long did it take to build the Empire State Building?",
+   [
+    "About ten years",
+    "About five years",
+    "Three months",
+    "Just over a year"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "x008",
+  "g": "nyc",
+  "t": "自由の女神はもともと茶色",
+  "sl": [
+   [
+    "sea|flag|big:GREEN",
+    "The Statue of Liberty / is famous for its green color, / but it did not / start that way.",
+    "自由の女神は緑色で有名だが、最初からそうだったわけではない。"
+   ],
+   [
+    "sea|ship|coin",
+    "It is covered / with thin copper sheets. / When it was finished in 1886, / it was a shiny brown, / like a new coin.",
+    "像は薄い銅板で覆われている。1886年に完成したときは、新品の硬貨のような輝く茶色だった。"
+   ],
+   [
+    "city|cloud|wave",
+    "Over the next few decades, / air and seawater / slowly reacted with the copper.",
+    "その後の数十年で、空気と海水がゆっくりと銅と反応した。"
+   ],
+   [
+    "day|flag|rock",
+    "This created a green layer / called a patina, / which actually protects the metal / from further damage.",
+    "これによって緑青（ろくしょう）と呼ばれる緑色の層ができた。実はこの層が、金属をさらなる傷みから守っている。"
+   ],
+   [
+    "dusk|flag|skyline",
+    "So the famous green / is not paint at all. / It is the statue's / natural protective coat.",
+    "つまり、あの有名な緑はペンキではまったくない。像を守る天然のコーティングなのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "be covered with",
+    "〜で覆われている"
+   ],
+   [
+    "decade",
+    "10年間"
+   ],
+   [
+    "react",
+    "反応する"
+   ],
+   [
+    "layer",
+    "層"
+   ],
+   [
+    "protect",
+    "守る"
+   ]
+  ],
+  "q": [
+   "Why is the Statue of Liberty green?",
+   [
+    "It was painted green",
+    "It is made of green stone",
+    "Copper reacted with air and water",
+    "Plants grow on it"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "x009",
+  "g": "nyc",
+  "t": "ゾウが渡ったブルックリン橋",
+  "sl": [
+   [
+    "city|bridge|big:1883",
+    "When the Brooklyn Bridge / opened in 1883, / it was the longest suspension bridge / in the world.",
+    "1883年にブルックリン橋が開通したとき、それは世界最長の吊り橋だった。"
+   ],
+   [
+    "city|bridge|chat",
+    "But some New Yorkers / were not sure / it was safe. / Such a huge new bridge / made people nervous.",
+    "しかし、安全かどうか不安に思うニューヨーカーもいた。これほど巨大な新しい橋は、人々を落ち着かなくさせたのだ。"
+   ],
+   [
+    "day|bridge|big:21",
+    "So in 1884, / circus owner Phineas Taylor Barnum / led 21 elephants / across the bridge.",
+    "そこで1884年、サーカス経営者のP・T・バーナムが、21頭のゾウを連れて橋を渡った。"
+   ],
+   [
+    "dusk|bridge|heart",
+    "The bridge / held the weight / without any problem. / It was a perfect advertisement / for both the bridge / and his circus.",
+    "橋は何の問題もなく重さに耐えた。橋にとってもサーカスにとっても、完璧な宣伝になった。"
+   ],
+   [
+    "night|bridge|skyline",
+    "More than 140 years later, / the bridge still carries / thousands of people / across the East River every day.",
+    "140年以上たった今も、この橋は毎日何千人もの人をイースト川の向こうへ運んでいる。"
+   ]
+  ],
+  "w": [
+   [
+    "suspension bridge",
+    "吊り橋"
+   ],
+   [
+    "safe",
+    "安全な"
+   ],
+   [
+    "nervous",
+    "不安な・落ち着かない"
+   ],
+   [
+    "weight",
+    "重さ"
+   ],
+   [
+    "advertisement",
+    "広告・宣伝"
+   ]
+  ],
+  "q": [
+   "Why did Barnum lead elephants across the bridge?",
+   [
+    "To move them to a new zoo",
+    "To show the bridge was safe",
+    "Because the trains had stopped",
+    "To celebrate his birthday"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "x010",
+  "g": "nyc",
+  "t": "ニューヨークの昔の名前",
+  "sl": [
+   [
+    "city|skyline|big:New Amsterdam",
+    "Before it was New York, / this city had / a very different name: / New Amsterdam.",
+    "ニューヨークになる前、この街はまったく違う名前だった。ニューアムステルダムだ。"
+   ],
+   [
+    "sea|ship|flag",
+    "In the 1600s, / Dutch settlers / built a trading town / at the southern tip of Manhattan.",
+    "1600年代、オランダ人の入植者たちがマンハッタン島の南端に交易の町を築いた。"
+   ],
+   [
+    "paper|scroll|crown",
+    "In 1664, / the English took control / and renamed it / after the Duke of York.",
+    "1664年、イギリスが支配権を握り、ヨーク公にちなんで名前を変えた。"
+   ],
+   [
+    "city|building|coin",
+    "But the Dutch left / other names behind. / Wall Street is named / after a wooden wall / the settlers built.",
+    "しかしオランダ人は他の名前を残した。ウォール街は、入植者たちが築いた木の壁にちなんで名付けられている。"
+   ],
+   [
+    "night|skyline|pin",
+    "Even Brooklyn and Harlem / come from Dutch town names, / so the Dutch past / still hides in today's map.",
+    "ブルックリンやハーレムも、オランダの町の名前に由来する。オランダ時代の歴史は、今の地図にも隠れているのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "settler",
+    "入植者"
+   ],
+   [
+    "trading",
+    "交易・貿易"
+   ],
+   [
+    "control",
+    "支配（take control で支配権を握る）"
+   ],
+   [
+    "rename",
+    "改名する"
+   ],
+   [
+    "be named after",
+    "〜にちなんで名付けられる"
+   ]
+  ],
+  "q": [
+   "What is Wall Street named after?",
+   [
+    "A wooden wall built by settlers",
+    "A famous banker",
+    "A river",
+    "An English king"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "x011",
+  "g": "space",
+  "t": "1日が1年より長い金星",
+  "sl": [
+   [
+    "space|planet|sun",
+    "On Venus, / a single day / lasts longer / than a whole year.",
+    "金星では、1日が1年よりも長い。"
+   ],
+   [
+    "space|planet|big:243 days",
+    "Venus spins very slowly. / It takes about 243 Earth days / to turn around once.",
+    "金星の自転はとてもゆっくりで、1回転するのに地球の日数で約243日かかる。"
+   ],
+   [
+    "space|sun|big:225 days",
+    "But it travels around the Sun / in only about 225 Earth days. / One spin takes longer / than one trip around the Sun.",
+    "しかし太陽の周りを回るのは、わずか約225日。1回の自転のほうが、太陽を1周するより長いのだ。"
+   ],
+   [
+    "dusk|sun|planet",
+    "Stranger still, / Venus spins / in the opposite direction / to most planets, / so the Sun rises / in the west.",
+    "さらに奇妙なことに、金星はほとんどの惑星と逆向きに自転しているので、太陽は西から昇る。"
+   ],
+   [
+    "night|planet|moon",
+    "Next time you see / the bright \"evening star\" after sunset, / remember that it is Venus, / the world of backward days.",
+    "次に日没後、明るい「宵の明星」を見たら思い出そう。それは金星、逆回りの日々が続く世界だ。"
+   ]
+  ],
+  "w": [
+   [
+    "single",
+    "たった一つの"
+   ],
+   [
+    "last",
+    "続く"
+   ],
+   [
+    "opposite",
+    "反対の"
+   ],
+   [
+    "direction",
+    "方向"
+   ],
+   [
+    "rise",
+    "昇る"
+   ]
+  ],
+  "q": [
+   "Where does the Sun rise on Venus?",
+   [
+    "In the east",
+    "In the north",
+    "It never rises",
+    "In the west"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "x012",
+  "g": "space",
+  "t": "月の足あとは消えない",
+  "sl": [
+   [
+    "space|moon|big:1969",
+    "In 1969, / Neil Armstrong / became the first person / to walk on the Moon.",
+    "1969年、ニール・アームストロングは月面を歩いた最初の人間になった。"
+   ],
+   [
+    "space|moon|rock",
+    "The footprints / left by astronauts / are very likely / still there today.",
+    "宇宙飛行士たちが残した足あとは、今もそこに残っている可能性が高い。"
+   ],
+   [
+    "space|moon|globe",
+    "The reason is simple: / the Moon has almost no air, / so there is / no wind or rain / to erase them.",
+    "理由は簡単。月には空気がほとんどないので、足あとを消す風も雨もないのだ。"
+   ],
+   [
+    "space|moon|magnifier",
+    "Scientists think / the prints could last / for millions of years, / unless a small space rock / hits the spot.",
+    "科学者たちは、小さな隕石がその場所に当たらない限り、足あとは何百万年も残りうると考えている。"
+   ],
+   [
+    "night|moon|heart",
+    "So on the Moon, / a single step / could last longer / than any building on Earth.",
+    "つまり月では、たった一歩が、地球のどんな建物よりも長く残るかもしれないのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "footprint",
+    "足あと"
+   ],
+   [
+    "likely",
+    "〜しそうな・可能性が高い"
+   ],
+   [
+    "reason",
+    "理由"
+   ],
+   [
+    "erase",
+    "消す"
+   ],
+   [
+    "unless",
+    "〜しない限り"
+   ]
+  ],
+  "q": [
+   "Why do footprints stay on the Moon for so long?",
+   [
+    "The ground is frozen",
+    "Astronauts protect them",
+    "There is no wind or rain",
+    "The Moon is always dark"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "x013",
+  "g": "space",
+  "t": "水に浮かぶ惑星・土星",
+  "sl": [
+   [
+    "space|planet|big:SATURN",
+    "Saturn is the second-largest planet / in our solar system. / Hundreds of Earths / could fit inside it.",
+    "土星は太陽系で2番目に大きい惑星だ。地球が何百個も入るほどの大きさがある。"
+   ],
+   [
+    "sea|wave|planet",
+    "But here is the strange part: / if you could find a bathtub / big enough, / Saturn would float.",
+    "でも不思議なのはここから。十分に大きな浴槽があれば、土星は水に浮くのだ。"
+   ],
+   [
+    "space|planet|atom",
+    "Saturn is made mostly / of hydrogen and helium, / the two lightest elements.",
+    "土星は主に、最も軽い2つの元素である水素とヘリウムでできている。"
+   ],
+   [
+    "space|planet|big:0.7",
+    "On average, / it is less dense than water, / the only planet / in our solar system / like that.",
+    "平均すると、土星の密度は水より小さい。太陽系でそんな惑星は土星だけだ。"
+   ],
+   [
+    "night|planet|moon",
+    "Of course, / no bathtub is that big. / But it's a fun way / to understand / how light this giant really is.",
+    "もちろん、そんなに大きな浴槽はない。でも、この巨大惑星が実はどれほど軽いかを理解する面白い方法だ。"
+   ]
+  ],
+  "w": [
+   [
+    "fit",
+    "収まる"
+   ],
+   [
+    "float",
+    "浮かぶ"
+   ],
+   [
+    "mostly",
+    "主に"
+   ],
+   [
+    "element",
+    "元素・要素"
+   ],
+   [
+    "on average",
+    "平均して"
+   ]
+  ],
+  "q": [
+   "Why could Saturn float in water?",
+   [
+    "It is hollow",
+    "It is less dense than water",
+    "It is made of ice",
+    "It spins very fast"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "x014",
+  "g": "space",
+  "t": "火星の超巨大火山",
+  "sl": [
+   [
+    "space|planet|volcano",
+    "The tallest volcano / we know of / is not on Earth. / It is on Mars.",
+    "私たちが知る最も高い火山は、地球ではなく火星にある。"
+   ],
+   [
+    "desert|volcano|big:Olympus Mons",
+    "It is called Olympus Mons, / and it is / more than twice as tall / as Mount Everest.",
+    "それはオリンポス山と呼ばれ、エベレストの2倍以上の高さがある。"
+   ],
+   [
+    "desert|volcano|mountain",
+    "It is also incredibly wide, / roughly as large as / the US state of Arizona.",
+    "しかも信じられないほど広く、アメリカのアリゾナ州とほぼ同じ大きさだ。"
+   ],
+   [
+    "desert|volcano|rock",
+    "Why so big? / Mars has weaker gravity, / and its crust does not shift / like Earth's, / so lava piled up / in one place.",
+    "なぜそんなに大きいのか。火星は重力が弱く、地殻が地球のように動かないので、溶岩が1か所に積み重なったのだ。"
+   ],
+   [
+    "dusk|planet|mountain",
+    "Even Earth's biggest mountains / would look small / next to this giant.",
+    "地球最大の山々でさえ、この巨人の隣では小さく見えるだろう。"
+   ]
+  ],
+  "w": [
+   [
+    "twice",
+    "2倍"
+   ],
+   [
+    "incredibly",
+    "信じられないほど"
+   ],
+   [
+    "roughly",
+    "おおよそ"
+   ],
+   [
+    "gravity",
+    "重力"
+   ],
+   [
+    "pile up",
+    "積み重なる"
+   ]
+  ],
+  "q": [
+   "Olympus Mons is roughly as wide as...",
+   [
+    "The US state of Arizona",
+    "Tokyo",
+    "The whole Earth",
+    "Mount Everest"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "x015",
+  "g": "space",
+  "t": "1日に16回の日の出",
+  "sl": [
+   [
+    "space|sun|big:16",
+    "Imagine seeing / about 16 sunrises and 16 sunsets / every single day.",
+    "毎日およそ16回の日の出と16回の日の入りを見る生活を想像してみよう。"
+   ],
+   [
+    "space|rocket|globe",
+    "That is life / on the International Space Station, / which circles the Earth / about 400 kilometers above us.",
+    "それが国際宇宙ステーションでの暮らしだ。ステーションは地上約400キロの高さで地球を回っている。"
+   ],
+   [
+    "space|globe|clock",
+    "It moves / at about 28,000 kilometers per hour, / so one trip around the planet / takes only about 90 minutes.",
+    "時速約2万8000キロで動いているので、地球1周はわずか約90分だ。"
+   ],
+   [
+    "space|sun|moon",
+    "Every 90 minutes, / astronauts pass / from daylight into darkness / and back again.",
+    "90分ごとに、宇宙飛行士たちは昼から夜へ、そしてまた昼へと移り変わる。"
+   ],
+   [
+    "night|clock|heart",
+    "So to stay healthy, / the crew follows / a fixed schedule / based on clocks, / not on the Sun.",
+    "だから健康を保つため、乗組員は太陽ではなく時計に基づいた決まったスケジュールで生活している。"
+   ]
+  ],
+  "w": [
+   [
+    "imagine",
+    "想像する"
+   ],
+   [
+    "circle",
+    "周回する"
+   ],
+   [
+    "per hour",
+    "1時間あたり"
+   ],
+   [
+    "crew",
+    "乗組員"
+   ],
+   [
+    "fixed schedule",
+    "決まった予定"
+   ]
+  ],
+  "q": [
+   "How long does the space station take to go around the Earth once?",
+   [
+    "About 24 hours",
+    "About 10 minutes",
+    "About a week",
+    "About 90 minutes"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "x016",
+  "g": "science",
+  "t": "氷が浮くから魚は生きられる",
+  "sl": [
+   [
+    "snow|fish|big:ICE",
+    "Most substances / get denser / when they freeze. / Water is a strange exception.",
+    "ほとんどの物質は、凍ると密度が高くなる。水は不思議な例外だ。"
+   ],
+   [
+    "paper|atom|big:+9%",
+    "When water freezes, / it expands / by about nine percent, / so ice is lighter / than liquid water.",
+    "水は凍ると約9パーセント膨張するので、氷は液体の水より軽くなる。"
+   ],
+   [
+    "snow|mountain|fish",
+    "That is why ice floats / and lakes freeze / from the top down.",
+    "だから氷は水に浮き、湖は上から凍っていく。"
+   ],
+   [
+    "snow|fish|wave",
+    "The ice on top / works like a blanket, / keeping the water below / from freezing solid.",
+    "上の氷が毛布のような役割を果たし、下の水が完全に凍ってしまうのを防ぐ。"
+   ],
+   [
+    "snow|fish|heart",
+    "Thanks to this odd property, / fish and other animals / can survive the winter / under the ice.",
+    "この変わった性質のおかげで、魚などの生き物は氷の下で冬を越せるのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "substance",
+    "物質"
+   ],
+   [
+    "exception",
+    "例外"
+   ],
+   [
+    "expand",
+    "膨張する・拡大する"
+   ],
+   [
+    "property",
+    "性質・特性（不動産の意味も）"
+   ],
+   [
+    "thanks to",
+    "〜のおかげで"
+   ]
+  ],
+  "q": [
+   "Why do lakes freeze from the top down?",
+   [
+    "The Sun warms the bottom",
+    "Fish keep the water moving",
+    "Ice is lighter than liquid water",
+    "Wind pushes the ice upward"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "x017",
+  "g": "science",
+  "t": "雷は太陽より熱い",
+  "sl": [
+   [
+    "night|cloud|big:30,000°C",
+    "A single bolt of lightning / can heat the air / to about 30,000 degrees Celsius.",
+    "1本の雷は、空気を約3万度まで熱することがある。"
+   ],
+   [
+    "space|sun|big:5,500°C",
+    "That is about five times hotter / than the surface of the Sun, / which is about 5,500 degrees.",
+    "これは約5500度の太陽の表面より、約5倍も熱い。"
+   ],
+   [
+    "night|cloud|wave",
+    "This sudden heat / makes the air expand / extremely quickly, / creating a powerful shock wave.",
+    "この急激な熱で空気がものすごい速さで膨張し、強力な衝撃波が生まれる。"
+   ],
+   [
+    "night|cloud|note",
+    "That shock wave / is what we hear as thunder. / So thunder is really / the sound of lightning.",
+    "その衝撃波こそが、私たちが雷鳴として聞く音だ。つまり雷鳴は、稲妻が立てる音なのだ。"
+   ],
+   [
+    "day|clock|cloud",
+    "Light travels faster than sound, / so you see the flash first / and hear the thunder later.",
+    "光は音より速く伝わるので、まず稲光が見え、あとから雷鳴が聞こえる。"
+   ],
+   [
+    "dusk|clock|big:3 sec = 1 km",
+    "Count the seconds in between. / Every three seconds / means the storm is / about one kilometer away.",
+    "その間の秒数を数えてみよう。3秒ごとに、嵐が約1キロ離れていることになる。"
+   ]
+  ],
+  "w": [
+   [
+    "heat",
+    "熱する"
+   ],
+   [
+    "surface",
+    "表面"
+   ],
+   [
+    "sudden",
+    "突然の・急激な"
+   ],
+   [
+    "extremely",
+    "極めて"
+   ],
+   [
+    "travel",
+    "（光や音が）伝わる"
+   ]
+  ],
+  "q": [
+   "What causes the sound of thunder?",
+   [
+    "Clouds hitting each other",
+    "A shock wave from suddenly heated air",
+    "Rain hitting the ground",
+    "Heat from the Sun"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "x018",
+  "g": "science",
+  "t": "ダイヤと鉛筆の芯は同じもの",
+  "sl": [
+   [
+    "paper|crown|book",
+    "What do a diamond ring / and a pencil / have in common? / More than you might think.",
+    "ダイヤの指輪と鉛筆の共通点は何だろう。実は、思っている以上にある。"
+   ],
+   [
+    "paper|atom|crown",
+    "Diamond and graphite, / the gray material in pencils, / are both made / of pure carbon.",
+    "ダイヤモンドと、鉛筆に使われる灰色の素材である黒鉛は、どちらも純粋な炭素でできている。"
+   ],
+   [
+    "paper|atom|magnifier",
+    "The only difference / is how the carbon atoms / are arranged.",
+    "唯一の違いは、炭素原子の並び方だ。"
+   ],
+   [
+    "day|atom|book",
+    "In graphite, / atoms form flat sheets / that slide easily, / so it leaves marks on paper.",
+    "黒鉛では原子が平らなシート状になっていて簡単にずれるので、紙に跡が残る。"
+   ],
+   [
+    "night|crown|atom",
+    "In diamond, / each atom is tightly linked / to four others, / making it one of / the hardest natural materials.",
+    "ダイヤモンドでは、各原子がほかの4つの原子と強く結びついていて、天然で最も硬い物質の一つになっている。"
+   ],
+   [
+    "dusk|crown|big:SAME ATOMS",
+    "Same atoms, / different arrangement, / and one becomes a soft pencil, / the other a precious gem.",
+    "同じ原子でも並び方が違うだけで、一方は柔らかい鉛筆の芯に、もう一方は貴重な宝石になる。"
+   ]
+  ],
+  "w": [
+   [
+    "have in common",
+    "共通点がある"
+   ],
+   [
+    "material",
+    "材料・素材"
+   ],
+   [
+    "arrange",
+    "配置する・並べる"
+   ],
+   [
+    "tightly",
+    "しっかりと"
+   ],
+   [
+    "precious",
+    "貴重な"
+   ]
+  ],
+  "q": [
+   "What is the main difference between diamond and graphite?",
+   [
+    "How the carbon atoms are arranged",
+    "The type of atoms they contain",
+    "Only their color",
+    "The country where they are found"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "x019",
+  "g": "science",
+  "t": "音は水中のほうが速い",
+  "sl": [
+   [
+    "sea|wave|note",
+    "If you shout underwater, / your voice actually travels / faster than it does in air.",
+    "水中で叫ぶと、声は実は空気中よりも速く伝わる。"
+   ],
+   [
+    "day|cloud|big:340 m/s",
+    "In air, / sound moves / at about 340 meters per second.",
+    "空気中では、音は秒速約340メートルで進む。"
+   ],
+   [
+    "sea|whale|big:1,500 m/s",
+    "In water, / it moves at about / 1,500 meters per second, / more than four times faster.",
+    "水中では秒速約1500メートル。4倍以上の速さだ。"
+   ],
+   [
+    "city|train|bridge",
+    "In solid steel, / it is faster still, / at more than / 5,000 meters per second.",
+    "固い鋼鉄の中では、さらに速く、秒速5000メートルを超える。"
+   ],
+   [
+    "sea|atom|wave",
+    "The reason: / water and steel resist squeezing / much more than air, / so vibrations pass through faster.",
+    "理由は、水や鋼鉄は空気よりはるかに押し縮められにくく、振動が速く伝わるからだ。"
+   ],
+   [
+    "sea|fish|magnifier",
+    "So underwater, / sound arrives very quickly, / which makes it hard for divers / to tell where it comes from.",
+    "そのため水中では音がすぐに届き、ダイバーには音がどこから来るのか判別しにくくなる。"
+   ]
+  ],
+  "w": [
+   [
+    "shout",
+    "叫ぶ"
+   ],
+   [
+    "per second",
+    "1秒あたり"
+   ],
+   [
+    "solid",
+    "固体の・頑丈な"
+   ],
+   [
+    "resist",
+    "抵抗する"
+   ],
+   [
+    "vibration",
+    "振動"
+   ]
+  ],
+  "q": [
+   "In which of these does sound travel fastest?",
+   [
+    "Air",
+    "Water",
+    "Empty space",
+    "Steel"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "x020",
+  "g": "science",
+  "t": "休暇明けの大発見・ペニシリン",
+  "sl": [
+   [
+    "paper|magnifier|big:1928",
+    "One of the most important discoveries / in medicine / began with / a messy lab.",
+    "医学で最も重要な発見の一つは、散らかった研究室から始まった。"
+   ],
+   [
+    "day|book|clock",
+    "In 1928, / Scottish scientist Alexander Fleming / returned from a vacation / to find mold growing / on one of his dishes.",
+    "1928年、スコットランドの科学者アレクサンダー・フレミングは休暇から戻ると、培養皿の一つにカビが生えているのに気づいた。"
+   ],
+   [
+    "paper|magnifier|atom",
+    "Around the mold, / the bacteria he was studying / had died.",
+    "カビの周りでは、彼が研究していた細菌が死んでいた。"
+   ],
+   [
+    "paper|bulb|flower",
+    "Instead of throwing the dish away, / he studied it / and discovered penicillin, / one of the first antibiotics.",
+    "彼はその皿を捨てずに調べ、最初期の抗生物質の一つであるペニシリンを発見した。"
+   ],
+   [
+    "day|heart|bulb",
+    "Penicillin went on / to save millions of lives. / Sometimes, a mistake / is worth a second look.",
+    "ペニシリンはその後、何百万もの命を救った。ときには、失敗にもう一度目を向ける価値があるのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "discovery",
+    "発見"
+   ],
+   [
+    "return",
+    "戻る"
+   ],
+   [
+    "instead of",
+    "〜の代わりに"
+   ],
+   [
+    "throw away",
+    "捨てる"
+   ],
+   [
+    "worth",
+    "〜の価値がある"
+   ]
+  ],
+  "q": [
+   "What did Fleming find when he returned from vacation?",
+   [
+    "A broken microscope",
+    "A new kind of insect",
+    "Mold growing on one of his dishes",
+    "His lab had been cleaned"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "x021",
+  "g": "animal",
+  "t": "腕で味わうタコ",
+  "sl": [
+   [
+    "sea|octopus|big:TASTE",
+    "Imagine being able / to taste food / just by touching it. / Octopuses can do exactly that.",
+    "触れるだけで食べ物の味がわかるとしたら。タコはまさにそれができる。"
+   ],
+   [
+    "sea|octopus|magnifier",
+    "Their suckers / are covered with special sensors / that detect chemicals.",
+    "タコの吸盤は、化学物質を感知する特別なセンサーで覆われている。"
+   ],
+   [
+    "sea|octopus|rock",
+    "When an octopus reaches / into a crack in a rock, / it can taste / what is hiding inside.",
+    "タコは岩の割れ目に腕を差し入れると、中に隠れているものを味わうことができる。"
+   ],
+   [
+    "sea|octopus|atom",
+    "Also, most of / an octopus's nerve cells / are in its arms, / not in its brain.",
+    "さらに、タコの神経細胞の大半は、脳ではなく腕にある。"
+   ],
+   [
+    "sea|octopus|heart",
+    "So each arm / can explore and react / partly on its own, / almost like a team / of curious hands.",
+    "だから各腕は、ある程度独立して探ったり反応したりできる。まるで好奇心旺盛な手のチームのようだ。"
+   ]
+  ],
+  "w": [
+   [
+    "detect",
+    "感知する・検出する"
+   ],
+   [
+    "chemical",
+    "化学物質"
+   ],
+   [
+    "reach",
+    "手を伸ばす"
+   ],
+   [
+    "explore",
+    "探る・探検する"
+   ],
+   [
+    "partly",
+    "部分的に"
+   ]
+  ],
+  "q": [
+   "What can an octopus detect with its suckers?",
+   [
+    "Colors",
+    "Chemicals, so it can taste",
+    "Sounds",
+    "Air"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "x022",
+  "g": "animal",
+  "t": "手をつないで眠るラッコ",
+  "sl": [
+   [
+    "sea|wave|heart",
+    "Sea otters / sometimes hold hands / while they sleep / on the water.",
+    "ラッコは水の上で眠るとき、手をつなぐことがある。"
+   ],
+   [
+    "sea|wave|moon",
+    "This is not just cute. / It keeps them / from drifting apart / on ocean currents.",
+    "これはただかわいいだけではない。海流で離れ離れにならないようにしているのだ。"
+   ],
+   [
+    "sea|tree|wave",
+    "They also wrap themselves / in long seaweed called kelp, / which works like an anchor.",
+    "また、ケルプという長い海藻を体に巻きつけ、錨のように使う。"
+   ],
+   [
+    "sea|rock|fish",
+    "Sea otters are also / famous tool users. / They crack open shellfish / by hitting them against a rock.",
+    "ラッコは道具を使うことでも有名だ。貝を石に打ちつけて割って開ける。"
+   ],
+   [
+    "sea|rock|heart",
+    "Some even keep / a favorite rock / in a pouch of loose skin / under their arm.",
+    "お気に入りの石を、脇の下のたるんだ皮のポケットにしまっておくラッコまでいる。"
+   ]
+  ],
+  "w": [
+   [
+    "drift",
+    "漂う・流される"
+   ],
+   [
+    "current",
+    "流れ・海流（形容詞では「現在の」）"
+   ],
+   [
+    "wrap",
+    "包む・巻きつける"
+   ],
+   [
+    "crack open",
+    "割って開ける"
+   ],
+   [
+    "favorite",
+    "お気に入りの"
+   ]
+  ],
+  "q": [
+   "Why do sea otters hold hands while sleeping?",
+   [
+    "To avoid drifting apart",
+    "To stay warm",
+    "To protect their food",
+    "To play a game"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "x023",
+  "g": "animal",
+  "t": "フラミンゴがピンクなのは食べ物のせい",
+  "sl": [
+   [
+    "day|bird|big:PINK",
+    "Flamingos are not born pink. / Their chicks have / gray or white feathers.",
+    "フラミンゴは生まれつきピンクなわけではない。ヒナの羽は灰色か白だ。"
+   ],
+   [
+    "sea|bird|fish",
+    "Their famous color / comes from their food: / tiny shrimp and algae / full of natural pigments.",
+    "あの有名な色は食べ物から来ている。天然の色素をたっぷり含んだ小さなエビや藻類だ。"
+   ],
+   [
+    "day|bird|atom",
+    "These pigments, / called carotenoids, / are the same kind / that makes carrots orange.",
+    "カロテノイドと呼ばれるこれらの色素は、ニンジンをオレンジ色にしているのと同じ種類のものだ。"
+   ],
+   [
+    "day|bird|chart",
+    "If a flamingo gets / less of this food, / its feathers slowly / turn paler.",
+    "こうした食べ物が少なくなると、フラミンゴの羽はだんだん色が薄くなる。"
+   ],
+   [
+    "dusk|bird|bowl",
+    "That is why zoos / add special pigments / to their flamingos' diet / to keep them pink.",
+    "だから動物園では、フラミンゴをピンクに保つため、えさに特別な色素を加えている。"
+   ]
+  ],
+  "w": [
+   [
+    "feather",
+    "羽"
+   ],
+   [
+    "pigment",
+    "色素"
+   ],
+   [
+    "the same kind",
+    "同じ種類"
+   ],
+   [
+    "pale",
+    "（色が）薄い（paler は比較級）"
+   ],
+   [
+    "diet",
+    "食事・食べ物"
+   ]
+  ],
+  "q": [
+   "Where does a flamingo's pink color come from?",
+   [
+    "Its parents only",
+    "Sunlight",
+    "Cold water",
+    "Pigments in its food"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "x024",
+  "g": "history",
+  "t": "3800年間世界一だったピラミッド",
+  "sl": [
+   [
+    "desert|pyramid|big:146 m",
+    "When the Great Pyramid / of Giza was finished, / it stood about 146 meters tall.",
+    "ギザの大ピラミッドが完成したとき、その高さは約146メートルあった。"
+   ],
+   [
+    "desert|pyramid|sun",
+    "It was built / around 4,500 years ago / for the pharaoh Khufu.",
+    "それは約4500年前、ファラオのクフ王のために建てられた。"
+   ],
+   [
+    "paper|clock|big:3,800 years",
+    "For about 3,800 years, / it was the tallest human-made structure / on Earth.",
+    "約3800年もの間、それは地球上で最も高い人工の建造物だった。"
+   ],
+   [
+    "city|building|flag",
+    "The record was finally broken / in the early 1300s / by a church spire / in England.",
+    "その記録がついに破られたのは1300年代初め、イングランドの教会の尖塔によってだった。"
+   ],
+   [
+    "dusk|pyramid|skyline",
+    "No modern skyscraper / is likely to hold the title / for that long.",
+    "現代の超高層ビルが、それほど長くその座を守ることはまずないだろう。"
+   ]
+  ],
+  "w": [
+   [
+    "structure",
+    "建造物・構造"
+   ],
+   [
+    "record",
+    "記録"
+   ],
+   [
+    "finally",
+    "ついに"
+   ],
+   [
+    "broken",
+    "（記録が）破られた（break の過去分詞）"
+   ],
+   [
+    "title",
+    "称号・タイトル"
+   ]
+  ],
+  "q": [
+   "About how long was the Great Pyramid the tallest human-made structure?",
+   [
+    "About 380 years",
+    "About 38 years",
+    "About 3,800 years",
+    "About 38,000 years"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "x025",
+  "g": "history",
+  "t": "万里の長城は宇宙から見えない",
+  "sl": [
+   [
+    "space|globe|big:MYTH",
+    "You may have heard / that the Great Wall of China / is visible from space. / It is a popular myth.",
+    "万里の長城は宇宙から見える、と聞いたことがあるかもしれない。それはよくある作り話だ。"
+   ],
+   [
+    "day|mountain|flag",
+    "The wall is extremely long, / but it is mostly / only a few meters wide.",
+    "長城はとても長いが、幅はほとんどの場所でわずか数メートルしかない。"
+   ],
+   [
+    "space|moon|globe",
+    "From the Moon, / it is completely invisible / to the naked eye.",
+    "月からでは、肉眼でまったく見えない。"
+   ],
+   [
+    "space|rocket|globe",
+    "Even from low orbit, / astronauts say it is / very hard to spot, / because its color blends in / with the land around it.",
+    "地球に近い軌道からでさえ、見つけるのはとても難しいと宇宙飛行士は言う。周りの大地に色が溶け込んでしまうからだ。"
+   ],
+   [
+    "dusk|mountain|heart",
+    "Still, it is one of / the greatest building projects / in human history, / no view from space needed.",
+    "それでも長城は、人類史上最大級の建設事業の一つだ。宇宙から見える必要などない。"
+   ]
+  ],
+  "w": [
+   [
+    "visible",
+    "見える"
+   ],
+   [
+    "myth",
+    "作り話・神話"
+   ],
+   [
+    "naked eye",
+    "肉眼"
+   ],
+   [
+    "spot",
+    "見つける"
+   ],
+   [
+    "blend in",
+    "溶け込む"
+   ]
+  ],
+  "q": [
+   "Why is the Great Wall hard to see from space?",
+   [
+    "It is underground",
+    "It is narrow and blends in with the land",
+    "It is painted white",
+    "It is too short"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "x026",
+  "g": "history",
+  "t": "コロンブスより先にアメリカへ",
+  "sl": [
+   [
+    "sea|ship|big:1492",
+    "Christopher Columbus / reached the Americas in 1492, / but he was not / the first European there.",
+    "コロンブスは1492年にアメリカ大陸に到達したが、そこに着いた最初のヨーロッパ人ではなかった。"
+   ],
+   [
+    "snow|ship|mountain",
+    "Around the year 1000, / Norse explorers, / often called Vikings, / sailed from Greenland / to North America.",
+    "西暦1000年ごろ、ヴァイキングとも呼ばれる北欧の探検家たちが、グリーンランドから北アメリカへ航海した。"
+   ],
+   [
+    "snow|scroll|ship",
+    "Their leader / was probably Leif Erikson, / according to old Icelandic stories / called sagas.",
+    "サガと呼ばれるアイスランドの古い物語によると、そのリーダーはおそらくレイフ・エリクソンだった。"
+   ],
+   [
+    "forest|magnifier|bone",
+    "For centuries, / many people thought / these stories were only legends. / Then, in the 1960s, / archaeologists found proof.",
+    "何世紀もの間、これらの物語はただの伝説だと多くの人が考えていた。ところが1960年代、考古学者たちが証拠を見つけた。"
+   ],
+   [
+    "snow|building|pin",
+    "At L'Anse aux Meadows in Canada, / they uncovered the remains / of a Norse settlement / built about 500 years / before Columbus arrived.",
+    "カナダのランス・オ・メドーで、コロンブスの到着より約500年前に築かれた北欧人の集落の遺跡が発掘されたのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "explorer",
+    "探検家"
+   ],
+   [
+    "according to",
+    "〜によると"
+   ],
+   [
+    "legend",
+    "伝説"
+   ],
+   [
+    "proof",
+    "証拠"
+   ],
+   [
+    "remains",
+    "遺跡・遺物"
+   ]
+  ],
+  "q": [
+   "What did archaeologists find in Canada?",
+   [
+    "The remains of a Norse settlement",
+    "A Spanish ship",
+    "Columbus's diary",
+    "A Viking king's crown"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "x027",
+  "g": "math",
+  "t": "0.999…は1と等しい",
+  "sl": [
+   [
+    "paper|infinity|big:0.999...=1",
+    "Here is a fact / that surprises many people: / zero point nine nine nine, / repeating forever, / equals exactly one.",
+    "多くの人が驚く事実がある。0.999…と9が永遠に続く数は、ちょうど1に等しい。"
+   ],
+   [
+    "paper|pi|big:1/3",
+    "Start with one third. / As a decimal, / it is / zero point three three three, / repeating forever.",
+    "まず3分の1から始めよう。小数で書くと、0.333…と3が永遠に続く。"
+   ],
+   [
+    "paper|pi|chart",
+    "Now multiply by three. / On one side, / one third times three / is exactly one.",
+    "では3を掛けてみよう。一方では、3分の1かける3はちょうど1だ。"
+   ],
+   [
+    "paper|infinity|pi",
+    "On the other side, / each three becomes a nine, / so we get / zero point nine nine nine, / repeating forever.",
+    "もう一方では、各3が9になり、0.999…と9が永遠に続く数になる。"
+   ],
+   [
+    "paper|infinity|big:SAME NUMBER",
+    "The two are just / different ways of writing / the same number. / There is no gap / between them at all.",
+    "つまり両者は、同じ数の異なる書き方にすぎない。二つの間にすき間はまったくないのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "surprise",
+    "驚かせる"
+   ],
+   [
+    "repeat",
+    "繰り返す"
+   ],
+   [
+    "equal",
+    "等しい"
+   ],
+   [
+    "decimal",
+    "小数"
+   ],
+   [
+    "multiply",
+    "掛ける"
+   ]
+  ],
+  "q": [
+   "What is one third written as a decimal?",
+   [
+    "0.1",
+    "0.9",
+    "1.3",
+    "0.333... repeating forever"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "x028",
+  "g": "math",
+  "t": "紙を42回折ると月に届く",
+  "sl": [
+   [
+    "paper|moon|big:42",
+    "Take a sheet of paper / about 0.1 millimeters thick. / If you could fold it / 42 times, / it would reach the Moon.",
+    "厚さ約0.1ミリの紙を1枚用意しよう。もし42回折ることができたら、その厚さは月に届く。"
+   ],
+   [
+    "paper|chart|big:x2",
+    "Each fold / doubles the thickness. / After ten folds, / it is already / about ten centimeters thick.",
+    "1回折るごとに厚さは2倍になる。10回折ると、もう約10センチの厚さだ。"
+   ],
+   [
+    "city|building|chart",
+    "After about 20 folds, / it would be taller / than a 100-meter building.",
+    "20回ほど折れば、高さ100メートルのビルより高くなる。"
+   ],
+   [
+    "space|moon|big:384,000 km",
+    "And after 42 folds, / it would be over / 400,000 kilometers thick, / more than the distance / to the Moon.",
+    "そして42回折ると、厚さは40万キロを超え、月までの距離よりも長くなる。"
+   ],
+   [
+    "dusk|chart|infinity",
+    "In real life, / you can't fold paper / that many times, / but it shows / how fast doubling grows.",
+    "現実にはそんなに何回も紙を折ることはできないが、倍々で増えることがいかに急激かがよくわかる。"
+   ]
+  ],
+  "w": [
+   [
+    "sheet",
+    "（紙などの）1枚"
+   ],
+   [
+    "fold",
+    "折る・折り目"
+   ],
+   [
+    "double",
+    "2倍にする"
+   ],
+   [
+    "thickness",
+    "厚さ"
+   ],
+   [
+    "distance",
+    "距離"
+   ]
+  ],
+  "q": [
+   "What happens to the thickness with each fold?",
+   [
+    "It triples",
+    "It grows by one millimeter",
+    "It doubles",
+    "It stays the same"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "x029",
+  "g": "math",
+  "t": "3つのドアの問題",
+  "sl": [
+   [
+    "paper|dice|big:3 DOORS",
+    "On a game show, / there are three doors. / Behind one is a car. / Behind the other two are goats.",
+    "あるゲーム番組に3つのドアがある。1つの後ろには車、残り2つの後ろにはヤギがいる。"
+   ],
+   [
+    "paper|dice|magnifier",
+    "You pick a door. / Then the host, / who knows where the car is, / opens another door / to show a goat.",
+    "あなたはドアを1つ選ぶ。すると、車の場所を知っている司会者が、別のドアを開けてヤギを見せる。"
+   ],
+   [
+    "paper|chat|dice",
+    "Now he asks, / \"Do you want to switch?\" / Most people think / it doesn't matter.",
+    "そして司会者は「ドアを変えますか」と聞く。多くの人は、どちらでも同じだと考える。"
+   ],
+   [
+    "paper|chart|big:2/3",
+    "But switching wins / two times out of three. / Your first pick / was right / only one time in three.",
+    "しかし、変えると3回に2回勝てる。最初の選択が当たっているのは、3回に1回だけだからだ。"
+   ],
+   [
+    "paper|bulb|dice",
+    "The host's choice / gives you new information, / and the remaining door / carries the other two-thirds.",
+    "司会者の選択が新しい情報を与え、残ったドアが残りの3分の2の確率を引き受けるのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "pick",
+    "選ぶ"
+   ],
+   [
+    "switch",
+    "変える・切り替える"
+   ],
+   [
+    "matter",
+    "重要である"
+   ],
+   [
+    "information",
+    "情報"
+   ],
+   [
+    "remaining",
+    "残りの"
+   ]
+  ],
+  "q": [
+   "If you switch doors, how often do you win?",
+   [
+    "One time in three",
+    "Two times out of three",
+    "Half the time",
+    "Every time"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "x030",
+  "g": "money",
+  "t": "複利は雪だるま",
+  "sl": [
+   [
+    "snow|coin|big:SNOWBALL",
+    "Compound interest / works like a snowball / rolling down a hill.",
+    "複利は、坂を転がり落ちる雪玉のように働く。"
+   ],
+   [
+    "paper|coin|chart",
+    "With simple interest, / you earn money / only on the amount / you first put in.",
+    "単利では、最初に預けた金額にだけ利息がつく。"
+   ],
+   [
+    "paper|coin|big:10%",
+    "With compound interest, / you also earn interest / on your interest. / Say you invest 100 dollars / at ten percent a year.",
+    "複利では、利息にもさらに利息がつく。たとえば100ドルを年10パーセントで投資するとしよう。"
+   ],
+   [
+    "paper|chart|big:110 → 121",
+    "After one year, / you have 110 dollars. / The next year, / you earn ten percent of 110, / so you have 121.",
+    "1年後には110ドル。次の年は110ドルの10パーセントを受け取るので、121ドルになる。"
+   ],
+   [
+    "snow|chart|coin",
+    "The growth is small at first, / but over many years, / the snowball gets bigger / and bigger.",
+    "最初の伸びは小さいが、長い年月をかけて、雪玉はどんどん大きくなる。"
+   ],
+   [
+    "dusk|clock|coin",
+    "That is why / starting early / often matters more / than starting big.",
+    "だからこそ、大きな額で始めるより、早く始めるほうが大事なことが多いのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "compound interest",
+    "複利"
+   ],
+   [
+    "earn",
+    "稼ぐ・得る"
+   ],
+   [
+    "amount",
+    "金額・量"
+   ],
+   [
+    "invest",
+    "投資する"
+   ],
+   [
+    "growth",
+    "成長・伸び"
+   ]
+  ],
+  "q": [
+   "If you invest $100 at 10% compound interest, how much do you have after two years?",
+   [
+    "$121",
+    "$120",
+    "$110",
+    "$200"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "x031",
+  "g": "money",
+  "t": "インフレでお金が縮む",
+  "sl": [
+   [
+    "paper|bowl|coin",
+    "Why does a bowl of ramen / cost more today / than it did / when your parents were young?",
+    "なぜラーメン一杯の値段は、親が若かった頃より今のほうが高いのだろう。"
+   ],
+   [
+    "city|chart|coin",
+    "The main reason is inflation: / the general rise in prices / over time.",
+    "主な理由はインフレ、つまり時間とともに物価全体が上がることだ。"
+   ],
+   [
+    "paper|coin|big:PRICES UP",
+    "When prices rise, / each yen or dollar / buys a little less / than it did before.",
+    "物価が上がると、1円や1ドルで買えるものが以前より少しずつ減っていく。"
+   ],
+   [
+    "paper|chart|coin",
+    "For example, / if prices rise / two percent a year / and your savings earn nothing, / your money slowly loses value.",
+    "たとえば物価が年2パーセント上がり、貯金に利息がまったくつかなければ、お金の価値は少しずつ下がっていく。"
+   ],
+   [
+    "dusk|chart|bulb",
+    "Many central banks / aim for low, stable inflation, / often around two percent, / rather than zero.",
+    "多くの中央銀行は、ゼロではなく、2パーセント前後の低く安定したインフレを目標にしている。"
+   ]
+  ],
+  "w": [
+   [
+    "cost",
+    "（費用が）かかる"
+   ],
+   [
+    "general",
+    "全般的な"
+   ],
+   [
+    "savings",
+    "貯金・預金"
+   ],
+   [
+    "value",
+    "価値"
+   ],
+   [
+    "stable",
+    "安定した"
+   ]
+  ],
+  "q": [
+   "What is inflation?",
+   [
+    "A fall in the number of banks",
+    "A type of loan",
+    "A drop in salaries",
+    "A general rise in prices over time"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "x032",
+  "g": "money",
+  "t": "卵を一つのカゴに盛るな",
+  "sl": [
+   [
+    "day|egg|bowl",
+    "\"Don't put all your eggs / in one basket.\" / This old saying / is also a key idea / in investing.",
+    "「すべての卵を一つのカゴに入れるな」。この古いことわざは、投資の重要な考え方でもある。"
+   ],
+   [
+    "day|egg|big:OOPS",
+    "If you carry all your eggs / in one basket / and drop it, / you lose everything at once.",
+    "すべての卵を一つのカゴで運んでいてそれを落とせば、一度に全部を失ってしまう。"
+   ],
+   [
+    "paper|chart|coin",
+    "In the same way, / if you invest all your money / in one company, / one bad event / can hurt you badly.",
+    "同じように、全財産を一つの会社に投資すると、たった一つの悪い出来事で大きな痛手を負いかねない。"
+   ],
+   [
+    "paper|chart|globe",
+    "Diversification means / spreading your money / across many companies, / industries and countries.",
+    "分散投資とは、お金を多くの会社や業種、国にまで分けて投資することだ。"
+   ],
+   [
+    "dusk|egg|chart",
+    "It does not remove risk completely, / but it reduces the damage / from any single failure.",
+    "リスクを完全になくすわけではないが、一つの失敗による損害を小さくできる。"
+   ]
+  ],
+  "w": [
+   [
+    "saying",
+    "ことわざ"
+   ],
+   [
+    "drop",
+    "落とす"
+   ],
+   [
+    "diversification",
+    "分散投資・多様化"
+   ],
+   [
+    "spread",
+    "分散させる・広げる"
+   ],
+   [
+    "reduce",
+    "減らす"
+   ]
+  ],
+  "q": [
+   "What does diversification mean?",
+   [
+    "Putting all your money in one company",
+    "Keeping money only in cash",
+    "Spreading money across many investments",
+    "Borrowing money to invest"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "x033",
+  "g": "money",
+  "t": "紙幣を最初に使った国",
+  "sl": [
+   [
+    "paper|coin|big:PAPER MONEY",
+    "Today, paper money / seems normal, / but for a long time, / people paid with metal coins.",
+    "今でこそ紙幣は当たり前に思えるが、長い間、人々は金属の硬貨で支払っていた。"
+   ],
+   [
+    "desert|coin|scroll",
+    "Heavy coins / were hard to carry / on long trips. / Merchants in China / needed a better solution.",
+    "重い硬貨は長旅で持ち運ぶのが大変だった。中国の商人たちは、もっとよい解決策を必要としていた。"
+   ],
+   [
+    "paper|scroll|big:1000s",
+    "Around the 11th century, / during the Song dynasty, / China began issuing / the world's first government paper money.",
+    "11世紀ごろ、宋の時代の中国は、世界初の政府発行の紙幣を出し始めた。"
+   ],
+   [
+    "sea|ship|scroll",
+    "Later, the traveler Marco Polo / was amazed to see people / using paper / instead of gold and silver.",
+    "のちに旅行家マルコ・ポーロは、人々が金や銀の代わりに紙を使っているのを見て驚いた。"
+   ],
+   [
+    "city|coin|laptop",
+    "Now money / is changing again, / from paper / to numbers on a screen.",
+    "そして今、お金は再び変わりつつある。紙から、画面上の数字へと。"
+   ]
+  ],
+  "w": [
+   [
+    "merchant",
+    "商人"
+   ],
+   [
+    "solution",
+    "解決策"
+   ],
+   [
+    "issue",
+    "発行する"
+   ],
+   [
+    "government",
+    "政府"
+   ],
+   [
+    "amazed",
+    "驚いた"
+   ]
+  ],
+  "q": [
+   "Where was government paper money first used?",
+   [
+    "Rome",
+    "China",
+    "England",
+    "Egypt"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "x034",
+  "g": "travel",
+  "t": "東への旅は時差ぼけがつらい",
+  "sl": [
+   [
+    "day|plane|globe",
+    "Many travelers notice / that jet lag feels worse / after flying east / than after flying west.",
+    "多くの旅行者は、西へ飛んだあとより東へ飛んだあとのほうが、時差ぼけがつらいと気づく。"
+   ],
+   [
+    "night|clock|heart",
+    "Your body has an internal clock / that runs on a cycle / of roughly 24 hours.",
+    "体には、約24時間の周期で動く体内時計がある。"
+   ],
+   [
+    "day|clock|big:24h+",
+    "For most people, / this natural cycle / is slightly longer than 24 hours, / so staying up later is easier.",
+    "ほとんどの人にとって、この自然な周期は24時間より少し長い。だから夜更かしのほうが楽なのだ。"
+   ],
+   [
+    "dusk|plane|sun",
+    "Flying west / makes your day longer, / which your body handles / fairly well.",
+    "西へ飛ぶと1日が長くなるが、体はこれにかなりうまく対応できる。"
+   ],
+   [
+    "night|plane|moon",
+    "Flying east / shortens your day, / forcing your body / to fall asleep earlier / than it wants to.",
+    "東へ飛ぶと1日が短くなり、体は望むより早く眠ることを強いられる。"
+   ],
+   [
+    "day|sun|big:TIP",
+    "One simple tip: / get sunlight in the morning / at your destination / to help reset your clock.",
+    "簡単なコツを一つ。到着地で朝の日光を浴びて、体内時計のリセットを助けよう。"
+   ]
+  ],
+  "w": [
+   [
+    "notice",
+    "気づく"
+   ],
+   [
+    "internal",
+    "内部の"
+   ],
+   [
+    "slightly",
+    "わずかに"
+   ],
+   [
+    "handle",
+    "対処する・扱う"
+   ],
+   [
+    "destination",
+    "目的地"
+   ]
+  ],
+  "q": [
+   "Why is flying east usually harder on your body?",
+   [
+    "It shortens your day",
+    "The planes are slower",
+    "The food is different",
+    "The air is colder"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "x035",
+  "g": "travel",
+  "t": "都市の中にある国",
+  "sl": [
+   [
+    "city|flag|big:SMALLEST",
+    "The smallest country / in the world / is completely surrounded / by a single city, Rome.",
+    "世界最小の国は、ローマという一つの都市に完全に囲まれている。"
+   ],
+   [
+    "city|crown|building",
+    "It is Vatican City, / home of the Pope / and the center / of the Roman Catholic Church.",
+    "それはバチカン市国。ローマ教皇が住み、ローマ・カトリック教会の中心となる国だ。"
+   ],
+   [
+    "city|pin|big:0.44 km²",
+    "It covers / only about 0.44 square kilometers, / about an eighth the size / of Central Park in New York.",
+    "面積はわずか約0.44平方キロメートル。ニューヨークのセントラルパークの約8分の1だ。"
+   ],
+   [
+    "city|building|palette",
+    "Yet it holds / world-famous treasures, / like Saint Peter's Basilica / and the Sistine Chapel.",
+    "それでも、サン・ピエトロ大聖堂やシスティーナ礼拝堂といった世界的な宝を抱えている。"
+   ],
+   [
+    "day|pin|flag",
+    "You can walk / across the entire country / in less than an hour, / with no passport check / at the border.",
+    "国全体を1時間もかからずに歩いて横断でき、国境でパスポートのチェックもない。"
+   ]
+  ],
+  "w": [
+   [
+    "surrounded",
+    "囲まれた"
+   ],
+   [
+    "completely",
+    "完全に"
+   ],
+   [
+    "treasure",
+    "宝"
+   ],
+   [
+    "entire",
+    "全体の"
+   ],
+   [
+    "border",
+    "国境・境界"
+   ]
+  ],
+  "q": [
+   "Which city surrounds Vatican City?",
+   [
+    "Paris",
+    "Milan",
+    "Madrid",
+    "Rome"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "x036",
+  "g": "tech",
+  "t": "本物の「バグ」",
+  "sl": [
+   [
+    "night|laptop|big:BUG",
+    "Programmers call errors / in their code \"bugs.\" / One famous story / involves a real insect.",
+    "プログラマーはコードの誤りを「バグ」と呼ぶ。ある有名な話には、本物の虫が登場する。"
+   ],
+   [
+    "paper|book|big:1947",
+    "In 1947, / engineers working on / the Harvard Mark II computer / found a moth / stuck inside a machine part.",
+    "1947年、ハーバード・マークIIというコンピューターで作業していた技術者たちが、機械部品の中に挟まった蛾を見つけた。"
+   ],
+   [
+    "paper|book|bee",
+    "They taped the moth / into their logbook / with a note: / \"First actual case / of bug being found.\"",
+    "彼らはその蛾を作業日誌にテープで貼り、「本物のバグが見つかった最初の事例」とメモした。"
+   ],
+   [
+    "day|book|bulb",
+    "The joke worked / because engineers / were already using \"bug\" / to mean a problem / in machines.",
+    "この冗談が通じたのは、技術者たちがすでに「バグ」を機械の不具合という意味で使っていたからだ。"
+   ],
+   [
+    "night|laptop|magnifier",
+    "Computer pioneer Grace Hopper / loved telling this story, / and the page with the moth / still exists today.",
+    "コンピューターの先駆者グレース・ホッパーはこの話を好んで語った。そして、蛾が貼られたそのページは今も残っている。"
+   ]
+  ],
+  "w": [
+   [
+    "involve",
+    "関係する・含む"
+   ],
+   [
+    "stuck",
+    "挟まった・動けない"
+   ],
+   [
+    "actual",
+    "実際の"
+   ],
+   [
+    "already",
+    "すでに"
+   ],
+   [
+    "pioneer",
+    "先駆者"
+   ]
+  ],
+  "q": [
+   "What did the engineers find inside the computer in 1947?",
+   [
+    "A mouse",
+    "A spider",
+    "A moth",
+    "A bee"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "x037",
+  "g": "tech",
+  "t": "キーボード配列は150年前から",
+  "sl": [
+   [
+    "day|laptop|big:QWERTY",
+    "Look at the top row / of letters on your keyboard: / Q, W, E, R, T, Y.",
+    "キーボードの文字の一番上の列を見てみよう。Q、W、E、R、T、Y。"
+   ],
+   [
+    "paper|book|clock",
+    "This layout / is about 150 years old. / It was designed / for mechanical typewriters / in the 1870s.",
+    "この配列は約150年前のものだ。1870年代に機械式タイプライターのために作られた。"
+   ],
+   [
+    "paper|scroll|chat",
+    "Christopher Latham Sholes, / an American inventor, / developed it / while improving his typewriter.",
+    "アメリカの発明家クリストファー・レイサム・ショールズが、自分のタイプライターを改良する中でこの配列を開発した。"
+   ],
+   [
+    "day|laptop|chart",
+    "Computers do not need / this old layout, / and other designs exist. / But millions of people / already know QWERTY.",
+    "コンピューターにこの古い配列は必要ないし、他の配列も存在する。しかし何百万人もの人が、すでにQWERTYに慣れている。"
+   ],
+   [
+    "night|laptop|bulb",
+    "So we keep using it, / a great example / of how habits / can outlive the technology / that created them.",
+    "だから私たちは使い続けている。習慣が、それを生んだ技術より長生きすることがあるという好例だ。"
+   ]
+  ],
+  "w": [
+   [
+    "layout",
+    "配置・レイアウト"
+   ],
+   [
+    "mechanical",
+    "機械式の"
+   ],
+   [
+    "inventor",
+    "発明家"
+   ],
+   [
+    "improve",
+    "改良する・改善する"
+   ],
+   [
+    "habit",
+    "習慣"
+   ]
+  ],
+  "q": [
+   "What was the QWERTY layout originally designed for?",
+   [
+    "Smartphones",
+    "Typewriters",
+    "Pianos",
+    "Early video games"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "x038",
+  "g": "tech",
+  "t": "強いパスワードは「長さ」",
+  "sl": [
+   [
+    "night|laptop|big:LENGTH",
+    "What makes a password strong? / Many people think / it's strange symbols, / but length matters a lot.",
+    "強いパスワードの条件は何だろう。変わった記号だと思う人が多いが、長さがとても重要だ。"
+   ],
+   [
+    "paper|laptop|dice",
+    "Each extra character / multiplies the number of guesses / an attacker must try.",
+    "文字が1つ増えるごとに、攻撃者が試さなければならない推測の数は何倍にもなる。"
+   ],
+   [
+    "paper|chart|big:4 WORDS",
+    "A phrase of several random words, / like \"purple river candle jump,\" / can be both strong / and easy to remember.",
+    "「purple river candle jump」のように、ランダムな単語をいくつか並べたフレーズは、強くて覚えやすい。"
+   ],
+   [
+    "night|laptop|magnifier",
+    "Just as important: / never reuse the same password / on different sites. / One leak could unlock them all.",
+    "同じくらい大事なのが、同じパスワードを別のサイトで使い回さないこと。一度の流出ですべてが開けられてしまうかもしれない。"
+   ],
+   [
+    "day|laptop|bulb",
+    "A password manager / can create and store / long, unique passwords, / so you only need / to remember one.",
+    "パスワード管理ツールなら、長くて他と重ならないパスワードを作って保存してくれるので、覚えるのは一つだけでいい。"
+   ]
+  ],
+  "w": [
+   [
+    "length",
+    "長さ"
+   ],
+   [
+    "character",
+    "文字"
+   ],
+   [
+    "attacker",
+    "攻撃者"
+   ],
+   [
+    "reuse",
+    "再利用する・使い回す"
+   ],
+   [
+    "unique",
+    "固有の・他にない"
+   ]
+  ],
+  "q": [
+   "According to the video, what matters a lot for a strong password?",
+   [
+    "Its length",
+    "Using your birthday",
+    "Using the same one everywhere",
+    "A single capital letter"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "x039",
+  "g": "food",
+  "t": "トマトは野菜？果物？裁判で決着",
+  "sl": [
+   [
+    "day|flower|big:FRUIT?",
+    "Is a tomato / a fruit or a vegetable? / In 1893, / the US Supreme Court / had to decide.",
+    "トマトは果物か、野菜か。1893年、アメリカの連邦最高裁判所がそれを決めることになった。"
+   ],
+   [
+    "paper|scroll|coin",
+    "At the time, / imported vegetables were taxed, / but imported fruits were not.",
+    "当時、輸入された野菜には税金がかかったが、輸入された果物にはかからなかった。"
+   ],
+   [
+    "paper|scroll|chat",
+    "A family of importers argued / that tomatoes were fruits, / so they should not / pay the tax.",
+    "ある輸入業者の一家は、トマトは果物なので税金を払う必要はないと主張した。"
+   ],
+   [
+    "paper|book|flower",
+    "Botanically, they were right: / a tomato develops from a flower / and contains seeds, / so it is a fruit.",
+    "植物学的には彼らが正しかった。トマトは花から育ち、種を含むので、果実なのだ。"
+   ],
+   [
+    "day|bowl|big:VEGETABLE",
+    "But the court ruled / that for tax purposes, / tomatoes are vegetables, / because people eat them with dinner, / not as dessert.",
+    "しかし裁判所は、トマトはデザートではなく食事と一緒に食べられるので、課税の上では野菜だと判断した。"
+   ]
+  ],
+  "w": [
+   [
+    "decide",
+    "決める"
+   ],
+   [
+    "import",
+    "輸入する"
+   ],
+   [
+    "tax",
+    "税金・課税する"
+   ],
+   [
+    "argue",
+    "主張する"
+   ],
+   [
+    "rule",
+    "判決を下す"
+   ]
+  ],
+  "q": [
+   "How did the court classify tomatoes for tax purposes?",
+   [
+    "As fruits",
+    "As flowers",
+    "As spices",
+    "As vegetables"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "x040",
+  "g": "food",
+  "t": "バナナはベリー、イチゴは違う",
+  "sl": [
+   [
+    "day|palm|big:BERRY?",
+    "In botany, / a banana is a berry, / but a strawberry is not. / How can that be?",
+    "植物学では、バナナはベリー（液果）だが、イチゴは違う。どういうことだろう。"
+   ],
+   [
+    "paper|flower|magnifier",
+    "Botanists define a berry / as a fruit that develops / from a single flower / with one ovary, / usually with several seeds inside.",
+    "植物学者はベリーを、子房が一つの一つの花から育ち、ふつう中にいくつかの種がある果実と定義している。"
+   ],
+   [
+    "day|palm|bowl",
+    "Bananas fit this definition. / So do grapes, tomatoes, / and even eggplants.",
+    "バナナはこの定義に当てはまる。ブドウやトマト、さらにはナスもそうだ。"
+   ],
+   [
+    "day|flower|heart",
+    "Strawberries, however, / grow from a flower / with many ovaries, / and the tiny dots / on the outside / are actually separate little fruits.",
+    "一方イチゴは、子房がたくさんある花から育ち、表面の小さな粒は、実はそれぞれが別の小さな果実なのだ。"
+   ],
+   [
+    "dusk|bowl|palm",
+    "So scientific names / do not always match / everyday language. / In the kitchen, / call them whatever you like!",
+    "つまり科学上の分類と日常の言葉は、いつも一致するとは限らない。台所では好きなように呼べばいい。"
+   ]
+  ],
+  "w": [
+   [
+    "define",
+    "定義する"
+   ],
+   [
+    "fit",
+    "当てはまる"
+   ],
+   [
+    "however",
+    "しかし・一方"
+   ],
+   [
+    "separate",
+    "別々の"
+   ],
+   [
+    "match",
+    "一致する"
+   ]
+  ],
+  "q": [
+   "Which of these is a berry in botany?",
+   [
+    "Strawberry",
+    "Raspberry",
+    "Banana",
+    "Cherry"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "x041",
+  "g": "music",
+  "t": "聞こえない作曲家ベートーヴェン",
+  "sl": [
+   [
+    "night|note|big:NINTH",
+    "One of the most famous / symphonies ever written / was composed by a man / who could barely hear.",
+    "史上最も有名な交響曲の一つは、ほとんど耳が聞こえない男によって作曲された。"
+   ],
+   [
+    "paper|note|scroll",
+    "Ludwig van Beethoven / began losing his hearing / in his late twenties.",
+    "ルートヴィヒ・ヴァン・ベートーヴェンは、20代後半から聴力を失い始めた。"
+   ],
+   [
+    "paper|note|heart",
+    "By the time he wrote / his Ninth Symphony, / he was almost completely deaf.",
+    "交響曲第9番を書いた頃には、ほとんど完全に耳が聞こえなくなっていた。"
+   ],
+   [
+    "night|note|big:1824",
+    "At its first performance in 1824, / when the music ended, / he could not hear / the audience's applause.",
+    "1824年の初演で音楽が終わったとき、彼には聴衆の拍手が聞こえなかった。"
+   ],
+   [
+    "night|note|chat",
+    "According to a famous story, / a singer turned him around / so he could see / the crowd cheering.",
+    "有名な逸話によると、歌手の一人が彼を振り向かせ、歓声を上げる観客の姿を見せたという。"
+   ],
+   [
+    "dusk|note|heart",
+    "Today, its \"Ode to Joy\" / is performed across Japan / every December, / often by huge choirs.",
+    "今では、その「歓喜の歌」は毎年12月に日本中で演奏され、大合唱団で歌われることも多い。"
+   ]
+  ],
+  "w": [
+   [
+    "compose",
+    "作曲する・構成する"
+   ],
+   [
+    "barely",
+    "ほとんど〜ない"
+   ],
+   [
+    "performance",
+    "公演・演奏"
+   ],
+   [
+    "audience",
+    "聴衆・観客"
+   ],
+   [
+    "according to",
+    "〜によると"
+   ]
+  ],
+  "q": [
+   "When did Beethoven begin losing his hearing?",
+   [
+    "As a small child",
+    "In his late twenties",
+    "In his sixties",
+    "After finishing the Ninth Symphony"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "x042",
+  "g": "music",
+  "t": "「ハッピーバースデー」の意外な歴史",
+  "sl": [
+   [
+    "day|note|big:HAPPY BIRTHDAY",
+    "\"Happy Birthday to You\" / is one of the most recognized / songs in the English language.",
+    "「ハッピー・バースデー・トゥー・ユー」は、英語で最もよく知られた歌の一つだ。"
+   ],
+   [
+    "paper|note|book",
+    "Its melody / comes from a song / called \"Good Morning to All,\" / published in 1893.",
+    "そのメロディーは、1893年に出版された「グッド・モーニング・トゥー・オール」という歌から来ている。"
+   ],
+   [
+    "paper|book|heart",
+    "It was written / by two sisters, / Mildred and Patty Hill, / for young children at school.",
+    "作ったのはミルドレッドとパティのヒル姉妹で、学校の幼い子どもたちのための歌だった。"
+   ],
+   [
+    "paper|coin|scroll",
+    "Later, a company claimed / it owned the copyright / to the birthday version / and collected fees / for decades.",
+    "のちにある会社が誕生日版の著作権を持っていると主張し、何十年も使用料を集めた。"
+   ],
+   [
+    "dusk|note|big:FREE",
+    "In 2015, / a US court decided / the company's claim was not valid, / and the song is now / free for everyone to use.",
+    "2015年、アメリカの裁判所はその会社の主張は無効だと判断し、今ではこの歌は誰でも自由に使える。"
+   ]
+  ],
+  "w": [
+   [
+    "recognize",
+    "認識する・それとわかる"
+   ],
+   [
+    "publish",
+    "出版する"
+   ],
+   [
+    "claim",
+    "主張する・主張"
+   ],
+   [
+    "copyright",
+    "著作権"
+   ],
+   [
+    "valid",
+    "有効な"
+   ]
+  ],
+  "q": [
+   "What was the original song called?",
+   [
+    "Good Morning to All",
+    "Happy Day",
+    "Hello, Children",
+    "A Song for Everyone"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "x043",
+  "g": "film",
+  "t": "映画がしゃべった日",
+  "sl": [
+   [
+    "night|film|big:1927",
+    "For about three decades, / movies had no recorded voices. / They were silent films.",
+    "約30年の間、映画には録音された声がなかった。無声映画だったのだ。"
+   ],
+   [
+    "night|film|note",
+    "Theaters often hired / live musicians / to play along / with the pictures.",
+    "映画館はよく生演奏の音楽家を雇い、映像に合わせて演奏させた。"
+   ],
+   [
+    "city|film|chat",
+    "Then, in 1927, / \"The Jazz Singer\" / became the first feature-length film / with synchronized singing and speech.",
+    "そして1927年、「ジャズ・シンガー」が、歌とせりふが映像と同期した初の長編映画となった。"
+   ],
+   [
+    "night|film|heart",
+    "Audiences were thrilled / to hear actors / speak from the screen.",
+    "観客は、スクリーンから俳優の声が聞こえることに大喜びした。"
+   ],
+   [
+    "dusk|film|chart",
+    "Within just a few years, / most studios had switched to sound, / and some silent stars / lost their careers.",
+    "ほんの数年のうちに、ほとんどの撮影所が音声付きに切り替わり、無声映画のスターの中には仕事を失う人もいた。"
+   ]
+  ],
+  "w": [
+   [
+    "hire",
+    "雇う"
+   ],
+   [
+    "feature-length",
+    "長編の"
+   ],
+   [
+    "synchronized",
+    "同期した"
+   ],
+   [
+    "thrilled",
+    "大喜びした・わくわくした"
+   ],
+   [
+    "career",
+    "職業人生・キャリア"
+   ]
+  ],
+  "q": [
+   "What did theaters often do during silent films?",
+   [
+    "Show only still pictures",
+    "Play recorded voices",
+    "Keep the lights on",
+    "Hire live musicians"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "x044",
+  "g": "film",
+  "t": "ハリウッドサインは広告だった",
+  "sl": [
+   [
+    "dusk|mountain|big:HOLLYWOOD",
+    "The famous Hollywood sign / in Los Angeles / did not start / as a symbol / of the movie industry.",
+    "ロサンゼルスの有名なハリウッドサインは、映画産業のシンボルとして始まったわけではない。"
+   ],
+   [
+    "day|mountain|big:HOLLYWOODLAND",
+    "It went up in 1923 / as an advertisement / for a new housing development / called \"Hollywoodland.\"",
+    "それは1923年、「ハリウッドランド」という新しい住宅地の広告として建てられた。"
+   ],
+   [
+    "night|mountain|bulb",
+    "Each letter was / about 15 meters tall, / and at night / the sign was lit up / with thousands of light bulbs.",
+    "文字はそれぞれ高さ約15メートルで、夜には何千個もの電球で照らされていた。"
+   ],
+   [
+    "paper|scroll|clock",
+    "The sign was only meant / to last / about a year and a half. / But it stayed.",
+    "この看板は、1年半ほどで撤去される予定だった。しかし、残り続けた。"
+   ],
+   [
+    "city|film|mountain",
+    "In 1949, / the last four letters / were removed, / and the sign became / a symbol of the film industry.",
+    "1949年に最後の4文字が取り外され、看板は映画産業のシンボルになった。"
+   ]
+  ],
+  "w": [
+   [
+    "symbol",
+    "象徴・シンボル"
+   ],
+   [
+    "industry",
+    "産業"
+   ],
+   [
+    "development",
+    "開発・造成地"
+   ],
+   [
+    "be meant to",
+    "〜することになっている"
+   ],
+   [
+    "remove",
+    "取り除く"
+   ]
+  ],
+  "q": [
+   "What was the Hollywood sign at first?",
+   [
+    "A movie studio logo",
+    "A city welcome sign",
+    "An ad for a housing development",
+    "A radio tower"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "x045",
+  "g": "sport",
+  "t": "マラソンが42.195kmの理由",
+  "sl": [
+   [
+    "day|flag|big:42.195 km",
+    "Why is a marathon / exactly 42.195 kilometers? / It's not a round number / at all.",
+    "マラソンはなぜぴったり42.195キロなのだろう。まったくきりのいい数字ではない。"
+   ],
+   [
+    "paper|scroll|pin",
+    "The race is named after / the Greek town of Marathon, / from an ancient legend / about a messenger.",
+    "この競技は、ある使者の古代の伝説にちなみ、ギリシャの町マラトンから名付けられた。"
+   ],
+   [
+    "day|flag|big:1908",
+    "Early Olympic marathons / were about 40 kilometers, / but the distance / changed from race to race.",
+    "初期のオリンピックのマラソンは約40キロだったが、距離は大会ごとに違っていた。"
+   ],
+   [
+    "city|crown|flag",
+    "At the 1908 London Olympics, / the course was set / to start at Windsor Castle / and finish / in front of the royal box.",
+    "1908年のロンドン五輪では、コースはウィンザー城をスタートし、ロイヤルボックスの前でゴールするように設定された。"
+   ],
+   [
+    "dusk|flag|clock",
+    "That route / measured 26 miles and 385 yards, / or 42.195 kilometers, / and it became / the official distance in 1921.",
+    "そのコースは26マイル385ヤード、つまり42.195キロで、1921年に公式の距離となった。"
+   ]
+  ],
+  "w": [
+   [
+    "exactly",
+    "正確に・ぴったり"
+   ],
+   [
+    "messenger",
+    "使者"
+   ],
+   [
+    "distance",
+    "距離"
+   ],
+   [
+    "route",
+    "経路・ルート"
+   ],
+   [
+    "official",
+    "公式の"
+   ]
+  ],
+  "q": [
+   "Where did the 1908 Olympic marathon start?",
+   [
+    "In Athens",
+    "At Windsor Castle",
+    "In Paris",
+    "In the town of Marathon"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "x046",
+  "g": "sport",
+  "t": "五輪の色の秘密",
+  "sl": [
+   [
+    "day|flag|big:5 RINGS",
+    "The Olympic flag / shows five rings / in blue, yellow, black, / green, and red, / on a white background.",
+    "オリンピックの旗には、白地に青・黄・黒・緑・赤の5つの輪が描かれている。"
+   ],
+   [
+    "paper|scroll|pin",
+    "It was designed in 1913 / by Pierre de Coubertin, / the founder of / the modern Olympic Games.",
+    "この旗は1913年、近代オリンピックの創始者ピエール・ド・クーベルタンによってデザインされた。"
+   ],
+   [
+    "day|globe|heart",
+    "The five rings / stand for / the five parts of the world, / joined together by sport.",
+    "5つの輪は、スポーツによって結ばれた世界の5つの地域を表している。"
+   ],
+   [
+    "day|flag|globe",
+    "And the six colors, / including the white, / were chosen / because every nation's flag / at that time / contained at least one of them.",
+    "そして白を含む6色が選ばれたのは、当時のどの国の旗にも、そのうち少なくとも1色が入っていたからだ。"
+   ],
+   [
+    "dusk|flag|globe",
+    "So in one simple design, / every competing country / could find / a piece of its own flag.",
+    "つまりこのシンプルなデザインの中に、参加するどの国も、自国の旗の一部を見つけることができたのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "background",
+    "背景"
+   ],
+   [
+    "founder",
+    "創設者"
+   ],
+   [
+    "stand for",
+    "〜を表す"
+   ],
+   [
+    "including",
+    "〜を含めて"
+   ],
+   [
+    "contain",
+    "含む"
+   ]
+  ],
+  "q": [
+   "Why were the six colors chosen?",
+   [
+    "Every nation's flag had at least one of them",
+    "They were Coubertin's favorite colors",
+    "They stand for six sports",
+    "They were the cheapest paints"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "x047",
+  "g": "environment",
+  "t": "酸素の半分は海から",
+  "sl": [
+   [
+    "forest|tree|big:HALF",
+    "Take a deep breath. / Where did that oxygen come from? / Not only from trees.",
+    "深呼吸してみよう。その酸素はどこから来たのだろう。木だけではない。"
+   ],
+   [
+    "sea|wave|sun",
+    "Scientists estimate / that about half / of the oxygen on Earth / is produced in the ocean.",
+    "科学者たちは、地球の酸素の約半分が海で作られていると推定している。"
+   ],
+   [
+    "sea|magnifier|atom",
+    "Most of it comes from phytoplankton, / tiny plant-like living things / too small to see / without a microscope.",
+    "その大部分は、顕微鏡なしでは見えないほど小さな植物のような生き物、植物プランクトンから生まれる。"
+   ],
+   [
+    "sea|sun|fish",
+    "Like land plants, / they use sunlight / to make food / and release oxygen / into the water and air.",
+    "陸の植物と同じように、植物プランクトンは日光を使って養分を作り、酸素を水中や大気中に放出する。"
+   ],
+   [
+    "sea|wave|heart",
+    "So protecting the ocean / is not only about fish. / It is also about / the air we breathe.",
+    "だから海を守ることは、魚のためだけではない。私たちが吸う空気のためでもあるのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "estimate",
+    "推定する"
+   ],
+   [
+    "produce",
+    "生産する・作り出す"
+   ],
+   [
+    "microscope",
+    "顕微鏡"
+   ],
+   [
+    "release",
+    "放出する・公開する"
+   ],
+   [
+    "breathe",
+    "呼吸する"
+   ]
+  ],
+  "q": [
+   "About how much of Earth's oxygen is produced in the ocean?",
+   [
+    "About 10 percent",
+    "Almost none",
+    "All of it",
+    "About half"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "x048",
+  "g": "environment",
+  "t": "アルミ缶は何度でも生まれ変わる",
+  "sl": [
+   [
+    "city|coin|big:ALUMINUM",
+    "An empty aluminum can / is not really trash. / It is a valuable resource.",
+    "空のアルミ缶は、実はごみではない。価値のある資源だ。"
+   ],
+   [
+    "desert|rock|bulb",
+    "Making aluminum / from raw ore / takes a huge amount / of electricity.",
+    "原料の鉱石からアルミニウムを作るには、膨大な量の電気が必要だ。"
+   ],
+   [
+    "paper|chart|bulb",
+    "Recycling an old can / uses only a small fraction / of that energy, / because the metal just needs / to be melted down.",
+    "古い缶のリサイクルなら、そのエネルギーのごく一部しか使わない。金属を溶かすだけでいいからだ。"
+   ],
+   [
+    "paper|spiral|infinity",
+    "Better still, / aluminum can be recycled / again and again / without losing its quality.",
+    "さらに良いことに、アルミニウムは品質を落とさずに何度でもリサイクルできる。"
+   ],
+   [
+    "city|bowl|heart",
+    "So when you put a can / in the right recycling bin, / you save energy / and keep a useful metal / in use.",
+    "だから缶を正しいリサイクル箱に入れれば、エネルギーを節約し、役に立つ金属を使い続けることができる。"
+   ]
+  ],
+  "w": [
+   [
+    "valuable",
+    "価値のある"
+   ],
+   [
+    "resource",
+    "資源"
+   ],
+   [
+    "raw",
+    "未加工の・生の"
+   ],
+   [
+    "fraction",
+    "ごく一部・分数"
+   ],
+   [
+    "quality",
+    "品質"
+   ]
+  ],
+  "q": [
+   "Why does recycling aluminum save energy?",
+   [
+    "Old cans are lighter",
+    "Recycling uses only solar power",
+    "The metal only needs to be melted down",
+    "Cans are washed in cold water"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "x049",
+  "g": "work",
+  "t": "催促メールを丁寧に書くコツ",
+  "sl": [
+   [
+    "city|laptop|chat",
+    "You sent an important email / a week ago, / and still no reply. / How do you follow up politely?",
+    "1週間前に大事なメールを送ったのに、まだ返事がない。どうすれば丁寧に催促できるだろう。"
+   ],
+   [
+    "paper|laptop|big:FOLLOW UP",
+    "Start gently: / \"I'm just following up / on my email / from last Tuesday.\"",
+    "まずは穏やかに。「先週火曜日のメールの件で、念のためご連絡しました」"
+   ],
+   [
+    "paper|laptop|clock",
+    "Then make it easy to answer. / Repeat the key question / in one short sentence.",
+    "次に、答えやすくすること。大事な質問を短い一文で繰り返そう。"
+   ],
+   [
+    "paper|laptop|chat",
+    "Add a clear deadline / with a reason: / \"Could you let me know / by Friday, / so we can finalize the schedule?\"",
+    "理由を添えて、はっきりした期限を加えよう。「日程を確定したいので、金曜日までにお知らせいただけますか」"
+   ],
+   [
+    "dusk|laptop|heart",
+    "Finally, thank them / for their time. / A friendly tone / usually works better / than a pushy one.",
+    "最後に、時間を割いてもらったことに感謝しよう。強引な口調より、感じのよい口調のほうがたいていうまくいく。"
+   ]
+  ],
+  "w": [
+   [
+    "follow up",
+    "追って連絡する・フォローする"
+   ],
+   [
+    "politely",
+    "丁寧に"
+   ],
+   [
+    "deadline",
+    "締め切り・期限"
+   ],
+   [
+    "finalize",
+    "確定させる・最終決定する"
+   ],
+   [
+    "tone",
+    "口調・調子"
+   ]
+  ],
+  "q": [
+   "What should you add to make your follow-up clear?",
+   [
+    "A long apology",
+    "A deadline with a reason",
+    "A joke",
+    "Several new questions"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "x050",
+  "g": "work",
+  "t": "角が立たない断り方",
+  "sl": [
+   [
+    "city|chat|big:NO",
+    "At work, / saying no / can feel uncomfortable. / But a polite \"no\" / can protect your time.",
+    "職場で「ノー」と言うのは気まずいものだ。でも丁寧な「ノー」は、あなたの時間を守ってくれる。"
+   ],
+   [
+    "paper|chat|heart",
+    "First, show appreciation: / \"Thank you / for thinking of me / for this project.\"",
+    "まず感謝を示そう。「このプロジェクトに私のことを考えてくださり、ありがとうございます」"
+   ],
+   [
+    "paper|chat|clock",
+    "Then decline / clearly and briefly: / \"Unfortunately, I won't be able / to take it on right now.\"",
+    "次に、はっきりと手短に断る。「あいにく、今はお引き受けできそうにありません」"
+   ],
+   [
+    "paper|chat|bulb",
+    "If possible, / offer an alternative: / \"I could help next month, / or maybe Ken could help instead.\"",
+    "できれば代わりの案を出そう。「来月なら手伝えます。あるいはケンさんが代わりに手伝えるかもしれません」"
+   ],
+   [
+    "dusk|chat|heart",
+    "A clear no / with a helpful alternative / keeps the relationship strong / and shows you are reliable.",
+    "役に立つ代案を添えたはっきりした「ノー」は、関係を良好に保ち、あなたが信頼できる人だと示してくれる。"
+   ]
+  ],
+  "w": [
+   [
+    "uncomfortable",
+    "気まずい・心地よくない"
+   ],
+   [
+    "appreciation",
+    "感謝"
+   ],
+   [
+    "decline",
+    "断る"
+   ],
+   [
+    "alternative",
+    "代案・代わりのもの"
+   ],
+   [
+    "reliable",
+    "信頼できる"
+   ]
+  ],
+  "q": [
+   "What is a good thing to offer when you decline a request?",
+   [
+    "An alternative",
+    "A long excuse",
+    "Money",
+    "Nothing at all"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "x051",
+  "g": "work",
+  "t": "CC と BCC の本当の意味",
+  "sl": [
+   [
+    "paper|laptop|big:CC / BCC",
+    "You see \"CC\" and \"BCC\" / in every email app. / But do you know / what they stand for?",
+    "どのメールアプリにも「CC」と「BCC」がある。でも、それが何の略か知っているだろうか。"
+   ],
+   [
+    "paper|scroll|big:CARBON",
+    "CC means \"carbon copy.\" / Long ago, / people made copies of letters / using thin carbon paper.",
+    "CCは「カーボンコピー」の略。昔は薄いカーボン紙を使って手紙の写しを作っていた。"
+   ],
+   [
+    "paper|laptop|chat",
+    "In email, / CC is for people / who should stay informed / but do not need to act.",
+    "メールでは、CCは状況を知っておくべきだが、対応する必要はない人に使う。"
+   ],
+   [
+    "paper|laptop|magnifier",
+    "BCC means \"blind carbon copy.\" / Other people / cannot see / who received a BCC.",
+    "BCCは「ブラインド・カーボンコピー」の略。BCCで誰が受け取ったかは、他の人には見えない。"
+   ],
+   [
+    "dusk|laptop|bulb",
+    "Use BCC / when emailing a large group / of people / who don't know each other, / to protect their addresses.",
+    "互いに面識のない大人数にメールを送るときは、アドレスを守るためにBCCを使おう。"
+   ]
+  ],
+  "w": [
+   [
+    "stand for",
+    "〜の略である・〜を表す"
+   ],
+   [
+    "copy",
+    "写し・コピー"
+   ],
+   [
+    "stay informed",
+    "情報を把握しておく"
+   ],
+   [
+    "act",
+    "行動する・対応する"
+   ],
+   [
+    "receive",
+    "受け取る"
+   ]
+  ],
+  "q": [
+   "What does BCC stand for?",
+   [
+    "Business contact copy",
+    "Basic carbon copy",
+    "Big company code",
+    "Blind carbon copy"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "x052",
+  "g": "work",
+  "t": "30秒で伝えるエレベーターピッチ",
+  "sl": [
+   [
+    "city|building|big:30 sec",
+    "Imagine you step into an elevator / with an important client. / You have only about 30 seconds.",
+    "大事な顧客とエレベーターに乗り合わせたと想像しよう。持ち時間は約30秒だけだ。"
+   ],
+   [
+    "city|building|chat",
+    "What would you say / about yourself or your idea? / That short speech / is called an \"elevator pitch.\"",
+    "自分自身や自分のアイデアについて、何を話すだろう。その短いスピーチを「エレベーターピッチ」と呼ぶ。"
+   ],
+   [
+    "paper|bulb|chat",
+    "A good pitch / often covers three points: / who you are, / what you do, / and why it matters / to the listener.",
+    "よいピッチは、たいてい3つのポイントを押さえている。自分が誰か、何をしているか、そしてそれが聞き手にとってなぜ大事か。"
+   ],
+   [
+    "paper|clock|chart",
+    "Keep it simple, / avoid jargon, / and end with / a clear next step, / like a meeting request.",
+    "シンプルにして専門用語を避け、会議の依頼のような、はっきりした次の一歩で締めくくろう。"
+   ],
+   [
+    "dusk|building|heart",
+    "Practice it out loud / until it feels natural. / You never know / when the elevator doors will open.",
+    "自然に言えるようになるまで、声に出して練習しよう。エレベーターの扉がいつ開くかは誰にもわからないのだから。"
+   ]
+  ],
+  "w": [
+   [
+    "client",
+    "顧客・依頼人"
+   ],
+   [
+    "pitch",
+    "売り込み・提案"
+   ],
+   [
+    "avoid",
+    "避ける"
+   ],
+   [
+    "jargon",
+    "専門用語"
+   ],
+   [
+    "practice",
+    "練習する"
+   ]
+  ],
+  "q": [
+   "How long is an elevator pitch in the video?",
+   [
+    "About 10 minutes",
+    "About an hour",
+    "About 30 seconds",
+    "About 2 seconds"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "x053",
+  "g": "work",
+  "t": "会議でよく聞く3つの決まり文句",
+  "sl": [
+   [
+    "city|chat|big:CIRCLE BACK",
+    "In English meetings, / you may hear phrases / that sound strange at first. / Here are three common ones.",
+    "英語の会議では、最初は妙に聞こえる言い回しを耳にすることがある。よく使われる3つを紹介しよう。"
+   ],
+   [
+    "paper|chat|spiral",
+    "\"Let's circle back to that\" means, / \"Let's discuss it later.\" / It's a polite way / to pause a topic.",
+    "「Let's circle back to that」は「それは後でまた話しましょう」という意味。話題をいったん保留にする丁寧な言い方だ。"
+   ],
+   [
+    "paper|chat|pin",
+    "\"Let's touch base next week\" means, / \"Let's have a quick check-in.\" / It is usually brief and informal.",
+    "「Let's touch base next week」は「来週ちょっと状況確認しましょう」という意味。たいてい短く、形式ばらないものだ。"
+   ],
+   [
+    "paper|chat|clock",
+    "And \"Let's take this offline\" means, / \"Let's talk about it / outside this meeting,\" / often with fewer people.",
+    "そして「Let's take this offline」は「この件は会議の外で話しましょう」という意味で、少人数で話すことが多い。"
+   ],
+   [
+    "dusk|chat|bulb",
+    "Learn these phrases, / and meetings will feel / much easier to follow.",
+    "これらの表現を覚えれば、会議の流れについていくのがずっと楽になる。"
+   ]
+  ],
+  "w": [
+   [
+    "phrase",
+    "言い回し・フレーズ"
+   ],
+   [
+    "discuss",
+    "話し合う"
+   ],
+   [
+    "pause",
+    "一時中断する"
+   ],
+   [
+    "brief",
+    "短い・簡潔な"
+   ],
+   [
+    "informal",
+    "形式ばらない"
+   ]
+  ],
+  "q": [
+   "What does \"Let's take this offline\" mean?",
+   [
+    "Let's turn off the internet",
+    "Let's talk about it outside this meeting",
+    "Let's cancel the project",
+    "Let's send it by email right now"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "x054",
+  "g": "learning",
+  "t": "忘却曲線と復習のタイミング",
+  "sl": [
+   [
+    "paper|chart|big:FORGET",
+    "You study new words today, / and by next week, / many of them have disappeared. / What happened?",
+    "今日新しい単語を勉強しても、来週には多くが消えてしまっている。何が起きたのだろう。"
+   ],
+   [
+    "paper|book|clock",
+    "In the 1880s, / German psychologist Hermann Ebbinghaus / tested his own memory / with lists of nonsense syllables.",
+    "1880年代、ドイツの心理学者ヘルマン・エビングハウスは、意味のない音節のリストを使って自分自身の記憶を調べた。"
+   ],
+   [
+    "paper|chart|big:CURVE",
+    "He found / that we forget quickly at first, / and then more slowly. / This is called the forgetting curve.",
+    "彼は、人は最初は急速に忘れ、その後はゆっくり忘れていくことを発見した。これを忘却曲線という。"
+   ],
+   [
+    "paper|chart|spiral",
+    "He also found / that reviewing material again / makes the memory last longer / each time.",
+    "また、内容を復習し直すたびに、記憶が長持ちするようになることも発見した。"
+   ],
+   [
+    "dusk|clock|book",
+    "So instead of cramming, / review new words / after one day, / then a few days, / then a week or two.",
+    "だから一夜漬けではなく、新しい単語は1日後、数日後、そして1〜2週間後と復習しよう。"
+   ]
+  ],
+  "w": [
+   [
+    "psychologist",
+    "心理学者"
+   ],
+   [
+    "memory",
+    "記憶"
+   ],
+   [
+    "review",
+    "復習する・見直す"
+   ],
+   [
+    "material",
+    "教材・資料"
+   ],
+   [
+    "cramming",
+    "詰め込み勉強・一夜漬け"
+   ]
+  ],
+  "q": [
+   "What did Ebbinghaus find about forgetting?",
+   [
+    "We forget quickly at first, then more slowly",
+    "We forget slowly at first, then quickly",
+    "We never forget nonsense words",
+    "Forgetting happens only at night"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "x055",
+  "g": "learning",
+  "t": "読み返すより自分をテストせよ",
+  "sl": [
+   [
+    "paper|book|magnifier",
+    "Many students study / by reading their notes / again and again. / It feels productive, / but it often isn't.",
+    "多くの学生は、ノートを何度も読み返して勉強する。はかどっている気がするが、そうでないことが多い。"
+   ],
+   [
+    "paper|bulb|chat",
+    "Research shows / that testing yourself / is one of the most effective / ways to remember.",
+    "研究によると、自分をテストすることは、最も効果的な記憶法の一つだ。"
+   ],
+   [
+    "paper|book|chart",
+    "When you try to recall information / without looking, / your brain strengthens / the path to that memory.",
+    "何も見ずに情報を思い出そうとすると、脳はその記憶への道筋を強くする。"
+   ],
+   [
+    "paper|laptop|chat",
+    "This is called / retrieval practice, / or the testing effect. / Even small quizzes work well.",
+    "これは想起練習、またはテスト効果と呼ばれる。小さなクイズでも十分に効果がある。"
+   ],
+   [
+    "dusk|book|heart",
+    "So after this video, / close your eyes / and try to say / today's five words / out loud.",
+    "だからこの動画を見終わったら、目を閉じて、今日の5つの単語を声に出して言ってみよう。"
+   ]
+  ],
+  "w": [
+   [
+    "productive",
+    "生産的な・はかどる"
+   ],
+   [
+    "effective",
+    "効果的な"
+   ],
+   [
+    "recall",
+    "思い出す"
+   ],
+   [
+    "strengthen",
+    "強化する"
+   ],
+   [
+    "retrieval",
+    "想起・取り出し"
+   ]
+  ],
+  "q": [
+   "According to the video, what is an effective way to remember?",
+   [
+    "Rereading notes many times",
+    "Highlighting everything",
+    "Studying only at night",
+    "Testing yourself"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "x056",
+  "g": "art",
+  "t": "盗まれて有名になったモナ・リザ",
+  "sl": [
+   [
+    "city|palette|big:1911",
+    "Today, the Mona Lisa / is probably / the most famous painting / in the world. / But it wasn't always.",
+    "今やモナ・リザは、おそらく世界で最も有名な絵画だ。しかし、昔からそうだったわけではない。"
+   ],
+   [
+    "city|building|palette",
+    "In 1911, / it was stolen / from the Louvre in Paris / by a man / who had worked there.",
+    "1911年、この絵はパリのルーヴル美術館から、そこで働いたことのある男に盗まれた。"
+   ],
+   [
+    "paper|scroll|magnifier",
+    "Newspapers around the world / covered the story, / and crowds came to the museum / just to see the empty wall.",
+    "世界中の新聞がこの事件を報じ、空っぽの壁を見るためだけに群衆が美術館に押し寄せた。"
+   ],
+   [
+    "day|palette|pin",
+    "Two years later, / the thief tried to sell it / in Florence, Italy, / and was caught.",
+    "2年後、泥棒はイタリアのフィレンツェでそれを売ろうとして捕まった。"
+   ],
+   [
+    "dusk|palette|heart",
+    "By the time it returned, / the Mona Lisa / had become a global star, / partly thanks to the theft.",
+    "戻ってきたときには、モナ・リザは世界的なスターになっていた。その一因は盗難事件だったのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "stolen",
+    "盗まれた（steal の過去分詞）"
+   ],
+   [
+    "cover",
+    "報道する・扱う"
+   ],
+   [
+    "crowd",
+    "群衆"
+   ],
+   [
+    "thief",
+    "泥棒"
+   ],
+   [
+    "theft",
+    "盗難・窃盗"
+   ]
+  ],
+  "q": [
+   "Where was the Mona Lisa found after it was stolen?",
+   [
+    "In London",
+    "In New York",
+    "In Florence, Italy",
+    "In the Louvre's basement"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "x057",
+  "g": "art",
+  "t": "寝ながら描いた？システィーナ礼拝堂",
+  "sl": [
+   [
+    "city|palette|big:SISTINE",
+    "Many people believe / that Michelangelo painted / the Sistine Chapel ceiling / lying on his back.",
+    "ミケランジェロはシスティーナ礼拝堂の天井画を、あおむけに寝て描いたと多くの人が信じている。"
+   ],
+   [
+    "city|building|palette",
+    "In fact, / he mostly painted standing up, / on a wooden platform / he designed himself.",
+    "実際には、彼は自分で設計した木の足場の上で、ほとんど立ったまま描いていた。"
+   ],
+   [
+    "paper|scroll|book",
+    "He even wrote / a funny poem / about the pain / of bending backward / with his face toward the ceiling.",
+    "彼は、顔を天井に向けて体を後ろに反らす苦しさについて、ユーモラスな詩まで書いている。"
+   ],
+   [
+    "day|clock|palette",
+    "The work took / about four years, / from 1508 to 1512, / and covers hundreds of square meters.",
+    "作業は1508年から1512年までの約4年かかり、その面積は数百平方メートルに及ぶ。"
+   ],
+   [
+    "dusk|palette|heart",
+    "Interestingly, Michelangelo / thought of himself / mainly as a sculptor, / not a painter.",
+    "面白いことに、ミケランジェロは自分のことを、画家ではなく主に彫刻家だと考えていた。"
+   ]
+  ],
+  "w": [
+   [
+    "ceiling",
+    "天井"
+   ],
+   [
+    "platform",
+    "足場・台"
+   ],
+   [
+    "bend",
+    "曲げる・反らす"
+   ],
+   [
+    "mainly",
+    "主に"
+   ],
+   [
+    "sculptor",
+    "彫刻家"
+   ]
+  ],
+  "q": [
+   "How did Michelangelo mostly paint the ceiling?",
+   [
+    "Lying on his back",
+    "Standing on a wooden platform",
+    "Sitting on the floor",
+    "Hanging from ropes"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "x058",
+  "g": "words",
+  "t": "招待状の RSVP って何？",
+  "sl": [
+   [
+    "paper|scroll|big:RSVP",
+    "At the bottom of an invitation, / you may see four letters: / R, S, V, P.",
+    "招待状のいちばん下に、R・S・V・Pという4文字を見かけることがある。"
+   ],
+   [
+    "paper|flag|chat",
+    "They come from French: / \"Répondez s'il vous plaît,\" / which means / \"Please reply.\"",
+    "これはフランス語の「Répondez s'il vous plaît」から来ていて、「お返事をお願いします」という意味だ。"
+   ],
+   [
+    "paper|scroll|clock",
+    "So RSVP asks you / to tell the host / whether you will come / or not.",
+    "つまりRSVPは、出席するかどうかを主催者に伝えるよう求めているのだ。"
+   ],
+   [
+    "paper|chat|heart",
+    "The host needs to know / how many people to expect, / for food, seats, and planning.",
+    "主催者は、料理や席の準備のために、何人来るかを知っておく必要がある。"
+   ],
+   [
+    "dusk|scroll|clock",
+    "Reply by the date given, / even if your answer is no. / Fun fact: / \"Please RSVP\" is repetitive, / since RSVP already says please.",
+    "たとえ欠席でも、指定の日までに返事をしよう。ちなみに「Please RSVP」は重複表現だ。RSVPにすでに「お願いします」が含まれているからだ。"
+   ]
+  ],
+  "w": [
+   [
+    "invitation",
+    "招待状"
+   ],
+   [
+    "reply",
+    "返事をする"
+   ],
+   [
+    "whether",
+    "〜かどうか"
+   ],
+   [
+    "expect",
+    "見込む・予想する"
+   ],
+   [
+    "repetitive",
+    "繰り返しの・重複した"
+   ]
+  ],
+  "q": [
+   "What does RSVP ask you to do?",
+   [
+    "Reply to the invitation",
+    "Bring a gift",
+    "Wear formal clothes",
+    "Arrive early"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "x059",
+  "g": "words",
+  "t": "サラリーと塩",
+  "sl": [
+   [
+    "paper|coin|big:SALARY",
+    "Every month, / millions of people receive a salary, / but the word itself / hides a surprising ingredient: salt.",
+    "毎月、何百万もの人が給料（サラリー）を受け取るが、その言葉自体に意外な材料が隠れている。塩だ。"
+   ],
+   [
+    "paper|scroll|bowl",
+    "It comes from / the Latin word \"salarium,\" / which is related to \"sal,\" / the Latin word for salt.",
+    "この言葉はラテン語の「サラリウム」から来ていて、それは塩を意味するラテン語「サル」と関係がある。"
+   ],
+   [
+    "sea|bowl|fish",
+    "In the ancient world, / salt was very valuable. / It was used / to preserve food / like meat and fish.",
+    "古代の世界では、塩はとても貴重だった。肉や魚などの食べ物を保存するのに使われたのだ。"
+   ],
+   [
+    "paper|magnifier|scroll",
+    "Some say / Roman soldiers were paid in salt, / but historians are not sure. / The exact connection remains a mystery.",
+    "ローマの兵士は塩で給料を受け取っていたという説もあるが、歴史家も確信は持てていない。正確なつながりは謎のままだ。"
+   ],
+   [
+    "dusk|coin|heart",
+    "Still, the expression / \"worth your salt\" / means good at your job, / and worth what you are paid.",
+    "それでも「worth your salt」という表現は、仕事ができて、給料に見合う価値があるという意味で使われている。"
+   ]
+  ],
+  "w": [
+   [
+    "receive",
+    "受け取る"
+   ],
+   [
+    "ingredient",
+    "材料・成分"
+   ],
+   [
+    "preserve",
+    "保存する"
+   ],
+   [
+    "historian",
+    "歴史家"
+   ],
+   [
+    "remain",
+    "〜のままである"
+   ]
+  ],
+  "q": [
+   "Which Latin word is \"salary\" related to?",
+   [
+    "Sol, meaning sun",
+    "Sala, meaning room",
+    "Solus, meaning alone",
+    "Sal, meaning salt"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "x060",
+  "g": "words",
+  "t": "clue の語源は糸玉",
+  "sl": [
+   [
+    "paper|magnifier|big:CLUE",
+    "Detectives look for clues. / But the word \"clue\" / originally meant / a ball of thread.",
+    "探偵は手がかり（clue）を探す。しかしclueという言葉は、もともと「糸玉」を意味していた。"
+   ],
+   [
+    "paper|scroll|spiral",
+    "The idea comes from / an ancient Greek myth / about the hero Theseus / and a deadly maze / called the Labyrinth.",
+    "この考えは、英雄テセウスと、ラビリンスと呼ばれる恐ろしい迷宮をめぐる古代ギリシャ神話に由来する。"
+   ],
+   [
+    "night|spiral|crown",
+    "Inside the maze / lived a monster, / the Minotaur. / Many who entered / never came out.",
+    "迷宮の中には怪物ミノタウロスが住んでいた。入った者の多くは二度と出てこなかった。"
+   ],
+   [
+    "night|spiral|heart",
+    "Princess Ariadne / gave Theseus a ball of thread. / He unrolled it as he walked, / and followed it back out.",
+    "王女アリアドネはテセウスに糸玉を渡した。彼は歩きながら糸をほどき、その糸をたどって外へ戻った。"
+   ],
+   [
+    "paper|magnifier|book",
+    "So a \"clue\" / became anything / that guides you / through a difficult problem.",
+    "こうして「clue」は、難しい問題を解く道しるべとなるもの全般を指すようになった。"
+   ],
+   [
+    "dusk|spiral|chat",
+    "So if you \"have no clue,\" / you are, in a way, / still lost in the maze.",
+    "だから「have no clue（さっぱりわからない）」なら、あなたはある意味、まだ迷宮の中で迷っているのだ。"
+   ]
+  ],
+  "w": [
+   [
+    "detective",
+    "探偵・刑事"
+   ],
+   [
+    "originally",
+    "もともと"
+   ],
+   [
+    "ancient",
+    "古代の"
+   ],
+   [
+    "follow",
+    "たどる・従う"
+   ],
+   [
+    "guide",
+    "導く・案内する"
+   ]
+  ],
+  "q": [
+   "What did the word \"clue\" originally mean?",
+   [
+    "A secret letter",
+    "A map",
+    "A ball of thread",
+    "A key"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "x061",
+  "g": "daily",
+  "t": "あくびはうつる",
+  "sl": [
+   [
+    "night|moon|big:YAWN",
+    "Try this: / think about yawning / for a few seconds. / Did you just yawn?",
+    "試してみよう。数秒間、あくびのことを考えてみて。今、あくびが出なかった？"
+   ],
+   [
+    "day|chat|heart",
+    "Yawning is famously contagious. / Seeing, hearing, / or even reading about a yawn / can make you yawn too.",
+    "あくびがうつるのはよく知られている。見たり、聞いたり、あくびについて読んだりするだけでも、あくびが出ることがある。"
+   ],
+   [
+    "day|heart|chat",
+    "Some studies suggest / we catch yawns more easily / from family and friends / than from strangers.",
+    "ある研究によると、あくびは他人よりも家族や友人からのほうがうつりやすいという。"
+   ],
+   [
+    "forest|tree|heart",
+    "Contagious yawning / has also been seen in chimpanzees, / and some studies suggest / dogs can catch yawns / from humans too.",
+    "あくびの伝染はチンパンジーでも見られ、犬が人間からあくびをうつされることがあるという研究もある。"
+   ],
+   [
+    "dusk|moon|bulb",
+    "Scientists still debate / exactly why we yawn. / But if you yawned / while watching this, / you're not alone.",
+    "なぜあくびをするのか、科学者たちは今も議論している。でも、この動画を見ながらあくびをしたなら、あなただけではない。"
+   ]
+  ],
+  "w": [
+   [
+    "contagious",
+    "伝染する・うつりやすい"
+   ],
+   [
+    "famously",
+    "よく知られているように"
+   ],
+   [
+    "suggest",
+    "示唆する"
+   ],
+   [
+    "stranger",
+    "見知らぬ人"
+   ],
+   [
+    "debate",
+    "議論する"
+   ]
+  ],
+  "q": [
+   "According to some studies, who do we catch yawns from most easily?",
+   [
+    "Strangers",
+    "Family and friends",
+    "Only children",
+    "People on TV"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "x062",
+  "g": "daily",
+  "t": "2分ルールで小さな用事を片づける",
+  "sl": [
+   [
+    "day|clock|big:2 MIN",
+    "Do you have / a long list of small tasks / you keep putting off? / Try the two-minute rule.",
+    "先延ばしにしている小さな用事が山ほどあるなら、「2分ルール」を試してみよう。"
+   ],
+   [
+    "paper|book|clock",
+    "It comes from / productivity expert David Allen, / author of the book / \"Getting Things Done.\"",
+    "これは、『Getting Things Done』の著者で生産性の専門家、デビッド・アレンの考え方だ。"
+   ],
+   [
+    "day|clock|chat",
+    "The rule is simple: / if a task takes / less than two minutes, / do it right away.",
+    "ルールは簡単。2分もかからない用事なら、すぐにやってしまうことだ。"
+   ],
+   [
+    "day|laptop|bowl",
+    "Reply to that short email. / Wash that one bowl. / File that document. / Don't write it on a list.",
+    "あの短いメールに返信する。あの器を一つ洗う。あの書類をファイルする。リストに書き込むのはやめよう。"
+   ],
+   [
+    "paper|chart|clock",
+    "Tracking a tiny task / often takes more energy / than simply doing it.",
+    "小さな用事を管理し続けるほうが、さっさと済ませるより手間がかかることが多い。"
+   ],
+   [
+    "dusk|heart|sun",
+    "Small wins / clear your mind / and your desk, / leaving more focus / for the big work.",
+    "小さな達成が頭と机をすっきりさせ、大きな仕事のための集中力を残してくれる。"
+   ]
+  ],
+  "w": [
+   [
+    "put off",
+    "先延ばしにする"
+   ],
+   [
+    "productivity",
+    "生産性"
+   ],
+   [
+    "right away",
+    "すぐに"
+   ],
+   [
+    "document",
+    "書類・文書"
+   ],
+   [
+    "focus",
+    "集中・集中力"
+   ]
+  ],
+  "q": [
+   "What does the two-minute rule say?",
+   [
+    "Do tasks that take under two minutes right away",
+    "Rest for two minutes every hour",
+    "Read for two minutes before bed",
+    "Answer every email within two minutes"
+   ],
+   0
+  ]
+ }
+]

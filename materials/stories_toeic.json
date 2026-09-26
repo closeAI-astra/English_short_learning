@@ -1,0 +1,602 @@
+[
+ {
+  "key": "relocation",
+  "g": "work",
+  "title": "オフィス移転の落とし穴",
+  "level": "B1–B2",
+  "scene": "city|building|pin",
+  "paras": [
+   [
+    "Last month, the staff at Harbor Line Logistics received an announcement from their director. The company would move its office from the busy city center to a new building near the river in early October. The new space was larger, the rent was lower, and every desk would have a view of the water. Most people were pleased, but Keiko Tanaka, who managed the front desk, noticed a problem almost immediately.",
+    "先月、ハーバーライン・ロジスティクスの社員は、部長から一通のお知らせを受け取った。会社は10月初旬に、にぎやかな都心から川沿いの新しいビルへオフィスを移転するという。新しいスペースは広く、賃料は安く、どの席からも川が見えるということだった。ほとんどの社員は喜んだが、受付を担当するタナカ・ケイコは、すぐにある問題に気づいた。"
+   ],
+   [
+    "The announcement did not mention how visitors would reach the new office. Many of the company's clients came by train, and the new building was a twenty-minute walk from the nearest station. Keiko also realized that the printed brochures, business cards, and invoice templates all showed the old address. If nobody updated them, payments and deliveries could easily go to the wrong place.",
+    "お知らせには、来客が新しいオフィスにどうやって来ればよいかが書かれていなかった。会社の顧客の多くは電車で来ていたが、新しいビルは最寄り駅から徒歩20分の場所にあった。さらにケイコは、印刷済みのパンフレット、名刺、請求書のひな形がすべて旧住所のままであることにも気づいた。誰も更新しなければ、支払いや配達が簡単に間違った場所へ届いてしまうおそれがあった。"
+   ],
+   [
+    "Rather than just complaining, Keiko made a list of everything that would need to change. She attached it to an email and sent it to her supervisor, Daniel, with a short note. In the note, she explained which items were urgent and which could wait until after the move. Daniel replied the same afternoon and asked her to present the list at the next team meeting.",
+    "ケイコはただ不満を言う代わりに、変更が必要なものをすべてリストにまとめた。彼女はそれをメールに添付し、短いメモを添えて上司のダニエルに送った。メモでは、どの項目が急ぎで、どれが移転後まで待てるかを説明した。ダニエルはその日の午後に返信し、次のチームミーティングでそのリストを発表するよう彼女に頼んだ。"
+   ],
+   [
+    "At the meeting, several colleagues added their own concerns. The sales team was worried about an important client presentation scheduled for the first week in the new office. The IT staff pointed out that the internet connection might not be ready on the first day. After some discussion, the team agreed to postpone the presentation by one week and hold it at the client's office instead.",
+    "会議では、何人かの同僚が自分たちの懸念を付け加えた。営業チームは、新オフィスでの最初の週に予定されている重要な顧客向けプレゼンテーションを心配していた。IT担当者は、初日にはインターネット回線が使えないかもしれないと指摘した。話し合いの末、チームはプレゼンテーションを1週間延期し、代わりに顧客のオフィスで行うことで合意した。"
+   ],
+   [
+    "Keiko also suggested a simple solution for visitors. The company could provide a complimentary shuttle bus from the station during the first month. Daniel requested an estimate from a local bus company, and the cost turned out to be much lower than he had expected. The director approved the plan within two days.",
+    "ケイコは来客向けの簡単な解決策も提案した。最初の1か月間、駅から無料のシャトルバスを用意してはどうかというのだ。ダニエルが地元のバス会社に見積もりを依頼すると、費用は予想よりずっと安かった。部長は2日のうちにその計画を承認した。"
+   ],
+   [
+    "The move took place over a weekend. On Monday morning, a few boxes were still unopened and one printer refused to work, but the phones and the internet were running. The new business cards arrived on Wednesday, and the updated invoice template was sent to every client by the end of the week.",
+    "引っ越し作業は週末に行われた。月曜の朝、いくつかの箱はまだ開けられておらず、プリンター1台は動かなかったが、電話とインターネットは使えていた。新しい名刺は水曜日に届き、更新した請求書のひな形はその週のうちに全顧客へ送られた。"
+   ],
+   [
+    "A month later, Daniel reviewed the shuttle service. Fewer visitors were using it than expected, because many clients now preferred online meetings. Instead of cancelling it immediately, he reduced it to three days a week and asked the front desk to collect feedback. Keiko thought this was a sensible choice, since the goal had never been the bus itself but making the new office easy to visit.",
+    "1か月後、ダニエルはシャトルバスの運行を見直した。多くの顧客が今ではオンライン会議を好むため、利用する来客は予想より少なかった。彼はすぐに廃止するのではなく、運行を週3日に減らし、受付に利用者の意見を集めるよう頼んだ。目的はバスそのものではなく新しいオフィスを訪れやすくすることだったので、ケイコはこれを賢明な判断だと思った。"
+   ]
+  ],
+  "qs": [
+   [
+    "What problem did Keiko notice first?",
+    [
+     "The new office had no internet connection.",
+     "The announcement did not explain how visitors would get to the office.",
+     "The rent at the new building was too high."
+    ],
+    1
+   ],
+   [
+    "Why was the client presentation postponed?",
+    [
+     "The client asked to cancel it.",
+     "Keiko had not finished her list.",
+     "The internet connection might not be ready in the new office."
+    ],
+    2
+   ],
+   [
+    "In paragraph 5, the word \"complimentary\" is closest in meaning to",
+    [
+     "free of charge",
+     "polite",
+     "optional"
+    ],
+    0
+   ],
+   [
+    "What can be inferred about Daniel?",
+    [
+     "He did not trust Keiko's suggestions.",
+     "He adjusts services based on how they are actually used.",
+     "He wanted to stop the shuttle bus from the beginning."
+    ],
+    1
+   ]
+  ]
+ },
+ {
+  "key": "shipment",
+  "g": "work",
+  "title": "部品の納品遅れ",
+  "level": "B1–B2",
+  "scene": "sea|ship|clock",
+  "paras": [
+   [
+    "Marco Silva works in customer service at Brightwell, a small company that sells coffee machines online. Every autumn, the company launches a special model, and many customers place orders weeks in advance. This year, more than four hundred people had already paid for the new machine by the end of August.",
+    "マルコ・シルヴァは、コーヒーメーカーをオンラインで販売する小さな会社ブライトウェルの顧客サービス部門で働いている。毎年秋、会社は特別モデルを発売し、多くの客が数週間前から注文する。今年は8月末までに、すでに400人以上が新しいマシンの代金を支払っていた。"
+   ],
+   [
+    "On a Tuesday morning, Marco received a message from the purchasing department. The supplier that made the glass water tanks had reported a problem at its factory. A machine on its production line had broken down, and the shipment would arrive at least three weeks late. Without the tanks, none of the coffee machines could be completed.",
+    "ある火曜日の朝、マルコは購買部からメッセージを受け取った。ガラス製の水タンクを製造している仕入れ先が、工場で問題が起きたと報告してきたのだ。生産ラインの機械が故障し、荷物の到着は少なくとも3週間遅れる見込みだった。タンクがなければ、コーヒーメーカーは1台も完成させられない。"
+   ],
+   [
+    "Marco's first thought was to wait until the new delivery date was confirmed. However, his manager, Priya, disagreed. She pointed out that customers were expecting their machines in two weeks, and silence would only make them more anxious. It was better to tell them what the company knew now, even if some details were still uncertain.",
+    "マルコが最初に考えたのは、新しい納期が確定するまで待つことだった。しかし、上司のプリヤは反対した。客は2週間後に届くと思っているので、黙っていれば不安を強めるだけだと彼女は指摘した。まだ不確かな点があっても、今わかっていることを伝えるほうがよいというのだ。"
+   ],
+   [
+    "Together they wrote an email to every customer who had ordered the model. It explained the reason for the delay, gave an estimated shipping date, and apologized for the inconvenience. It also offered two options. Customers could receive a full refund, or they could keep their order and receive a complimentary bag of coffee beans with the machine.",
+    "二人は協力して、そのモデルを注文した客全員に送るメールを書いた。メールでは遅れの理由を説明し、発送予定日の見込みを示し、迷惑をかけたことを謝罪した。さらに、二つの選択肢も示した。客は全額返金を受けるか、注文をそのまま続けてマシンと一緒に無料のコーヒー豆一袋を受け取るかを選べた。"
+   ],
+   [
+    "Marco expected many angry replies, but most responses were calm. Only about thirty customers asked for a refund. Several people thanked the company for being honest, and one customer wrote that she would rather wait for a good machine than receive a poor one quickly.",
+    "マルコは怒りの返信がたくさん来ると予想していたが、ほとんどの反応は落ち着いていた。返金を求めた客は30人ほどにすぎなかった。何人かは正直に知らせてくれたことに感謝し、ある客は、質の悪いものを早く受け取るより良いマシンを待つほうがいいと書いてきた。"
+   ],
+   [
+    "Meanwhile, the purchasing team checked its inventory and found enough tanks in the warehouse for about fifty machines. Priya decided to send these machines first to customers who had ordered them as gifts. Marco called each of those customers to confirm their delivery address.",
+    "その間に購買チームが在庫を確認すると、倉庫にはおよそ50台分のタンクがあった。プリヤは、これらのマシンを贈り物として注文した客に優先して送ることにした。マルコはそれらの客一人ひとりに電話をかけ、配達先の住所を確認した。"
+   ],
+   [
+    "The remaining tanks arrived eighteen days later, slightly earlier than the estimate. When the team reviewed the situation afterwards, they agreed on a new rule. Customers would be informed of any serious delay within one working day, even before every answer was available. Marco also asked the purchasing department to find a second supplier for the glass tanks.",
+    "残りのタンクは18日後に届き、見込みよりわずかに早かった。後で状況を振り返ったとき、チームは新しいルールに合意した。深刻な遅れがあれば、すべての答えがそろう前であっても、1営業日以内に客に知らせるというものだ。マルコはさらに、ガラスタンクの二つ目の仕入れ先を探すよう購買部に頼んだ。"
+   ]
+  ],
+  "qs": [
+   [
+    "What caused the delay?",
+    [
+     "A mistake in customer addresses",
+     "A broken machine at the supplier's factory",
+     "A shortage of coffee beans"
+    ],
+    1
+   ],
+   [
+    "Why did Priya want to contact customers right away?",
+    [
+     "She thought silence would make customers more worried.",
+     "She wanted to sell more coffee beans.",
+     "The supplier had asked her to do so."
+    ],
+    0
+   ],
+   [
+    "In paragraph 6, the word \"inventory\" is closest in meaning to",
+    [
+     "a list of customer complaints",
+     "a schedule of deliveries",
+     "the goods a company has in stock"
+    ],
+    2
+   ],
+   [
+    "What does Marco's final request suggest?",
+    [
+     "He plans to stop selling coffee machines.",
+     "He wants to reduce the risk of depending on one supplier.",
+     "He was unhappy with Priya's decisions."
+    ],
+    1
+   ]
+  ]
+ },
+ {
+  "key": "hiring",
+  "g": "work",
+  "title": "週末スタッフの採用",
+  "level": "B1–B2",
+  "scene": "city|book|chat",
+  "paras": [
+   [
+    "Olivia manages a small bookstore called Riverside Books, which is busiest on weekends. When one of her part-time staff moved to another city, she needed someone new for Saturdays and Sundays. She posted an advertisement on the store's website and set a deadline of two weeks for applications.",
+    "オリビアはリバーサイド・ブックスという小さな書店の店長で、店は週末に最も忙しくなる。アルバイトの一人が別の町へ引っ越したため、土日に働く新しい人が必要になった。彼女は店のウェブサイトに求人広告を掲載し、応募の締め切りを2週間後に設定した。"
+   ],
+   [
+    "The advertisement asked applicants to attach a résumé and write a few sentences about a book they had recently enjoyed. Olivia received twenty-three applications, far more than she had expected. Some applicants had years of experience in retail, while others were students who had never had a job before.",
+    "広告では、応募者に履歴書を添付し、最近楽しんだ本について数行書くよう求めた。オリビアのもとには23件の応募が届き、予想をはるかに上回った。小売業で何年も経験を積んだ応募者もいれば、一度も働いたことのない学生もいた。"
+   ],
+   [
+    "At first, Olivia planned to interview only the most experienced people. However, when she read the short paragraphs about books, she noticed something interesting. Several of the experienced applicants had written only one line, while a university student named Kenji had written a thoughtful description that made her want to read the book herself.",
+    "最初、オリビアは最も経験豊富な人だけを面接するつもりだった。しかし、本についての短い文章を読むと、興味深いことに気づいた。経験者の何人かは1行しか書いていなかったが、ケンジという大学生は、彼女自身もその本を読みたくなるような丁寧な紹介文を書いていた。"
+   ],
+   [
+    "She decided to invite five candidates for interviews, including Kenji and two people with retail experience. Each interview lasted about thirty minutes and included a short practical task. Candidates were asked to help a customer who was looking for a birthday present for a ten-year-old child. Olivia played the role of the customer.",
+    "彼女は、ケンジと小売経験のある2人を含む5人の候補者を面接に呼ぶことにした。面接はそれぞれ30分ほどで、短い実技課題も含まれていた。候補者は、10歳の子どもへの誕生日プレゼントを探している客の手助けをするよう求められた。客の役はオリビアが演じた。"
+   ],
+   [
+    "One experienced candidate quickly recommended the store's best-selling title without asking any questions. Kenji, on the other hand, asked what the child was interested in and whether the child preferred pictures or longer stories. He then suggested two books and explained why each one might suit the child.",
+    "ある経験者の候補者は、何も質問せずにすぐ店のベストセラーを勧めた。一方ケンジは、その子が何に興味を持っているか、絵の多い本と長い物語のどちらが好きかを尋ねた。そのうえで2冊を提案し、それぞれがなぜその子に合いそうかを説明した。"
+   ],
+   [
+    "Olivia was impressed, but she also had a concern. Kenji had never used a cash register, and the store could be very crowded on Saturday afternoons. She discussed the situation with her assistant manager, who suggested a solution. Kenji could work alongside an experienced staff member for his first three weekends until he felt confident.",
+    "オリビアは感心したが、気がかりな点もあった。ケンジはレジを使ったことがなく、土曜の午後の店はとても混み合うことがある。彼女が副店長に相談すると、副店長は解決策を提案した。最初の3回の週末は、ケンジが自信を持てるまで経験のあるスタッフと一緒に働けばよいというのだ。"
+   ],
+   [
+    "Olivia offered Kenji the position, and he accepted it the next day. She also sent polite emails to the other candidates, thanking them for their time. Two months later, Kenji was handling the register without difficulty, and several regular customers had started asking him for recommendations. Olivia realized that skills could be taught, but genuine interest in customers was much harder to train.",
+    "オリビアはケンジに採用を申し出て、彼は翌日それを受け入れた。彼女はほかの候補者にも、時間を割いてくれたことに感謝する丁寧なメールを送った。2か月後、ケンジは難なくレジを扱えるようになり、何人かの常連客が彼におすすめを尋ねるようになっていた。技能は教えられても、客への心からの関心を育てるのはずっと難しいのだとオリビアは気づいた。"
+   ]
+  ],
+  "qs": [
+   [
+    "Why did the store need a new employee?",
+    [
+     "A staff member moved to another city.",
+     "The store started opening on Sundays.",
+     "Olivia was leaving the company."
+    ],
+    0
+   ],
+   [
+    "What were candidates asked to do during the interview?",
+    [
+     "Arrange books on a shelf",
+     "Use the cash register as fast as possible",
+     "Help a customer choose a present"
+    ],
+    2
+   ],
+   [
+    "In paragraph 7, the word \"genuine\" is closest in meaning to",
+    [
+     "polite",
+     "real",
+     "temporary"
+    ],
+    1
+   ],
+   [
+    "What can be inferred about Olivia's decision?",
+    [
+     "She valued an attitude toward customers more than previous experience.",
+     "She chose Kenji because he asked for a lower wage.",
+     "She regretted not hiring an experienced candidate."
+    ],
+    0
+   ]
+  ]
+ },
+ {
+  "key": "conference",
+  "g": "work",
+  "title": "基調講演者が来られない",
+  "level": "B2",
+  "scene": "city|building|plane",
+  "paras": [
+   [
+    "Hannah is an event coordinator for a regional association of food producers. For six months, she had been preparing the association's annual conference, which was expected to attract about three hundred participants. The venue was booked, the registration period had closed, and the programs had arrived from the printer.",
+    "ハンナは食品生産者の地域団体でイベントのコーディネーターを務めている。彼女は半年前から、約300人の参加が見込まれる団体の年次大会を準備してきた。会場は予約済みで、参加登録の受付は終わり、プログラムも印刷所から届いていた。"
+   ],
+   [
+    "Two days before the event, the keynote speaker called Hannah from an airport on the other side of the country. A severe storm had grounded all flights, and he would not be able to arrive in time. His talk on reducing food waste was the main reason many people had registered.",
+    "大会の2日前、基調講演者が国の反対側にある空港からハンナに電話をかけてきた。激しい嵐で全便が欠航となり、大会に間に合うように到着できないというのだ。食品ロスの削減に関する彼の講演は、多くの人が参加登録した一番の理由だった。"
+   ],
+   [
+    "Hannah's first idea was to find another speaker, but finding an expert at such short notice seemed almost impossible. She then asked the speaker whether he could give his talk online instead. He agreed immediately, but he was worried about the quality of the internet connection at his hotel.",
+    "ハンナが最初に考えたのは別の講演者を探すことだったが、これほど急に専門家を見つけるのはほとんど不可能に思えた。そこで彼女は、代わりにオンラインで講演できないか講演者に尋ねた。彼はすぐに同意したが、ホテルのインターネット回線の品質を心配していた。"
+   ],
+   [
+    "To reduce the risk, Hannah suggested that he record the talk the next day and join the conference live only for the question-and-answer session. That way, even if the connection failed, the audience would still see the full presentation. She also contacted the venue to confirm that its technical staff could play the video on the large screen.",
+    "リスクを減らすため、ハンナは翌日に講演を録画し、質疑応答の時間だけ大会にライブで参加することを提案した。そうすれば、たとえ回線が途切れても、聴衆は講演全体を見ることができる。彼女は会場にも連絡し、技術スタッフが大型スクリーンで動画を再生できることを確認した。"
+   ],
+   [
+    "Next, she had to decide how to inform the participants. The printed programs could not be changed, so she sent an email to everyone on the registration list that evening. She explained the change honestly and said that anyone who no longer wished to attend could request a refund of the registration fee.",
+    "次に、参加者への知らせ方を決めなければならなかった。印刷済みのプログラムは変更できないため、彼女はその晩、登録者名簿の全員にメールを送った。彼女は変更を正直に説明し、参加を望まなくなった人は参加費の返金を申請できると伝えた。"
+   ],
+   [
+    "Only four people asked for their money back. On the day of the conference, the recorded talk was played without any problems, and the live question session was surprisingly lively. Because the speaker was not on stage, participants typed their questions into an online form, and even people who rarely spoke in public took part.",
+    "返金を求めたのはわずか4人だった。大会当日、録画した講演は問題なく再生され、ライブの質疑応答は驚くほど盛り上がった。講演者が壇上にいないため、参加者はオンラインのフォームに質問を入力し、人前でめったに発言しない人たちまで参加した。"
+   ],
+   [
+    "In the feedback survey after the event, many participants praised the question session. Some even suggested that the association should collect questions through a form at every future conference. Hannah added this idea to her planning notes for next year. She also added one more item: every speaker would be asked to prepare a recorded version of their talk in case of emergencies.",
+    "大会後のアンケートでは、多くの参加者が質疑応答を高く評価した。今後の大会では毎回フォームで質問を集めるべきだと提案する人までいた。ハンナはこのアイデアを来年の企画メモに書き加えた。さらに、緊急時に備えて講演者全員に講演の録画版を用意してもらう、という項目も加えた。"
+   ]
+  ],
+  "qs": [
+   [
+    "Why could the keynote speaker not attend in person?",
+    [
+     "He had forgotten the date.",
+     "A storm stopped all flights.",
+     "The venue had been changed."
+    ],
+    1
+   ],
+   [
+    "Why did Hannah suggest recording the talk?",
+    [
+     "So that it could be shown even if the internet connection failed",
+     "Because the speaker did not want to answer questions",
+     "To sell the video after the conference"
+    ],
+    0
+   ],
+   [
+    "In paragraph 3, the phrase \"at such short notice\" is closest in meaning to",
+    [
+     "in a very brief message",
+     "without any payment",
+     "with so little time to prepare"
+    ],
+    2
+   ],
+   [
+    "What can be inferred from the feedback survey?",
+    [
+     "Most participants wanted the speaker to attend in person next time.",
+     "The online form helped more participants join the discussion.",
+     "Participants were disappointed with the recorded talk."
+    ],
+    1
+   ]
+  ]
+ },
+ {
+  "key": "hotelbooking",
+  "g": "travel",
+  "title": "出張先のホテル予約ミス",
+  "level": "B1–B2",
+  "scene": "night|building|moon",
+  "paras": [
+   [
+    "Rachel, a sales representative for a furniture company, was traveling to a three-day trade fair in another city. Her itinerary had been prepared by the company's travel agent, and everything seemed to be in order. She arrived at her hotel at nine in the evening, tired after a long flight.",
+    "家具会社の営業担当者レイチェルは、別の都市で開かれる3日間の見本市に向かっていた。旅程は会社の旅行代理店が作成しており、すべて順調に見えた。彼女は長いフライトに疲れて、夜9時にホテルに到着した。"
+   ],
+   [
+    "At the front desk, however, the receptionist could not find her reservation. After several minutes of searching, he discovered that the booking had been made for the following month. Because of the trade fair, the hotel was completely full.",
+    "ところが、フロントの受付係は彼女の予約を見つけられなかった。数分間探した結果、予約が翌月の日付で入っていたことがわかった。見本市のため、ホテルは満室だった。"
+   ],
+   [
+    "Rachel felt frustrated, but she knew that getting angry would not create an empty room. She showed the receptionist the confirmation email on her phone. The email clearly listed the correct dates, which meant the mistake had been made by the booking system rather than by her.",
+    "レイチェルはいら立ったが、怒っても空き部屋ができるわけではないとわかっていた。彼女は受付係に、携帯電話に届いた予約確認メールを見せた。メールには正しい日付がはっきり記載されており、ミスは彼女ではなく予約システムの側にあったことを示していた。"
+   ],
+   [
+    "The receptionist apologized and called the night manager. The manager arranged a room at a partner hotel ten minutes away and offered to pay for Rachel's taxi. He also said that his hotel would cover any difference in price and that breakfast would be complimentary for all three nights.",
+    "受付係は謝罪し、夜間責任者を呼んだ。責任者は10分ほど離れた提携ホテルに部屋を手配し、レイチェルのタクシー代を負担すると申し出た。さらに、料金に差額があれば自分のホテルが負担し、3泊とも朝食を無料にすると言った。"
+   ],
+   [
+    "Before leaving, Rachel asked the manager to write down what had happened and to include his name. She knew that her company's finance department would need proof to reimburse her if any unexpected costs appeared later. The manager printed a short letter and signed it.",
+    "出発する前に、レイチェルは責任者に出来事を書面にまとめ、名前も記してほしいと頼んだ。後で思わぬ費用が発生した場合、会社の経理部が彼女に払い戻すには証拠が必要になるとわかっていたのだ。責任者は短い書面を印刷し、署名した。"
+   ],
+   [
+    "The partner hotel was smaller and older, but it was quiet and closer to the exhibition hall. Rachel was able to walk to the trade fair each morning instead of waiting for crowded shuttle buses. At breakfast, she even met two potential clients who were staying there for the same event.",
+    "提携ホテルは小さく古かったが、静かで展示会場にも近かった。レイチェルは毎朝、混雑したシャトルバスを待たずに見本市まで歩いて行くことができた。朝食の席では、同じイベントのために泊まっていた見込み客2人と知り合うことさえできた。"
+   ],
+   [
+    "When she returned, Rachel submitted her expense report with the manager's letter attached. The finance department processed it without any questions. She also sent a brief report to the travel agent so that it could check whether other bookings had the same error. A week later, the agent replied that two other travelers had been affected and that their reservations had now been corrected.",
+    "帰社すると、レイチェルは責任者の書面を添付して経費報告書を提出した。経理部は何の問い合わせもせずにそれを処理した。彼女は旅行代理店にも短い報告を送り、ほかの予約に同じ誤りがないか確認できるようにした。1週間後、代理店から、ほかに2人の旅行者が影響を受けていたが、その予約はすでに修正したとの返信があった。"
+   ]
+  ],
+  "qs": [
+   [
+    "What was wrong with Rachel's reservation?",
+    [
+     "It was at the wrong hotel.",
+     "It was for the wrong month.",
+     "It was for only one night."
+    ],
+    1
+   ],
+   [
+    "Why did Rachel ask the manager for a written statement?",
+    [
+     "She wanted to complain to a newspaper.",
+     "She planned to stay at the hotel again next month.",
+     "She might need proof for her company's expense process."
+    ],
+    2
+   ],
+   [
+    "In paragraph 5, the word \"reimburse\" is closest in meaning to",
+    [
+     "pay back",
+     "reserve",
+     "recommend"
+    ],
+    0
+   ],
+   [
+    "What can be inferred from Rachel's report to the travel agent?",
+    [
+     "She wanted the agent to pay for her taxi.",
+     "She wanted to prevent the same problem from affecting other people.",
+     "She decided to use a different agent in the future."
+    ],
+    1
+   ]
+  ]
+ },
+ {
+  "key": "expenses",
+  "g": "money",
+  "title": "新しい経費精算ルール",
+  "level": "B2",
+  "scene": "paper|coin|laptop",
+  "paras": [
+   [
+    "At Northgate Engineering, employees used to submit their expense claims on paper forms once a month. The process was slow, and receipts were sometimes lost between offices. In April, the finance department introduced a new policy: all expenses would now be submitted through a smartphone app within thirty days.",
+    "ノースゲート・エンジニアリングでは、社員は以前、月に1度紙の用紙で経費を申請していた。その手続きは時間がかかり、事務所間で領収書がなくなることもあった。4月、経理部は新しい方針を導入し、今後はすべての経費をスマートフォンのアプリで30日以内に申請することになった。"
+   ],
+   [
+    "Aisha, an accountant who had helped design the new system, expected it to save everyone time. Employees would simply take a photo of each receipt, choose a category, and send the claim to their supervisor for approval. Once a claim was approved, the money would be transferred to the employee's bank account within five working days.",
+    "新しい仕組みの設計に携わった会計担当のアイシャは、全員の時間の節約になると期待していた。社員は領収書を撮影し、項目を選び、承認を得るために上司へ申請を送るだけでよい。申請が承認されれば、5営業日以内に社員の銀行口座へ振り込まれる。"
+   ],
+   [
+    "During the first month, however, the finance team received many complaints. Some employees did not know which category to choose for items such as parking fees or client lunches. Others missed the deadline because they were used to the old monthly routine. A few people said the app was a waste of time and asked to return to paper forms.",
+    "ところが最初の1か月、経理チームには多くの苦情が寄せられた。駐車料金や顧客との昼食といった項目を、どの区分で申請すればよいかわからない社員もいた。以前の月1回の習慣に慣れていたため、締め切りを過ぎてしまう社員もいた。数人は、アプリは時間の無駄だと言って紙の用紙に戻すよう求めた。"
+   ],
+   [
+    "Aisha decided to look at the actual data instead of reacting to the complaints one by one. She found that most rejected claims came from just two problems. The category list was too long, and receipts from overseas trips were often in other currencies, which the app could not read correctly.",
+    "アイシャは苦情に一つずつ対応するのではなく、実際のデータを調べることにした。すると、却下された申請の大半が、たった二つの問題から生じていることがわかった。項目の一覧が長すぎることと、海外出張の領収書がしばしば外国の通貨で書かれていて、アプリが正しく読み取れないことだった。"
+   ],
+   [
+    "She proposed three changes to the finance director. First, the list of categories would be reduced from twenty-four to eight. Second, employees returning from overseas trips would be eligible for an extended deadline of sixty days. Third, the finance team would hold short online sessions to show people how to use the app.",
+    "彼女は経理部長に三つの変更を提案した。第一に、項目の数を24から8に減らす。第二に、海外出張から戻った社員には、60日間に延長された締め切りを適用する。第三に、経理チームが短いオンライン説明会を開き、アプリの使い方を実演する。"
+   ],
+   [
+    "The director approved the changes, and Aisha led the first session herself. Instead of explaining every feature, she asked participants to submit one real receipt during the session. Many people discovered that the process took less than a minute once they had tried it.",
+    "部長は変更を承認し、アイシャは最初の説明会を自ら担当した。彼女はすべての機能を説明する代わりに、説明会の最中に実際の領収書を1枚申請してもらった。多くの人が、一度やってみれば手続きは1分もかからないことを知った。"
+   ],
+   [
+    "By the end of the second month, the number of rejected claims had fallen by more than half. Employees were also being reimbursed faster than ever before. Aisha learned that a new system is only as good as the support people receive when they start using it.",
+    "2か月目の終わりには、却下された申請の数は半分以下に減っていた。社員への払い戻しも、これまでにない速さになった。新しい仕組みの価値は、使い始めるときに人々が受ける支援で決まるのだと、アイシャは学んだ。"
+   ]
+  ],
+  "qs": [
+   [
+    "What was one problem with the old paper system?",
+    [
+     "Receipts were sometimes lost.",
+     "Employees were paid too much.",
+     "Supervisors could not approve claims."
+    ],
+    0
+   ],
+   [
+    "According to paragraph 4, why were many claims rejected?",
+    [
+     "Employees entered the wrong bank accounts.",
+     "Supervisors refused to approve them.",
+     "The categories were confusing and foreign receipts caused errors."
+    ],
+    2
+   ],
+   [
+    "In paragraph 5, the phrase \"eligible for\" is closest in meaning to",
+    [
+     "forced to accept",
+     "qualified to receive",
+     "too late for"
+    ],
+    1
+   ],
+   [
+    "Why did Aisha most likely ask participants to submit a real receipt during the session?",
+    [
+     "She wanted to check how much they were spending.",
+     "She believed trying the app would reduce their worries about it.",
+     "The director required a test for every employee."
+    ],
+    1
+   ]
+  ]
+ },
+ {
+  "key": "lamplaunch",
+  "g": "tech",
+  "title": "発売前の利用者の声",
+  "level": "B2",
+  "scene": "night|bulb|laptop",
+  "paras": [
+   [
+    "Lumen Home, a small company that designs lighting products, was preparing to launch its first smart desk lamp. The lamp could adjust its brightness automatically and be controlled through a smartphone app. The launch date had been announced, and several online stores had already listed the product.",
+    "照明製品を設計する小さな会社ルーメン・ホームは、初のスマートデスクライトの発売を準備していた。そのライトは明るさを自動で調整でき、スマートフォンのアプリで操作することもできた。発売日はすでに発表され、いくつかのオンラインストアにはもう商品が掲載されていた。"
+   ],
+   [
+    "Six weeks before the launch, the product manager, Sofia, sent fifty sample lamps to customers who had volunteered to test them at home. She expected minor comments about color or design. Instead, the feedback revealed two larger problems.",
+    "発売の6週間前、製品マネージャーのソフィアは、自宅での試用に名乗り出た客50人にサンプルのライトを送った。彼女は色やデザインについてのちょっとした意見を予想していた。ところが、寄せられた意見はもっと大きな二つの問題を明らかにした。"
+   ],
+   [
+    "First, many testers disliked having to create an account before they could turn on the lamp. Some older users gave up during registration and had to ask family members for help. Second, the automatic brightness changed every time a cloud passed outside, which people found distracting while they were working.",
+    "第一に、多くの試用者は、ライトをつける前にアカウントを作らなければならないことを嫌がった。年配の利用者の中には、登録の途中であきらめ、家族に助けを求めなければならなかった人もいた。第二に、外を雲が通るたびに自動調光で明るさが変わり、作業中に気が散ると感じる人が多かった。"
+   ],
+   [
+    "Sofia presented the results at a meeting with the engineering and sales teams. The engineers estimated that fixing both problems would take about four weeks. The sales team was concerned, because the stores already had the launch date and some customers had placed pre-orders.",
+    "ソフィアは技術チームと営業チームとの会議で結果を発表した。技術者たちは、両方の問題を修正するのにおよそ4週間かかると見積もった。店舗にはすでに発売日が伝えられ、予約注文をした客もいたため、営業チームは懸念を示した。"
+   ],
+   [
+    "After a long discussion, the company decided to postpone the launch by one month. Sofia argued that a delay would disappoint some customers, but a product that frustrated people could damage the brand for years. The sales team contacted each store, and customers who had pre-ordered were offered a ten percent discount on a future purchase as an apology.",
+    "長い議論の末、会社は発売を1か月延期することを決めた。延期すれば一部の客を失望させるが、人をいら立たせる製品はブランドを何年も傷つけかねない、とソフィアは主張した。営業チームは各店舗に連絡し、予約した客にはおわびとして次回購入時の10パーセント割引が提供された。"
+   ],
+   [
+    "The engineers made the account optional, so the lamp could be used immediately with a simple button on its base. They also changed the automatic mode so that the brightness adjusted slowly instead of reacting to every small change in light. Sofia sent the updated version to the same testers, and this time most of them described it as comfortable and easy to use.",
+    "技術者たちはアカウント作成を任意にし、台座の簡単なボタンですぐにライトを使えるようにした。また自動モードを変更し、光のわずかな変化にいちいち反応するのではなく、明るさがゆっくり調整されるようにした。ソフィアが同じ試用者に改良版を送ると、今回はほとんどの人が快適で使いやすいと評価した。"
+   ],
+   [
+    "The lamp was finally released a month late. Its first reviews mentioned the simple setup more than any other feature. Looking back, Sofia felt that the testing period had been the most valuable part of the project, because it showed the team how real people would use the product rather than how the designers imagined they would.",
+    "ライトは結局、1か月遅れで発売された。最初のレビューでは、ほかのどの機能よりも設定の簡単さが取り上げられた。設計者の想像ではなく、実際の人々が製品をどう使うのかをチームに示してくれたので、振り返ってみるとソフィアには試用期間こそがプロジェクトで最も価値のある部分だったと感じられた。"
+   ]
+  ],
+  "qs": [
+   [
+    "What did Sofia originally expect testers to comment on?",
+    [
+     "The price of the lamp",
+     "Its color or design",
+     "The length of the warranty"
+    ],
+    1
+   ],
+   [
+    "Why did some testers find the automatic mode annoying?",
+    [
+     "It changed the brightness too often.",
+     "It turned the lamp off at night.",
+     "It used too much electricity."
+    ],
+    0
+   ],
+   [
+    "In paragraph 5, the word \"postpone\" is closest in meaning to",
+    [
+     "cancel",
+     "advertise",
+     "delay"
+    ],
+    2
+   ],
+   [
+    "What can be inferred about the changes made after testing?",
+    [
+     "Reviewers appreciated the easier setup.",
+     "Reviewers were mainly interested in the price.",
+     "Most reviewers did not use the lamp at all."
+    ],
+    0
+   ]
+  ]
+ },
+ {
+  "key": "maintenance",
+  "g": "daily",
+  "title": "エレベーター改修のお知らせ",
+  "level": "B1–B2",
+  "scene": "city|building|clock",
+  "paras": [
+   [
+    "Grace runs a small graphic design studio on the sixth floor of an old office building. One Monday, she found a notice from the building management company on the elevator door. It said that both elevators would be closed for renovation from the fifteenth to the twenty-sixth of the month. Tenants were advised to use the stairs during this period.",
+    "グレースは古いオフィスビルの6階で小さなグラフィックデザイン事務所を経営している。ある月曜日、彼女はエレベーターの扉に管理会社のお知らせが貼られているのを見つけた。そこには、今月15日から26日まで、改修工事のため2基のエレベーターがどちらも停止すると書かれていた。この期間、入居者は階段を利用するよう案内されていた。"
+   ],
+   [
+    "Grace immediately checked her calendar. A new large-format printer, which weighed almost ninety kilograms, was scheduled to be delivered on the seventeenth. In addition, an important client meeting was planned for the following week, and the client was an elderly man who found stairs difficult.",
+    "グレースはすぐに予定表を確認した。重さ90キロ近い新しい大判プリンターが、17日に届く予定になっていた。さらに翌週には重要な顧客との打ち合わせが予定されており、その顧客は階段の上り下りがつらい高齢の男性だった。"
+   ],
+   [
+    "Grace called the management office to ask whether the schedule could be changed. The building manager, Paul, explained that the contractor had been booked months in advance and the dates could not be moved. However, he told her that one elevator would be available on the morning of the twentieth for a safety inspection. If she wished, she could reserve it for one hour.",
+    "グレースは管理事務所に電話し、日程を変更できないか尋ねた。ビル管理者のポールは、工事業者は何か月も前から手配されており、日程は動かせないと説明した。ただし、20日の午前中は安全点検のためにエレベーター1基が動くと教えてくれた。希望すれば、それを1時間予約できるという。"
+   ],
+   [
+    "Grace contacted the printer supplier and asked if the delivery could be postponed by three days. The supplier agreed without any extra charge, and she reserved the elevator from nine to ten on the twentieth. She sent a confirmation email to both the supplier and the management office so that everyone had the same information.",
+    "グレースはプリンターの販売業者に連絡し、配達を3日延期できないか尋ねた。業者は追加料金なしで了承し、彼女は20日の9時から10時までエレベーターを予約した。全員が同じ情報を共有できるよう、彼女は業者と管理事務所の両方に確認のメールを送った。"
+   ],
+   [
+    "The client meeting required a different solution. Grace asked the client whether he would mind meeting somewhere else. He suggested a quiet café on the ground floor of his own office building, and he seemed pleased that she had thought about his comfort. Grace brought printed samples and a laptop so that nothing would be missing from the presentation.",
+    "顧客との打ち合わせには別の解決策が必要だった。グレースは顧客に、別の場所で会っても構わないか尋ねた。彼は自分のオフィスビルの1階にある静かなカフェを提案し、自分の負担を気づかってくれたことを喜んでいる様子だった。グレースは、説明に欠けるものがないよう、印刷した見本とノートパソコンを持参した。"
+   ],
+   [
+    "During the renovation, some tenants complained about the noise and the long walk up the stairs. Grace noticed that several neighbors on her floor had also missed deliveries because drivers refused to carry packages up six floors. She suggested to Paul that packages could be left at the security desk on the ground floor until the work was finished. He agreed and posted a second notice the same day.",
+    "改修工事の間、騒音や長い階段の上り下りについて不満を言う入居者もいた。グレースは、配達員が6階まで荷物を運ぶのを断ったせいで、同じ階の何人かの入居者も荷物を受け取れていないことに気づいた。彼女はポールに、工事が終わるまで荷物を1階の警備受付に預けられるようにしてはどうかと提案した。彼は同意し、その日のうちに2枚目のお知らせを掲示した。"
+   ],
+   [
+    "The elevators reopened on schedule, faster and quieter than before. At the next tenants' meeting, Paul thanked Grace for her suggestion. He also promised that all future maintenance notices would explain how deliveries would be handled.",
+    "エレベーターは予定どおり再開し、以前より速く静かになっていた。次の入居者会議で、ポールはグレースの提案に感謝した。そして今後の点検のお知らせには、必ず配達の扱い方を記載すると約束した。"
+   ]
+  ],
+  "qs": [
+   [
+    "Why did Grace need to change her plans?",
+    [
+     "Her office was moving to another floor.",
+     "The elevators would be closed for renovation.",
+     "The building's water supply would be shut off."
+    ],
+    1
+   ],
+   [
+    "What did Paul offer Grace?",
+    [
+     "A one-hour elevator reservation",
+     "A discount on her rent",
+     "A temporary office on the ground floor"
+    ],
+    0
+   ],
+   [
+    "In paragraph 3, the word \"contractor\" is closest in meaning to",
+    [
+     "a tenant in the building",
+     "a formal agreement",
+     "a company hired to do a job"
+    ],
+    2
+   ],
+   [
+    "What can be inferred about Grace's client?",
+    [
+     "He wanted to cancel the project.",
+     "He appreciated Grace's consideration.",
+     "He preferred to meet online."
+    ],
+    1
+   ]
+  ]
+ }
+]

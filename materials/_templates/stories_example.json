@@ -1,0 +1,57 @@
+[
+ {
+  "key": "examplekey",
+  "g": "work",
+  "title": "日本語のタイトル",
+  "level": "B1–B2",
+  "scene": "city|building|clock",
+  "paras": [
+   [
+    "English paragraph. One sentence becomes one slide.",
+    "英語の段落。1文が1枚のスライドになる。"
+   ],
+   [
+    "(6〜8段落、合計330〜440語)",
+    "(英語の文の数と、「。」で区切った日本語の文の数を揃える。)"
+   ]
+  ],
+  "qs": [
+   [
+    "Question 1?",
+    [
+     "choice A",
+     "choice B",
+     "choice C"
+    ],
+    1
+   ],
+   [
+    "Question 2?",
+    [
+     "A",
+     "B",
+     "C"
+    ],
+    0
+   ],
+   [
+    "Question 3?",
+    [
+     "A",
+     "B",
+     "C"
+    ],
+    2
+   ],
+   [
+    "Question 4?",
+    [
+     "A",
+     "B",
+     "C"
+    ],
+    1
+   ]
+  ]
+ }
+]
