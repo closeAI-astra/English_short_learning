@@ -267,6 +267,44 @@ with gr.Blocks(title="発音コーチ") as demo:
     audio.upload(judge, [sentence, audio], [out, summ, hist])
     go.click(judge, [sentence, audio], [out, summ, hist])
 
+EE_URL = "https://closeai-astra.github.io/English_short_learning/"
+
+
+def phone_link(share_url: str) -> str:
+    """English Express link that saves this coach URL on the phone when opened."""
+    from urllib.parse import quote
+    base = os.environ.get("EE_URL", EE_URL)
+    return base + ("&" if "?" in base else "?") + "coach=" + quote(share_url.rstrip("/"), safe="")
+
+
+def show_phone_link(share_url: str) -> None:
+    """Print the phone link, show it as a QR code in the console and open it as an image."""
+    link = phone_link(share_url)
+    print("\n[pron-coach] スマホのカメラで下の QR コードを読み取ると、English Express が開き、", flush=True)
+    print("[pron-coach] この発音コーチの URL が自動で保存されます（URL の入力は不要）。", flush=True)
+    print("[pron-coach] リンク: " + link + "\n", flush=True)
+    try:
+        import qrcode
+    except ImportError:
+        print("[pron-coach] （QR コードの表示には qrcode が必要です: uv sync）", flush=True)
+        return
+    qr = qrcode.QRCode(border=2)
+    qr.add_data(link)
+    qr.make(fit=True)
+    try:
+        qr.print_ascii(invert=True)
+    except Exception:
+        pass
+    try:
+        img_path = HERE / "phone_link.png"
+        qr.make_image(fill_color="black", back_color="white").save(img_path)
+        if hasattr(os, "startfile"):
+            os.startfile(img_path)  # Windows: opens the QR code in the photo viewer
+        print(f"[pron-coach] QR コードの画像: {img_path}", flush=True)
+    except Exception as e:
+        print(f"[pron-coach] QR 画像を作れませんでした: {e}", flush=True)
+
+
 def self_check():
     """uv run app.py --check : download the model and verify the phoneme mapping."""
     _, _, model, vocab, blank = load()
@@ -305,7 +343,12 @@ if __name__ == "__main__":
         if not auth:
             print("[pron-coach] --share では --auth=ユーザー名:パスワード を付けてください（公開URLを他人に使われないため）", flush=True)
             raise SystemExit(1)
-        print("[pron-coach] スマホ用の https://....gradio.live のURLが下に出ます（72時間有効）", flush=True)
-        demo.queue().launch(share=True, auth=auth, inbrowser=True)
+        print("[pron-coach] スマホ用の公開URLを作成しています（PC を起動している間だけ有効・最長72時間）", flush=True)
+        demo.queue().launch(share=True, auth=auth, inbrowser=True, prevent_thread_lock=True)
+        if getattr(demo, "share_url", None):
+            show_phone_link(demo.share_url)
+        else:
+            print("[pron-coach] 公開URLを作れませんでした。ネット接続を確認してください。", flush=True)
+        demo.block_thread()
     else:
         demo.queue().launch(inbrowser=True, server_name="127.0.0.1", auth=auth)

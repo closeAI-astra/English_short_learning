@@ -12,6 +12,7 @@ dependencies = [
     "gradio>=6.0,<7",
     "phonemizer-fork",
     "espeakng-loader",
+    "qrcode",
 ]
 
 [tool.uv]
