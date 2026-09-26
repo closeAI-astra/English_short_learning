@@ -421,6 +421,42 @@ b.ph{background:var(--hl);padding:0 3px;border-radius:3px;font-weight:700;color:
 .vcontrols .btn{white-space:nowrap}
 @media(max-width:600px){.vcompact{grid-template-columns:1fr}.vcompact .vcard{grid-template-columns:132px minmax(0,1fr)}}
 
+/* PC: YouTube-style arrows on horizontal rows; phones swipe instead (no sliders anywhere) */
+.vshelfControls,#vChannelControls{display:none!important}
+.vrow{position:relative}
+.vsarrow{position:absolute;top:calc(50% - 26px);transform:translateY(-50%);z-index:4;width:40px;height:40px;border-radius:50%;border:1px solid #ffffff1f;background:#212121;color:#f1f1f1;box-shadow:0 4px 12px #000a;display:grid;place-items:center;cursor:pointer;padding:0}
+.vsarrow:hover{background:#3d3d3d}
+.vsarrow.l{left:-6px}.vsarrow.l svg{transform:scaleX(-1)}
+.vsarrow.r{right:-6px}
+.vsarrow[hidden]{display:none}
+.vrow-ch .vsarrow{top:calc(50% - 8px)}
+@media (max-width:719px),(hover:none){.vsarrow{display:none!important}}
+/* Phone shorts: full screen like the YouTube app (bottom navigation stays) */
+@media (max-width:719px){
+ body.ee-shorts-full header.sign,body.ee-shorts-full #shLine{display:none!important}
+ body.ee-shorts-full #shWrap{z-index:20;background:#000;border-radius:0}
+ body.ee-shorts-full #shWrap .stage{inset:0;border-radius:0}
+ body.ee-shorts-full #shWrap .sbar{top:calc(6px + env(safe-area-inset-top,0px))}
+ body.ee-shorts-full #shWrap .shead{top:calc(16px + env(safe-area-inset-top,0px))}
+ body.ee-shorts-full #shWrap .pcard,body.ee-shorts-full #shWrap .scard>.qcard{border-radius:0}
+}
+/* Top-bar gear and My Page menu list (tools/settings are not shown as videos) */
+.gearbtn{width:40px;height:40px;border-radius:50%;border:0;background:none;color:var(--ink);display:grid;place-items:center;cursor:pointer;flex:none;padding:0}
+.gearbtn:hover{background:var(--surface2,#272727)}
+.vmenu{display:flex;flex-direction:column;border:1px solid var(--line,#333);border-radius:14px;overflow:hidden;margin:14px 0 10px}
+.vmrow{display:grid;grid-template-columns:40px minmax(0,1fr) 20px;gap:14px;align-items:center;padding:12px 16px;background:none;border:0;border-bottom:1px solid var(--line,#333);color:var(--ink);text-align:left;cursor:pointer;font:inherit;text-decoration:none;width:100%}
+.vmrow:last-child{border-bottom:0}
+.vmrow:hover{background:var(--surface2,#272727)}
+.vmic .av{width:40px;height:40px}
+.vmtx b{display:block;font-family:var(--jp);font-weight:600;font-size:15px;line-height:1.4}
+.vmtx small{display:block;color:var(--muted);font-size:12.5px;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.vmchev{color:var(--muted)}
+.vav.vline svg{width:56%;height:56%;color:#fff;filter:none}
+#settingsCard{scroll-margin-top:72px}
+.vflash{animation:vflash 1.8s ease}
+@keyframes vflash{0%,40%{box-shadow:0 0 0 3px #3ea6ff}100%{box-shadow:0 0 0 3px transparent}}
+@media(max-width:600px){.vmrow{padding:11px 12px;gap:12px}.sync span{display:none}}
+
 /* END VIDEO_CSS */
 </style>
 
@@ -3147,7 +3183,7 @@ const videoSection=document.createElement('section');videoSection.id='p-watch';v
 function videoMistake(key,prompt,answer,lessonId,kind,ok=false){const rows={...(S.meta.videoMistakes?.rows||{})};if(ok){if(rows[key])rows[key]={...rows[key],resolved:true,at:Date.now()};}else rows[key]={prompt,answer,lessonId,kind,at:Date.now(),resolved:false};const sorted=Object.entries(rows).sort((a,b)=>b[1].at-a[1].at).slice(0,200);put('meta','videoMistakes',{rows:Object.fromEntries(sorted)});}
 function vStop(){V.token++;V.playing=false;stopSpeech();if($('#vPlay'))$('#vPlay').textContent='▶ 再生';}
 const oldShowTabV=showTab;
-showTab=function(t,noHist){vStop();if(curTab==='watch'){labLeave();V.hpToken++;$('#labBody').replaceChildren();$('#vFluencyBody')?.replaceChildren();}oldShowTabV(t,noHist);if(t==='watch')renderWatch();};
+showTab=function(t,noHist){vStop();if(curTab==='watch'){labLeave();V.hpToken++;$('#labBody').replaceChildren();$('#vFluencyBody')?.replaceChildren();}oldShowTabV(t,noHist);if(t==='stats:settings')vShowSettings();document.body.classList.toggle('ee-shorts-full',t==='shorts'&&matchMedia('(max-width:719px)').matches);if(t==='shorts')sizeShorts();if(t==='watch')renderWatch();};
 function openVideo(id,mode){let l=VC.find(x=>x.id===id);if(!l){const s=shortsAll().find(x=>x.id===id);if(s){l={...s,kind:'listen',level:'読み聞き',qs:s.q?[s.q]:[],defaultMode:'questions'};VC.push(l);}}if(!l)return;labLeave();V.lesson=l;V.slide=0;V.mode=mode||l.defaultMode||'script';V.phrase=0;V.revealed=false;V.hp=0;V.hpHeard=false;V.hpDone=false;V.hpOrder=(l.pairs||[]).map(()=>Math.random()<.5?0:1);V.answers={};V.readAt=0;V.readDone=0;showTab('watch');}
 function vWords(l){return l.sl.map(s=>s[1].replace(/\//g,' ')).join(' ').trim().split(/\s+/).length;}
 const VAVI={daily:'chat',travel:'globe',space:'moon',science:'atom',tech:'laptop',food:'bowl',music:'note',math:'chart',animal:'bird',history:'scroll',film:'film',sport:'ball',environment:'tree',work:'building',learning:'bulb',art:'palette',words:'book',money:'coin',dino:'trex',nyc:'skyline',serial:'magnifier'};
@@ -3197,12 +3233,28 @@ const oldLabFluencyV=labFluency;labFluency=function(){if(curTab==='watch'&&V.mod
 // No learning card is put back into the same session: its due date applies later.
 const oldBuildQueueV=buildQueue;buildQueue=function(){oldBuildQueueV();W.queue=Array.from(new Map(W.queue.map(c=>[c.id,c])).values()).slice(0,20);W.sessionTotal=W.queue.length;W.sessionDone=0;};
 grade=function(g){const c=W.cur;if(!c||!W.revealed)return;W.revealed=false;reviewCard(c,g);videoMistake(c.id,c.ja,c.en,c.id,'フレーズ',g>=3);W.sessionDone=(W.sessionDone||0)+1;nextCard();if(!W.cur){$('#wStage').innerHTML='<h2>今回の練習は完了です</h2><p>'+W.sessionDone+'枚を練習しました。次の復習時刻まで同じカードを繰り返しません。</p><button class="btn" data-go="you">苦手な項目を確認</button>';}};
-const oldYouV=renderYou;renderYou=function(){oldYouV();const rows=Object.entries(S.meta.videoMistakes?.rows||{}).filter(([,m])=>!m.resolved).sort((a,b)=>b[1].at-a[1].at);$('#youBody').insertAdjacentHTML('beforeend','<div class="row">'+LAB_MODES.map(m=>'<button class="btn" data-go="lab:'+m[0]+'">'+m[1]+'を自分で選ぶ</button>').join('')+'</div><h2>間違えた・思い出せなかった項目</h2><div class="stack">'+(rows.length?rows.map(([id,m])=>'<article class="vtranscript"><span class="muted small">'+esc(m.kind)+'</span><h3>'+esc(m.prompt)+'</h3><details><summary>答えを確認</summary><p>'+esc(m.answer)+'</p></details><div class="row">'+(VC.some(x=>x.id===m.lessonId)?'<button class="btn sm" data-video="'+esc(m.lessonId)+'">この教材を復習</button>':'<button class="btn sm" data-go="words">フレーズ復習へ</button>')+'<button class="btn sm" data-vresolve="'+esc(id)+'">復習できた</button></div></article>').join(''):'<p class="muted">まだ記録はありません。設問・想起・フレーズ・聞き分けの結果がここにまとまります。</p>')+'</div><h2>自分で選んで練習</h2><div class="vgrid vcompact">'+FEATURES.filter(f=>f.cat!=='you'&&!['stats','today'].includes(f.go)).map(vcardHTML).join('')+'</div><h2>教材を自分で選ぶ</h2>'+[['長文リーディング・リスニング',l=>l.id.startsWith('long-')],['追加フレーズ（TOEICなど）',l=>!!l.cards&&!l.id.startsWith('deck-')],['生活・会話フレーズ',l=>l.id.startsWith('deck-')],['聞き分け（HVPT）セット',l=>l.id.startsWith('contrast-')],['4 / 3 / 2 スピーキング',l=>l.id.startsWith('talk-')],['NYなどの聞く教材',l=>l.id.startsWith('passage-')]].map(([name,f])=>{const list=VC.filter(f);return list.length?'<details class="vpick"><summary>'+esc(name)+' <span class="muted small">'+list.length+'本</span></summary><div class="vgrid vcompact">'+list.map(vCard).join('')+'</div></details>':'';}).join(''));};
+// マイページ: videos stay as video cards; tools and settings are a plain menu list (not video look-alikes).
+const VCHEV='<svg class="vmchev" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 5l7 7-7 7"/></svg>';
+const VGEAR='<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>';
+function vMenuRow({t,m,go,href,icon}){const inner='<span class="vmic">'+icon+'</span><span class="vmtx"><b>'+esc(t)+'</b>'+(m?'<small>'+esc(m)+'</small>':'')+'</span>'+VCHEV;return href?'<a class="vmrow" href="'+esc(href)+'" target="_blank" rel="noopener">'+inner+'</a>':'<button class="vmrow" data-go="'+esc(go)+'">'+inner+'</button>';}
+function vFeatureRow(f){return vMenuRow({t:f.t,m:f.m(),go:f.go,href:f.href?f.href():null,icon:vAvatarIcon(vSceneItem(f.sc),f.av[1])});}
+function vLineIcon(svg,color){return '<span class="av vav vline" style="--c:'+color+'" aria-hidden="true">'+svg+'</span>';}
+const oldYouV=renderYou;renderYou=function(){oldYouV();const body=$('#youBody');body.querySelectorAll(':scope > .vgrid').forEach(g=>g.remove());
+ const rows=Object.entries(S.meta.videoMistakes?.rows||{}).filter(([,m])=>!m.resolved).sort((a,b)=>b[1].at-a[1].at);
+ const today=FEATURES.find(f=>f.go==='today'),stats=FEATURES.find(f=>f.go==='stats');
+ let h='<div class="vmenu">'+(today?vFeatureRow(today):'')+vMenuRow({t:'学習記録とスコア',m:'学習時間・スコアの記録',go:'stats',icon:vLineIcon('<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>','#606060')})+vMenuRow({t:'設定',m:'目標・読み上げの声と速度・発音コーチの URL',go:'stats:settings',icon:vLineIcon(VGEAR,'#606060')})+'</div>';
+ h+='<h2>間違えた・思い出せなかった項目</h2><div class="stack">'+(rows.length?rows.map(([id,m])=>'<article class="vtranscript"><span class="muted small">'+esc(m.kind)+'</span><h3>'+esc(m.prompt)+'</h3><details><summary>答えを確認</summary><p>'+esc(m.answer)+'</p></details><div class="row">'+(VC.some(x=>x.id===m.lessonId)?'<button class="btn sm" data-video="'+esc(m.lessonId)+'">この教材を復習</button>':'<button class="btn sm" data-go="words">フレーズ復習へ</button>')+'<button class="btn sm" data-vresolve="'+esc(id)+'">復習できた</button></div></article>').join(''):'<p class="muted">まだ記録はありません。設問・想起・フレーズ・聞き分けの結果がここにまとまります。</p>')+'</div>';
+ h+='<h2>自分で選んで練習</h2><div class="vmenu">'+LAB_MODES.map(m=>vMenuRow({t:m[1],m:m[3],go:'lab:'+m[0],icon:vLineIcon(ICON[m[2]]||'','#065FD4')})).join('')+FEATURES.filter(f=>f.cat!=='you'&&f.go!=='today').map(vFeatureRow).join('')+'</div>';
+ h+='<h2>教材を自分で選ぶ</h2>'+[['長文リーディング・リスニング',l=>l.id.startsWith('long-')],['追加フレーズ（TOEICなど）',l=>!!l.cards&&!l.id.startsWith('deck-')],['生活・会話フレーズ',l=>l.id.startsWith('deck-')],['聞き分け（HVPT）セット',l=>l.id.startsWith('contrast-')],['4 / 3 / 2 スピーキング',l=>l.id.startsWith('talk-')],['NYなどの聞く教材',l=>l.id.startsWith('passage-')]].map(([name,f])=>{const list=VC.filter(f);return list.length?'<details class="vpick"><summary>'+esc(name)+' <span class="muted small">'+list.length+'本</span></summary><div class="vgrid vcompact">'+list.map(vCard).join('')+'</div></details>':'';}).join('');
+ body.insertAdjacentHTML('beforeend',h);};
+// Settings: gear in the top bar, like YouTube.
+$('#sync').insertAdjacentHTML('afterend','<button class="gearbtn" id="vGear" data-go="stats:settings" aria-label="設定" title="設定">'+VGEAR+'</button>');
+function vShowSettings(){requestAnimationFrame(()=>{const card=$('#stCoach')?.closest('.card');if(!card)return;card.id='settingsCard';card.scrollIntoView({block:'start',behavior:'smooth'});card.classList.remove('vflash');void card.offsetWidth;card.classList.add('vflash');});}
 const VPRACTICE_ICON={'p:recall':'book','p:perc':'wave','p:cloze':'magnifier','p:question':'chat','p:speed':'clock','p:say':'note','p:lesson':'bulb'};
 function vDecorateAv(av,key){if(!av||!key)return;const item=VAVI[key]||VPRACTICE_ICON[key]||'book',color=(typeof GCOL!=='undefined'&&GCOL[key])||(typeof PCOL!=='undefined'&&PCOL[key.slice(2)])||'#4a5568';av.className='av vav';av.style.setProperty('--c',color);av.style.background='';av.innerHTML=vIcon(item);}
 const oldFeedCardV=renderFeedCard;renderFeedCard=function(c){const el=oldFeedCardV(c);try{const av=el&&el.querySelector&&el.querySelector('.av');if(av&&PCOL[c.type])vDecorateAv(av,'p:'+c.type);}catch(e){}return el;};
 const oldSubsV=renderSubs;renderSubs=function(){oldSubsV();$$('[data-subsel]').forEach(b=>vDecorateAv(b.querySelector('.av'),b.dataset.subsel));$$('.subrow').forEach(row=>vDecorateAv(row.querySelector('.av'),row.querySelector('[data-sub]')?.dataset.sub));};
-const oldShelfV=shelfHTML;shelfHTML=function(title,list){if(!list.length)return '';return '<div class="vshelf">'+oldShelfV(title,list)+'<div class="vshelfControls"><button class="btn sm" data-vscroll="-1" aria-label="'+esc(title)+'を左に送る">‹</button><input type="range" min="0" max="100" value="0" aria-label="'+esc(title)+'の横スクロール" data-vslider><button class="btn sm" data-vscroll="1" aria-label="'+esc(title)+'を右に送る">›</button></div></div>';};
+const oldShelfV=shelfHTML;shelfHTML=function(title,list){return list.length?oldShelfV(title,list):'';};
 let vPracticeIndex=0,vShortIndex=0,vShortBag=[];
 nextItem=function(){SH.since++;if(SH.since%7===0&&typeof makeWQ==='function'){const q=makeWQ();if(q)return q;}if(SH.since%3===0&&typeof genPractice==='function'){const c=genPractice();if(c)return {type:'practice',c};}if(SH.since%5===0){const modes=['phrases','recall','hvpt','cloze','build','questions','speed','read','chunks','pron'],mode=modes[vPracticeIndex%modes.length],sets=VC.filter(l=>l.defaultMode===mode),l=sets[Math.floor(vPracticeIndex++/modes.length)%sets.length];const s=l.sl[0];return {type:'short',s:{id:'practice-video-'+l.id,g:l.g,t:l.t,videoId:l.id,sl:[[s[0],'Listen, then try to recall the meaning.','聞いてから意味を思い出しましょう。'],s,[s[0],'Now say it in your own words. Open the lesson to check your answer.','自分の言葉で説明。右の「詳しく学ぶ」で答え合わせへ。']],w:[],q:null}};}if(!vShortBag.length){vShortBag=shuffle(shortsAll());const i=vShortBag.findIndex(s=>s.g!=='dino');if(i>0)[vShortBag[0],vShortBag[i]]=[vShortBag[i],vShortBag[0]];}const s=vShortBag.shift();SH.lastG=s.g;return {type:'short',s};};
 const oldRailV=railHTML;railHTML=function(it){return oldRailV(it).replace('<div class="rail">','<div class="rail"><button data-r="detail"><span class="ic">'+ICON.book+'</span>詳しく学ぶ</button>');};
@@ -3212,10 +3264,15 @@ const oldRenderShortV=renderShort;renderShort=function(it){const el=oldRenderSho
 let vAutoNext=null;
 const oldSpStopV=spStop;spStop=function(){clearTimeout(vAutoNext);oldSpStopV();};
 const oldShortEndV=shortEnd;shortEnd=function(it){oldShortEndV(it);const ov=it.el.querySelector('.endov');ov.innerHTML='<p>次のショートへ進みます</p><button class="btn" data-vstay>ここで止める</button><button class="btn primary" data-vdetail>詳しく学ぶ →</button>';ov.querySelector('[data-vstay]').onclick=()=>{clearTimeout(vAutoNext);ov.querySelector('p').textContent='一時停止中';};ov.querySelector('[data-vdetail]').onclick=()=>vShortDetail(it);const token=SP.tok;vAutoNext=setTimeout(()=>{if(curTab!=='shorts'||SH.active!==it.i||SP.tok!==token)return;if(it.i+1>=SH.items.length)shAppend(3);shGo(it.i+1);},1800);};
-const oldSizeShortsV=sizeShorts;sizeShorts=function(){oldSizeShortsV();if(innerWidth>=720){const w=$('#shWrap');w.style.maxWidth=Math.min(640,innerWidth-190)+'px';w.style.width='100%';}};
-document.addEventListener('click',e=>{const v=e.target.closest('[data-video]');if(v){openVideo(v.dataset.video);return;}const r=e.target.closest('[data-vresolve]');if(r){const m=S.meta.videoMistakes.rows[r.dataset.vresolve];videoMistake(r.dataset.vresolve,m.prompt,m.answer,m.lessonId,m.kind,true);renderYou();}const b=e.target.closest('[data-vscroll]');if(b){const shelf=b.closest('.vshelf').querySelector('.shelf');shelf.scrollBy({left:Number(b.dataset.vscroll)*shelf.clientWidth*.8,behavior:'smooth'});}});
-document.addEventListener('input',e=>{if(e.target.matches('[data-vslider]')){const s=e.target.closest('.vshelf').querySelector('.shelf');s.scrollLeft=(s.scrollWidth-s.clientWidth)*Number(e.target.value)/100;}});
-document.addEventListener('scroll',e=>{if(e.target.matches?.('.shelf')){const slider=e.target.closest('.vshelf')?.querySelector('[data-vslider]');if(slider)slider.value=100*e.target.scrollLeft/Math.max(1,e.target.scrollWidth-e.target.clientWidth);}},true);
+const oldSizeShortsV=sizeShorts;sizeShorts=function(){const w=$('#shWrap');const mobile=matchMedia('(max-width:719px)').matches;document.body.classList.toggle('ee-shorts-full',mobile&&curTab==='shorts');if(mobile){if($('#p-shorts').hidden)return;const navH=$('#nav').offsetHeight;const vh=(window.visualViewport?visualViewport.height:innerHeight);Object.assign(w.style,{position:'fixed',top:'0',left:'0',right:'0',width:'100%',maxWidth:'none',marginInline:'0',height:Math.max(360,vh-navH)+'px'});return;}Object.assign(w.style,{position:'',top:'',left:'',right:'',width:''});oldSizeShortsV();if(innerWidth>=720){w.style.maxWidth=Math.min(640,innerWidth-190)+'px';w.style.width='100%';}};
+window.visualViewport?.addEventListener('resize',()=>sizeShorts());
+document.addEventListener('click',e=>{const v=e.target.closest('[data-video]');if(v){openVideo(v.dataset.video);return;}const r=e.target.closest('[data-vresolve]');if(r){const m=S.meta.videoMistakes.rows[r.dataset.vresolve];videoMistake(r.dataset.vresolve,m.prompt,m.answer,m.lessonId,m.kind,true);renderYou();}const b=e.target.closest('[data-vscroll]');if(b){const row=b.closest('.vrow').querySelector('.shelf,.chrow');row.scrollBy({left:Number(b.dataset.vscroll)*row.clientWidth*.85,behavior:'smooth'});}});
+
+// PC: YouTube-style arrow buttons on every horizontal row (shorts shelves, channel list). Phones just swipe.
+const VARROW='<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>';
+function vArrowState(row){const wrap=row.parentElement;if(!wrap?.classList.contains('vrow'))return;const max=row.scrollWidth-row.clientWidth;const set=(el,v)=>{if(el.hidden!==v)el.hidden=v;};set(wrap.querySelector('.vsarrow.l'),row.scrollLeft<=4);set(wrap.querySelector('.vsarrow.r'),row.scrollLeft>=max-4);}
+function vArrowize(){$$('.shelf:not([data-varrow]),.chrow:not([data-varrow])').forEach(row=>{row.dataset.varrow='1';const wrap=document.createElement('div');wrap.className='vrow'+(row.classList.contains('chrow')?' vrow-ch':'');row.parentNode.insertBefore(wrap,row);wrap.append(row);wrap.insertAdjacentHTML('beforeend','<button class="vsarrow l" data-vscroll="-1" aria-label="左へ送る">'+VARROW+'</button><button class="vsarrow r" data-vscroll="1" aria-label="右へ送る">'+VARROW+'</button>');row.addEventListener('scroll',()=>vArrowState(row),{passive:true});requestAnimationFrame(()=>vArrowState(row));});}
+if(typeof MutationObserver!=='undefined'&&document.body){let vArrowRaf=0;const vArrowAll=()=>{cancelAnimationFrame(vArrowRaf);vArrowRaf=requestAnimationFrame(()=>{vArrowize();$$('.vrow>.shelf,.vrow>.chrow').forEach(vArrowState);});};new MutationObserver(vArrowAll).observe(document.body,{childList:true,subtree:true,attributes:true,attributeFilter:['hidden']});window.addEventListener('resize',vArrowAll);vArrowAll();}
 window.addEventListener('pagehide',()=>{vStop();clearTimeout(vAutoNext);});
 // Fixed feed-style episodes: the clicked card determines the task and sentence.
 VWORDS.forEach((c,i)=>{if(i%4!==0)return;const mode=i%8===0?'cloze':'build';VC.push({id:'guided-'+mode+'-'+c[0],g:'words',t:c[2]+' · '+VMODES[mode],kind:'practice',level:i<48?'A2–B1':'B1–B2',defaultMode:mode,practiceCard:c,sl:[['paper|book|bulb',c[3],c[4]]],qs:[]});});
@@ -3230,7 +3287,11 @@ const oldLabRecallV=labRecall;labRecall=function(){oldLabRecallV();const item=EE
 const oldLabHPNextV=labHPNext;labHPNext=function(){oldLabHPNextV();$$('[data-hpanswer]').forEach(b=>{const handler=b.onclick;b.onclick=e=>{const done=LP.answered;handler(e);if(!done&&LP.answered)videoMistake('pair-'+LP.cur.pair.join('-'),LP.cur.pair.join(' / '),LP.cur.pair[LP.cur.answer],'','聞き分け',+b.dataset.hpanswer===LP.cur.answer);};});};
 function vCaptionUpdate(){if(!V.lesson||!$('#vCaption'))return;const s=V.lesson.sl[V.slide];const hidden=(V.mode==='phrases'&&!V.revealed&&V.phrase<V.lesson.cards.length)||(V.mode==='recall'&&!$('#vActivity details')?.open)||(['cloze','build'].includes(V.mode)&&!$('#vTypedCheck')?.disabled);$('#vCaption').innerHTML=hidden?'<div>思い出してから、<br>答えを確認しよう。</div><small>'+esc(s[2]||'')+'</small>':'<div>'+esc(s[1].replace(/\//g,' '))+'</div><small>'+esc(s[2]||'')+'</small>';}
 videoSection.addEventListener('toggle',e=>{if(e.target.matches('details'))vCaptionUpdate();},true);
-const decorateSubsV=renderSubs;renderSubs=function(){decorateSubsV();if(!$('#vChannelControls')){const controls=document.createElement('div');controls.id='vChannelControls';controls.className='vshelfControls';controls.innerHTML='<button class="btn sm" id="vChannelPrev" aria-label="チャンネルを左へ">‹</button><input id="vChannelSlide" type="range" min="0" max="100" value="0" aria-label="チャンネルの横スクロール"><button class="btn sm" id="vChannelNext" aria-label="チャンネルを右へ">›</button>';$('#subsRow').after(controls);const row=$('#subsRow');$('#vChannelPrev').onclick=()=>row.scrollBy({left:-row.clientWidth*.8,behavior:'smooth'});$('#vChannelNext').onclick=()=>row.scrollBy({left:row.clientWidth*.8,behavior:'smooth'});$('#vChannelSlide').oninput=e=>row.scrollLeft=(row.scrollWidth-row.clientWidth)*e.target.value/100;row.addEventListener('scroll',()=>$('#vChannelSlide').value=100*row.scrollLeft/Math.max(1,row.scrollWidth-row.clientWidth));}};
+
+
+// Coach links point at the local pronunciation coach; remind how to start it when it is on this PC.
+document.addEventListener('click',e=>{const a=e.target.closest('a[href]');if(!a)return;const base=String(settings().coach||'http://127.0.0.1:7860');if(!a.href.startsWith(base.replace(/\/+$/,'')))return;if(/127\.0\.0\.1|localhost/.test(base)){const phone=/Android|iPhone|iPad/i.test(navigator.userAgent);const msg=phone?'スマホでは、マイページの設定「発音コーチのURL」に共有URLかSpacesのURLを入れてください':'開けないときは、pron-coach フォルダーの start_coach.bat を起動してから押し直してください';toast(msg);vCoachHint={msg,at:Date.now()};}},true);
+let vCoachHint=null;document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&vCoachHint&&Date.now()-vCoachHint.at<120000){toast(vCoachHint.msg);vCoachHint=null;}});
 
 /* END VIDEO_APP */
 /* ================= boot ================= */
