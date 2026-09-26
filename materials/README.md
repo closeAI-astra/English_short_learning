@@ -22,6 +22,8 @@ English Express の教材は、このフォルダーに JSON ファイルを置�
 
 チェックだけしたいときは `uv run python materials/validate.py` を実行します。
 
+語彙カバー率（NGSL 1.2 + TSL 1.2 のうち教材に出てくる語の割合）は、ビルド後に `node coverage.cjs` で確認できます。`--missing-tsl` を付けると、まだ出てこない TOEIC 語の一覧が出るので、新しい教材の題材選びに使えます。`publish.bat` は、アプリ内のカバー率と TSL のカバー率が50％以下になるとアップロードを止めます。
+
 ## 書き方
 
 ### フレーズ `phrases_〇〇.json`

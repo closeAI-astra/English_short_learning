@@ -120,6 +120,7 @@ change("if(b.stars)s+=st;if(b.grid)s+=gr;", "if(b.stars)s+=st;if(b.grid)s+=gr;if
 # Genre avatars reuse the illustration kit's item shapes.
 change("  return {draw:draw,names:Object.keys(IT),bgs:Object.keys(BG)};", "  return {draw:draw,names:Object.keys(IT),bgs:Object.keys(BG),shape:k=>IT[k]?IT[k].d:''};")
 block('VIDEO_APP', (ROOT/'video-app.js').read_text(encoding='utf-8-sig'), '/* ================= boot ================= */')
+block('PHONEME_LAB', (ROOT/'phoneme-lab.js').read_text(encoding='utf-8'), '/* ================= boot ================= */')
 css=(ROOT/'video-app.css').read_text(encoding='utf-8-sig')
 css_marker='/* BEGIN VIDEO_CSS */'
 if css_marker in html:
