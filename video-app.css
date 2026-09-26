@@ -77,3 +77,97 @@ select.vpick{display:block;width:100%;max-width:100%;min-width:0;margin-top:4px;
 .shead .vqchip{margin-left:auto;flex:none;background:rgba(0,0,0,.55);color:#fff;border:1px solid rgba(255,255,255,.55);border-radius:999px;padding:4px 11px;font:700 12px var(--jp);cursor:pointer;text-shadow:none}
 .shead .vqchip:hover,.shead .vqchip:focus-visible{background:#FF6319;border-color:#FF6319}
 .endov .fb{margin-bottom:6px}
+
+/* ===== YouTube-style watch page ===== */
+.vwatch{grid-template-columns:minmax(0,1fr) 402px;gap:24px;max-width:1720px}
+.vwatch.theater{grid-template-columns:minmax(0,1fr) 402px}
+.vwatch.theater .vmain{display:contents}
+.vwatch.theater .vplayer{grid-column:1/-1;max-height:calc(100vh - 140px);aspect-ratio:auto;height:min(56.25vw,calc(100vh - 140px));border-radius:0}
+.vwatch.theater .vmain>:not(.vplayer){grid-column:1}
+.vwatch.theater aside{grid-column:2;grid-row:2 / span 20}
+.vplayer{border-radius:12px;outline:none;user-select:none}
+.vplayer #vScene{cursor:pointer}
+.vplayer #vCaption{bottom:54px;padding:10px 6% 8px;background:none;max-height:48%;pointer-events:none}
+.vplayer #vCaption>div,.vplayer #vCaption small{display:inline;background:#080808c0;padding:2px 8px;border-radius:4px;box-decoration-break:clone;-webkit-box-decoration-break:clone;line-height:1.7}
+.vplayer #vCaption small{display:table;margin:6px auto 0}
+.vplayer[data-cc="en"] #vCaption small{display:none}
+.ytbig{position:absolute;left:50%;top:45%;transform:translate(-50%,-50%);width:68px;height:48px;border-radius:14px;border:0;background:#212121cc;color:#fff;display:grid;place-items:center;cursor:pointer;transition:opacity .2s,background .15s;z-index:3}
+.ytbig svg{width:34px;height:34px}.ytbig:hover{background:var(--red,#f03)}
+.vplayer.playing .ytbig{opacity:0;pointer-events:none}
+.ytchrome{position:absolute;left:0;right:0;bottom:0;padding:0 12px 4px;background:linear-gradient(transparent,#000b);transition:opacity .25s;z-index:4}
+.vplayer.playing:not(:hover):not(:focus-within) .ytchrome{opacity:0}
+@media (hover:none){.vplayer.playing .ytchrome{opacity:1!important}}
+.ytprog{display:flex;gap:2px;height:14px;align-items:center;cursor:pointer}
+.ytseg{position:relative;height:3px;background:#ffffff4d;transition:height .1s;min-width:2px}
+.ytseg i{position:absolute;left:0;top:0;bottom:0;width:0;background:var(--red,#f03)}
+.ytprog:hover .ytseg{height:5px}.ytseg:hover{background:#ffffff80}
+.ytseg.cur i::after{content:"";position:absolute;right:-6px;top:50%;width:12px;height:12px;border-radius:50%;background:var(--red,#f03);transform:translateY(-50%) scale(0);transition:transform .1s}
+.ytprog:hover .ytseg.cur i::after,.ytprog:focus .ytseg.cur i::after{transform:translateY(-50%) scale(1)}
+.ytbar{display:flex;align-items:center;gap:2px;color:#fff;height:44px}
+.ytb{background:none;border:0;color:#fff;width:40px;height:40px;display:grid;place-items:center;cursor:pointer;border-radius:50%;padding:0;flex:none}
+.ytb svg{width:26px;height:26px}.ytb:disabled{opacity:.35;cursor:default}.ytb:hover:not(:disabled){background:#ffffff1f}
+.ytb.ytcc{width:auto;padding:0 8px;border-radius:6px;font:700 12px var(--font);border-bottom:3px solid var(--red,#f03)}.ytb.ytcc.off{border-bottom-color:transparent;opacity:.8}
+.yttime{font:13px var(--font);margin-left:8px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.ytchap{font:13px var(--jp);opacity:.85;margin-left:10px;white-space:nowrap}
+.ytchap::before{content:"•";margin-right:8px}
+.ytspace{flex:1}
+select.ytrate{background:transparent;color:#fff;border:0;font:700 13px var(--font);padding:6px;cursor:pointer;width:auto;min-width:0}
+select.ytrate option{color:#000}
+.vplayer:fullscreen{border-radius:0;width:100vw;height:100vh;aspect-ratio:auto}
+.vplayer:fullscreen #vCaption{font-size:clamp(20px,2.6vw,40px)}
+.ytnext{position:absolute;right:16px;top:16px;z-index:5;background:#0f0f0fe6;color:#fff;border-radius:12px;padding:14px 16px;max-width:320px;display:flex;flex-direction:column;gap:6px}
+.ytnext small{opacity:.75}.ytnext b{font-family:var(--jp)}
+.ytnext[hidden]{display:none}
+.vwatch .vtitle{font:700 20px/1.4 var(--jp);margin:12px 0 10px}
+.ytowner{display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:space-between}
+.ytch{display:flex;align-items:center;gap:12px;min-width:0}.ytch .vav{width:40px;height:40px}
+.ytch b{display:block;font:600 16px var(--jp)}.ytch small{display:block;color:var(--muted);font-size:12px}
+.ytactions{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+.ytpill{display:inline-flex;align-items:center;gap:6px;height:36px;padding:0 16px;border-radius:18px;border:0;background:var(--chip);color:var(--ink);font:500 14px var(--jp);cursor:pointer;text-decoration:none;white-space:nowrap;flex:none}
+.ytpill:hover{filter:brightness(.93)}.ytpill svg{width:20px;height:20px}
+.ytdesc{background:var(--chip);border-radius:12px;padding:12px;margin:12px 0 4px;font:14px/1.6 var(--jp)}
+.ytdesc p{margin:6px 0}.yttags{color:var(--link)}
+.ytdesc h4{margin:10px 0 4px;font-size:14px}
+.ytchapters{display:flex;flex-direction:column;gap:2px;max-height:132px;overflow:hidden;position:relative}
+.ytdesc.open .ytchapters{max-height:none}
+.ytchapter{display:grid;grid-template-columns:52px minmax(0,1fr);gap:8px;text-align:left;border:0;background:none;color:var(--ink);font:13px/1.5 var(--font);padding:5px 6px;border-radius:8px;cursor:pointer}
+.ytchapter:hover{background:#8881}.ytchapter.cur{background:#8882}
+.ytts{color:var(--link);font-variant-numeric:tabular-nums}
+.ytmore{border:0;background:none;color:var(--ink);font:700 14px var(--jp);padding:6px 0 0;cursor:pointer}
+.ytmore:empty{display:none}
+.ytchip,.ytchips button{height:32px;padding:0 12px;border-radius:8px;border:0;background:var(--chip);color:var(--ink);font:500 14px var(--jp);cursor:pointer;white-space:nowrap;flex:none}
+.ytchip[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.ytchip:hover:not([aria-pressed="true"]){filter:brightness(.92)}
+.vwatch .vtabs{gap:12px;padding:16px 0}
+.ytside{min-width:0}
+.ytauto{display:flex;align-items:center;justify-content:flex-end;gap:8px;font:500 14px var(--jp);margin-bottom:10px}
+.ytauto input{appearance:none;-webkit-appearance:none;width:36px;height:20px;border-radius:10px;background:var(--line);position:relative;cursor:pointer;margin:0;transition:background .15s}
+.ytauto input::after{content:"";position:absolute;top:2px;left:2px;width:16px;height:16px;border-radius:50%;background:#fff;transition:transform .15s}
+.ytauto input:checked{background:var(--ink)}.ytauto input:checked::after{transform:translateX(16px);background:var(--bg)}
+.ytchips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin-bottom:12px}
+.ytlist .vcard{display:grid!important;grid-template-columns:168px minmax(0,1fr);gap:8px;margin:0 0 8px!important;align-items:start}
+.ytlist .vcard .th{border-radius:8px}
+.ytlist .vcard .vkind{display:none}
+.ytlist .vcard .meta{grid-template-columns:minmax(0,1fr)!important;padding:0!important}
+.ytlist .vcard .meta .av{display:none}
+.ytlist .vcard .vt{font-size:14px;font-weight:600}
+.ytlist .vcard .vm{font-size:12px}
+/* Panels follow the light/dark theme */
+.vtranscript,.vquestion,.vspeechPlan{background:var(--chip);border:1px solid var(--line)}
+.vwatch details{border-color:var(--line)}
+.vchunk{background:var(--chip);border-color:var(--line)}
+/* Home: YouTube-like cards */
+.vcard .th{transition:border-radius .2s}.vcard:hover .th{border-radius:0}
+.vcard .vt{font-weight:600}
+.vcard .vm+.vm{margin-top:0}
+.vcard .prog{z-index:2}
+@media(max-width:1000px){.vwatch,.vwatch.theater{grid-template-columns:1fr}.vwatch aside{display:block!important}.vwatch.theater .vmain{display:block}.vwatch.theater aside{grid-column:auto;grid-row:auto}.vwatch.theater .vplayer{height:auto;aspect-ratio:16/9}}
+@media(max-width:719px){
+ .vplayer{position:sticky;top:0;z-index:6;border-radius:0!important;margin:0 -12px}
+ .vplayer #vCaption{bottom:44px;font-size:14px}
+ .ytbar{height:38px}.ytb{width:34px;height:34px}.ytb svg{width:22px;height:22px}
+ .ytchap,#vTheater{display:none}
+ .yttime{font-size:12px;margin-left:4px}
+ .ytlist .vcard{grid-template-columns:150px minmax(0,1fr)}
+ .vwatch .vtitle{font-size:17px}
+}

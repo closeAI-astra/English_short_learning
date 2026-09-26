@@ -1,0 +1,1890 @@
+[
+ {
+  "id": "t850-01",
+  "g": "food",
+  "t": "レストランの予約変更（TOEIC 850）",
+  "sl": [
+   [
+    "cafe|cup|phone",
+    "A caller phoned the restaurant / to change a reservation / for a business luncheon.",
+    "ある電話の主が、仕事の昼食会の予約を変更するためにレストランに電話した。"
+   ],
+   [
+    "cafe|people|calendar",
+    "The group had grown / from six diners to ten, / so the waiter checked / whether a larger table was available.",
+    "一行は6人から10人に増えたので、ウエーターは大きなテーブルが空いているか確かめた。"
+   ],
+   [
+    "cafe|document|check",
+    "The chef offered / a special menu / with a vegetarian option / and a delicious vanilla dessert.",
+    "シェフは、ベジタリアン向けの選択肢とおいしいバニラのデザートが付いた特別メニューを提案した。"
+   ],
+   [
+    "cafe|mail|check",
+    "The waitress sent / a written confirmation / so that the host / could notify the other guests.",
+    "ウエートレスは書面の確認を送り、主催者がほかの客に知らせられるようにした。"
+   ]
+  ],
+  "w": [
+   [
+    "caller",
+    "電話をかける人"
+   ],
+   [
+    "diner",
+    "食事客"
+   ],
+   [
+    "chef",
+    "料理長"
+   ],
+   [
+    "delicious",
+    "とてもおいしい"
+   ],
+   [
+    "notify",
+    "知らせる"
+   ]
+  ],
+  "q": [
+   "Why did the caller contact the restaurant?",
+   [
+    "To change a reservation",
+    "To complain about a meal",
+    "To apply for a job",
+    "To order a cake"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "t850-02",
+  "g": "daily",
+  "t": "歯医者の予約と定期健診（TOEIC 850）",
+  "sl": [
+   [
+    "city|calendar|phone",
+    "The dental clinic sent / a text message / to remind Paul / about his yearly checkup.",
+    "歯科医院は、年1回の健診についてポールに知らせるメッセージを送った。"
+   ],
+   [
+    "office|hourglass|people",
+    "Paul arrived early, / filled out a form / in the waiting room, / and read a magazine.",
+    "ポールは早めに着き、待合室で用紙に記入して雑誌を読んだ。"
+   ],
+   [
+    "office|person|check",
+    "The dentist examined his teeth / and said / there was nothing / to worry about.",
+    "歯医者は歯を診察し、心配することは何もないと言った。"
+   ],
+   [
+    "office|calendar|pencil",
+    "Before leaving, / Paul booked / his next appointment / for the same month next year.",
+    "帰る前に、ポールは来年の同じ月に次の予約を入れた。"
+   ]
+  ],
+  "w": [
+   [
+    "dentist",
+    "歯医者"
+   ],
+   [
+    "yearly",
+    "年1回の"
+   ],
+   [
+    "checkup",
+    "健康診断"
+   ],
+   [
+    "appointment",
+    "予約"
+   ],
+   [
+    "examine",
+    "診察する"
+   ]
+  ],
+  "q": [
+   "Why did Paul visit the clinic?",
+   [
+    "Because of a headache",
+    "To buy medicine",
+    "To meet a friend",
+    "For a yearly checkup"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "t850-03",
+  "g": "daily",
+  "t": "薬局での相談（TOEIC 850）",
+  "sl": [
+   [
+    "city|store|person",
+    "Emma had a mild headache / and a sore throat, / so she went / to the pharmacy after work.",
+    "エマは軽い頭痛とのどの痛みがあったので、仕事の後に薬局へ行った。"
+   ],
+   [
+    "office|person|chat",
+    "The pharmacist asked / whether she was taking / any other medication / or had any allergies.",
+    "薬剤師は、ほかに薬を飲んでいないか、アレルギーはないかを尋ねた。"
+   ],
+   [
+    "paper|document|clock",
+    "He recommended / a generic medicine / and told her / to take one pill / every six hours.",
+    "薬剤師は後発薬を勧め、6時間ごとに1錠飲むよう伝えた。"
+   ],
+   [
+    "dawn|bulb|check",
+    "He also said / that if it was the flu, / she should see a physician / as soon as possible.",
+    "インフルエンザなら、できるだけ早く医師に診てもらうべきだとも言った。"
+   ]
+  ],
+  "w": [
+   [
+    "mild",
+    "軽い"
+   ],
+   [
+    "headache",
+    "頭痛"
+   ],
+   [
+    "pharmacist",
+    "薬剤師"
+   ],
+   [
+    "medication",
+    "薬"
+   ],
+   [
+    "physician",
+    "医師"
+   ]
+  ],
+  "q": [
+   "How often should Emma take the medicine?",
+   [
+    "Every hour",
+    "Only at night",
+    "Once a day",
+    "Every six hours"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "t850-04",
+  "g": "daily",
+  "t": "服の返品と交換（TOEIC 850）",
+  "sl": [
+   [
+    "city|store|bag",
+    "Mia bought a wool sweater, / a scarf, / and a pair of gloves / at a department store sale.",
+    "ミアはデパートのセールでウールのセーター、マフラー、手袋を買った。"
+   ],
+   [
+    "paper|bag|magnifier",
+    "At home, / she noticed / that one sleeve of the sweater / had a small stain.",
+    "家で、セーターの片方の袖に小さな染みがあるのに気づいた。"
+   ],
+   [
+    "city|store|document",
+    "She returned to the store / with her receipt, / and the cashier / offered an exchange / or a refund.",
+    "レシートを持って店に戻ると、レジ係は交換か返金を提案した。"
+   ],
+   [
+    "city|check|bag",
+    "Mia chose / the same garment / in a different color, / and the cashier / checked it carefully.",
+    "ミアは同じ服を別の色で選び、レジ係はそれを丁寧に確認した。"
+   ]
+  ],
+  "w": [
+   [
+    "sweater",
+    "セーター"
+   ],
+   [
+    "sleeve",
+    "袖"
+   ],
+   [
+    "cashier",
+    "レジ係"
+   ],
+   [
+    "garment",
+    "衣服"
+   ],
+   [
+    "refund",
+    "返金"
+   ]
+  ],
+  "q": [
+   "What was wrong with the sweater?",
+   [
+    "It had no price tag",
+    "It was too small",
+    "It had a stain on one sleeve",
+    "It was the wrong color"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "t850-05",
+  "g": "money",
+  "t": "銀行窓口で（TOEIC 850）",
+  "sl": [
+   [
+    "city|building|coin",
+    "Sam went to the bank / to make a withdrawal / and ask about / a new savings account.",
+    "サムはお金を引き出し、新しい普通預金口座について尋ねるために銀行へ行った。"
+   ],
+   [
+    "office|person|document",
+    "The teller explained / that the account / had no monthly fee / and a higher interest rate.",
+    "窓口係は、その口座には月額手数料がなく、金利が高いと説明した。"
+   ],
+   [
+    "office|key|check",
+    "To open the account, / Sam needed / a photo ID / and a signature / on two forms.",
+    "口座を開くには、写真付きの身分証明書と2枚の用紙への署名が必要だった。"
+   ],
+   [
+    "city|coin|check",
+    "The transaction took / only ten minutes, / and a debit card / arrived by mail / the next week.",
+    "手続きはわずか10分で終わり、翌週デビットカードが郵便で届いた。"
+   ]
+  ],
+  "w": [
+   [
+    "withdrawal",
+    "引き出し"
+   ],
+   [
+    "teller",
+    "銀行の窓口係"
+   ],
+   [
+    "signature",
+    "署名"
+   ],
+   [
+    "transaction",
+    "取引・手続き"
+   ],
+   [
+    "debit",
+    "デビット・引き落とし"
+   ]
+  ],
+  "q": [
+   "What did Sam need to open the account?",
+   [
+    "A letter from his employer",
+    "A photo ID and a signature",
+    "A large deposit",
+    "A phone call"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "t850-06",
+  "g": "daily",
+  "t": "郵便局から小包を送る（TOEIC 850）",
+  "sl": [
+   [
+    "city|box|mail",
+    "Anna wanted to send / a parcel to her sister / who lived overseas.",
+    "アンナは海外に住む妹に小包を送りたかった。"
+   ],
+   [
+    "office|box|magnifier",
+    "The postal clerk / weighed the box / and said / the postage would depend / on the delivery speed.",
+    "郵便局員は箱の重さを量り、郵便料金は配達の速さによると言った。"
+   ],
+   [
+    "paper|document|pencil",
+    "Anna had to fill out / a customs form / and describe / the contents of the box.",
+    "アンナは税関の用紙に記入し、箱の中身を説明しなければならなかった。"
+   ],
+   [
+    "city|plane|box",
+    "She chose / the cheaper option, / which would take / about two weeks / to reach the recipient.",
+    "彼女は安い方を選んだ。受取人に届くまで約2週間かかる方法だった。"
+   ]
+  ],
+  "w": [
+   [
+    "parcel",
+    "小包"
+   ],
+   [
+    "postal",
+    "郵便の"
+   ],
+   [
+    "postage",
+    "郵便料金"
+   ],
+   [
+    "customs",
+    "税関"
+   ],
+   [
+    "recipient",
+    "受取人"
+   ]
+  ],
+  "q": [
+   "What did the postage depend on?",
+   [
+    "The delivery speed",
+    "The day of the week",
+    "The sender's age",
+    "The color of the box"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "t850-07",
+  "g": "travel",
+  "t": "クルーズ船の寄港地（TOEIC 850）",
+  "sl": [
+   [
+    "sea|ship|sun",
+    "The cruise ship / stopped at a small port / for one day, / and passengers could go ashore.",
+    "クルーズ船は小さな港に1日寄港し、乗客は上陸できた。"
+   ],
+   [
+    "sea|map|people",
+    "An excursion / to a tropical beach / was offered, / but the number of places / was limited.",
+    "熱帯の浜辺への小旅行が用意されたが、定員には限りがあった。"
+   ],
+   [
+    "sea|clock|ship",
+    "The captain announced / that everyone must be back aboard / by five o'clock / because the ship would depart on time.",
+    "船長は、船は定刻に出発するので5時までに全員が乗船に戻るよう告げた。"
+   ],
+   [
+    "sea|camera|sun",
+    "Most passengers / enjoyed the seaside scenery / and returned / well before the deadline.",
+    "ほとんどの乗客は海辺の景色を楽しみ、締め切りよりずっと前に戻った。"
+   ]
+  ],
+  "w": [
+   [
+    "cruise",
+    "船旅"
+   ],
+   [
+    "excursion",
+    "小旅行"
+   ],
+   [
+    "captain",
+    "船長"
+   ],
+   [
+    "aboard",
+    "乗って"
+   ],
+   [
+    "depart",
+    "出発する"
+   ]
+  ],
+  "q": [
+   "Why did passengers need to be back by five o'clock?",
+   [
+    "Dinner would start",
+    "A storm was coming",
+    "The beach would close",
+    "The ship would depart on time"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "t850-08",
+  "g": "work",
+  "t": "自動車整備工場で（TOEIC 850）",
+  "sl": [
+   [
+    "city|car|wrench",
+    "Lisa's car made / a strange noise / when she used the brakes, / so she took it to a mechanic.",
+    "リサの車はブレーキを使うと変な音がしたので、整備士のところへ持って行った。"
+   ],
+   [
+    "warehouse|car|magnifier",
+    "The mechanic inspected the brakes / and found / that the pads / were almost worn out.",
+    "整備士はブレーキを点検し、パッドがほとんどすり減っていることを見つけた。"
+   ],
+   [
+    "office|coin|document",
+    "He gave her an estimate / and explained / that the repair / would be covered / by her warranty.",
+    "彼は見積もりを出し、修理は保証の対象になると説明した。"
+   ],
+   [
+    "city|car|check",
+    "The work was finished / by the afternoon, / and Lisa drove home / feeling much safer.",
+    "作業は午後までに終わり、リサはずっと安心して運転して帰った。"
+   ]
+  ],
+  "w": [
+   [
+    "brake",
+    "ブレーキ"
+   ],
+   [
+    "mechanic",
+    "整備士"
+   ],
+   [
+    "inspect",
+    "点検する"
+   ],
+   [
+    "estimate",
+    "見積もり"
+   ],
+   [
+    "warranty",
+    "保証"
+   ]
+  ],
+  "q": [
+   "What was the problem with Lisa's car?",
+   [
+    "The engine overheated",
+    "The battery was dead",
+    "The brake pads were worn out",
+    "A tire was flat"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "t850-09",
+  "g": "work",
+  "t": "ホテルの客室清掃（TOEIC 850）",
+  "sl": [
+   [
+    "office|people|clipboard",
+    "Every morning, / the housekeeping manager / gives each housekeeper / a list of rooms / to clean.",
+    "毎朝、客室清掃の責任者は清掃係それぞれに担当する部屋の一覧を渡す。"
+   ],
+   [
+    "office|check|clock",
+    "Rooms for guests / who are checking out / must be ready / by two in the afternoon.",
+    "チェックアウトする客の部屋は、午後2時までに準備が整っていなければならない。"
+   ],
+   [
+    "office|box|check",
+    "Housekeepers replace the towels, / refill the soap, / and check / that the toiletries are complete.",
+    "清掃係はタオルを替え、せっけんを補充し、洗面用品がそろっているか確認する。"
+   ],
+   [
+    "office|mail|pencil",
+    "If a guest leaves / a wallet or a phone, / the item is recorded / and kept at the front desk.",
+    "客が財布や電話を忘れた場合は、記録してフロントで保管する。"
+   ]
+  ],
+  "w": [
+   [
+    "housekeeper",
+    "客室清掃係"
+   ],
+   [
+    "towel",
+    "タオル"
+   ],
+   [
+    "soap",
+    "せっけん"
+   ],
+   [
+    "toiletry",
+    "洗面用品"
+   ],
+   [
+    "wallet",
+    "財布"
+   ]
+  ],
+  "q": [
+   "When must rooms be ready?",
+   [
+    "By noon",
+    "By two in the afternoon",
+    "By five in the evening",
+    "By midnight"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "t850-10",
+  "g": "work",
+  "t": "社内報の取材（TOEIC 850）",
+  "sl": [
+   [
+    "office|pencil|document",
+    "The editor of the company newsletter / asked a new trainee / to write / an informative article.",
+    "社内報の編集者は、新しい研修生に役立つ記事を書くよう頼んだ。"
+   ],
+   [
+    "office|mic|people",
+    "The trainee interviewed / a senior engineer / about an invention / that had recently received a patent.",
+    "研修生は、最近特許を取った発明について上級技術者に取材した。"
+   ],
+   [
+    "paper|document|magnifier",
+    "The editor asked him / to proofread the draft / and remove / any technical terms / that were too difficult.",
+    "編集者は下書きを校正し、難しすぎる専門用語を取り除くよう頼んだ。"
+   ],
+   [
+    "office|mail|check",
+    "The article / was published / in the next issue, / and many readers / found it useful.",
+    "記事は次の号に掲載され、多くの読者が役に立つと感じた。"
+   ]
+  ],
+  "w": [
+   [
+    "trainee",
+    "研修生"
+   ],
+   [
+    "informative",
+    "有益な"
+   ],
+   [
+    "invention",
+    "発明"
+   ],
+   [
+    "patent",
+    "特許"
+   ],
+   [
+    "proofread",
+    "校正する"
+   ]
+  ],
+  "q": [
+   "What was the article about?",
+   [
+    "An invention that received a patent",
+    "A sports event",
+    "A retirement party",
+    "A new office"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "t850-11",
+  "g": "sport",
+  "t": "野球場のイベント日（TOEIC 850）",
+  "sl": [
+   [
+    "day|ball|people",
+    "The local baseball team / held a special event / for families / at the stadium on Sunday.",
+    "地元の野球チームは、日曜日に球場で家族向けの特別な催しを開いた。"
+   ],
+   [
+    "day|ticket|coin",
+    "Children under twelve / could enter for free, / and every spectator / received a small souvenir.",
+    "12歳未満の子どもは無料で入場でき、観客全員が小さな記念品をもらった。"
+   ],
+   [
+    "day|megaphone|ball",
+    "Before the game, / an announcer introduced the players, / and a famous actress / sang the national anthem.",
+    "試合前、アナウンサーが選手を紹介し、有名な女優が国歌を歌った。"
+   ],
+   [
+    "dusk|trophy|people",
+    "The home team won / in the last inning, / and the crowd / cheered loudly.",
+    "地元チームが最終回に勝ち、観衆は大きな声援を送った。"
+   ]
+  ],
+  "w": [
+   [
+    "baseball",
+    "野球"
+   ],
+   [
+    "stadium",
+    "競技場"
+   ],
+   [
+    "spectator",
+    "観客"
+   ],
+   [
+    "announcer",
+    "アナウンサー"
+   ],
+   [
+    "loudly",
+    "大声で"
+   ]
+  ],
+  "q": [
+   "Who could enter for free?",
+   [
+    "Team members' parents",
+    "Students",
+    "Everyone",
+    "Children under twelve"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "t850-12",
+  "g": "daily",
+  "t": "自転車通勤を始める（TOEIC 850）",
+  "sl": [
+   [
+    "dawn|bicycle|clock",
+    "To avoid traffic congestion, / Ken started / riding his bicycle / to work / three days a week.",
+    "交通渋滞を避けるため、ケンは週3日自転車で通勤し始めた。"
+   ],
+   [
+    "city|bicycle|key",
+    "He bought a helmet, / a lock, / and a small backpack / for his laptop / and his lunch.",
+    "ヘルメット、鍵、ノートパソコンと昼食を入れる小さなリュックを買った。"
+   ],
+   [
+    "rain|bicycle|umbrella",
+    "On rainy days, / he wears a raincoat, / and on icy days, / he takes the train instead.",
+    "雨の日はレインコートを着て、路面が凍った日は代わりに電車に乗る。"
+   ],
+   [
+    "office|check|heart",
+    "His company / provides showers / and a safe place / to park bicycles, / which is very convenient.",
+    "会社にはシャワーと安全な駐輪場があり、とても便利だ。"
+   ]
+  ],
+  "w": [
+   [
+    "congestion",
+    "混雑・渋滞"
+   ],
+   [
+    "bicycle",
+    "自転車"
+   ],
+   [
+    "backpack",
+    "リュック"
+   ],
+   [
+    "icy",
+    "凍った"
+   ],
+   [
+    "convenient",
+    "便利な"
+   ]
+  ],
+  "q": [
+   "What does Ken do on icy days?",
+   [
+    "He drives",
+    "He walks",
+    "He takes the train",
+    "He works from home"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "t850-13",
+  "g": "daily",
+  "t": "庭の手入れを頼む（TOEIC 850）",
+  "sl": [
+   [
+    "spring|house|plant",
+    "The homeowner hired / a gardener / to take care of the lawn / while she was traveling.",
+    "家の持ち主は、旅行中に芝生の手入れをしてもらうため庭師を雇った。"
+   ],
+   [
+    "day|plant|wrench",
+    "The gardener used / a quiet electric mower / so that the neighbors / would not be disturbed.",
+    "庭師は近所の人の迷惑にならないよう、静かな電動芝刈り機を使った。"
+   ],
+   [
+    "day|plant|check",
+    "Because there was / a drought that summer, / he watered the flowers / early in the morning.",
+    "その夏は干ばつだったので、彼は早朝に花に水をやった。"
+   ],
+   [
+    "dusk|house|mail",
+    "He sent / photos of the garden / every week, / and the homeowner / was very satisfied.",
+    "彼は毎週庭の写真を送り、家の持ち主はとても満足した。"
+   ]
+  ],
+  "w": [
+   [
+    "homeowner",
+    "家の所有者"
+   ],
+   [
+    "gardener",
+    "庭師"
+   ],
+   [
+    "lawn",
+    "芝生"
+   ],
+   [
+    "mower",
+    "芝刈り機"
+   ],
+   [
+    "drought",
+    "干ばつ"
+   ]
+  ],
+  "q": [
+   "Why did the gardener water the flowers early?",
+   [
+    "It was a rule",
+    "There was a drought",
+    "The mower was broken",
+    "The neighbors asked him"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "t850-14",
+  "g": "work",
+  "t": "研修講座への申し込み（TOEIC 850）",
+  "sl": [
+   [
+    "library|book|pencil",
+    "The company / offered to pay the tuition / for employees / who enrolled in / a language course.",
+    "会社は語学講座に登録した社員の授業料を払うと申し出た。"
+   ],
+   [
+    "paper|document|calendar",
+    "Applicants had to submit / a form / before the deadline / and get approval / from their manager.",
+    "申込者は締め切り前に用紙を提出し、上司の承認を得る必要があった。"
+   ],
+   [
+    "library|book|people",
+    "The course / lasted one semester / and included / a textbook, / a workbook, / and online practice.",
+    "講座は1学期続き、教科書、練習帳、オンライン練習が含まれていた。"
+   ],
+   [
+    "library|trophy|check",
+    "Employees / who completed the course / received a certificate / that was added / to their personnel files.",
+    "講座を修了した社員は修了証を受け取り、人事記録に加えられた。"
+   ]
+  ],
+  "w": [
+   [
+    "tuition",
+    "授業料"
+   ],
+   [
+    "enroll",
+    "登録する"
+   ],
+   [
+    "semester",
+    "学期"
+   ],
+   [
+    "textbook",
+    "教科書"
+   ],
+   [
+    "certificate",
+    "証明書"
+   ]
+  ],
+  "q": [
+   "What did employees who completed the course receive?",
+   [
+    "A certificate",
+    "A new laptop",
+    "A day off",
+    "A bonus"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "t850-15",
+  "g": "work",
+  "t": "会議室の予約システム（TOEIC 850）",
+  "sl": [
+   [
+    "meeting|laptop|calendar",
+    "The office introduced / an online system / for booking meeting rooms, / including the large boardroom.",
+    "オフィスは大きな役員室を含む会議室を予約するオンラインの仕組みを導入した。"
+   ],
+   [
+    "meeting|people|hourglass",
+    "Before, / two teams sometimes / arrived for the same room / at the same time, / which was annoying.",
+    "以前は、二つのチームが同じ部屋に同時に来ることがあり、迷惑だった。"
+   ],
+   [
+    "meeting|check|laptop",
+    "Now, / employees log in, / choose a time slot, / and receive / an automatic confirmation.",
+    "今では社員がログインして時間枠を選ぶと、自動で確認が届く。"
+   ],
+   [
+    "meeting|clock|check",
+    "Rooms that are not used / within fifteen minutes / are released / so that others can use them.",
+    "15分以内に使われない部屋は、ほかの人が使えるよう開放される。"
+   ]
+  ],
+  "w": [
+   [
+    "boardroom",
+    "役員会議室"
+   ],
+   [
+    "annoying",
+    "迷惑な"
+   ],
+   [
+    "slot",
+    "時間枠"
+   ],
+   [
+    "automatic",
+    "自動の"
+   ],
+   [
+    "release",
+    "開放する"
+   ]
+  ],
+  "q": [
+   "What happens to rooms that are not used within fifteen minutes?",
+   [
+    "A fee is charged",
+    "The manager is notified",
+    "They are locked",
+    "They are released for others"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "t850-16",
+  "g": "work",
+  "t": "在宅勤務とフレックスタイム（TOEIC 850）",
+  "sl": [
+   [
+    "office|clock|people",
+    "A software company / introduced flextime, / so employees could start work / between seven and ten.",
+    "あるソフトウェア会社はフレックスタイムを導入し、社員は7時から10時の間に仕事を始められるようになった。"
+   ],
+   [
+    "city|house|laptop",
+    "Many workers / said the flexibility / helped them / avoid crowded trains / and balance work and family.",
+    "多くの社員は、柔軟さのおかげで満員電車を避け、仕事と家庭を両立できると言った。"
+   ],
+   [
+    "meeting|people|check",
+    "Managers were worried / at first, / but productivity / and morale / both improved.",
+    "管理職は最初は心配したが、生産性と士気はどちらも向上した。"
+   ],
+   [
+    "office|chart|check",
+    "The company now / plans to allow / employees to work / from home / two days a week.",
+    "会社は今、社員が週2日在宅勤務できるようにする予定だ。"
+   ]
+  ],
+  "w": [
+   [
+    "flextime",
+    "フレックスタイム"
+   ],
+   [
+    "flexibility",
+    "柔軟性"
+   ],
+   [
+    "crowded",
+    "混雑した"
+   ],
+   [
+    "productivity",
+    "生産性"
+   ],
+   [
+    "morale",
+    "士気"
+   ]
+  ],
+  "q": [
+   "What was the result of introducing flextime?",
+   [
+    "Trains became crowded",
+    "Sales fell",
+    "Productivity and morale improved",
+    "Many workers quit"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "t850-17",
+  "g": "daily",
+  "t": "家電量販店で冷蔵庫を買う（TOEIC 850）",
+  "sl": [
+   [
+    "city|store|people",
+    "The couple visited / an electronics showroom / to buy / a new refrigerator / and a microwave.",
+    "夫婦は新しい冷蔵庫と電子レンジを買うために家電のショールームを訪れた。"
+   ],
+   [
+    "city|store|chat",
+    "A salesperson / explained / which models were durable / and which used / less electricity.",
+    "販売員は、どの型が丈夫で、どの型が電気を使わないかを説明した。"
+   ],
+   [
+    "city|coin|document",
+    "The store offered / free delivery / and removal of / the old appliances / at no extra cost.",
+    "店は無料配送と古い家電の無料引き取りを提供した。"
+   ],
+   [
+    "city|truck|check",
+    "The couple chose / an economical model, / and it was delivered / two days later.",
+    "夫婦は経済的な型を選び、それは2日後に届いた。"
+   ]
+  ],
+  "w": [
+   [
+    "showroom",
+    "ショールーム"
+   ],
+   [
+    "refrigerator",
+    "冷蔵庫"
+   ],
+   [
+    "salesperson",
+    "販売員"
+   ],
+   [
+    "durable",
+    "耐久性のある"
+   ],
+   [
+    "economical",
+    "経済的な"
+   ]
+  ],
+  "q": [
+   "What did the store offer at no extra cost?",
+   [
+    "A longer warranty",
+    "Delivery and removal of old appliances",
+    "Installation of a new kitchen",
+    "A gift card"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "t850-18",
+  "g": "art",
+  "t": "美術館の彫刻展（TOEIC 850）",
+  "sl": [
+   [
+    "library|palette|people",
+    "The city museum / opened an exhibition / of modern sculpture / by a renowned artist.",
+    "市の美術館は、著名な芸術家による現代彫刻の展覧会を開いた。"
+   ],
+   [
+    "library|ticket|coin",
+    "Admission was free / on Wednesdays, / and a booklet / explaining each work / was available at the entrance.",
+    "水曜日は入場無料で、各作品を説明する小冊子が入口で手に入った。"
+   ],
+   [
+    "library|mic|people",
+    "A guide / led tours twice a day, / and visitors / could ask questions / about the artist's inspiration.",
+    "案内係が1日2回見学を案内し、来館者は芸術家の着想について質問できた。"
+   ],
+   [
+    "library|camera|check",
+    "Photography was prohibited / in one room / to protect / a delicate work / made of paper.",
+    "紙で作られた繊細な作品を守るため、一つの部屋では撮影が禁止されていた。"
+   ]
+  ],
+  "w": [
+   [
+    "sculpture",
+    "彫刻"
+   ],
+   [
+    "renowned",
+    "有名な"
+   ],
+   [
+    "booklet",
+    "小冊子"
+   ],
+   [
+    "inspiration",
+    "着想"
+   ],
+   [
+    "prohibit",
+    "禁止する"
+   ]
+  ],
+  "q": [
+   "Why was photography prohibited in one room?",
+   [
+    "Because the room was dark",
+    "Because of a special guest",
+    "To sell more booklets",
+    "To protect a delicate work"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "t850-19",
+  "g": "work",
+  "t": "コピー機の故障（TOEIC 850）",
+  "sl": [
+   [
+    "office|printer|wrench",
+    "The photocopier / on the second floor / had a paper jam / again this morning.",
+    "2階のコピー機は今朝もまた紙詰まりを起こした。"
+   ],
+   [
+    "office|printer|magnifier",
+    "An administrative assistant / opened the front panel / but could not find / the problem.",
+    "事務の補佐役が前面の扉を開けたが、問題を見つけられなかった。"
+   ],
+   [
+    "office|phone|wrench",
+    "She called / the repair service, / and a technician / said the machine / needed a new part.",
+    "修理サービスに電話すると、技術者は機械に新しい部品が必要だと言った。"
+   ],
+   [
+    "office|mail|clock",
+    "Until it was fixed, / staff were asked / to use the printer / in the boardroom.",
+    "直るまで、社員は役員室の印刷機を使うよう頼まれた。"
+   ]
+  ],
+  "w": [
+   [
+    "photocopier",
+    "コピー機"
+   ],
+   [
+    "jam",
+    "（紙）詰まり"
+   ],
+   [
+    "administrative",
+    "事務の"
+   ],
+   [
+    "technician",
+    "技術者"
+   ],
+   [
+    "repair",
+    "修理"
+   ]
+  ],
+  "q": [
+   "What were staff asked to do until the machine was fixed?",
+   [
+    "Buy a new copier",
+    "Send files by fax",
+    "Stop printing",
+    "Use the printer in the boardroom"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "t850-20",
+  "g": "daily",
+  "t": "天気予報と週末の予定（TOEIC 850）",
+  "sl": [
+   [
+    "rain|cloud|umbrella",
+    "The weather forecast / said / Saturday would be windy / with heavy rainfall / in the afternoon.",
+    "天気予報では、土曜日は風が強く、午後は大雨になるとのことだった。"
+   ],
+   [
+    "day|sun|people",
+    "However, / Sunday was expected / to be sunny and warm, / which was perfect / for a picnic.",
+    "しかし日曜日は晴れて暖かくなる見込みで、ピクニックにぴったりだった。"
+   ],
+   [
+    "day|bowl|people",
+    "The family / postponed their hike / and prepared / sandwiches, salad, and juice / instead.",
+    "家族はハイキングを延期し、代わりにサンドイッチ、サラダ、ジュースを用意した。"
+   ],
+   [
+    "dusk|sun|check",
+    "On Sunday, / they enjoyed the sunshine / in the park / until the evening.",
+    "日曜日、彼らは夕方まで公園で日差しを楽しんだ。"
+   ]
+  ],
+  "w": [
+   [
+    "windy",
+    "風の強い"
+   ],
+   [
+    "rainfall",
+    "降雨"
+   ],
+   [
+    "sunny",
+    "晴れた"
+   ],
+   [
+    "picnic",
+    "ピクニック"
+   ],
+   [
+    "hike",
+    "ハイキング"
+   ]
+  ],
+  "q": [
+   "What will the weather be like on Sunday?",
+   [
+    "Rainy",
+    "Windy",
+    "Sunny and warm",
+    "Snowy"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "t850-21",
+  "g": "work",
+  "t": "電話会議の通訳（TOEIC 850）",
+  "sl": [
+   [
+    "meeting|laptop|people",
+    "The sales team / held a conference call / with a client in Brazil, / using an interpreter.",
+    "営業チームは通訳を使ってブラジルの顧客と電話会議を行った。"
+   ],
+   [
+    "meeting|headphones|chat",
+    "The interpreter / translated each statement / and asked the speakers / to pause regularly.",
+    "通訳は発言を一つずつ訳し、話し手に定期的に間を置くよう頼んだ。"
+   ],
+   [
+    "meeting|document|pencil",
+    "After the call, / a translator / prepared / a written translation / of the agreement.",
+    "通話の後、翻訳者が合意事項の書面の翻訳を用意した。"
+   ],
+   [
+    "meeting|handshake|check",
+    "Both sides / reviewed the document / carefully / before they signed it.",
+    "双方は署名する前に文書を注意深く確認した。"
+   ]
+  ],
+  "w": [
+   [
+    "interpreter",
+    "通訳"
+   ],
+   [
+    "translate",
+    "翻訳する"
+   ],
+   [
+    "translator",
+    "翻訳者"
+   ],
+   [
+    "translation",
+    "翻訳"
+   ],
+   [
+    "statement",
+    "発言"
+   ]
+  ],
+  "q": [
+   "What did the translator prepare?",
+   [
+    "A slide show",
+    "A written translation of the agreement",
+    "A price list",
+    "A meeting schedule"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "t850-22",
+  "g": "daily",
+  "t": "落とし物の財布（TOEIC 850）",
+  "sl": [
+   [
+    "city|bus|bag",
+    "Jin left his wallet / on a bus / and did not notice / until he reached the office.",
+    "ジンはバスに財布を置き忘れ、会社に着くまで気づかなかった。"
+   ],
+   [
+    "office|phone|bus",
+    "He called / the bus company, / and the operator / asked him / to describe the wallet.",
+    "バス会社に電話すると、係員が財布の特徴を説明するよう求めた。"
+   ],
+   [
+    "office|document|check",
+    "An honest passenger / had handed it / to the driver, / and nothing was missing.",
+    "正直な乗客が運転手に届けていて、なくなっている物は何もなかった。"
+   ],
+   [
+    "city|check|heart",
+    "Jin picked it up / after work / and sent / a note of thanks / to the company.",
+    "ジンは仕事の後に受け取り、会社にお礼の手紙を送った。"
+   ]
+  ],
+  "w": [
+   [
+    "wallet",
+    "財布"
+   ],
+   [
+    "operator",
+    "係員"
+   ],
+   [
+    "describe",
+    "説明する"
+   ],
+   [
+    "honest",
+    "正直な"
+   ],
+   [
+    "missing",
+    "なくなった"
+   ]
+  ],
+  "q": [
+   "Who had handed the wallet to the driver?",
+   [
+    "An honest passenger",
+    "Jin's coworker",
+    "The operator",
+    "A police officer"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "t850-23",
+  "g": "food",
+  "t": "料理教室と地域の食文化（TOEIC 850）",
+  "sl": [
+   [
+    "cafe|bowl|people",
+    "A community center / offers a culinary class / every Friday / for beginners / who want to cook at home.",
+    "地域センターは、家で料理したい初心者向けに毎週金曜日に料理教室を開いている。"
+   ],
+   [
+    "cafe|bowl|clock",
+    "This week, / students learned / how to bake bread, / fry vegetables, / and make a simple soup.",
+    "今週、生徒はパンの焼き方、野菜の炒め方、簡単なスープの作り方を学んだ。"
+   ],
+   [
+    "cafe|document|check",
+    "The instructor / gave each student / a small cookbook / with recipes / from different regions.",
+    "講師は生徒それぞれに、さまざまな地域のレシピが載った小さな料理本を配った。"
+   ],
+   [
+    "cafe|heart|people",
+    "At the end, / everyone shared the meal / and discussed / which flavors they liked best.",
+    "最後に皆で料理を分け合い、どの味が一番好きか話し合った。"
+   ]
+  ],
+  "w": [
+   [
+    "culinary",
+    "料理の"
+   ],
+   [
+    "bake",
+    "（パンなどを）焼く"
+   ],
+   [
+    "fry",
+    "炒める・揚げる"
+   ],
+   [
+    "cookbook",
+    "料理本"
+   ],
+   [
+    "flavor",
+    "味"
+   ]
+  ],
+  "q": [
+   "What did each student receive?",
+   [
+    "A certificate",
+    "A bag of flour",
+    "A knife",
+    "A small cookbook"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "t850-24",
+  "g": "money",
+  "t": "小売店のフランチャイズ説明会（TOEIC 850）",
+  "sl": [
+   [
+    "meeting|store|people",
+    "A coffee chain / held an information session / for people / interested in opening / a franchise.",
+    "コーヒーチェーンは、フランチャイズ店の開業に関心のある人向けに説明会を開いた。"
+   ],
+   [
+    "meeting|coin|chart",
+    "The presenter explained / the initial fee, / the monthly royalty, / and the expected profit / in the first year.",
+    "発表者は、加盟金、毎月のロイヤルティー、1年目に見込まれる利益を説明した。"
+   ],
+   [
+    "meeting|document|magnifier",
+    "Several prospective owners / asked / whether the company / would help them / find a suitable location.",
+    "何人かの開業希望者は、会社が適した場所を探すのを手伝ってくれるか尋ねた。"
+   ],
+   [
+    "meeting|handshake|check",
+    "The company promised / to provide training / and marketing support / for the first two years.",
+    "会社は最初の2年間、研修と販促の支援を提供すると約束した。"
+   ]
+  ],
+  "w": [
+   [
+    "franchise",
+    "フランチャイズ（店）"
+   ],
+   [
+    "presenter",
+    "発表者"
+   ],
+   [
+    "profit",
+    "利益"
+   ],
+   [
+    "prospective",
+    "見込みのある"
+   ],
+   [
+    "suitable",
+    "適した"
+   ]
+  ],
+  "q": [
+   "What did the company promise to provide?",
+   [
+    "A building",
+    "Free coffee",
+    "Training and marketing support",
+    "A lower fee"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "t850-25",
+  "g": "work",
+  "t": "書類の提出期限（TOEIC 850）",
+  "sl": [
+   [
+    "office|document|calendar",
+    "A memo / reminded all staff / that expense reports / for this quarter / were due on Friday.",
+    "社内連絡で、今四半期の経費報告書の期限が金曜日だと全社員に念押しされた。"
+   ],
+   [
+    "office|pencil|magnifier",
+    "The accounting team / asked employees / to check their submissions thoroughly / and not to omit any receipts.",
+    "経理チームは、提出物を徹底的に確認し、領収書を一枚も抜かさないよう社員に求めた。"
+   ],
+   [
+    "office|hourglass|mail",
+    "Reports that were overdue / would be processed / in the next month, / which could delay reimbursement.",
+    "期限を過ぎた報告書は翌月に処理され、払い戻しが遅れる可能性があった。"
+   ],
+   [
+    "office|check|people",
+    "Most employees / submitted their paperwork / on time, / and the process / went smoothly.",
+    "ほとんどの社員が期限内に書類を提出し、手続きは順調に進んだ。"
+   ]
+  ],
+  "w": [
+   [
+    "memo",
+    "社内連絡"
+   ],
+   [
+    "submission",
+    "提出物"
+   ],
+   [
+    "thoroughly",
+    "徹底的に"
+   ],
+   [
+    "omit",
+    "省く"
+   ],
+   [
+    "overdue",
+    "期限を過ぎた"
+   ]
+  ],
+  "q": [
+   "What could happen to overdue reports?",
+   [
+    "They would be rejected",
+    "Reimbursement could be delayed",
+    "A fine would be charged",
+    "They would be lost"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "t850-26",
+  "g": "work",
+  "t": "新製品の予告と先行受注（TOEIC 850）",
+  "sl": [
+   [
+    "office|laptop|megaphone",
+    "An electronics company / released a preview / of its upcoming product, / a compact and portable speaker.",
+    "電子機器会社は、近く発売する製品、小型で持ち運べるスピーカーの予告を公開した。"
+   ],
+   [
+    "office|phone|chat",
+    "Many customers / wanted to inquire / about the price, / the battery life, / and the release date.",
+    "多くの客が価格、電池の持ち、発売日について問い合わせたがった。"
+   ],
+   [
+    "city|store|chart",
+    "The company offered / an exclusive discount / to shoppers / who ordered in advance.",
+    "会社は事前に注文した買い物客に限定の割引を提供した。"
+   ],
+   [
+    "warehouse|truck|box",
+    "Distribution / began one month later, / and the first shipment / sold out worldwide / in three days.",
+    "流通は1か月後に始まり、最初の出荷分は3日で世界中で売り切れた。"
+   ]
+  ],
+  "w": [
+   [
+    "preview",
+    "予告・試写"
+   ],
+   [
+    "upcoming",
+    "近く行われる"
+   ],
+   [
+    "compact",
+    "小型の"
+   ],
+   [
+    "inquire",
+    "問い合わせる"
+   ],
+   [
+    "exclusive",
+    "独占的な・限定の"
+   ]
+  ],
+  "q": [
+   "What did customers who ordered in advance receive?",
+   [
+    "An exclusive discount",
+    "Faster delivery",
+    "A second speaker",
+    "A free case"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "t850-27",
+  "g": "work",
+  "t": "昇進と退職の知らせ（TOEIC 850）",
+  "sl": [
+   [
+    "meeting|people|megaphone",
+    "The director announced / that Maria / would be promoted / to a managerial position / next month.",
+    "部長は、マリアが来月管理職に昇進すると発表した。"
+   ],
+   [
+    "meeting|trophy|heart",
+    "Her colleagues / congratulated her / on her accomplishment / and her years of loyal service.",
+    "同僚たちは、彼女の業績と長年の忠実な勤務を祝った。"
+   ],
+   [
+    "office|mail|document",
+    "At the same time, / her superior / submitted his resignation, / because he planned / to start his own business.",
+    "同時に、彼女の上司は自分で事業を始める予定のため辞表を出した。"
+   ],
+   [
+    "office|handshake|calendar",
+    "He agreed / to stay for a lengthy transition / and to instruct Maria / on the details of his work.",
+    "彼は長めの引き継ぎ期間残り、仕事の詳細をマリアに教えることに同意した。"
+   ]
+  ],
+  "w": [
+   [
+    "managerial",
+    "管理職の"
+   ],
+   [
+    "congratulate",
+    "祝う"
+   ],
+   [
+    "accomplishment",
+    "業績"
+   ],
+   [
+    "superior",
+    "上司"
+   ],
+   [
+    "resignation",
+    "辞職・辞表"
+   ]
+  ],
+  "q": [
+   "Why did Maria's superior resign?",
+   [
+    "He was moving abroad",
+    "He was unhappy with his salary",
+    "He was retiring",
+    "He planned to start his own business"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "t850-28",
+  "g": "daily",
+  "t": "空港シャトルと運賃（TOEIC 850）",
+  "sl": [
+   [
+    "airport|bus|ticket",
+    "The airport shuttle / runs every twenty minutes, / and the fare / is cheaper than a taxi.",
+    "空港シャトルは20分ごとに走り、運賃はタクシーより安い。"
+   ],
+   [
+    "airport|suitcase|people",
+    "Passengers / may bring one suitcase / and a briefcase, / but bags must not be left unattended.",
+    "乗客はスーツケース一つとかばん一つを持ち込めるが、荷物を放置してはならない。"
+   ],
+   [
+    "airport|ticket|check",
+    "Tickets / can be purchased / at a machine / or from the attendant / at the stop.",
+    "乗車券は機械か、停留所の係員から買える。"
+   ],
+   [
+    "airport|plane|clock",
+    "During peak hours, / the ride / takes about forty minutes, / so travelers / should leave early.",
+    "混雑する時間帯は乗車に約40分かかるので、旅行者は早めに出るべきだ。"
+   ]
+  ],
+  "w": [
+   [
+    "fare",
+    "運賃"
+   ],
+   [
+    "briefcase",
+    "かばん"
+   ],
+   [
+    "unattended",
+    "放置された"
+   ],
+   [
+    "attendant",
+    "係員"
+   ],
+   [
+    "peak",
+    "最も多い・ピークの"
+   ]
+  ],
+  "q": [
+   "Where can tickets be purchased?",
+   [
+    "On the airplane",
+    "Only online",
+    "At a machine or from the attendant",
+    "At the hotel"
+   ],
+   2
+  ]
+ },
+ {
+  "id": "t850-29",
+  "g": "daily",
+  "t": "図書館のサービス（TOEIC 850）",
+  "sl": [
+   [
+    "library|book|laptop",
+    "The public library / now allows members / to download an e-book / at any time / for free.",
+    "公立図書館では、会員がいつでも無料で電子書籍をダウンロードできるようになった。"
+   ],
+   [
+    "library|document|clock",
+    "Members / who want a paperback / can reserve it online / and pick it up / at the front desk.",
+    "紙の本が欲しい会員は、オンラインで予約して受付で受け取れる。"
+   ],
+   [
+    "library|people|chat",
+    "The library / also offers / a quiet reading room, / free workshops, / and help with job applications.",
+    "図書館は静かな閲覧室、無料の講座、就職の応募の手助けも提供している。"
+   ],
+   [
+    "library|mail|check",
+    "A newsletter / with a directory / of upcoming events / is sent to subscribers / every month.",
+    "近日の催しの一覧が載った会報が、毎月購読者に送られる。"
+   ]
+  ],
+  "w": [
+   [
+    "download",
+    "ダウンロードする"
+   ],
+   [
+    "e-book",
+    "電子書籍"
+   ],
+   [
+    "paperback",
+    "ペーパーバック"
+   ],
+   [
+    "directory",
+    "一覧・名簿"
+   ],
+   [
+    "subscriber",
+    "購読者"
+   ]
+  ],
+  "q": [
+   "What is sent to subscribers every month?",
+   [
+    "A free e-book",
+    "A newsletter with upcoming events",
+    "A new library card",
+    "A reading list"
+   ],
+   1
+  ]
+ },
+ {
+  "id": "t850-30",
+  "g": "environment",
+  "t": "地震の避難訓練（TOEIC 850）",
+  "sl": [
+   [
+    "office|megaphone|people",
+    "The building manager / announced / an earthquake drill / for Thursday at ten o'clock.",
+    "ビル管理者は木曜10時に地震の避難訓練を行うと発表した。"
+   ],
+   [
+    "office|check|people",
+    "When the alarm sounds, / employees should / move away from windows / and take cover / under their desks.",
+    "警報が鳴ったら、社員は窓から離れ、机の下に身を隠すことになっている。"
+   ],
+   [
+    "city|map|people",
+    "After that, / they should use the stairs, / not the escalator or the elevator, / and gather outside.",
+    "その後、エスカレーターやエレベーターではなく階段を使い、外に集まる。"
+   ],
+   [
+    "city|clipboard|check",
+    "Each department / will designate / one person / to count the staff / and report to the manager.",
+    "各部署は、人数を数えて管理者に報告する担当者を一人決める。"
+   ]
+  ],
+  "w": [
+   [
+    "earthquake",
+    "地震"
+   ],
+   [
+    "drill",
+    "訓練"
+   ],
+   [
+    "escalator",
+    "エスカレーター"
+   ],
+   [
+    "designate",
+    "指名する"
+   ],
+   [
+    "gather",
+    "集まる"
+   ]
+  ],
+  "q": [
+   "What should employees use after the alarm?",
+   [
+    "The stairs",
+    "The escalator",
+    "The parking lot",
+    "The elevator"
+   ],
+   0
+  ]
+ },
+ {
+  "id": "t850-31",
+  "g": "money",
+  "t": "保険の契約更新（TOEIC 850）",
+  "sl": [
+   [
+    "office|document|coin",
+    "The insurance company / sent a letter / about the renewal / of Kate's automobile policy.",
+    "保険会社はケイトの自動車保険の更新について手紙を送った。"
+   ],
+   [
+    "office|chart|magnifier",
+    "The premium / had increased slightly, / because the cost of repairs / had risen nationwide.",
+    "修理費が全国的に上がったため、保険料はわずかに上がっていた。"
+   ],
+   [
+    "office|phone|chat",
+    "Kate called / an advisor / to ask / whether a cheaper plan / was applicable to her situation.",
+    "ケイトは助言者に電話し、もっと安い契約が自分の状況に当てはまるか尋ねた。"
+   ],
+   [
+    "office|check|pencil",
+    "She chose a plan / with a higher deductible / and signed / the documents electronically.",
+    "彼女は自己負担額が高い契約を選び、書類に電子署名した。"
+   ]
+  ],
+  "w": [
+   [
+    "renewal",
+    "更新"
+   ],
+   [
+    "automobile",
+    "自動車"
+   ],
+   [
+    "premium",
+    "保険料"
+   ],
+   [
+    "advisor",
+    "助言者"
+   ],
+   [
+    "applicable",
+    "当てはまる"
+   ]
+  ],
+  "q": [
+   "Why had the premium increased?",
+   [
+    "She bought a new car",
+    "The company changed owners",
+    "Kate had an accident",
+    "Repair costs had risen"
+   ],
+   3
+  ]
+ },
+ {
+  "id": "t850-32",
+  "g": "daily",
+  "t": "趣味と余暇の過ごし方（TOEIC 850）",
+  "sl": [
+   [
+    "day|palette|heart",
+    "In her leisure time, / Nina enjoys pottery, / which she started / as a hobby / three years ago.",
+    "ニナは余暇に陶芸を楽しんでいる。3年前に趣味として始めたものだ。"
+   ],
+   [
+    "library|palette|people",
+    "She takes / a recreational class / at a community center / on Saturday mornings.",
+    "土曜の朝に地域センターで趣味の講座を受けている。"
+   ],
+   [
+    "day|bag|coin",
+    "Last month, / she sold / several bowls / at a seasonal market, / which surprised her.",
+    "先月、季節の市場でいくつかの器を売ることができ、彼女は驚いた。"
+   ],
+   [
+    "dusk|heart|check",
+    "She says / the hobby helps her / relieve stress / after a busy week / at the office.",
+    "趣味は会社での忙しい1週間の後のストレス解消に役立つと彼女は言う。"
+   ]
+  ],
+  "w": [
+   [
+    "leisure",
+    "余暇"
+   ],
+   [
+    "pottery",
+    "陶芸"
+   ],
+   [
+    "hobby",
+    "趣味"
+   ],
+   [
+    "recreational",
+    "レクリエーションの"
+   ],
+   [
+    "relieve",
+    "和らげる"
+   ]
+  ],
+  "q": [
+   "Where did Nina sell her bowls?",
+   [
+    "At the community center",
+    "Online",
+    "At a seasonal market",
+    "At her office"
+   ],
+   2
+  ]
+ }
+]

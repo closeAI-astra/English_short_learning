@@ -114,6 +114,9 @@ if validate.main([]):
 from video_content import export, export_decks, NEW_SHORTS
 long_lessons, phrase_cards = export()
 block('VIDEO_DATA', 'window.EE_LONG='+json.dumps(long_lessons,ensure_ascii=False)+';\nEE_CARDS.push(...'+json.dumps(phrase_cards,ensure_ascii=False)+');\nEE_SHORTS.push(...'+json.dumps(NEW_SHORTS,ensure_ascii=False)+');\nwindow.EE_DECKS='+json.dumps(export_decks(),ensure_ascii=False)+';\n', 'window.EE_TOPICS = [')
+# More backgrounds/items for the illustration kit (art-extra.js runs inside the ART closure).
+block('ART_EXTRA', (ROOT/'art-extra.js').read_text(encoding='utf-8'), '  IT.triceratops=IT.trike;')
+change("if(b.stars)s+=st;if(b.grid)s+=gr;", "if(b.stars)s+=st;if(b.grid)s+=gr;if(b.x)s+=b.x;")
 # Genre avatars reuse the illustration kit's item shapes.
 change("  return {draw:draw,names:Object.keys(IT),bgs:Object.keys(BG)};", "  return {draw:draw,names:Object.keys(IT),bgs:Object.keys(BG),shape:k=>IT[k]?IT[k].d:''};")
 block('VIDEO_APP', (ROOT/'video-app.js').read_text(encoding='utf-8-sig'), '/* ================= boot ================= */')
