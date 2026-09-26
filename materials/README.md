@@ -22,6 +22,8 @@ English Express の教材は、このフォルダーに JSON ファイルを置�
 
 チェックだけしたいときは `uv run python materials/validate.py` を実行します。
 
+語彙カバー率（NGSL 1.2 + TSL 1.2 のうち教材に出てくる語の割合）は、ビルド後に `node coverage.cjs` で確認できます。`--missing-tsl` を付けると、まだ出てこない TOEIC 語の一覧が出るので、新しい教材の題材選びに使えます。`publish.bat` は、アプリ内のカバー率と TSL のカバー率が50％以下になるとアップロードを止めます。
+
 ## 書き方
 
 ### フレーズ `phrases_〇〇.json`
@@ -62,7 +64,10 @@ English Express の教材は、このフォルダーに JSON ファイルを置�
 `背景|物|物`（物は3つまで）。ショートでは `big:短い文字`（14文字まで）で大きな文字も出せます。
 
 - 背景：day, dusk, night, sea, desert, forest, space, paper, snow, city
+  - 室内・天気など（追加）：office, meeting, cafe, airport, rain, dawn, autumn, spring, library, stage, underwater, warehouse
 - 物：bowl, laptop, film, ball, palette, chat, sun, moon, cloud, planet, plane, bird, bee, mountain, tree, palm, flower, rock, volcano, trex, sauropod, raptor, trike, pterosaur, fish, whale, octopus, egg, bone, skyline, building, bridge, train, ship, rocket, pyramid, flag, globe, pin, crown, book, scroll, clock, coin, chart, bulb, atom, magnifier, spiral, fib, pi, sine, primes, dice, infinity, heart, note, wave
+  - 仕事・生活（追加）：person, people, speaker, desk, phone, mail, calendar, document, briefcase, cup, truck, bus, car, bicycle, house, store, factory, cart, handshake, mic, headphones, camera, ticket, suitcase, umbrella, key, gear, box, printer, trophy, pencil, clipboard, target, megaphone, bag, badge, map, hourglass, check, wrench, plant, mouth, ear
+- 長文とフレーズのスライドは、英文の単語（meeting, invoice, flight など）から絵柄を自動で選びます。場面の指定は「1枚目・該当語がないとき」の絵柄になります
 
 ## AI に作ってもらうとき
 

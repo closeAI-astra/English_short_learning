@@ -1,0 +1,247 @@
+{
+ "deck": "TOEIC 850 語彙",
+ "level": "TOEIC 850",
+ "scene": "office|document|pencil",
+ "phrases": [
+  [
+   "enclose",
+   "同封する",
+   "Please find enclosed a copy of the signed contract for your records.",
+   "記録用に署名済みの契約書の写しを同封いたします。"
+  ],
+  [
+   "sincerely",
+   "心から・敬具",
+   "We sincerely apologize for any inconvenience the delay may have caused.",
+   "遅延によりご迷惑をおかけしたことを心よりお詫び申し上げます。"
+  ],
+  [
+   "correspondence",
+   "通信・やり取り",
+   "Please keep all correspondence with the client in the shared folder.",
+   "顧客とのやり取りはすべて共有フォルダーに保存してください。"
+  ],
+  [
+   "memorandum",
+   "社内文書・覚書",
+   "The memorandum explains the new policy on remote work in detail.",
+   "その社内文書は在宅勤務の新しい方針を詳しく説明しています。"
+  ],
+  [
+   "accommodate",
+   "収容する・対応する",
+   "The conference hall can accommodate up to three hundred guests.",
+   "その会議場は最大300人の客を収容できます。"
+  ],
+  [
+   "relocate",
+   "移転する",
+   "The company plans to relocate its headquarters to Osaka next spring.",
+   "会社は来春、本社を大阪に移転する予定です。"
+  ],
+  [
+   "incur",
+   "（費用を）負う",
+   "Travelers will incur an extra fee if they change their flight.",
+   "便を変更すると、旅行者は追加料金を負担することになります。"
+  ],
+  [
+   "deduct",
+   "差し引く",
+   "The cost of the uniform will be deducted from your first paycheck.",
+   "制服代は最初の給与から差し引かれます。"
+  ],
+  [
+   "reimburse",
+   "払い戻す",
+   "The company will reimburse employees for taxi fares after ten o'clock at night.",
+   "会社は夜10時以降のタクシー代を社員に払い戻します。"
+  ],
+  [
+   "facilitate",
+   "促進する・進行する",
+   "A consultant was hired to facilitate the discussion between the two departments.",
+   "二つの部署の話し合いを進めるためにコンサルタントが雇われました。"
+  ],
+  [
+   "compensate",
+   "補償する",
+   "The airline offered a meal voucher to compensate passengers for the delay.",
+   "航空会社は遅延の補償として乗客に食事券を提供しました。"
+  ],
+  [
+   "malfunction",
+   "故障する・不具合",
+   "If the machine malfunctions, please contact the maintenance department immediately.",
+   "機械が故障したら、すぐに保守部門に連絡してください。"
+  ],
+  [
+   "assemble",
+   "組み立てる・集まる",
+   "The desks are delivered in boxes and must be assembled on site.",
+   "机は箱で届き、現場で組み立てる必要があります。"
+  ],
+  [
+   "terminate",
+   "終了する・解除する",
+   "Either party may terminate the agreement with thirty days' written notice.",
+   "どちらの当事者も30日前の書面通知で契約を解除できます。"
+  ],
+  [
+   "mislead",
+   "誤解させる",
+   "The advertisement was changed because some customers felt it could mislead them.",
+   "誤解を招くと感じた客がいたため、広告は変更されました。"
+  ],
+  [
+   "inexpensive",
+   "安価な",
+   "The hotel offers clean and inexpensive rooms near the central station.",
+   "そのホテルは中央駅の近くで清潔で手頃な部屋を提供しています。"
+  ],
+  [
+   "unlimited",
+   "無制限の",
+   "The new plan includes unlimited data and free international calls.",
+   "新しいプランにはデータ無制限と無料の国際電話が含まれます。"
+  ],
+  [
+   "consent",
+   "同意",
+   "We cannot share your information without your written consent.",
+   "書面による同意なしにあなたの情報を共有することはできません。"
+  ],
+  [
+   "authorization",
+   "承認・許可",
+   "Purchases over one thousand dollars require authorization from a director.",
+   "1000ドルを超える購入には取締役の承認が必要です。"
+  ],
+  [
+   "documentation",
+   "書類・文書化",
+   "Please submit the necessary documentation before your first day of work.",
+   "勤務初日までに必要な書類を提出してください。"
+  ],
+  [
+   "preliminary",
+   "予備の",
+   "The preliminary results of the survey will be shared at the next meeting.",
+   "調査の暫定結果は次の会議で共有されます。"
+  ],
+  [
+   "cumulative",
+   "累積の",
+   "The report shows the cumulative sales for the first nine months.",
+   "その報告書は最初の9か月の累計売上を示しています。"
+  ],
+  [
+   "substantially",
+   "大幅に",
+   "Energy costs have increased substantially since the beginning of the year.",
+   "年初からエネルギー費が大幅に増えています。"
+  ],
+  [
+   "consistently",
+   "一貫して",
+   "Our team has consistently met its sales targets this year.",
+   "私たちのチームは今年一貫して売上目標を達成しています。"
+  ],
+  [
+   "urgently",
+   "緊急に",
+   "The client urgently needs the revised estimate by this afternoon.",
+   "顧客は修正した見積もりを今日の午後までに至急必要としています。"
+  ],
+  [
+   "periodically",
+   "定期的に",
+   "Please check the website periodically for updates to the schedule.",
+   "予定の更新がないか、定期的にウェブサイトを確認してください。"
+  ],
+  [
+   "alternatively",
+   "代わりに・あるいは",
+   "You can pay online; alternatively, you may pay at any of our branches.",
+   "オンラインで支払えます。あるいは、どの支店でもお支払いいただけます。"
+  ],
+  [
+   "exceptional",
+   "並外れた",
+   "She received an award for her exceptional service to customers.",
+   "彼女は顧客への並外れた対応で賞を受けました。"
+  ],
+  [
+   "ambitious",
+   "野心的な",
+   "The company has set an ambitious goal of doubling its sales.",
+   "会社は売上を倍増させるという野心的な目標を立てました。"
+  ],
+  [
+   "reluctant",
+   "気が進まない",
+   "Some managers were reluctant to change the familiar procedure.",
+   "慣れた手順を変えることに気が進まない管理職もいました。"
+  ],
+  [
+   "tidy",
+   "整頓された",
+   "Please keep the kitchen tidy and wash your cup after use.",
+   "台所は整頓し、使った後はカップを洗ってください。"
+  ],
+  [
+   "timely",
+   "時宜を得た・迅速な",
+   "Thank you for your timely reply to our inquiry.",
+   "お問い合わせへの迅速なご返信をありがとうございます。"
+  ],
+  [
+   "strategic",
+   "戦略的な",
+   "The two firms formed a strategic partnership to enter the Asian market.",
+   "2社はアジア市場に参入するため戦略的な提携を結びました。"
+  ],
+  [
+   "dynamic",
+   "活動的な・活気のある",
+   "We are looking for a dynamic person to join our sales team.",
+   "営業チームに加わる活動的な人材を探しています。"
+  ],
+  [
+   "freelance",
+   "フリーランスの",
+   "The magazine works with several freelance writers and photographers.",
+   "その雑誌は何人かのフリーランスの記者や写真家と仕事をしています。"
+  ],
+  [
+   "invaluable",
+   "非常に貴重な",
+   "Your feedback has been invaluable in improving our service.",
+   "皆さまのご意見はサービス改善に非常に貴重なものでした。"
+  ],
+  [
+   "oversee",
+   "監督する",
+   "Ms Park will oversee the construction of the new warehouse.",
+   "パクさんが新しい倉庫の建設を監督します。"
+  ],
+  [
+   "modification",
+   "修正・変更",
+   "A small modification to the design will reduce production costs.",
+   "設計を少し変更すれば生産費を減らせます。"
+  ],
+  [
+   "reliability",
+   "信頼性",
+   "Customers choose our printers because of their reliability and low cost.",
+   "客は信頼性と低価格を理由に当社の印刷機を選びます。"
+  ],
+  [
+   "transmit",
+   "送信する",
+   "The data is transmitted securely to our central server every night.",
+   "データは毎晩中央サーバーに安全に送信されます。"
+  ]
+ ]
+}

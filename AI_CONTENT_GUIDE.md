@@ -29,8 +29,8 @@
 
 形式は `背景|物|物`。背景は1つ、物は1〜3個。ここにない単語は使えません。
 
-- 背景：`day` `dusk` `night` `sea` `desert` `forest` `space` `paper` `snow` `city`
-- 物：`bowl` `laptop` `film` `ball` `palette` `chat` `sun` `moon` `cloud` `planet` `plane` `bird` `bee` `mountain` `tree` `palm` `flower` `rock` `volcano` `trex` `sauropod` `raptor` `trike` `pterosaur` `fish` `whale` `octopus` `egg` `bone` `skyline` `building` `bridge` `train` `ship` `rocket` `pyramid` `flag` `globe` `pin` `crown` `book` `scroll` `clock` `coin` `chart` `bulb` `atom` `magnifier` `spiral` `fib` `pi` `sine` `primes` `dice` `infinity` `heart` `note` `wave`
+- 背景：`day` `dusk` `night` `sea` `desert` `forest` `space` `paper` `snow` `city` `office` `meeting` `cafe` `airport` `rain` `dawn` `autumn` `spring` `library` `stage` `underwater` `warehouse`
+- 物：`bowl` `laptop` `film` `ball` `palette` `chat` `sun` `moon` `cloud` `planet` `plane` `bird` `bee` `mountain` `tree` `palm` `flower` `rock` `volcano` `trex` `sauropod` `raptor` `trike` `pterosaur` `fish` `whale` `octopus` `egg` `bone` `skyline` `building` `bridge` `train` `ship` `rocket` `pyramid` `flag` `globe` `pin` `crown` `book` `scroll` `clock` `coin` `chart` `bulb` `atom` `magnifier` `spiral` `fib` `pi` `sine` `primes` `dice` `infinity` `heart` `note` `wave` `person` `people` `speaker` `desk` `phone` `mail` `calendar` `document` `briefcase` `cup` `truck` `bus` `car` `bicycle` `house` `store` `factory` `cart` `handshake` `mic` `headphones` `camera` `ticket` `suitcase` `umbrella` `key` `gear` `box` `printer` `trophy` `pencil` `clipboard` `target` `megaphone` `bag` `badge` `map` `hourglass` `check` `wrench` `plant` `mouth` `ear`
 - ショートのスライドだけ、`big:文字`（14文字以内）で大きな文字を重ねられる。例：`space|planet|big:8 min`
 
 ---

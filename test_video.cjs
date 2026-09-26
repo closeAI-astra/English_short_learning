@@ -12,7 +12,7 @@ ctx.buildQueue=()=>{ctx.W.queue=Array.from({length:30},(_,i)=>({id:'c'+(i%25)}))
 ctx.shGo=i=>calls.push(['go',i]);ctx.shAppend=n=>calls.push(['append',n]);
 vm.createContext(ctx);vm.runInContext('window=globalThis;window.addEventListener=()=>{};',ctx);vm.runInContext(data,ctx);vm.runInContext(source,ctx);
 const get=s=>vm.runInContext(s,ctx);
-const catalog=get('VC');assert.equal(ctx.EE_LONG.length,28);assert.equal(get('VWORDS.length'),405);assert.ok(ctx.EE_LONG.filter(l=>get('vWords')(l)>=330).length>=16,'long readings');assert.equal(catalog.filter(l=>/^toeic\d+-/.test(l.id)).length,36);
+const catalog=get('VC');assert.equal(ctx.EE_LONG.length,38);assert.equal(get('VWORDS.length'),445);assert.ok(ctx.EE_LONG.filter(l=>get('vWords')(l)>=330).length>=16,'long readings');assert.equal(catalog.filter(l=>/^toeic\d+-/.test(l.id)).length,41);
 assert.equal(new Set(catalog.map(x=>x.id)).size,catalog.length);
 assert.equal(new Set(ctx.EE_SHORTS.map(x=>x.id)).size,ctx.EE_SHORTS.length);
 for(const l of ctx.EE_LONG){assert.ok(get('vWords')(l)>=230,l.id);assert.ok(l.sl.length>=15,l.id);assert.ok([3,4].includes(l.qs.length),l.id);assert.ok(l.sl.every(s=>s[1]&&s[2]));for(const q of l.qs)assert.ok(q[2]>=0&&q[2]<q[1].length);}
@@ -47,4 +47,4 @@ const u=new URL(ctx.coachURL('B one.',['A one.','B / one.','C one.']));assert.eq
 assert.equal(new URL(ctx.coachURL('Only.',['Only.'])).searchParams.get('passage'),null);assert.equal(ctx.coachURL(''),'http://127.0.0.1:7860/');
 // Grade cannot be submitted before the playback promise finishes.
 get("V.lesson=VC.find(x=>x.pairs);V.mode='hvpt';V.hp=0;V.hpOrder=V.lesson.pairs.map(()=>0);V.hpHeard=false;V.hpDone=false;vHVPT()");const before=Object.keys(ctx.S.meta.videoMistakes.rows).length;findAll('[data-vhp]',node('#vActivity'))[1].onclick();assert.equal(Object.keys(ctx.S.meta.videoMistakes.rows).length,before);
-console.log('PASS: '+catalog.length+' fixed videos, 28 long readings, 405 phrases, 36 TOEIC decks; finite sessions, saved mistakes, mixed shorts, loop unless something is chosen, questions on every short, coach sentence list, listening answer gate');
+console.log('PASS: '+catalog.length+' fixed videos, 38 long readings, 445 phrases, 41 TOEIC decks; finite sessions, saved mistakes, mixed shorts, loop unless something is chosen, questions on every short, coach sentence list, listening answer gate');

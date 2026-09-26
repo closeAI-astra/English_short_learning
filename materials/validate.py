@@ -7,11 +7,15 @@ build_site.py runs this automatically and stops if anything is wrong.
 import json, re, sys
 from pathlib import Path
 
-BGS = set('day,dusk,night,sea,desert,forest,space,paper,snow,city'.split(','))
+BGS = set(('day,dusk,night,sea,desert,forest,space,paper,snow,city,'
+            'office,meeting,cafe,airport,rain,dawn,autumn,spring,library,stage,underwater,warehouse').split(','))
 ITEMS = set(('bowl,laptop,film,ball,palette,chat,sun,moon,cloud,planet,plane,bird,bee,mountain,tree,palm,flower,rock,'
              'volcano,trex,sauropod,raptor,trike,pterosaur,fish,whale,octopus,egg,bone,skyline,building,bridge,train,ship,'
              'rocket,pyramid,flag,globe,pin,crown,book,scroll,clock,coin,chart,bulb,atom,magnifier,spiral,fib,pi,sine,'
-             'primes,dice,infinity,heart,note,wave,triceratops').split(','))
+             'primes,dice,infinity,heart,note,wave,triceratops,'
+             'person,people,speaker,desk,phone,mail,calendar,document,briefcase,cup,truck,bus,car,bicycle,house,store,factory,'
+             'cart,handshake,mic,headphones,camera,ticket,suitcase,umbrella,key,gear,box,printer,trophy,pencil,clipboard,target,'
+             'megaphone,bag,badge,map,hourglass,check,wrench,plant,mouth,ear').split(','))
 GENRES = set('daily,travel,space,science,tech,food,music,math,animal,history,film,sport,environment,work,learning,art,words,nyc,money,dino'.split(','))
 HERE = Path(__file__).resolve().parent
 

@@ -33,7 +33,7 @@ $pyExe = $py[0]; $pyArgs = @($py | Select-Object -Skip 1) + @("build_site.py")
 if ($LASTEXITCODE -ne 0) { Fail "ビルドが止まりました。上に出ている問題を直してから、もう一度実行してください。" }
 
 if (Get-Command node -ErrorAction SilentlyContinue) {
-    foreach ($t in @("test_video.cjs", "test_study.cjs", "test_fluency.cjs")) {
+    foreach ($t in @("test_video.cjs", "test_study.cjs", "test_fluency.cjs", "test_coverage.cjs")) {
         if (Test-Path $t) {
             node $t
             if ($LASTEXITCODE -ne 0) { Fail "テスト $t が失敗しました。アップロードを中止します。" }

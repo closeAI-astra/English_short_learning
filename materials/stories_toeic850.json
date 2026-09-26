@@ -1,0 +1,716 @@
+[
+ {
+  "key": "farewellbanquet",
+  "g": "work",
+  "title": "送別パーティーの段取り",
+  "level": "TOEIC 850 · B2",
+  "scene": "meeting|people|calendar",
+  "paras": [
+   [
+    "The human resources department asked Daniel to organize a farewell banquet for a colleague who was retiring after thirty years. The event had to be held in a spacious ballroom, because more than one hundred attendees were expected. Daniel had never planned an event of this size, so he asked an experienced coworker to mentor him. She suggested creating a detailed timeline and reviewing it with the team every Monday.",
+    "人事部はダニエルに、30年勤めて退職する同僚の送別会の企画を頼んだ。100人以上の出席者が見込まれたため、会場は広い宴会場でなければならなかった。ダニエルはこの規模の催しを計画したことがなかったので、経験のある同僚に指導を頼んだ。彼女は詳しい日程表を作り、毎週月曜日にチームで見直すことを勧めた。"
+   ],
+   [
+    "First, Daniel contacted three caterers and asked each of them for a quote. One caterer offered a buffet with seafood, pasta, salad, and several vegetarian dishes. Another proposed a formal dinner with an appetizer, a steak, and a pastry for dessert. The second quote looked cheaper, but it did not include beverages or the cost of renting tablecloths.",
+    "まずダニエルは3社の仕出し業者に連絡し、それぞれに見積もりを頼んだ。ある業者は、シーフード、パスタ、サラダ、いくつかのベジタリアン料理のビュッフェを提案した。別の業者は前菜、ステーキ、デザートのペストリーの正式な夕食を提案した。2番目の見積もりは安く見えたが、飲み物とテーブルクロスの貸出料が含まれていなかった。"
+   ],
+   [
+    "He sent a short questionnaire to all attendees about allergies and dietary needs. Most people replied promptly, but some responses were incomplete, so he sent a polite reminder. Two guests mentioned a nut allergy, and several asked for a vegetarian meal. Daniel forwarded the list to the caterer and requested written confirmation that the kitchen could handle these requests safely.",
+    "彼はアレルギーや食事の必要事項について、出席者全員に短いアンケートを送った。ほとんどの人はすぐに返信したが、一部の回答は不完全だったので、丁寧な催促を送った。2人がナッツアレルギーを挙げ、数人がベジタリアンの食事を希望した。ダニエルはその一覧を業者に転送し、厨房がこれらの要望に安全に対応できるという書面での確認を求めた。"
+   ],
+   [
+    "The hotel required a deposit that was refundable only if the event was canceled at least thirty days beforehand. Daniel needed his manager to authorize any payment above a certain amount. The manager reviewed the contract and asked him to verify the maximum occupancy of the ballroom. According to the fire regulations, the room could hold one hundred and forty guests, which was sufficient.",
+    "ホテルは、少なくとも30日前までに中止した場合に限り返金される手付金を求めた。一定額を超える支払いには、上司の承認が必要だった。上司は契約書を確認し、宴会場の最大収容人数を確かめるよう頼んだ。消防規則によれば部屋は140人を収容でき、十分だった。"
+   ],
+   [
+    "A week before the event, Daniel visited the venue with a hotel employee. They discussed how to rearrange the tables so that every guest could see the stage. The hotel offered to decorate each table with a small vase of flowers at no extra charge. Daniel also asked for a microphone and a projector for a short documentary about the retiring colleague.",
+    "催しの1週間前、ダニエルはホテルの従業員と会場を訪れた。すべての来客が舞台を見られるよう、テーブルの配置を変える方法を話し合った。ホテルは追加料金なしで各テーブルを小さな花瓶の花で飾ると申し出た。ダニエルは、退職する同僚についての短い記録映像のためにマイクとプロジェクターも頼んだ。"
+   ],
+   [
+    "On the evening of the banquet, the attire was formal and the ballroom looked elegant. A spokesperson for the board thanked the retiring colleague for her dedication and loyalty. Several former employees who had traveled from other cities joined the celebration, so it felt like a reunion. Everyone agreed that the evening was enjoyable and well organized.",
+    "送別会の晩、服装は正装で、宴会場は優雅に見えた。役員会の代表者が、退職する同僚の献身と忠誠に感謝した。他の都市から来た元従業員数人が加わり、まるで同窓会のようだった。全員がその晩は楽しく、よく準備されていたと感じた。"
+   ],
+   [
+    "The next day, Daniel compared the final invoice with the original quote. There was a small discrepancy, because the hotel had charged for twelve extra beverages. The billing office apologized and issued a corrected invoice immediately. Daniel then wrote a brief report with suggestions for future events.",
+    "翌日、ダニエルは最終請求書を元の見積もりと比べた。ホテルが追加の飲み物12杯分を請求していたため、わずかな食い違いがあった。経理窓口は謝罪し、すぐに訂正した請求書を発行した。その後ダニエルは、今後の催しへの提案を含む短い報告書を書いた。"
+   ]
+  ],
+  "qs": [
+   [
+    "Why did Daniel send a questionnaire?",
+    [
+     "To ask about allergies and dietary needs",
+     "To choose a new ballroom",
+     "To collect the deposit"
+    ],
+    0
+   ],
+   [
+    "What was missing from the second quote?",
+    [
+     "A dessert",
+     "Beverages and tablecloth rental",
+     "A vegetarian dish"
+    ],
+    1
+   ],
+   [
+    "When could the deposit be refunded?",
+    [
+     "At any time",
+     "Only after the banquet",
+     "If the event was canceled at least thirty days before"
+    ],
+    2
+   ],
+   [
+    "What was wrong with the final invoice?",
+    [
+     "It was sent to the wrong office",
+     "It included extra beverages",
+     "It did not include the room"
+    ],
+    1
+   ]
+  ]
+ },
+ {
+  "key": "officerenovation",
+  "g": "work",
+  "title": "改装工事中のオフィス",
+  "level": "TOEIC 850 · B2",
+  "scene": "office|wrench|calendar",
+  "paras": [
+   [
+    "The landlord of our building announced that the third floor would be renovated over six weekends. The plan was to remodel the restrooms, widen the hallway, and replace the old electrical wiring. Because our department occupies the entire floor, we had to vacate some rooms temporarily. The office manager, Priya, was asked to coordinate the move with the contractor.",
+    "ビルの家主は、3階を6回の週末をかけて改装すると発表した。計画では、化粧室を改装し、廊下を広げ、古い電気配線を交換する予定だった。私たちの部署はフロア全体を使っているので、一部の部屋を一時的に明け渡す必要があった。総務担当のプリヤが、施工業者との移動の調整を任された。"
+   ],
+   [
+    "Priya studied the blueprint and noticed that the storeroom adjacent to the kitchen would be closed for three weeks. She made a list of everything stored there, including stationery, toner, folders, and a spare photocopier. The heavy items were placed on a cart and moved to an empty suite downstairs. Each box received a sticker with a number, so nothing would be misplaced.",
+    "プリヤは設計図を調べ、台所に隣接する倉庫が3週間閉鎖されることに気づいた。彼女は文房具、トナー、フォルダー、予備のコピー機など、そこに保管された物をすべて一覧にした。重い物は台車に載せて、階下の空いている部屋へ運んだ。何もなくならないよう、各箱に番号のシールを貼った。"
+   ],
+   [
+    "An electrician warned that the power would be disconnected on Saturday morning. Employees were told to unplug their desktop computers and remove any cords from under their desks before leaving on Friday. Priya sent a reminder by email and posted a notice on the bulletin board. She also asked the technicians to label the cables clearly.",
+    "電気技師は土曜日の朝に電源を切ると警告した。社員は金曜日に帰る前に、デスクトップパソコンのプラグを抜き、机の下のコードを片付けるよう指示された。プリヤはメールで念押しし、掲示板にもお知らせを貼った。技術者にはケーブルに分かりやすく札を付けるよう頼んだ。"
+   ],
+   [
+    "During the work, a carpenter and a plumber discovered that a pipe behind the cabinets was leaking. Repairing it would take longer than expected, so the contractor asked to extend the schedule by one weekend. Priya explained that a longer disruption would affect a client presentation. The contractor agreed to bring an extra crew so that the project would stay on schedule.",
+    "工事中、大工と配管工が戸棚の裏の管が漏れていることを見つけた。修理には予想以上に時間がかかるため、業者は日程を1週間延ばしたいと言った。プリヤは、中断が長引くと顧客向けの発表に影響すると説明した。業者は予定どおりに進むよう、作業員を増やすことに同意した。"
+   ],
+   [
+    "Safety was another concern, because the hallway contained ladders, tools, and hazardous materials. The contractor placed caution signs near the elevator and asked workers to wear helmets at all times. Staff who came in on weekends had to use the stairs at the other end of the building. Nobody was injured, and the site was cleaned every evening.",
+    "廊下にははしご、工具、危険物があったので、安全も懸念事項だった。業者はエレベーターの近くに注意の標識を置き、作業員に常にヘルメットをかぶるよう求めた。週末に出勤した社員は、建物の反対側の階段を使わなければならなかった。けが人は出ず、現場は毎晩清掃された。"
+   ],
+   [
+    "When the renovation was finished, the floor looked brighter and more modern. The new restrooms were larger, the hallway was wider, and a wireless network covered every meeting room. Priya organized a short tour and asked employees to report any faulty equipment within a week. Only two minor problems were reported, and both were fixed the next day.",
+    "改装が終わると、フロアは以前より明るく現代的になった。新しい化粧室は広く、廊下も広くなり、すべての会議室で無線ネットワークが使えるようになった。プリヤは短い見学会を開き、不具合のある設備があれば1週間以内に報告するよう社員に頼んだ。報告された小さな問題は2件だけで、どちらも翌日に直された。"
+   ]
+  ],
+  "qs": [
+   [
+    "Why did the department have to vacate some rooms?",
+    [
+     "The floor was being renovated",
+     "The company was downsizing",
+     "The lease had expired"
+    ],
+    0
+   ],
+   [
+    "Where were the items from the storeroom moved?",
+    [
+     "To the kitchen",
+     "To a suite downstairs",
+     "To another building"
+    ],
+    1
+   ],
+   [
+    "What were employees asked to do before the power was disconnected?",
+    [
+     "Work from home on Monday",
+     "Buy new computers",
+     "Unplug their desktop computers"
+    ],
+    2
+   ],
+   [
+    "How did the contractor avoid a delay?",
+    [
+     "By bringing an extra crew",
+     "By skipping the plumbing work",
+     "By working only at night"
+    ],
+    0
+   ]
+  ]
+ },
+ {
+  "key": "internhiring",
+  "g": "work",
+  "title": "インターン採用の選考",
+  "level": "TOEIC 850 · B2",
+  "scene": "office|badge|document",
+  "paras": [
+   [
+    "A marketing firm decided to hire three interns for its summer internship program. The recruiter, Marcus, posted the opening on the company webpage and at several universities. Within two weeks, he had received more than two hundred applications. Many applicants were graduating soon, and some had already earned certifications in data analysis.",
+    "あるマーケティング会社は、夏のインターン制度で3人を採用することにした。採用担当のマーカスは、会社のウェブページといくつかの大学で募集を掲載した。2週間以内に200件以上の応募が届いた。応募者の多くはまもなく卒業予定で、データ分析の資格をすでに取った人もいた。"
+   ],
+   [
+    "Marcus could not interview every candidate, so he created a checklist to screen the applications. He looked for a strong résumé, a portfolio of previous projects, and proficiency in at least one foreign language. Applications that did not include a writing sample were considered incomplete. He also asked each applicant to describe a problem they had solved in a team.",
+    "マーカスは全員を面接できないため、応募書類を選別するチェックリストを作った。しっかりした履歴書、過去の作品集、少なくとも一つの外国語の能力を重視した。文章の見本が入っていない応募は不完全と見なした。また、チームで解決した問題を説明するよう各応募者に求めた。"
+   ],
+   [
+    "Twelve candidates were invited to a thirty-minute videoconference interview with the team. Marcus noticed that the most impressive applicants were not always the ones with the longest lists of achievements. One student had little work experience, but she was enthusiastic, punctual, and very knowledgeable about the company's clients. Another candidate had excellent grades but seemed hesitant to answer practical questions.",
+    "12人の候補者がビデオ会議での面接に招かれた。マーカスは、最も印象的な応募者が必ずしも実績の一覧が長い人ではないことに気づいた。ある学生は職歴がほとんどなかったが、熱心で、時間を守り、会社の顧客にとても詳しかった。別の候補者は成績が優秀だったが、実践的な質問には答えをためらうようだった。"
+   ],
+   [
+    "Before making a decision, Marcus contacted the references that each finalist had provided. A former supervisor described one applicant as dependable and hardworking. A professor said another student had shown remarkable creativity in a design competition. Marcus summarized these comments in a confidential report for the department head.",
+    "決定の前に、マーカスは最終候補者が挙げた推薦者に連絡した。以前の上司は、ある応募者を信頼でき勤勉だと評した。ある教授は、別の学生がデザインの大会で際立った創造性を示したと語った。マーカスはこれらの意見を部長向けの機密報告書にまとめた。"
+   ],
+   [
+    "The three interns started in June and attended a two-day orientation. They received an employee handbook, a laptop, and a login for the internal system. Each intern was assigned a mentor who would supervise their work and meet with them weekly. The interns were paid an hourly wage, and their first paycheck arrived at the end of the month.",
+    "3人のインターンは6月に働き始め、2日間の研修に参加した。社員手引き、ノートパソコン、社内システムのログイン情報を受け取った。各インターンには、仕事を指導し毎週面談する指導役が付いた。インターンには時給が支払われ、最初の給与は月末に届いた。"
+   ],
+   [
+    "At the end of the summer, each mentor wrote an appraisal of their intern's performance. Two interns were offered part-time positions while they completed their degrees. The firm also asked all participants to fill out a survey about the program. Their feedback helped Marcus improve the recruitment process for the following year.",
+    "夏の終わりに、各指導役がインターンの仕事ぶりの評価を書いた。2人のインターンは、学位を取るまでの間のアルバイトの職を提示された。会社は参加者全員に制度についてのアンケートへの記入も求めた。その意見は、マーカスが翌年の採用手順を改善するのに役立った。"
+   ]
+  ],
+  "qs": [
+   [
+    "How did Marcus screen the applications?",
+    [
+     "He used a checklist",
+     "He interviewed everyone",
+     "He asked a professor to choose"
+    ],
+    0
+   ],
+   [
+    "What was true about the student with little work experience?",
+    [
+     "She was hesitant",
+     "She was enthusiastic and knowledgeable",
+     "She had the best grades"
+    ],
+    1
+   ],
+   [
+    "What did each intern receive at orientation?",
+    [
+     "A company car",
+     "A scholarship",
+     "A handbook, a laptop, and a login"
+    ],
+    2
+   ],
+   [
+    "What happened at the end of the summer?",
+    [
+     "The program was canceled",
+     "Mentors wrote appraisals of the interns",
+     "All interns resigned"
+    ],
+    1
+   ]
+  ]
+ },
+ {
+  "key": "defectivegoods",
+  "g": "work",
+  "title": "不良品と配送遅延への対応",
+  "level": "TOEIC 850 · B2",
+  "scene": "warehouse|box|truck",
+  "paras": [
+   [
+    "An online retailer that sells kitchen appliances received a large shipment of coffee machines from a new distributor. When the cargo arrived at the loading dock, a warehouse clerk opened several cartons for inspection. He found that some machines had cracked water tanks. He took photographs, recorded the serial numbers, and reported the defect to his supervisor.",
+    "台所家電を売るオンライン小売業者は、新しい卸業者からコーヒーメーカーを大量に受け取った。貨物が荷受け場に着くと、倉庫の係員が検査のためにいくつかの段ボール箱を開けた。一部の機械の水タンクにひびが入っているのを見つけた。彼は写真を撮り、製造番号を記録して、欠陥を上司に報告した。"
+   ],
+   [
+    "The supervisor, Grace, decided to inspect the entire shipment rather than only a sample. By the end of the day, the team had found forty defective machines out of five hundred. Grace contacted the distributor and requested replacements for the faulty units. She also asked whether the damage had occurred during production or during transport.",
+    "上司のグレースは、見本だけでなく出荷分全体を検査することにした。その日の終わりまでに、チームは500台中40台の不良品を見つけた。グレースは卸業者に連絡し、不良品の交換を求めた。また、損傷が製造中に起きたのか輸送中に起きたのかも尋ねた。"
+   ],
+   [
+    "The distributor explained that the cartons had been stacked too high in the freight container. They apologized and promised to dispatch replacements by courier within three business days. They also offered a rebate on the next order as compensation. Grace accepted the offer but asked for improved packaging in the future.",
+    "卸業者は、段ボール箱が貨物コンテナの中で高く積まれすぎていたと説明した。謝罪し、3営業日以内に宅配便で交換品を発送すると約束した。また、補償として次回の注文の割り戻しを提案した。グレースは申し出を受け入れたが、今後は梱包を改善するよう求めた。"
+   ],
+   [
+    "Meanwhile, some customers had already placed orders for the machine. Because the stock was temporarily insufficient, their deliveries would be delayed by about a week. The customer service team sent each customer an email explaining the situation and offering a discount code as a courtesy. Customers who preferred not to wait could cancel their orders and receive a full refund.",
+    "一方、一部の客はすでにその機械を注文していた。在庫が一時的に不足していたため、配送は約1週間遅れる見込みだった。顧客サービスチームは各客に状況を説明するメールを送り、お詫びとして割引コードを提供した。待ちたくない客は、注文を取り消して全額返金を受けられた。"
+   ],
+   [
+    "A few customers called the hotline with questions about compatibility. They wanted to know whether the new machine was compatible with the coffee capsules sold in local supermarkets. The team checked the product specifications and confirmed that it was. They added the answer to the frequently asked questions on the webpage to reduce the number of calls.",
+    "何人かの客は互換性について問い合わせ窓口に電話した。新しい機械が地元のスーパーで売られているコーヒーカプセルに対応しているか知りたかったのだ。チームは製品仕様を確認し、対応していることを確かめた。電話の数を減らすため、その答えをウェブページのよくある質問に加えた。"
+   ],
+   [
+    "After the replacements arrived, every unit was inspected before it was shipped. The delayed orders were delivered within the promised period, and only two customers canceled. Grace wrote a report recommending that all shipments from new distributors be fully inspected. Her manager agreed and made the procedure mandatory for every warehouse.",
+    "交換品が届いた後は、すべての機械を出荷前に検査した。遅れていた注文は約束の期間内に届き、取り消したのは2人だけだった。グレースは、新しい卸業者からの出荷はすべて全数検査するよう勧める報告書を書いた。上司は賛成し、その手順を義務にした。"
+   ]
+  ],
+  "qs": [
+   [
+    "What did the warehouse clerk find?",
+    [
+     "Cracked water tanks",
+     "Missing cartons",
+     "Wrong serial numbers"
+    ],
+    0
+   ],
+   [
+    "According to the distributor, what caused the damage?",
+    [
+     "A factory fire",
+     "Cartons stacked too high",
+     "A delayed flight"
+    ],
+    1
+   ],
+   [
+    "What did the customer service team offer as a courtesy?",
+    [
+     "Free delivery for a year",
+     "A new machine",
+     "A discount code"
+    ],
+    2
+   ],
+   [
+    "What became mandatory?",
+    [
+     "Full inspection of shipments from new distributors",
+     "Calling every customer",
+     "Using only one courier"
+    ],
+    0
+   ]
+  ]
+ },
+ {
+  "key": "businesstrip",
+  "g": "travel",
+  "title": "海外出張と経費精算",
+  "level": "TOEIC 850 · B2",
+  "scene": "airport|suitcase|plane",
+  "paras": [
+   [
+    "Kenji was asked to attend a trade fair in Singapore and visit two suppliers during the same trip. His assistant booked the airfare, reserved a hotel suite near the exhibition center, and prepared a detailed itinerary. Because Kenji's passport would expire in five months, he checked whether he needed a visa. The embassy's website confirmed that a visa was not required for short business visits.",
+    "ケンジはシンガポールの見本市に出席し、同じ出張で2社の供給業者を訪ねるよう頼まれた。アシスタントが航空券を予約し、展示場近くのホテルのスイートを取り、詳しい旅程表を作った。ケンジのパスポートは5か月後に期限が切れるため、ビザが必要か確認した。大使館のウェブサイトで、短期の商用訪問にはビザが不要だと確認できた。"
+   ],
+   [
+    "On the day of departure, heavy fog delayed his flight by two hours. Kenji waited in the airport lounge and used the time to proofread his presentation slides. Once he was aboard the plane, he tried to sleep, because he wanted to avoid fatigue after arriving. The flight was smooth, and he landed shortly before midnight.",
+    "出発の日、濃い霧のため便が2時間遅れた。ケンジは空港のラウンジで待ち、その時間を使って発表資料を校正した。機内では、到着後の疲れを避けたかったので眠ろうとした。飛行は順調で、真夜中の少し前に着陸した。"
+   ],
+   [
+    "He took a cab to the hotel, and the concierge welcomed him at the entrance. The hotel offered many amenities, including a gym, a sauna, and a laundry service. Kenji sent two shirts to the laundry and asked for them to be returned by morning. He also kept every receipt in a folder, because the company required receipts for all expenses.",
+    "彼はタクシーでホテルへ行き、コンシェルジュが入口で迎えた。ホテルにはジム、サウナ、洗濯サービスなど多くの設備があった。ケンジはシャツ2枚を洗濯に出し、朝までに戻してほしいと頼んだ。会社はすべての経費に領収書を求めていたので、領収書もすべてフォルダーに保管した。"
+   ],
+   [
+    "The trade fair was crowded, and the humidity outside made the walk between buildings uncomfortable. Kenji met several potential clients and collected a stack of business cards. On the third day, he rented a sedan and drove to a supplier's factory in the suburbs. The highway had several tolls, and the traffic near the intersection by the port was heavy.",
+    "見本市は混雑しており、外の湿気で建物間の移動は不快だった。ケンジは見込み客数人に会い、名刺の束を集めた。3日目、彼はセダンを借り、郊外にある供給業者の工場まで運転した。高速道路には料金所がいくつかあり、港のそばの交差点付近は渋滞していた。"
+   ],
+   [
+    "The supplier gave him a tour of the production line and explained a new quality inspection system. They discussed prices, delivery times, and minimum order quantities. Before leaving, Kenji had a short excursion along the river, where he enjoyed the scenery and bought a small souvenir for his team. He returned the car and noted the mileage for his expense report.",
+    "供給業者は生産ラインを案内し、新しい品質検査の仕組みを説明した。価格、納期、最低注文数量について話し合った。帰る前にケンジは川沿いを少し散策し、景色を楽しみ、チームへの小さなお土産を買った。車を返し、経費報告書のために走行距離を書き留めた。"
+   ],
+   [
+    "Back in Tokyo, Kenji completed the expense report within the required five business days. He attached the receipts for the airfare, hotel, car rental, gasoline, and tolls. The accounting department asked him to explain one charge that looked unusual, which was a fee for late checkout. Once he explained that his return flight had been rescheduled, the reimbursement was approved.",
+    "東京に戻り、ケンジは決められた5営業日以内に経費報告書を仕上げた。航空券、ホテル、レンタカー、ガソリン、通行料の領収書を添付した。経理部は、珍しく見えた一つの料金、つまり遅いチェックアウトの料金について説明を求めた。帰りの便の日程が変更されたと説明すると、払い戻しが承認された。"
+   ]
+  ],
+  "qs": [
+   [
+    "Why did Kenji check the embassy's website?",
+    [
+     "To confirm whether he needed a visa",
+     "To book a hotel",
+     "To find a supplier"
+    ],
+    0
+   ],
+   [
+    "What caused the delay on the day of departure?",
+    [
+     "A strike",
+     "Heavy fog",
+     "A lost passport"
+    ],
+    1
+   ],
+   [
+    "What did Kenji note when he returned the car?",
+    [
+     "The fuel price",
+     "The weather",
+     "The mileage"
+    ],
+    2
+   ],
+   [
+    "Why did the accounting department ask a question?",
+    [
+     "A receipt was missing",
+     "One charge looked unusual",
+     "The report was late"
+    ],
+    1
+   ]
+  ]
+ },
+ {
+  "key": "gymcampaign",
+  "g": "sport",
+  "title": "フィットネスクラブの会員キャンペーン",
+  "level": "TOEIC 850 · B2",
+  "scene": "day|trophy|megaphone",
+  "paras": [
+   [
+    "A fitness center downtown noticed that fewer members were renewing their subscriptions. The manager, Olivia, asked a marketing advisor to help design a promotional campaign. Their goal was to increase enrollment by fifteen percent before the end of the year. They started by reviewing statistics from the previous twelve months.",
+    "都心のフィットネスセンターは、会員の更新が減っていることに気づいた。支配人のオリビアは、販促キャンペーンの企画をマーケティングの助言者に依頼した。目標は年末までに入会者数を15％増やすことだった。まず、過去12か月の統計を見直した。"
+   ],
+   [
+    "The data showed that many members quit after only three months. When asked why, they gave several reasons, such as a lack of time, crowded equipment in the evening, and unfamiliar machines. Some said they felt uncomfortable in the gymnasium because they were beginners. Others simply preferred to jog outside when the weather was mild.",
+    "データでは、多くの会員がわずか3か月でやめていた。理由を尋ねると、時間がない、夜は器具が混んでいる、機械に慣れていないなど、いくつかの理由が挙がった。初心者なので体育館で居心地が悪いと言う人もいた。天気が穏やかなときは外でジョギングする方がいいと言う人もいた。"
+   ],
+   [
+    "The advisor suggested focusing on wellness rather than athletic performance. The center would offer free yoga classes on weekends and a short consultation with a personal trainer for every new member. A nutrition expert would also give monthly talks about healthful meals and vitamins. These services were designed to make beginners feel welcome.",
+    "助言者は、運動能力よりも健康全般に焦点を当てるよう提案した。センターは週末に無料のヨガ教室を開き、新会員全員に個人トレーナーとの短い相談を提供することにした。栄養の専門家も毎月、健康的な食事やビタミンについて話すことになった。これらのサービスは初心者が歓迎されていると感じるように考えられた。"
+   ],
+   [
+    "To publicize the campaign, the team redesigned the center's logo and printed a colorful pamphlet. They hired a photographer to take pictures of members of different ages. A local celebrity who had once played professional volleyball agreed to appear in an advertisement. The advertisement ran on the radio and on the screens near the stadium.",
+    "キャンペーンを広めるため、チームはセンターのロゴを作り直し、色鮮やかなパンフレットを印刷した。さまざまな年齢の会員を撮影するため写真家を雇った。かつてプロのバレーボール選手だった地元の有名人が、広告への出演に同意した。広告はラジオと競技場近くの画面で流された。"
+   ],
+   [
+    "The campaign also included a special offer for people who enrolled in December. New members could try the center for two weeks without any fee, and those who signed a yearly contract received a free towel and a sports bag. Olivia insisted that all conditions be written clearly, so that nobody would feel misled. The contract explained how to cancel and when the membership would expire.",
+    "キャンペーンには12月に入会する人への特典もあった。新会員は2週間無料で試すことができ、1年契約を結んだ人は無料のタオルとスポーツバッグを受け取った。オリビアは、誰も誤解させられたと感じないよう、すべての条件を明確に書くよう主張した。契約書には解約の方法と会員資格の期限が説明されていた。"
+   ],
+   [
+    "By the end of the year, enrollment had increased by eighteen percent. The yoga classes were so popular that the center had to add an extra session on Sunday evenings. Olivia shared the results with the staff and thanked the trainers for their energetic support. She also planned a survey to find out which services members valued most.",
+    "年末までに入会者は18％増えた。ヨガ教室はとても人気で、日曜の夜に追加の回を設けなければならなかった。オリビアは結果を職員と共有し、トレーナーの精力的な支援に感謝した。また、会員が最も重視するサービスを知るためのアンケートも計画した。"
+   ]
+  ],
+  "qs": [
+   [
+    "What problem did the fitness center notice?",
+    [
+     "Fewer members were renewing",
+     "The equipment was old",
+     "The rent had increased"
+    ],
+    0
+   ],
+   [
+    "Why did some members feel uncomfortable?",
+    [
+     "The music was loud",
+     "They were beginners",
+     "The fees were high"
+    ],
+    1
+   ],
+   [
+    "Who appeared in the advertisement?",
+    [
+     "A nutrition expert",
+     "The manager",
+     "A local celebrity"
+    ],
+    2
+   ],
+   [
+    "What did people who signed a yearly contract receive?",
+    [
+     "A free massage",
+     "A towel and a sports bag",
+     "A discount on vitamins"
+    ],
+    1
+   ]
+  ]
+ },
+ {
+  "key": "securityupgrade",
+  "g": "tech",
+  "title": "社内システムの更新とセキュリティ",
+  "level": "TOEIC 850 · B2",
+  "scene": "office|laptop|key",
+  "paras": [
+   [
+    "The IT department of an insurance company announced that the old email system would be replaced. The system was outdated, and it had become unreliable during busy periods. In addition, several employees had received spam messages that asked them to enter their passwords on a fake webpage. The department decided to upgrade the software and introduce stronger security rules.",
+    "ある保険会社のIT部門は、古いメールシステムを入れ替えると発表した。システムは時代遅れで、忙しい時期には当てにならなくなっていた。さらに、偽のウェブページでパスワードを入力するよう求める迷惑メールを受け取った社員が何人もいた。部門はソフトウェアを更新し、より強い安全規則を導入することにした。"
+   ],
+   [
+    "The project manager, Tom, created a detailed plan to minimize disruption. The new system would be installed over a weekend, and all messages would be moved to an archive. Employees were asked to delete unnecessary files beforehand, because the storage space was limited. Tom also warned that the network would be disconnected for several hours on Saturday.",
+    "プロジェクト責任者のトムは、混乱を最小限にする詳しい計画を立てた。新しいシステムは週末に導入され、すべてのメッセージは保管場所に移される。保存容量が限られているため、社員は事前に不要なファイルを削除するよう求められた。トムは土曜日に数時間ネットワークが切断されることも警告した。"
+   ],
+   [
+    "On Monday morning, each employee had to activate a new account and choose a password. The new rules required the password to include numbers and symbols and to be changed periodically. Some employees found the process annoying, and the helpdesk hotline received many calls. Technicians walked around the office to help people who were unfamiliar with the steps.",
+    "月曜の朝、社員はそれぞれ新しいアカウントを有効にし、パスワードを選ばなければならなかった。新しい規則では、パスワードに数字と記号を含め、定期的に変更する必要があった。手順を面倒に感じる社員もおり、ヘルプデスクの窓口には多くの電話がかかった。技術者たちは手順に不慣れな人を助けるためオフィスを回った。"
+   ],
+   [
+    "Tom also organized a short training session about online security. A consultant explained how hackers use fake messages to obtain confidential information. She showed examples of suspicious emails and explained that unauthorized access to client data would violate privacy laws. Employees learned to check the sender's address carefully and to report any suspicious message immediately.",
+    "トムはオンラインの安全についての短い研修も開いた。コンサルタントは、ハッカーが偽のメッセージを使って機密情報を手に入れる方法を説明した。怪しいメールの例を示し、顧客データへの無許可のアクセスはプライバシー法に違反すると説明した。社員は送信者のアドレスを注意深く確認し、怪しいメッセージをすぐに報告することを学んだ。"
+   ],
+   [
+    "A week after the upgrade, a few problems remained. The calendar did not display meetings correctly on some older laptops, and one printer could not scan documents to email. Tom's team found that the laptops needed a small update and that the printer required a new adapter. Both problems were solved within two days.",
+    "更新の1週間後も、いくつかの問題が残っていた。古いノートパソコンの一部では予定表が会議を正しく表示せず、1台の印刷機は書類をスキャンしてメールに送れなかった。トムのチームは、ノートパソコンには小さな更新が必要で、印刷機には新しいアダプターが必要だと突き止めた。どちらの問題も2日以内に解決した。"
+   ],
+   [
+    "After a month, Tom reviewed the results with the managers. The number of spam messages had decreased drastically, and the system was much faster. Employees could now retrieve old messages from the archive and join a videoconference directly from their calendars. The managers agreed that the upgrade had been worthwhile and approved a similar project for the sales department.",
+    "1か月後、トムは管理職と結果を見直した。迷惑メールの数は大幅に減り、システムはずっと速くなった。社員は保管場所から古いメッセージを取り出せるようになり、予定表から直接ビデオ会議に参加できるようになった。管理職はこの更新がやる価値のあるものだったと認め、営業部でも同様の計画を承認した。"
+   ]
+  ],
+  "qs": [
+   [
+    "Why was the old email system replaced?",
+    [
+     "It was outdated and unreliable",
+     "It was too expensive",
+     "Clients complained about it"
+    ],
+    0
+   ],
+   [
+    "What were employees asked to do before the weekend?",
+    [
+     "Buy new laptops",
+     "Delete unnecessary files",
+     "Change their email addresses"
+    ],
+    1
+   ],
+   [
+    "What did the consultant explain?",
+    [
+     "How to design a webpage",
+     "How to use a printer",
+     "How hackers try to obtain confidential information"
+    ],
+    2
+   ],
+   [
+    "What was needed to fix the printer?",
+    [
+     "A new adapter",
+     "A new password",
+     "A new desk"
+    ],
+    0
+   ]
+  ]
+ },
+ {
+  "key": "charityfestival",
+  "g": "daily",
+  "title": "チャリティー祭りの準備",
+  "level": "TOEIC 850 · B1–B2",
+  "scene": "spring|people|megaphone",
+  "paras": [
+   [
+    "Every autumn, a neighborhood association holds a charity festival to raise money for a children's hospital. This year, the chairperson asked Sofia to lead the committee of volunteers. The festival would include a parade, food booths, live music, and fireworks in the evening. Sofia had only eight weeks to prepare, so she divided the work into small teams.",
+    "毎年秋、ある町内会は子ども病院のための募金を集める慈善祭りを開く。今年、会長はソフィアにボランティア委員会のまとめ役を頼んだ。祭りにはパレード、食べ物の屋台、生演奏、夜の花火が含まれる予定だった。準備期間は8週間しかなかったので、ソフィアは仕事を小さなチームに分けた。"
+   ],
+   [
+    "The first team contacted local businesses and asked them to donate prizes for a raffle. A bakery offered to provide cookies and pies, and a sports shop donated a skateboard and a helmet. A large supermarket agreed to sponsor the event and to supply juice and refreshments at no cost. Sofia sent each donor a letter of thanks.",
+    "最初のチームは地元の店に連絡し、くじ引きの景品を寄付してくれるよう頼んだ。パン屋はクッキーとパイの提供を申し出て、スポーツ用品店はスケートボードとヘルメットを寄付した。大きなスーパーは催しに協賛し、ジュースと軽食を無償で提供することに同意した。ソフィアは寄付者それぞれにお礼の手紙を送った。"
+   ],
+   [
+    "Another team was responsible for the food booths. Volunteers planned to grill hamburgers, serve popcorn, and sell homemade candy. Because the city had strict hygiene rules, each booth needed a permit and a fire extinguisher. The team also asked vendors to use paper plates instead of plastic ones, so that the festival would be more environmentally friendly.",
+    "別のチームは食べ物の屋台を担当した。ボランティアはハンバーガーを焼き、ポップコーンを出し、手作りのキャンディーを売る予定だった。市には厳しい衛生規則があるため、各屋台には許可と消火器が必要だった。チームは、祭りがより環境に優しくなるよう、出店者にプラスチックではなく紙の皿を使うよう頼んだ。"
+   ],
+   [
+    "The music team held an audition for amateur performers. A school orchestra, a violin player, and a drum group were selected. They agreed to rehearse on the stage the day before the festival. Sofia also invited a well-known local singer, who kindly agreed to perform without payment.",
+    "音楽チームはアマチュア演奏者のオーディションを開いた。学校のオーケストラ、バイオリン奏者、太鼓の団体が選ばれた。彼らは祭りの前日に舞台でリハーサルすることに同意した。ソフィアは地元の有名な歌手も招き、その歌手は快く無報酬で出演を引き受けた。"
+   ],
+   [
+    "Two days before the event, the forecast predicted a thunderstorm on the festival afternoon. The committee discussed whether to postpone the event or move part of it indoors. They decided to keep the parade in the morning and move the music to a school gymnasium. Volunteers prepared raincoats and umbrellas for guests just in case.",
+    "催しの2日前、予報は祭りの午後に雷雨を予測した。委員会は延期するか、一部を屋内に移すか話し合った。午前のパレードはそのままにし、音楽は学校の体育館に移すことにした。ボランティアは念のため来場者用のレインコートと傘を用意した。"
+   ],
+   [
+    "On the day of the festival, the storm arrived later than expected, and the parade went smoothly. Thousands of spectators enjoyed the music in the gymnasium, and the raffle raised more money than in any previous year. When the sky cleared, the fireworks were held as planned. The hospital received the donation the following week and sent the volunteers a warm message of thanks.",
+    "祭りの日、嵐は予想より遅く来て、パレードは順調に進んだ。何千人もの観客が体育館で音楽を楽しみ、くじ引きではこれまでのどの年よりも多くのお金が集まった。空が晴れると、花火は予定どおり行われた。病院は翌週に寄付金を受け取り、ボランティアに温かい感謝のメッセージを送った。"
+   ]
+  ],
+  "qs": [
+   [
+    "What is the purpose of the festival?",
+    [
+     "To raise money for a children's hospital",
+     "To celebrate a new school",
+     "To sell local products"
+    ],
+    0
+   ],
+   [
+    "What did the supermarket agree to do?",
+    [
+     "Donate a skateboard",
+     "Sponsor the event and supply refreshments",
+     "Build the stage"
+    ],
+    1
+   ],
+   [
+    "Why did each booth need a fire extinguisher?",
+    [
+     "Because of the fireworks",
+     "Because of the weather",
+     "Because of the city's rules"
+    ],
+    2
+   ],
+   [
+    "What did the committee decide when a storm was forecast?",
+    [
+     "To cancel the fireworks",
+     "To move the music indoors",
+     "To postpone the parade"
+    ],
+    1
+   ]
+  ]
+ },
+ {
+  "key": "apartmenthunt",
+  "g": "daily",
+  "title": "転勤先での部屋探し",
+  "level": "TOEIC 850 · B1–B2",
+  "scene": "city|house|key",
+  "paras": [
+   [
+    "After being transferred to a branch in another city, Leo needed to find an apartment quickly. He contacted a realtor, who asked him about his budget, his commute, and the kind of neighborhood he preferred. Leo explained that he wanted a quiet residential area with a short commute to the office. He also wanted a balcony and enough closet space for his clothes.",
+    "別の都市の支店に転勤になった後、レオはすぐにアパートを見つける必要があった。不動産業者に連絡すると、予算、通勤、好みの地域について聞かれた。レオは、会社まで通勤が短い静かな住宅地がいいと説明した。バルコニーと服を入れる十分な収納も欲しかった。"
+   ],
+   [
+    "The realtor showed him three vacant apartments on the same afternoon. The first was spacious but located near a busy highway, so the noise was a problem. The second was in a pleasant suburb, but the kitchen had an old refrigerator and a broken oven. The third was a small condominium with a new dishwasher, a microwave, and an air conditioner.",
+    "業者はその日の午後、空き部屋を3件見せた。1件目は広かったが、交通量の多い幹線道路の近くで騒音が問題だった。2件目は感じのよい郊外にあったが、台所の冷蔵庫は古く、オーブンは壊れていた。3件目は新しい食器洗い機、電子レンジ、エアコンの付いた小さな分譲マンションだった。"
+   ],
+   [
+    "Leo liked the third apartment, but he asked about additional costs before making a decision. The landlord explained that the rent did not include utilities such as gas and electricity. A deposit equal to two months' rent was required, and the lease would last for two years. Tenants were also expected to separate their garbage according to the city's recycling rules.",
+    "レオは3件目が気に入ったが、決める前に追加の費用について尋ねた。家主は、家賃にはガスや電気などの光熱費が含まれていないと説明した。家賃2か月分の敷金が必要で、賃貸契約は2年間だった。入居者は市の資源ごみの規則に従ってごみを分別することも求められた。"
+   ],
+   [
+    "Before signing the lease, Leo asked an inspector to check the apartment. The inspector found a small leak under the bathroom sink and a heater that did not work properly. The landlord agreed to send a repairperson and a plumber before Leo moved in. Leo asked for this agreement to be added to the contract in writing.",
+    "契約に署名する前に、レオは検査員に部屋を調べてもらった。検査員は浴室の流しの下の小さな水漏れと、正しく動かない暖房器具を見つけた。家主はレオの入居前に修理業者と配管工を送ることに同意した。レオはこの合意を書面で契約書に加えるよう頼んだ。"
+   ],
+   [
+    "Leo's company had a relocation policy that covered part of the moving costs. He needed to submit three quotes from moving companies and keep all receipts. The cheapest company offered to pack his belongings, including a bookcase, a large rug, and several fragile lamps. The movers wrapped everything carefully, and nothing was damaged during the move.",
+    "レオの会社には、引っ越し費用の一部を負担する転勤規定があった。引っ越し業者3社の見積もりを提出し、領収書をすべて保管する必要があった。最も安い業者は、本棚、大きな敷物、壊れやすい照明器具などの荷物の梱包を引き受けた。業者はすべて丁寧に包み、引っ越し中に壊れた物はなかった。"
+   ],
+   [
+    "During his first week, Leo met his neighbors and learned where the nearest supermarket and pharmacy were. The heater had been repaired, and the leak under the sink had been fixed. On weekends, he enjoyed sitting on the balcony with a cup of coffee and looking at the park across the street. He felt that he had made a good choice.",
+    "最初の週に、レオは近所の人に会い、最寄りのスーパーと薬局の場所を覚えた。暖房器具は修理され、流しの下の水漏れも直っていた。週末には、コーヒーを片手にバルコニーに座り、通りの向かいの公園を眺めて楽しんだ。彼は良い選択をしたと感じた。"
+   ]
+  ],
+  "qs": [
+   [
+    "What kind of area did Leo want?",
+    [
+     "A quiet residential area with a short commute",
+     "A busy area near a highway",
+     "An area near the airport"
+    ],
+    0
+   ],
+   [
+    "What was wrong with the second apartment?",
+    [
+     "It had no balcony",
+     "The kitchen appliances were old or broken",
+     "It was too expensive"
+    ],
+    1
+   ],
+   [
+    "What did the rent not include?",
+    [
+     "Parking",
+     "Furniture",
+     "Utilities such as gas and electricity"
+    ],
+    2
+   ],
+   [
+    "What did the inspector find?",
+    [
+     "A small leak and a faulty heater",
+     "A broken window",
+     "Problems with the elevator"
+    ],
+    0
+   ]
+  ]
+ },
+ {
+  "key": "quarterlyresults",
+  "g": "money",
+  "title": "四半期決算の説明会",
+  "level": "TOEIC 850 · B2",
+  "scene": "meeting|chart|coin",
+  "paras": [
+   [
+    "The board of a furniture manufacturer met in the boardroom to review the results for the third quarter. Revenue had increased considerably, mainly because of strong online sales. However, the cost of raw materials such as wood and fabric had fluctuated sharply. The chief financial officer presented a graph that compared costs and profits over the past two years.",
+    "ある家具メーカーの役員会は、第3四半期の業績を見直すために役員室に集まった。売上高は、主にオンライン販売の好調によって大きく増えていた。しかし、木材や布などの原材料費が激しく変動していた。最高財務責任者は、過去2年間の費用と利益を比べたグラフを示した。"
+   ],
+   [
+    "An economist who advised the company warned that a recession was possible in the following year. She explained that consumers usually reduce spending on expensive items, such as sofas and dining tables, when the economy slows down. Her projection suggested that sales could decline by as much as ten percent. The board discussed how to prepare without becoming too pessimistic.",
+    "会社に助言する経済学者は、翌年に景気後退の可能性があると警告した。景気が減速すると、消費者はソファや食卓など高価な品物への支出を減らすのが普通だと説明した。彼女の予測では、売上が最大10％減る可能性があった。役員会は、悲観的になりすぎずに備える方法を話し合った。"
+   ],
+   [
+    "One director suggested downsizing the workforce, but others were cautious about this idea. Layoffs could damage morale and make it difficult to hire skilled workers later. Instead, the board decided to economize in other areas, such as travel, overhead costs, and advertising. They also agreed to delay the purchase of new machinery until the outlook became clearer.",
+    "ある取締役は人員削減を提案したが、ほかの人はこの考えに慎重だった。解雇は士気を下げ、後で熟練した労働者を雇うのを難しくする可能性があった。代わりに役員会は、出張、間接費、広告など他の分野で節約することにした。また、見通しがはっきりするまで新しい機械の購入を遅らせることにも同意した。"
+   ],
+   [
+    "The company's accountant reported that an external audit had been completed without any major problems. The auditors had recommended a few changes to the way payroll deductions were recorded. The finance team had already started to automate this process with new software. This change was expected to reduce errors and save time every month.",
+    "会社の会計士は、外部監査が大きな問題なく完了したと報告した。監査人は、給与からの控除の記録方法についていくつかの変更を勧めていた。財務チームは新しいソフトウェアでこの作業の自動化をすでに始めていた。この変更で誤りが減り、毎月の時間の節約になると見込まれた。"
+   ],
+   [
+    "Finally, the board discussed the annual dividend for stockholders. Although the company was profitable, some directors wanted to keep more cash in case sales declined. After a long discussion, they agreed to pay a slightly smaller dividend than last year. The decision would be explained in a letter to investors.",
+    "最後に、役員会は株主への年間配当について話し合った。会社は利益を上げていたが、売上が減った場合に備えてより多くの現金を残したいと考える取締役もいた。長い議論の末、昨年より少しだけ少ない配当を支払うことで合意した。この決定は投資家への手紙で説明されることになった。"
+   ],
+   [
+    "The chief executive ended the meeting on an optimistic note. She reminded everyone that the company had survived difficult periods before and that its online business was still growing. She asked each department to submit a plan for reducing unnecessary spending by the end of the month. The minutes of the meeting were sent to all directors the next morning.",
+    "最高経営責任者は前向きな言葉で会議を締めくくった。会社はこれまでも困難な時期を乗り越えてきたこと、オンライン事業がまだ成長していることを皆に思い出させた。各部署には、月末までに不要な支出を減らす計画を出すよう求めた。会議の議事録は翌朝、全取締役に送られた。"
+   ]
+  ],
+  "qs": [
+   [
+    "Why had revenue increased?",
+    [
+     "Because of strong online sales",
+     "Because prices were raised",
+     "Because of a merger"
+    ],
+    0
+   ],
+   [
+    "What did the economist warn about?",
+    [
+     "A shortage of wood",
+     "A possible recession",
+     "A new competitor"
+    ],
+    1
+   ],
+   [
+    "Why were some directors cautious about layoffs?",
+    [
+     "The law did not allow them",
+     "The factory was too small",
+     "Layoffs could damage morale"
+    ],
+    2
+   ],
+   [
+    "What did the board decide about the dividend?",
+    [
+     "To pay a slightly smaller dividend",
+     "To stop paying dividends",
+     "To double the dividend"
+    ],
+    0
+   ]
+  ]
+ }
+]
