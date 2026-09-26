@@ -1,7 +1,7 @@
 ﻿# English Express を「チェック → ビルド → GitHub へアップロード」まで一度に行うスクリプト
 # 使い方：publish.bat をダブルクリック（または PowerShell で .\publish.bat）
 #   .\publish.bat -Message "宇宙のショートを追加"   … 記録のメモを付ける
-#   .\publish.bat -Force                            … GitHub 側の中身を手元の内容で上書きする（初回だけ必要なことがある）
+#   .\publish.bat -Force                            … GitHub 側の中身を手元の内容で上書きする（GitHub 側の変更が消えます。通常は使わない）
 param(
     [string]$Message = "",
     [string]$RepoUrl = "https://github.com/closeAI-astra/English_short_learning.git",
@@ -26,25 +26,8 @@ elseif (Get-Command uv -ErrorAction SilentlyContinue) { $py = @("uv", "run", "py
 else { Fail "Python が見つかりません。" }
 Write-Host "git と Python を確認しました（Python: $($py -join ' ')）"
 
-# ---------- 2. 教材チェック＋ビルド ----------
-Step "2/5 教材チェックとビルド"
-$pyExe = $py[0]; $pyArgs = @($py | Select-Object -Skip 1) + @("build_site.py")
-& $pyExe @pyArgs
-if ($LASTEXITCODE -ne 0) { Fail "ビルドが止まりました。上に出ている問題を直してから、もう一度実行してください。" }
-
-if (Get-Command node -ErrorAction SilentlyContinue) {
-    foreach ($t in @("test_video.cjs", "test_study.cjs", "test_fluency.cjs", "test_coverage.cjs")) {
-        if (Test-Path $t) {
-            node $t
-            if ($LASTEXITCODE -ne 0) { Fail "テスト $t が失敗しました。アップロードを中止します。" }
-        }
-    }
-} else {
-    Write-Host "（Node.js が無いので自動テストは省略します）"
-}
-
-# ---------- 3. git の準備 ----------
-Step "3/5 git の準備"
+# ---------- 2. git の準備と GitHub の最新の取り込み ----------
+Step "2/5 GitHub の最新を取り込む"
 if (-not (Test-Path ".git")) {
     git init | Out-Null
     Write-Host "このフォルダーを git で管理し始めました"
@@ -62,6 +45,56 @@ if (-not (git config user.email)) {
 $origin = git remote get-url origin 2>$null
 if (-not $origin) { git remote add origin $RepoUrl; Write-Host "アップロード先を登録しました: $RepoUrl" }
 elseif ($origin -ne $RepoUrl) { git remote set-url origin $RepoUrl; Write-Host "アップロード先を変更しました: $RepoUrl" }
+
+# GitHub 側で追加された変更（プルリクエストなど）を先に取り込む。
+# 自動生成ファイルはビルドで作り直すので、手元の古い生成結果は捨てて GitHub 側に合わせる。
+$generated = @("english-express.html", "docs/index.html", "docs/README.md", "docs/HVPT_PACK.md", "docs/.nojekyll", "materials/EXISTING.md")
+git fetch origin main 2>$null
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "GitHub にまだ main が無いか、接続できませんでした。手元の内容だけでビルドします。"
+} elseif (-not (git rev-parse --verify -q HEAD)) {
+    git reset -q origin/main
+    Write-Host "GitHub の履歴を取り込みました"
+} else {
+    foreach ($f in $generated) { if (git ls-files -- $f) { git checkout -q -- $f 2>$null } }
+    $stashed = $false
+    if (git status --porcelain) { git stash push -u -q -m "publish-autostash"; $stashed = $true }
+    git merge -q --no-edit origin/main
+    if ($LASTEXITCODE -ne 0) {
+        foreach ($f in @(git diff --name-only --diff-filter=U)) {
+            if ($generated -contains $f) { git checkout -q --theirs -- $f; git add -- $f }
+        }
+        $left = @(git diff --name-only --diff-filter=U)
+        if ($left.Count -gt 0) {
+            git merge --abort
+            if ($stashed) { git stash pop -q }
+            Fail ("GitHub 側と手元で同じファイルが別々に変更されています。どちらを残すか決めてから、もう一度実行してください:`n  " + ($left -join "`n  "))
+        }
+        git commit -q --no-edit
+    }
+    if ($stashed) {
+        git stash pop -q
+        if ($LASTEXITCODE -ne 0) { Fail "GitHub の変更と、手元でまだ記録していない変更がぶつかりました。手元の変更は git stash list に残っています。" }
+    }
+    Write-Host "GitHub の最新を取り込みました"
+}
+
+# ---------- 3. 教材チェック＋ビルド ----------
+Step "3/5 教材チェックとビルド"
+$pyExe = $py[0]; $pyArgs = @($py | Select-Object -Skip 1) + @("build_site.py")
+& $pyExe @pyArgs
+if ($LASTEXITCODE -ne 0) { Fail "ビルドが止まりました。上に出ている問題を直してから、もう一度実行してください。" }
+
+if (Get-Command node -ErrorAction SilentlyContinue) {
+    foreach ($t in @("test_video.cjs", "test_study.cjs", "test_fluency.cjs", "test_coverage.cjs")) {
+        if (Test-Path $t) {
+            node $t
+            if ($LASTEXITCODE -ne 0) { Fail "テスト $t が失敗しました。アップロードを中止します。" }
+        }
+    }
+} else {
+    Write-Host "（Node.js が無いので自動テストは省略します）"
+}
 
 # ---------- 4. 記録（commit） ----------
 Step "4/5 変更の記録"
@@ -85,14 +118,7 @@ if ($staged.Count -eq 0) {
 Step "5/5 GitHub へアップロード"
 if ($Force) { git push -u origin main --force } else { git push -u origin main }
 if ($LASTEXITCODE -ne 0) {
-    Write-Host ""
-    Write-Host "GitHub 側に、手元に無い変更があるため送れませんでした。" -ForegroundColor Yellow
-    Write-Host "GitHub 上でファイルを直接編集していなければ、手元の内容で上書きして問題ありません。"
-    $ans = Read-Host "GitHub 側を手元の内容で上書きしますか？ (y/N)"
-    if ($ans -eq "y") {
-        git push -u origin main --force
-        if ($LASTEXITCODE -ne 0) { Fail "アップロードに失敗しました。ログインやURLを確認してください。" }
-    } else { Fail "アップロードを中止しました。" }
+    Fail "送れませんでした。作業中に GitHub 側が更新されたか、ログインに失敗しています。もう一度 publish.bat を実行すると、最新を取り込んでから送り直します。"
 }
 
 $parts = ($RepoUrl -replace '\.git$', '') -split '/'
