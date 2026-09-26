@@ -29,6 +29,7 @@ const first=Object.keys(ctx.S.meta.videoMistakes.rows)[0];ctx.videoMistake(first
 const practice=[];let feed=0,wq=0;for(let i=1;i<=150;i++){const it=ctx.nextItem();if(i%7===0){assert.equal(it.type,'wq');wq++;continue;}if(i%3===0){assert.equal(it.type,'practice');feed++;continue;}assert.equal(it.type,'short');if(i%5===0){assert.ok(it.s.videoId);practice.push(catalog.find(l=>l.id===it.s.videoId).defaultMode);}}
 assert.ok(feed>=40&&wq>=20);assert.equal(new Set(practice).size,10);
 // Auto next is cancelled on page departure / playback cancellation.
+timers.clear(); // ignore start-up timers (e.g. the speech check in settings)
 const it={i:0,el:node('short'),s:{id:'test'}};ctx.curTab='shorts';ctx.SH.items=[it,{}];ctx.shortEnd(it);let t=[...timers.values()].at(-1);assert.equal(t.ms,1800);t.fn();assert.deepEqual(calls.at(-1),['go',1]);ctx.shortEnd(it);ctx.spStop();assert.equal(timers.size,1); // the fired fake timer remains in this test map
 ctx.shortEnd(it);t=[...timers.values()].at(-1);ctx.curTab='watch';const count=calls.length;t.fn();assert.equal(calls.length,count);
 // Grade cannot be submitted before the playback promise finishes.

@@ -3292,6 +3292,38 @@ videoSection.addEventListener('toggle',e=>{if(e.target.matches('details'))vCapti
 // Coach links point at the local pronunciation coach; remind how to start it when it is on this PC.
 document.addEventListener('click',e=>{const a=e.target.closest('a[href]');if(!a)return;const base=String(settings().coach||'http://127.0.0.1:7860');if(!a.href.startsWith(base.replace(/\/+$/,'')))return;if(/127\.0\.0\.1|localhost/.test(base)){const phone=/Android|iPhone|iPad/i.test(navigator.userAgent);const msg=phone?'スマホでは、マイページの設定「発音コーチのURL」に共有URLかSpacesのURLを入れてください':'開けないときは、pron-coach フォルダーの start_coach.bat を起動してから押し直してください';toast(msg);vCoachHint={msg,at:Date.now()};}},true);
 let vCoachHint=null;document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&vCoachHint&&Date.now()-vCoachHint.at<120000){toast(vCoachHint.msg);vCoachHint=null;}});
+// ---- Mobile-safe speech (iOS Safari / Android Chrome) ----
+// 1) iOS only allows speech that starts inside a tap: speak a silent utterance on the first touch to unlock it.
+// 2) cancel() immediately followed by speak() drops the new utterance on many phones: cancel only when busy, then wait a moment.
+// 3) "interrupted"/"canceled" errors come from our own cancel() and are not failures.
+let vSpeechPrimed=false;
+let vLastCancel=0;
+stopSpeech=function(){playTok++;try{const ss=speechSynthesis;if(ss.speaking||ss.pending){ss.cancel();vLastCancel=Date.now();}}catch(e){}};
+function vPrimeSpeech(){if(vSpeechPrimed||!('speechSynthesis' in window))return;vSpeechPrimed=true;try{const u=new SpeechSynthesisUtterance(' ');u.volume=0;u.lang='en-US';speechSynthesis.speak(u);}catch(e){}if(!voices.length)try{loadVoices();}catch(e){}}
+['touchend','pointerup','click','keydown'].forEach(ev=>document.addEventListener(ev,vPrimeSpeech,{capture:true,passive:true}));
+const vNav=typeof navigator!=='undefined'?navigator:{userAgent:'',platform:'',maxTouchPoints:0};const vMobileSpeech=/Android|iPhone|iPad|iPod/i.test(vNav.userAgent)||(vNav.platform==='MacIntel'&&vNav.maxTouchPoints>1);
+speak=function(text,mul,voice,keep,onb){
+ if(!('speechSynthesis' in window)){toast('この端末では英語の読み上げが使えません');return Promise.resolve();}
+ if(!keep)playTok++;
+ const ss=speechSynthesis;SPEAKERR=null;
+ if(!voices.length)try{loadVoices();}catch(e){}
+ let busy=ss.speaking||ss.pending;if(busy){try{ss.cancel();}catch(e){}vLastCancel=Date.now();}busy=busy||Date.now()-vLastCancel<150;
+ try{if(ss.paused)ss.resume();}catch(e){}
+ const u=new SpeechSynthesisUtterance(String(text));let v=voice||pickVoice();
+ if(v&&!ss.getVoices().some(x=>x.voiceURI===v.voiceURI))v=null; // stale voice objects are ignored silently on some phones
+ if(v){u.voice=v;u.lang=v.lang;}else u.lang='en-US';
+ const rate=Math.max(0.4,Math.min(1.8,(settings().rate||1)*(mul||1)));u.rate=rate;
+ if(onb)u.onboundary=e=>{if(typeof e.charIndex==='number')onb(e.charIndex);};
+ return new Promise(res=>{let done=false,started=false;const fin=()=>{if(!done){done=true;res();}};
+  u.onstart=()=>{started=true;};u.onend=fin;
+  u.onerror=e=>{const er=e&&e.error;if(er&&er!=='interrupted'&&er!=='canceled')SPEAKERR=er;fin();};
+  setTimeout(()=>{if(!started&&!done&&vMobileSpeech&&!ss.speaking)SPEAKERR=SPEAKERR||'no-start';fin();},Math.max(3000,String(text).length*120/rate));
+  const go=()=>{try{ss.speak(u);}catch(e){SPEAKERR='error';fin();}};
+  if(busy&&vMobileSpeech)setTimeout(go,120);else go();});
+};
+// Settings: show what the device offers, so a silent phone can be diagnosed.
+function vSpeechDiag(){const el=$('#vSpeechDiag');if(!el)return;if(!('speechSynthesis' in window)){el.textContent='この端末・ブラウザーは読み上げに対応していません。';return;}const en=speechSynthesis.getVoices().filter(v=>/^en/i.test(v.lang));el.textContent='英語の声：'+en.length+'個'+(en.length?'（'+en.slice(0,3).map(v=>v.name).join('、')+(en.length>3?' ほか':'')+'）':'。端末の設定で英語の音声データを入れると使えます。')+(SPEAKERR?' ／ 直前のエラー：'+SPEAKERR:'');}
+{const t=$('#stTest');if(t&&t.insertAdjacentHTML){t.insertAdjacentHTML('afterend','<p class="small muted" id="vSpeechDiag"></p><p class="small muted">音が出ないとき：音量・マナーモード（iPhone は横のスイッチ）を確認し、一度画面をタップしてから再生してください。Android は「設定 → システム → 言語 → 音声出力（テキスト読み上げ）」で英語の音声データを入れてください。</p>');t.addEventListener('click',()=>setTimeout(vSpeechDiag,1500));if('speechSynthesis' in window)speechSynthesis.addEventListener?.('voiceschanged',vSpeechDiag);setTimeout(vSpeechDiag,800);}}
 
 /* END VIDEO_APP */
 /* ================= boot ================= */
