@@ -364,6 +364,31 @@ def _chip(p: PhoneResult) -> str:
             f'font-family:monospace;font-size:15px;color:{fg};background:{bg};text-decoration:{deco}">{body}</span>')
 
 
+def mistakes_in_order(rep: Report) -> list[tuple[int, str, str]]:
+    """All flagged sounds in reading order: (word index, word, what happened)."""
+    out = []
+    for i, p in enumerate(rep.phones):
+        if p.status == "sub":
+            out.append((p.word_idx, i, f"/{p.phone}/ が /{p.heard}/ に聞こえる"))
+        elif p.status == "del":
+            out.append((p.word_idx, i, f"/{p.phone}/ が聞こえない"))
+        elif p.status == "weak":
+            out.append((p.word_idx, i, f"/{p.phone}/ が弱い（{p.score * 100:.0f}点）"))
+    for after, ph in rep.inserts:
+        if is_vowel(ph) and after >= 0 and not is_vowel(rep.phones[after].phone):
+            out.append((rep.phones[after].word_idx, after + 0.5, f"/{rep.phones[after].phone}/ のあとに /{ph}/ が入った"))
+    out.sort(key=lambda x: (x[0], x[1]))
+    return [(wi, rep.words[wi], d) for wi, _, d in out]
+
+
+def render_mistake_list(rep: Report) -> str:
+    rows = mistakes_in_order(rep)
+    items = "".join(f"<li><b>{html.escape(w)}</b>（{wi + 1}語目）: {html.escape(d)}</li>" for wi, w, d in rows)
+    return (f'<details open style="border:1px solid #cfd6d1;border-radius:8px;padding:8px 12px;margin-bottom:10px">'
+            f'<summary style="font-weight:700;cursor:pointer">指摘した箇所（文の順・全{len(rows)}件）</summary>'
+            f'<ol style="margin:6px 0 0 20px;padding:0;columns:2 260px;column-gap:24px">{items}</ol></details>')
+
+
 def render_html(rep: Report) -> str:
     ov = rep.overall
     col = "#1f7a45" if ov >= 80 else ("#8a5a00" if ov >= 60 else "#b3261e")
@@ -377,7 +402,7 @@ def render_html(rep: Report) -> str:
          f'<div><div style="font-size:12px;opacity:.7">語の間の長い間（0.35秒以上）</div>'
          f'<div style="font-size:24px;font-family:monospace">{len(rep.long_pauses)}</div></div></div>']
     if rep.long_pauses:
-        h.append('<div style="font-size:12px;opacity:.8;margin-bottom:8px">間が空いた所: ' + "、".join(html.escape(f"{a} / {b}") for a, b in rep.long_pauses[:6])
+        h.append('<div style="font-size:12px;opacity:.8;margin-bottom:8px">間が空いた所: ' + "、".join(html.escape(f"{a} / {b}") for a, b in rep.long_pauses)
                  + '（塊の切れ目なら自然。塊の途中なら、つなげて読む練習を）</div>')
     h.append('<div style="display:flex;flex-wrap:wrap;gap:10px 14px;margin-bottom:6px">')
     for wi, w in enumerate(rep.words):
@@ -390,9 +415,12 @@ def render_html(rep: Report) -> str:
              f'<br>認識された音素列: <span style="font-family:monospace">{html.escape(" ".join(rep.recognized))}</span></div>')
     if not rep.issues:
         h.append('<div style="padding:10px 12px;border-radius:8px;background:#e3f3e9;color:#1f4d33">大きな問題は見つかりませんでした。次は手本と同じ速さ・リズムで読んでみてください。</div>')
-    for g in rep.issues[:5]:
+    if rep.issues:
+        # Every flagged sound is listed (no cut-off), so mistakes near the end of a long passage are shown too.
+        h.append(render_mistake_list(rep))
+    for g in rep.issues:
         name, ipa, how, trap, pair = TIPS[g["key"]]
-        items = "".join(f"<li><b>{html.escape(w)}</b>: {html.escape(d)}</li>" for w, d in g["items"][:6])
+        items = "".join(f"<li><b>{html.escape(w)}</b>: {html.escape(d)}</li>" for w, d in g["items"])
         h.append(f'<div style="border:1px solid #cfd6d1;border-left:5px solid #fccc0a;border-radius:8px;padding:10px 12px;margin-bottom:10px">'
                  f'<div style="font-weight:700;font-size:16px">{html.escape(name)} <span style="font-family:monospace;opacity:.7;font-weight:400">{html.escape(ipa)}</span></div>'
                  f'<ul style="margin:6px 0 6px 18px;padding:0">{items}</ul>'

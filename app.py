@@ -10,6 +10,7 @@ import datetime as dt
 import html
 import json
 import os
+import re
 import threading
 from collections import Counter
 from math import gcd
@@ -203,11 +204,60 @@ SPEAK_JS = """(t, r) => {
 _video_lessons, _video_phrases = video_materials()
 DRILLS = list(dict.fromkeys(DRILLS + [c[3] for c in _video_phrases] + [l["sl"][0][1] for l in _video_lessons]))
 
+# ------------------------------------------------------------------ passages -> sentences
+_ABBR = r"(?:Mr|Mrs|Ms|Dr|Prof|St|Jr|Sr|vs|etc|e\.g|i\.e|a\.m|p\.m|U\.S|No)\."
+MAX_PASSAGE = 6000  # characters accepted from the URL (a long reading is about 2,000)
+
+
+def split_sentences(text: str) -> list[str]:
+    """Split a passage into sentences (one per line in the list). Keeps Mr. / a.m. etc. together."""
+    out = []
+    for line in re.split(r"[\r\n]+", (text or "").replace("/", " ")):
+        line = re.sub(r"\s+", " ", line).strip()
+        if not line:
+            continue
+        protected = re.sub(_ABBR, lambda m: m.group(0).replace(".", "\u2024"), line, flags=re.I)
+        for part in re.split(r"(?:(?<=[.!?])|(?<=[.!?][\"'”’)\]]))\s+(?=[\"'“‘(\[]?[A-Z0-9])", protected):
+            part = part.replace("\u2024", ".").strip()
+            if part and re.search(r"[A-Za-z]", part):
+                out.append(part)
+    return out
+
+
+def passage_choices(sentences: list[str]) -> list[tuple[str, str]]:
+    n = len(sentences)
+    ch = [(f"{i}/{n}　{t}", t) for i, t in enumerate(sentences, 1)]
+    if n > 1:
+        ch.append((f"（全{n}文をまとめて読む）", " ".join(sentences)))
+    return ch
+
+
+def set_passage(text: str, pick: str = ""):
+    """Put the sentences of a passage into the list box and select one of them (default: the first)."""
+    sentences = split_sentences(text)
+    if not sentences:
+        return gr.update(), gr.update(), gr.update(visible=False)
+    pick = re.sub(r"\s+", " ", (pick or "").replace("/", " ")).strip()
+    first = pick if pick in sentences else next((x for x in sentences if pick and x in pick), sentences[0])
+    note = (f"この教材の文章を {len(sentences)} 文に分けました。上の一覧から1文ずつ選んで録音できます。"
+            if len(sentences) > 1 else "")
+    return (gr.update(choices=passage_choices(sentences), value=first,
+                      label=f"練習文（この教材の {len(sentences)} 文から選ぶ）"),
+            first, gr.update(value=note, visible=bool(note)))
+
+
+def reset_drills():
+    return (gr.update(choices=DRILLS, value=DRILLS[0], label=DRILL_LABEL), DRILLS[0], gr.update(value="", visible=False))
+
+
+DRILL_LABEL = "練習文（一覧から選ぶと下の英文が変わる）"
+
 INTRO = """## 発音コーチ（音素単位の判定）
 1. 練習文を選ぶか書き換える → 2.「手本を聞く」→ 3. マイクで録音して停止すると自動で判定します。
 
 English Expressの動画下にある「発音チェック」から、このコーチへ教材の英文を引き継げます。
 練習文一覧には、English Express のフレーズ例文と長文の冒頭文も入っています。
+何文もある教材を引き継いだときは、一覧がその教材の文に切り替わり、1文ずつ選んで録音できます（まとめて全文を読むことも可能）。
 
 判定は wav2vec2 の音素認識モデルで、手本の音素ごとに「その音らしさ」を点数化し、別の音に聞こえた・抜けた・余分な母音が入った箇所を示します。すべてこの PC の中で処理し、音声は外部に送りません。"""
 
@@ -230,8 +280,12 @@ with gr.Blocks(title="発音コーチ") as demo:
             l_ans = gr.Markdown(l_ans0)
         with gr.Accordion("研究から考える練習方法", open=False):
             gr.Markdown(learning.METHODS)
-    drill = gr.Dropdown(choices=DRILLS, value=DRILLS[0], label="練習文（一覧から選ぶと下の英文が変わる）", allow_custom_value=True)
+    drill = gr.Dropdown(choices=DRILLS, value=DRILLS[0], label=DRILL_LABEL, allow_custom_value=True)
+    passage_note = gr.Markdown(visible=False)
     sentence = gr.Textbox(value=DRILLS[0], label="読む英文（自由に書き換えられます）", lines=2)
+    with gr.Row():
+        b_split = gr.Button("この英文を1文ずつに分けて一覧にする", size="sm")
+        b_reset = gr.Button("一覧を標準の練習文に戻す", size="sm")
     # One sentence at a time: picking from the list sets the text, and any new text (typed, from a lesson,
     # or handed over from English Express) is shown in the list box too. Runs in the browser, no round trip.
     drill.input(None, drill, sentence, js="(s) => s")
@@ -249,7 +303,9 @@ with gr.Blocks(title="発音コーチ") as demo:
     l_pick.change(_show_lesson, l_pick, [l_card, l_text, l_ans, l_cloze])
     l_next.click(learning.next_lesson, [l_topic, l_pick], l_pick)
     l_play.click(None, [l_text, r1], None, js=SPEAK_JS)
-    l_set.click(lambda t: (t, t), l_text, [sentence, drill])
+    l_set.click(set_passage, l_text, [drill, sentence, passage_note])
+    b_split.click(set_passage, sentence, [drill, sentence, passage_note])
+    b_reset.click(reset_drills, None, [drill, sentence, passage_note])
     b_slow.click(None, [sentence, r2], None, js=SPEAK_JS)
     audio = gr.Audio(sources=["microphone", "upload"], type="numpy", label="録音（マイクボタン → 読む → 停止）")
     go = gr.Button("もう一度判定する", variant="primary")
@@ -259,14 +315,19 @@ with gr.Blocks(title="発音コーチ") as demo:
     with gr.Accordion("これまでの記録", open=False):
         hist = gr.HTML(history_html())
     def _prefill(request: gr.Request):
+        # ?text=<sentence to read>&passage=<all sentences of the lesson, one per line>
+        # A multi-sentence text (or passage) is split so each sentence can be picked from the list.
         try:
-            t = (request.query_params.get("text") or "").strip()
+            q = request.query_params
+            t = (q.get("text") or "").strip()[:MAX_PASSAGE]
+            whole = (q.get("passage") or "").strip()[:MAX_PASSAGE]
         except Exception:
-            t = ""
-        return t[:300] if t else (gr.skip() if hasattr(gr, "skip") else gr.update())
+            t = whole = ""
+        if not t and not whole:
+            return gr.update(), gr.update(), gr.update()
+        return set_passage(whole or t, t if whole else "")
 
-    demo.load(_prefill, None, [sentence])
-    demo.load(None, sentence, drill, js="(s) => s")
+    demo.load(_prefill, None, [drill, sentence, passage_note])
     audio.stop_recording(judge, [sentence, audio], [out, summ, hist])
     audio.upload(judge, [sentence, audio], [out, summ, hist])
     go.click(judge, [sentence, audio], [out, summ, hist])

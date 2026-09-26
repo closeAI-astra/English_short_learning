@@ -71,3 +71,9 @@
 .vflash{animation:vflash 1.8s ease}
 @keyframes vflash{0%,40%{box-shadow:0 0 0 3px #3ea6ff}100%{box-shadow:0 0 0 3px transparent}}
 @media(max-width:600px){.vmrow{padding:11px 12px;gap:12px}.sync span{display:none}}
+
+/* Sentence picker (pronunciation) and the question chip on shorts */
+select.vpick{display:block;width:100%;max-width:100%;min-width:0;margin-top:4px;padding:8px;font-size:14px;background:var(--surface,#fff);color:var(--ink,#111);border:1px solid var(--line,#ccc);border-radius:10px}
+.shead .vqchip{margin-left:auto;flex:none;background:rgba(0,0,0,.55);color:#fff;border:1px solid rgba(255,255,255,.55);border-radius:999px;padding:4px 11px;font:700 12px var(--jp);cursor:pointer;text-shadow:none}
+.shead .vqchip:hover,.shead .vqchip:focus-visible{background:#FF6319;border-color:#FF6319}
+.endov .fb{margin-bottom:6px}

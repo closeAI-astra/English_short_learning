@@ -457,6 +457,12 @@ b.ph{background:var(--hl);padding:0 3px;border-radius:3px;font-weight:700;color:
 @keyframes vflash{0%,40%{box-shadow:0 0 0 3px #3ea6ff}100%{box-shadow:0 0 0 3px transparent}}
 @media(max-width:600px){.vmrow{padding:11px 12px;gap:12px}.sync span{display:none}}
 
+/* Sentence picker (pronunciation) and the question chip on shorts */
+select.vpick{display:block;width:100%;max-width:100%;min-width:0;margin-top:4px;padding:8px;font-size:14px;background:var(--surface,#fff);color:var(--ink,#111);border:1px solid var(--line,#ccc);border-radius:10px}
+.shead .vqchip{margin-left:auto;flex:none;background:rgba(0,0,0,.55);color:#fff;border:1px solid rgba(255,255,255,.55);border-radius:999px;padding:4px 11px;font:700 12px var(--jp);cursor:pointer;text-shadow:none}
+.shead .vqchip:hover,.shead .vqchip:focus-visible{background:#FF6319;border-color:#FF6319}
+.endov .fb{margin-bottom:6px}
+
 /* END VIDEO_CSS */
 </style>
 
@@ -3184,7 +3190,7 @@ function videoMistake(key,prompt,answer,lessonId,kind,ok=false){const rows={...(
 function vStop(){V.token++;V.playing=false;stopSpeech();if($('#vPlay'))$('#vPlay').textContent='▶ 再生';}
 const oldShowTabV=showTab;
 showTab=function(t,noHist){vStop();if(curTab==='watch'){labLeave();V.hpToken++;$('#labBody').replaceChildren();$('#vFluencyBody')?.replaceChildren();}oldShowTabV(t,noHist);if(t==='stats:settings')vShowSettings();document.body.classList.toggle('ee-shorts-full',t==='shorts'&&matchMedia('(max-width:719px)').matches);if(t==='shorts')sizeShorts();if(t==='watch')renderWatch();};
-function openVideo(id,mode){let l=VC.find(x=>x.id===id);if(!l){const s=shortsAll().find(x=>x.id===id);if(s){l={...s,kind:'listen',level:'読み聞き',qs:s.q?[s.q]:[],defaultMode:'questions'};VC.push(l);}}if(!l)return;labLeave();V.lesson=l;V.slide=0;V.mode=mode||l.defaultMode||'script';V.phrase=0;V.revealed=false;V.hp=0;V.hpHeard=false;V.hpDone=false;V.hpOrder=(l.pairs||[]).map(()=>Math.random()<.5?0:1);V.answers={};V.readAt=0;V.readDone=0;showTab('watch');}
+function openVideo(id,mode){let l=VC.find(x=>x.id===id);if(!l){const s=shortsAll().find(x=>x.id===id);if(s){l={...s,kind:'listen',level:'読み聞き',qs:vShortQs(s),defaultMode:'questions'};VC.push(l);}}if(!l)return;labLeave();V.lesson=l;V.slide=0;V.mode=mode||l.defaultMode||'script';V.phrase=0;V.revealed=false;V.hp=0;V.hpHeard=false;V.hpDone=false;V.hpOrder=(l.pairs||[]).map(()=>Math.random()<.5?0:1);V.answers={};V.readAt=0;V.readDone=0;showTab('watch');}
 function vWords(l){return l.sl.map(s=>s[1].replace(/\//g,' ')).join(' ').trim().split(/\s+/).length;}
 const VAVI={daily:'chat',travel:'globe',space:'moon',science:'atom',tech:'laptop',food:'bowl',music:'note',math:'chart',animal:'bird',history:'scroll',film:'film',sport:'ball',environment:'tree',work:'building',learning:'bulb',art:'palette',words:'book',money:'coin',dino:'trex',nyc:'skyline',serial:'magnifier'};
 const VICON={};
@@ -3223,7 +3229,7 @@ function vActivity(){const l=V.lesson,box=$('#vActivity');if(!box)return;let mod
  if(V.mode==='recall'){box.innerHTML='<h3>原文を隠して、今の場面を説明する</h3><p>'+esc(l.sl[V.slide][2]||l.t)+'</p><textarea id="vRecallText" aria-label="思い出した英語" placeholder="声に出してから、必要ならメモ"></textarea><details><summary>原文を見て比べる</summary><p>'+esc(l.sl[V.slide][1])+'</p><button class="btn" data-vremember="0">思い出せなかった</button> <button class="btn" data-vremember="1">思い出せた</button></details>';$$('[data-vremember]',box).forEach(b=>b.onclick=()=>{videoMistake(l.id+'-recall-'+V.slide,l.sl[V.slide][2],l.sl[V.slide][1],l.id,'想起',b.dataset.vremember==='1');b.disabled=true;toast('記録しました');});}
  if(V.mode==='chunks'){box.innerHTML='<h3>意味のまとまりで、前から理解する</h3><p class="muted small">区切りは読みやすさを助ける目安です。</p>'+l.sl.map(s=>'<article class="vtranscript">'+s[1].replace(/\//g,' ').match(/[^.!?]+[.!?]*/g).map(sentence=>sentence.trim().split(/(?<=,)|\s+(?=(?:because|although|while|but|and|which|that)\b)/).filter(Boolean).map(c=>'<button class="vchunk say" data-say="'+esc(c)+'">'+esc(c)+'</button>').join('')).join('')+'<p class="muted">'+esc(s[2])+'</p></article>').join('');}
  if(V.mode==='read'){box.innerHTML='<h3>全文を読んで、内容も確認する</h3><p>'+vWords(l)+'語 · 語数 ÷ 実測時間でWPMを計算</p><div class="row"><button class="btn primary" id="vReadStart">計測を始める</button><button class="btn" id="vReadEnd" '+(!V.readAt?'disabled':'')+'>読み終えた</button><span id="vWpm">'+(V.readDone?V.readDone+' WPM':'')+'</span></div><div id="vReadText" '+(!V.readAt&&!V.readDone?'hidden':'')+'>'+l.sl.map(s=>'<p>'+esc(s[1].replace(/\//g,' '))+'</p>').join('')+'</div>';$('#vReadStart').onclick=()=>{V.readAt=Date.now();V.readDone=0;$('#vReadText').hidden=false;$('#vReadEnd').disabled=false;$('#vWpm').textContent='計測中';};$('#vReadEnd').onclick=()=>{if(!V.readAt)return;V.readDone=Math.round(vWords(l)*60000/Math.max(1000,Date.now()-V.readAt));V.readAt=0;$('#vWpm').textContent=V.readDone+' WPM · 設問で理解も確認しましょう';$('#vReadEnd').disabled=true;};}
- if(V.mode==='pron'){const text=l.sl[V.slide][1].replace(/\//g,' ');box.innerHTML='<h3>この場面で発音チェック</h3><p>'+esc(text)+'</p><button class="btn say" data-say="'+esc(text)+'">お手本を聞く</button><p class="muted small">音声入力の文字照合は発音の正確さを保証しません。音素の確認は発音コーチへ。</p><textarea id="vHeard" aria-label="音声入力された英文" placeholder="端末の音声入力で話した結果を入れる"></textarea><div class="row"><button class="btn" id="vCheckPron">文字を照合</button><a class="btn primary" href="'+esc(coachURL(text))+'" target="_blank" rel="noopener">発音コーチで録音</a></div><div id="vPronResult"></div>';$('#vCheckPron').onclick=()=>{if(!$('#vHeard').value.trim())return;const r=judgeInto($('#vPronResult'),text,$('#vHeard').value,true);if(r){bump({pron:1});videoMistake(l.id+'-pron-'+V.slide,text,'手本: '+text,l.id,'発音の文字照合・要確認',r.missed.length===0);}};}
+ if(V.mode==='pron'){const text=l.sl[V.slide][1].replace(/\//g,' '),allText=l.sl.map(x=>x[1].replace(/\//g,' '));box.innerHTML='<h3>この場面で発音チェック</h3><label class="small">文を選ぶ（この教材の'+l.sl.length+'文） <select id="vPronPick" class="vpick">'+l.sl.map((x,i)=>'<option value="'+i+'"'+(i===V.slide?' selected':'')+'>'+(i+1)+'. '+esc(x[1].replace(/\//g,' ').slice(0,70))+'</option>').join('')+'</select></label><p>'+esc(text)+'</p><button class="btn say" data-say="'+esc(text)+'">お手本を聞く</button><p class="muted small">音声入力の文字照合は発音の正確さを保証しません。音素の確認は発音コーチへ。</p><textarea id="vHeard" aria-label="音声入力された英文" placeholder="端末の音声入力で話した結果を入れる"></textarea><div class="row"><button class="btn" id="vCheckPron">文字を照合</button><a class="btn primary" href="'+esc(coachURL(text,allText))+'" target="_blank" rel="noopener">発音コーチで録音</a></div><div id="vPronResult"></div>';$('#vPronPick').onchange=e=>{vStop();V.slide=+e.target.value;vDraw();};$('#vCheckPron').onclick=()=>{if(!$('#vHeard').value.trim())return;const r=judgeInto($('#vPronResult'),text,$('#vHeard').value,true);if(r){bump({pron:1});videoMistake(l.id+'-pron-'+V.slide,text,'手本: '+text,l.id,'発音の文字照合・要確認',r.missed.length===0);}};}
  if(['cloze','build'].includes(V.mode))vCloze();if(V.mode==='speed')vSpeed();if(V.mode==='phrases')vPhrase();if(V.mode==='hvpt')vHVPT();if(V.mode==='fluency')vFluency();vCaptionUpdate();
 }
 function vPhrase(){const l=V.lesson,box=$('#vActivity'),cards=l.cards;if(V.phrase>=cards.length){box.innerHTML='<h3>このセットは完了です</h3><p>'+cards.length+'フレーズを1回ずつ練習しました。苦手な表現はマイページに保存しました。次の復習時刻は間隔反復で管理されます。</p><button class="btn" data-go="you">マイページへ</button>';return;}const c=cards[V.phrase];V.slide=V.phrase;vDraw();box.innerHTML='<p>フレーズ '+(V.phrase+1)+' / '+cards.length+'</p><h3>'+esc(c[2])+'</h3><p>'+esc(c[4])+'</p>'+(V.revealed?'<h3>'+esc(c[1])+'</h3><p>'+esc(c[3])+'</p><button class="btn say" data-say="'+esc(c[3])+'">例文を聞く</button><div class="row">'+['もう一度','難しい','覚えた','簡単'].map((t,i)=>'<button class="btn" data-vgrade="'+(i+1)+'">'+t+'</button>').join('')+'</div>':'<button class="btn primary" id="vReveal">答えを見る</button>');if($('#vReveal'))$('#vReveal').onclick=()=>{V.revealed=true;vPhrase();};$$('[data-vgrade]',box).forEach(b=>b.onclick=()=>{if(!V.revealed)return;V.revealed=false;const g=+b.dataset.vgrade;reviewCard({id:c[0],en:c[1],ja:c[2],ex:c[3],exJa:c[4]},g);videoMistake(c[0],c[2],c[1]+' — '+c[3],l.id,'フレーズ',g>=3);V.phrase++;vPhrase();});}
@@ -3258,12 +3264,21 @@ const oldShelfV=shelfHTML;shelfHTML=function(title,list){return list.length?oldS
 let vPracticeIndex=0,vShortIndex=0,vShortBag=[];
 nextItem=function(){SH.since++;if(SH.since%7===0&&typeof makeWQ==='function'){const q=makeWQ();if(q)return q;}if(SH.since%3===0&&typeof genPractice==='function'){const c=genPractice();if(c)return {type:'practice',c};}if(SH.since%5===0){const modes=['phrases','recall','hvpt','cloze','build','questions','speed','read','chunks','pron'],mode=modes[vPracticeIndex%modes.length],sets=VC.filter(l=>l.defaultMode===mode),l=sets[Math.floor(vPracticeIndex++/modes.length)%sets.length];const s=l.sl[0];return {type:'short',s:{id:'practice-video-'+l.id,g:l.g,t:l.t,videoId:l.id,sl:[[s[0],'Listen, then try to recall the meaning.','聞いてから意味を思い出しましょう。'],s,[s[0],'Now say it in your own words. Open the lesson to check your answer.','自分の言葉で説明。右の「詳しく学ぶ」で答え合わせへ。']],w:[],q:null}};}if(!vShortBag.length){vShortBag=shuffle(shortsAll());const i=vShortBag.findIndex(s=>s.g!=='dino');if(i>0)[vShortBag[0],vShortBag[i]]=[vShortBag[i],vShortBag[0]];}const s=vShortBag.shift();SH.lastG=s.g;return {type:'short',s};};
 const oldRailV=railHTML;railHTML=function(it){return oldRailV(it).replace('<div class="rail">','<div class="rail"><button data-r="detail"><span class="ic">'+ICON.book+'</span>詳しく学ぶ</button>');};
-function vShortDetail(it){spStop();const s=it.s;if(!VC.some(x=>x.id===s.id)&&!s.videoId)VC.push({...s,kind:'listen',level:'A2–B2',defaultMode:'recall',qs:s.q?[s.q]:[]});openVideo(s.videoId||s.id);}
+function vShortDetail(it){spStop();const s=it.s;if(!VC.some(x=>x.id===s.id)&&!s.videoId)VC.push({...s,kind:'listen',level:'A2–B2',defaultMode:'recall',qs:vShortQs(s)});openVideo(s.videoId||s.id);}
 const oldWireV=wireRail;wireRail=function(it,el){oldWireV(it,el);const b=el.querySelector('[data-r="detail"]');if(b)b.onclick=e=>{e.stopPropagation();vShortDetail(it);};};
 const oldRenderShortV=renderShort;renderShort=function(it){const el=oldRenderShortV(it);if(it.type==='short'){let start=null,suppress=false;el.addEventListener('pointerdown',e=>{if(!e.target.closest('button:not(.tapz),input,a,.sheet'))start={x:e.clientX,y:e.clientY};});el.addEventListener('pointercancel',()=>start=null);el.addEventListener('pointerup',e=>{if(!start)return;const dx=e.clientX-start.x,dy=e.clientY-start.y;start=null;if(dx< -65&&Math.abs(dx)>Math.abs(dy)*1.3){suppress=true;vShortDetail(it);}});el.addEventListener('click',e=>{if(suppress){suppress=false;e.stopImmediatePropagation();e.preventDefault();}},true);}return el;};
 let vAutoNext=null;
 const oldSpStopV=spStop;spStop=function(){clearTimeout(vAutoNext);oldSpStopV();};
-const oldShortEndV=shortEnd;shortEnd=function(it){oldShortEndV(it);const ov=it.el.querySelector('.endov');ov.innerHTML='<p>次のショートへ進みます</p><button class="btn" data-vstay>ここで止める</button><button class="btn primary" data-vdetail>詳しく学ぶ →</button>';ov.querySelector('[data-vstay]').onclick=()=>{clearTimeout(vAutoNext);ov.querySelector('p').textContent='一時停止中';};ov.querySelector('[data-vdetail]').onclick=()=>vShortDetail(it);const token=SP.tok;vAutoNext=setTimeout(()=>{if(curTab!=='shorts'||SH.active!==it.i||SP.tok!==token)return;if(it.i+1>=SH.items.length)shAppend(3);shGo(it.i+1);},1800);};
+const oldShortEndV=shortEnd;shortEnd=function(it){oldShortEndV(it);it.quizOpen=false;const ov=it.el.querySelector('.endov');const n=vShortQs(it.s).length;
+ ov.innerHTML='<div style="font-size:17px;font-weight:700">'+esc(it.s.t)+'</div><p data-vloop>何もしなければ、もう一度再生します</p><div class="row">'+(n?'<button class="btn primary" data-vquiz>設問に答える（'+n+'問）</button>':'')+'<button class="btn" data-vagain>もう一度見る</button><button class="btn" data-vstay>ここで止める</button></div><div class="row"><button class="btn" data-vdetail>詳しく学ぶ →</button><button class="btn" data-vnext>次の動画へ ↓</button></div><p class="small" style="opacity:.7">次の動画へは上にスワイプ（PC はホイール）でも進めます。</p>';
+ const q=ov.querySelector('[data-vquiz]');if(q)q.onclick=()=>vShortQuiz(it);
+ ov.querySelector('[data-vagain]').onclick=()=>spPlay(it,0);
+ ov.querySelector('[data-vstay]').onclick=()=>{clearTimeout(vAutoNext);ov.querySelector('[data-vloop]').textContent='停止中';};
+ ov.querySelector('[data-vdetail]').onclick=()=>vShortDetail(it);
+ ov.querySelector('[data-vnext]').onclick=()=>vShortNext(it);
+ const token=SP.tok;vAutoNext=setTimeout(()=>{if(curTab!=='shorts'||SH.active!==it.i||SP.tok!==token)return;spPlay(it,0);},VLOOP_MS);};
+const VLOOP_MS=2500;
+function vShortNext(it){clearTimeout(vAutoNext);if(it.i+1>=SH.items.length)shAppend(3);shGo(it.i+1);}
 const oldSizeShortsV=sizeShorts;sizeShorts=function(){const w=$('#shWrap');const mobile=matchMedia('(max-width:719px)').matches;document.body.classList.toggle('ee-shorts-full',mobile&&curTab==='shorts');if(mobile){if($('#p-shorts').hidden)return;const navH=$('#nav').offsetHeight;const vh=(window.visualViewport?visualViewport.height:innerHeight);Object.assign(w.style,{position:'fixed',top:'0',left:'0',right:'0',width:'100%',maxWidth:'none',marginInline:'0',height:Math.max(360,vh-navH)+'px'});return;}Object.assign(w.style,{position:'',top:'',left:'',right:'',width:''});oldSizeShortsV();if(innerWidth>=720){w.style.maxWidth=Math.min(640,innerWidth-190)+'px';w.style.width='100%';}};
 window.visualViewport?.addEventListener('resize',()=>sizeShorts());
 document.addEventListener('click',e=>{const v=e.target.closest('[data-video]');if(v){openVideo(v.dataset.video);return;}const r=e.target.closest('[data-vresolve]');if(r){const m=S.meta.videoMistakes.rows[r.dataset.vresolve];videoMistake(r.dataset.vresolve,m.prompt,m.answer,m.lessonId,m.kind,true);renderYou();}const b=e.target.closest('[data-vscroll]');if(b){const row=b.closest('.vrow').querySelector('.shelf,.chrow');row.scrollBy({left:Number(b.dataset.vscroll)*row.clientWidth*.85,behavior:'smooth'});}});
@@ -3326,6 +3341,63 @@ function vSpeechDiag(){const el=$('#vSpeechDiag');if(!el)return;if(!('speechSynt
 {const t=$('#stTest');if(t&&t.insertAdjacentHTML){t.insertAdjacentHTML('afterend','<p class="small muted" id="vSpeechDiag"></p><p class="small muted">音が出ないとき：音量・マナーモード（iPhone は横のスイッチ）を確認し、一度画面をタップしてから再生してください。Android は「設定 → システム → 言語 → 音声出力（テキスト読み上げ）」で英語の音声データを入れてください。</p>');t.addEventListener('click',()=>setTimeout(vSpeechDiag,1500));if('speechSynthesis' in window)speechSynthesis.addEventListener?.('voiceschanged',vSpeechDiag);setTimeout(vSpeechDiag,800);}}
 // Opening English Express with ?coach=<url> (the QR code printed by start_coach_phone.bat) saves the coach URL once.
 (function(){try{if(typeof location==='undefined'||!location.search)return;const q=new URLSearchParams(location.search);const c=q.get('coach');if(!c)return;const u=new URL(c);const ok=(u.protocol==='https:'&&/(^|\.)(gradio\.live|hf\.space)$/i.test(u.hostname))||/^(127\.0\.0\.1|localhost)$/i.test(u.hostname);if(ok){const v=(u.origin+u.pathname).replace(/\/+$/,'');saveSettings({coach:v});if($('#stCoach'))$('#stCoach').value=v;setTimeout(()=>toast('発音コーチのURLを保存しました（'+u.hostname+'）'),600);}q.delete('coach');history.replaceState(null,'',location.pathname+(q.toString()?'?'+q.toString():'')+location.hash);}catch(e){}})();
+
+// ---- Pronunciation coach: pass the whole lesson so the coach can list it sentence by sentence.
+coachURL=function(text,passage){const base=String(settings().coach||'http://127.0.0.1:7860').trim().replace(/\/+$/,'');const t=String(text||'').replace(/\s+/g,' ').trim();const all=(Array.isArray(passage)?passage:[passage]).map(x=>String(x||'').replace(/\//g,' ').replace(/\s+/g,' ').trim()).filter(Boolean).join('\n');const q=[];if(t)q.push('text='+encodeURIComponent(t));if(all&&all!==t)q.push('passage='+encodeURIComponent(all.slice(0,6000)));return base+'/'+(q.length?'?'+q.join('&'):'');};
+// Shorts: the speak sheet lets you pick any sentence of the short, not only the one on screen.
+const VPROMPT=/^(How would you say this|Listen, then try|Now say it in your own words)/i;
+function vShortLines(s){return (s.sl||[]).map((sl,i)=>({i,en:slideText(sl),ja:sl[2]||''})).filter(x=>x.en&&!VPROMPT.test(x.en));}
+openSpeakSheet=function(it,pick){
+ spStop();const lines=vShortLines(it.s);if(!lines.length)return;const cur=pick!==undefined?pick:(SP.it===it?SP.slide:0);
+ const k=Math.max(0,lines.findIndex(x=>x.i===cur));const sent=lines[k].en;const sh=it.el.querySelector('.sheet');
+ if(SP.it===it||pick!==undefined){SP.it=it;SP.slide=lines[k].i;showSlide(it,lines[k].i);}
+ sh.innerHTML='<div class="row"><b class="jp">発音チェック</b><span class="spacer"></span><button class="btn sm" data-close>閉じる</button></div>'
+  +(lines.length>1?'<label class="small jp">文を選ぶ（この動画の'+lines.length+'文）<select class="vpick" data-vpick>'+lines.map((x,j)=>'<option value="'+x.i+'"'+(j===k?' selected':'')+'>'+(j+1)+'. '+esc(x.en.slice(0,70))+'</option>').join('')+'</select></label>':'')
+  +'<div class="target">'+esc(sent)+'</div><div class="row"><button class="btn say sm" data-say="'+esc(sent)+'">手本</button><button class="btn say sm" data-say="'+esc(sent)+'" data-rate="0.7">ゆっくり</button></div><div class="row"><a class="btn primary sm" target="_blank" rel="noopener" href="'+esc(coachURL(sent,lines.map(x=>x.en)))+'">音素分析（発音コーチ）</a><span class="tiny muted jp">録音して音素ごとに採点。コーチでもこの動画の文を1文ずつ選べます</span></div><div class="hintbox">簡易チェック：入力欄をタップしてキーボードのマイク（PC は Win + H）で読む。</div><textarea data-sin placeholder="ここに音声入力"></textarea><button class="btn primary" data-sj>判定する</button><div data-sout class="stack"></div>';
+ sh.hidden=false;sh.querySelector('[data-close]').onclick=()=>closeSheet(it);
+ const sel=sh.querySelector('[data-vpick]');if(sel)sel.onchange=e=>openSpeakSheet(it,+e.target.value);
+ sh.querySelector('[data-sj]').onclick=()=>{const r=judgeInto(sh.querySelector('[data-sout]'),sent,sh.querySelector('[data-sin]').value,true);if(r)bump({pron:1});};
+};
+// Shorts: questions for every short (its own question if any, plus meaning and listening-cloze questions made from its sentences).
+// Blanks and wrong choices use lower-case words only, so names and places are not used.
+const VSTOP=new Set('about,after,again,also,been,before,being,because,could,does,each,even,every,from,have,here,into,just,like,made,make,many,more,most,much,only,other,over,said,same,some,such,than,that,their,them,then,there,these,they,this,those,very,were,what,when,where,which,while,will,with,would,your'.split(','));
+let VQPOOL=null;const VQCACHE=new Map();
+function vQPool(){if(VQPOOL)return VQPOOL;const words=new Set(),ja=new Set();shortsAll().forEach(s=>vShortLines(s).forEach(x=>{if(x.ja)ja.add(x.ja);(x.en.match(/[A-Za-z]+/g)||[]).forEach(w=>{if(w===w.toLowerCase()&&w.length>=4&&!VSTOP.has(w))words.add(w);});}));return VQPOOL={words:[...words].sort(),ja:[...ja].sort()};}
+function vPickN(pool,n,seed,avoid){const out=[],seen=new Set(avoid.map(x=>String(x).toLowerCase()));for(let k=0;out.length<n&&k<pool.length*3+30;k++){const c=pool[vHash(seed+':'+k)%pool.length];if(c&&!seen.has(String(c).toLowerCase())){seen.add(String(c).toLowerCase());out.push(c);}}return out;}
+function vOrder(choices,seed){const idx=choices.map((_,k)=>k).sort((a,b)=>vHash(seed+'#'+a)-vHash(seed+'#'+b));return [idx.map(k=>choices[k]),idx.indexOf(0)];}
+function vShortQs(s){
+ const key=(s.id||s.t||'')+'|'+(s.sl||[]).length;if(VQCACHE.has(key))return VQCACHE.get(key).map(q=>[q[0],q[1].slice(),q[2]]);
+ const qs=[],seed=s.id||s.t||'short',lines=vShortLines(s),pool=vQPool();
+ if(s.q&&Array.isArray(s.q[1])&&s.q[1].length>=2)qs.push([String(s.q[0]),s.q[1].map(String),+s.q[2]||0]);
+ const withJa=lines.filter(x=>x.ja);
+ if(withJa.length){const m=withJa[vHash(seed+'m')%withJa.length];let wrong=vPickN(withJa.filter(x=>x.ja!==m.ja).map(x=>x.ja),3,seed+'mo',[m.ja]);if(wrong.length<3)wrong=wrong.concat(vPickN(pool.ja,3-wrong.length,seed+'mp',[m.ja,...wrong]));if(wrong.length){const [c,a]=vOrder([m.ja,...wrong],seed+'mq');qs.push(['この文の意味は？「'+m.en+'」',c,a]);}}
+ const order=lines.map((x,j)=>j).sort((a,b)=>vHash(seed+'c'+a)-vHash(seed+'c'+b));let cloze=0;
+ for(const j of order){if(cloze>=2)break;const en=lines[j].en;const cands=[...new Set((en.match(/[A-Za-z]+/g)||[]).filter(w=>w===w.toLowerCase()&&w.length>=4&&!VSTOP.has(w)))];if(!cands.length)continue;
+  const w=cands[vHash(seed+'w'+j)%cands.length],lw=w.toLowerCase();const near=pool.words.filter(x=>Math.abs(x.length-lw.length)<=2&&x!==lw);const wrong=vPickN(near.length>=3?near:pool.words,3,seed+'cw'+j,[lw]);if(wrong.length<1)continue;
+  const blanked=en.replace(new RegExp('\\b'+w+'\\b'),'＿＿＿');const [c,a]=vOrder([lw,...wrong],seed+'cq'+j);qs.push(['聞き取り：空所に入る語は？「'+blanked+'」',c,a]);cloze++;}
+ VQCACHE.set(key,qs);return qs.map(q=>[q[0],q[1].slice(),q[2]]);
+}
+function vShortQuiz(it){
+ spStop();clearTimeout(vAutoNext);it.quizOpen=true;const ov=it.el.querySelector('.endov');const qs=vShortQs(it.s);let k=0,ok=0,answered=false;
+ const tail='<div class="row"><button class="btn sm" data-vq-again>もう一度見る</button><button class="btn sm" data-vq-detail>詳しく学ぶ →</button><button class="btn primary sm" data-vq-next>次の動画へ ↓</button></div>';
+ const wire=()=>{ov.querySelector('[data-vq-again]').onclick=()=>{it.quizOpen=false;spPlay(it,0);};ov.querySelector('[data-vq-detail]').onclick=()=>vShortDetail(it);ov.querySelector('[data-vq-next]').onclick=()=>vShortNext(it);};
+ const draw=()=>{
+  if(!qs.length){ov.innerHTML='<p>この動画からは設問を作れませんでした。</p>'+tail;wire();return;}
+  if(k>=qs.length){ov.innerHTML='<div style="font-size:17px;font-weight:700">設問 完了 · '+ok+' / '+qs.length+' 問正解</div><p class="small" style="opacity:.8">間違えた設問はマイページの復習リストに残ります。</p>'+tail;wire();return;}
+  const q=qs[k];answered=false;
+  ov.innerHTML='<div class="small" style="opacity:.8">設問 '+(k+1)+' / '+qs.length+' · '+esc(it.s.t)+'</div><div style="font-size:17px;font-weight:700">'+esc(q[0])+'</div><div class="choices">'+q[1].map((c,j)=>'<button data-vsq="'+j+'">'+esc(c)+'</button>').join('')+'</div><div data-vsqf></div>'+tail;wire();
+  ov.querySelectorAll('[data-vsq]').forEach(b=>b.onclick=()=>{if(answered)return;answered=true;const j=+b.dataset.vsq,right=j===q[2];if(right)ok++;
+   ov.querySelectorAll('[data-vsq]').forEach(x=>{if(+x.dataset.vsq===q[2])x.classList.add('right');else if(x===b)x.classList.add('wrong');});
+   videoMistake((it.s.id||'short')+'-sq'+k,q[0],q[1][q[2]],it.s.videoId||it.s.id,'ショートの設問',right);bump({compTot:1,compOk:right?1:0});
+   const f=ov.querySelector('[data-vsqf]');f.innerHTML='<div class="fb '+(right?'ok':'ng')+'">'+(right?'正解':'正解は「'+esc(q[1][q[2]])+'」')+'</div><button class="btn primary sm" data-vsq-go>'+(k+1<qs.length?'次の設問':'結果を見る')+'</button>';
+   f.querySelector('[data-vsq-go]').onclick=()=>{k++;draw();};});
+ };
+ draw();ov.hidden=false;
+}
+// While the questions are open, nothing restarts playback behind them (e.g. the first tap that unlocks audio).
+const oldSpPlayQ=spPlay;spPlay=function(it,from){if(it&&it.quizOpen&&it.el&&!it.el.querySelector('.endov').hidden)return;if(it)it.quizOpen=false;return oldSpPlayQ(it,from);};
+// A "設問" chip on every short: choose it any time to answer questions about this short.
+const oldRenderShortQ=renderShort;renderShort=function(it){const el=oldRenderShortQ(it);if(it&&it.type==='short'&&el&&el.querySelector){const h=el.querySelector('.shead'),n=vShortQs(it.s).length;if(h&&n){h.insertAdjacentHTML('beforeend','<button class="vqchip" data-vqchip aria-label="この動画の設問に答える">設問 '+n+'</button>');const b=h.querySelector('[data-vqchip]');if(b)b.onclick=e=>{e.stopPropagation();vShortQuiz(it);};}}return el;};
 
 /* END VIDEO_APP */
 /* ================= boot ================= */
