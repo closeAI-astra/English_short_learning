@@ -190,11 +190,11 @@ def judge(sentence, audio):
     return core.render_html(rep), core.summary_text(sentence, rep), history_html()
 
 
-SPEAK_JS = """(t, r) => {
+# Share voice selection with the static app; use the sentence as a stable voice key.
+SPEAK_JS = "(t, r) => {\n" + Path(__file__).with_name("speech-profile.js").read_text(encoding="utf-8") + """
   try { speechSynthesis.cancel(); } catch (e) {}
   const u = new SpeechSynthesisUtterance(t || '');
-  const vs = speechSynthesis.getVoices().filter(v => /^en-US/i.test(v.lang));
-  const v = vs.find(v => /(natural|neural|online)/i.test(v.name)) || vs.find(v => /(Aria|Jenny|Google US English|Samantha|Zira)/i.test(v.name)) || vs[0];
+  const v = EESpeech.pick(speechSynthesis.getVoices(), {accent: 'mixed', gender: 'mixed', seed: t});
   if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
   u.rate = r;
   speechSynthesis.speak(u);
@@ -291,8 +291,9 @@ with gr.Blocks(title="発音コーチ") as demo:
     drill.input(None, drill, sentence, js="(s) => s")
     sentence.change(None, sentence, drill, js="(s) => s")
     with gr.Row():
-        b_play = gr.Button("手本を聞く")
+        b_play = gr.Button("手本を聞く（標準速度）")
         b_slow = gr.Button("ゆっくり聞く")
+    gr.Markdown("TOEIC向け練習：英文ごとに米国・英国・カナダ・豪州／NZの声を自動で割り当てます（端末にある声を使用）。男性声・女性声も変わります。合成音声のため、本番の話速・公式話者の声と同一ではありません。")
     r1 = gr.Number(value=1.0, visible=False)
     r2 = gr.Number(value=0.7, visible=False)
     b_play.click(None, [sentence, r1], None, js=SPEAK_JS)

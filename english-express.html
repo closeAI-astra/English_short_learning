@@ -994,9 +994,14 @@ select.ytrate option{color:#000}
       <label class="field">1日の新規フレーズ数<input type="number" id="stNew" min="0" max="50" inputmode="numeric"></label>
       <label class="field">フィードの1日目標 XP<input type="number" id="stGoal" min="30" max="2000" inputmode="numeric"></label>
       <label class="field">読み上げの声<select id="stVoice"></select></label>
+      <label class="field">アクセント<select id="stAccent"><option value="en-US">米国</option><option value="en-GB">英国</option><option value="en-CA">カナダ</option><option value="en-AU">オーストラリア</option><option value="en-NZ">ニュージーランド</option><option value="mixed">動画ごとに自動で変える（初期設定）</option></select></label>
+      <label class="field">声のタイプ<select id="stGender"><option value="male">男性声を優先</option><option value="female">女性声を優先</option><option value="mixed">動画ごとに男性・女性を変える（初期設定）</option></select></label>
       <label class="field">発音コーチの URL<input type="url" id="stCoach" placeholder="http://127.0.0.1:7860"></label>
     </div>
     <label class="field">読み上げ速度 <span id="stRateV" class="counter"></span><input type="range" id="stRate" min="0.6" max="1.3" step="0.05"></label>
+    <p class="small muted jp">TOEIC向け練習：標準速度 ×1.00・動画ごとにアクセントと男性／女性声を自動で割り当てます。同じ動画は同じ声で再生します。TOEICは英国・カナダ・豪州／NZの発音も使います。端末の合成音声のため、本番の話速・公式話者の声と同一ではありません。会話教材では男女の役を優先します。個別の声を選ぶと通常の読み上げではその声を使います。</p>
+    <p class="small muted jp" id="stVoiceStatus" role="status"></p>
+    <button class="btn sm" id="stToeicReset">TOEIC向け初期設定に戻す</button>
     <p class="tiny muted jp">語彙リスト：<a href="https://www.newgeneralservicelist.com/" target="_blank" rel="noopener">NGSL 1.2・TSL 1.2</a>（Browne, Culligan &amp; Phillips, CC BY-SA 4.0）</p>
     <div class="row"><button class="btn say sm" id="stTest">声を試す</button></div>
   </div>
@@ -1633,37 +1638,75 @@ function del(col,id){
   refresh();
 }
 function setSync(on){const el=$('#sync');el.classList.toggle('on',!!on);el.querySelector('span').textContent=on?'端末間で同期':'この端末に保存';}
-function settings(){return Object.assign({targetScore:730,targetDate:'',newPerDay:10,rate:1,voice:'',feedGoal:150},S.settings.main||{});}
+function settings(){const saved=S.settings.main||{};return Object.assign({targetScore:730,targetDate:'',newPerDay:10,rate:1,voice:'',accent:'mixed',gender:'mixed',speechProfileVersion:2,feedGoal:150},saved,saved.speechProfileVersion===2?{}:{rate:1,voice:'',accent:'mixed',gender:'mixed',speechProfileVersion:2});}
 function saveSettings(patch){put('settings','main',Object.assign({},settings(),patch));}
+if(S.settings.main?.speechProfileVersion!==2){S.settings.main=settings();lsSet('ee-srate',1);persistLocal();}
 function today(){return Object.assign({},S.days[dkey()]||{});}
 function bump(patch){const d=today();Object.keys(patch).forEach(k=>{if(typeof patch[k]==='number')d[k]=(d[k]||0)+patch[k];else d[k]=patch[k];});put('days',dkey(),d);}
 let lastAct=Date.now(),pendingMs=0;
 function noteActivity(){const now=Date.now();const gap=now-lastAct;if(gap<90000&&!document.hidden)pendingMs+=gap;lastAct=now;if(pendingMs>=30000){const ms=pendingMs;pendingMs=0;bump({ms:ms});}}
 ['pointerdown','keydown'].forEach(ev=>document.addEventListener(ev,noteActivity,{passive:true}));
 
+/* BEGIN SPEECH_PROFILE */
+/* Shared browser/coach voice selection. Voice metadata does not expose gender. */
+globalThis.EESpeech = (() => {
+  const regions = ['en-US', 'en-GB', 'en-CA', 'en-AU', 'en-NZ'];
+  const male = /\b(David|Guy|Mark|Daniel|Alex|Fred|Male|Christopher|Eric|Ryan|Andrew|Brian|Davis|Tony|James|Thomas|Oliver|William|Liam|George|Sean|Russell|Lee|Gordon|Arthur)\b/i;
+  const female = /\b(Aria|Jenny|Zira|Samantha|Female|Ava|Emma|Susan|Karen|Moira|Libby|Sonia|Michelle|Ana|Allison|Victoria|Tessa|Serena|Hazel|Catherine|Natasha|Clara|Linda|Emily|Olivia|Fiona)\b/i;
+  const lang = v => String(v.lang || '').replace(/_/g, '-').toLowerCase();
+  const gender = v => female.test(v.name) ? 'female' : male.test(v.name) ? 'male' : 'unknown';
+  function pool(voices, accent = 'en-US') {
+    const english = voices.filter(v => /^en(?:-|$)/i.test(lang(v)));
+    const eligible = english.filter(v => regions.some(r => lang(v) === r.toLowerCase()));
+    if (accent === 'mixed') return eligible.length ? eligible : english;
+    const exact = eligible.filter(v => lang(v) === accent.toLowerCase());
+    return exact.length ? exact : eligible.length ? eligible : english;
+  }
+  function hash(text) { let n=2166136261; for (const c of String(text)) { n ^= c.charCodeAt(0); n = Math.imul(n,16777619); } return n >>> 0; }
+  function pick(voices, options = {}) {
+    const draw = salt => options.seed ? hash(options.seed + salt) / 4294967296 : Math.random();
+    const pinned = options.voice && voices.find(v => v.name === options.voice && /^en(?:-|$)/i.test(lang(v)));
+    if (pinned) return pinned;
+    const candidates = pool(voices, options.accent);
+    const desired = options.gender === 'mixed' ? (draw(':gender') < .5 ? 'male' : 'female') : options.gender || 'male';
+    const score = v => (gender(v) === desired ? 100 : gender(v) === 'unknown' ? 40 : 0)
+      + (/natural|neural|online/i.test(v.name) ? 10 : 0);
+    // Mix regions first, so a plentiful US voice inventory does not dominate.
+    let selected = candidates;
+    if (options.accent === 'mixed' && candidates.length) {
+      const langs = [...new Set(candidates.map(lang))].sort();
+      const chosen = langs[Math.floor(draw(':accent') * langs.length)];
+      selected = candidates.filter(v => lang(v) === chosen);
+    }
+    const ranked = selected.slice().sort((a, b) => score(b) - score(a) || a.name.localeCompare(b.name));
+    const top = ranked.filter(v => score(v) === score(ranked[0]));
+    return top[Math.floor(draw(':voice') * top.length)] || null;
+  }
+  return { regions, gender, pool, pick };
+})();
+
+/* END SPEECH_PROFILE */
 /* ================= speech ================= */
 let voices=[];
 function loadVoices(){try{voices=speechSynthesis.getVoices().filter(v=>/^en/i.test(v.lang));}catch(e){voices=[];}renderVoiceSelect();}
 if('speechSynthesis' in window){loadVoices();speechSynthesis.onvoiceschanged=loadVoices;}
+function speechSeed(){try{if(curTab==='watch'&&V.lesson)return V.lesson.id;if(curTab==='shorts'&&SP.it?.s)return SP.it.s.id;if(curTab==='lab')return LAB.id; }catch(e){}return ''; }
 function pickVoice(){
-  const pref=settings().voice;let v=voices.find(x=>x.name===pref);
-  if(!v)v=voices.find(x=>/en-US/i.test(x.lang)&&/(natural|neural|online)/i.test(x.name))||voices.find(x=>/(Google US English|Samantha|Aria|Jenny|Ava)/i.test(x.name))||voices.find(x=>/en-US/i.test(x.lang))||voices[0];
-  return v||null;
+  return EESpeech.pick(voices,{...settings(),seed:speechSeed()});
 }
 function voiceFor(sp){
   if(!sp)return pickVoice();
-  const en=voices.filter(v=>/^en-(US|GB|AU|CA)/i.test(v.lang));
-  const re=sp==='M'?/(David|Guy|Mark|Daniel|Alex|Fred|Male|Christopher|Eric|Ryan|Andrew|Brian|Davis|Tony)/i:/(Aria|Jenny|Zira|Samantha|Female|Ava|Emma|Susan|Karen|Moira|Libby|Sonia|Michelle|Ana)/i;
-  return en.find(x=>re.test(x.name))||pickVoice();
+  return EESpeech.pick(voices,{accent:settings().accent,gender:sp==='M'?'male':'female',seed:speechSeed()||'dialogue'});
 }
-function randVoice(){const en=voices.filter(v=>/^en-(US|GB|AU|CA|IE|NZ)/i.test(v.lang));return en.length?rand(en):pickVoice();}
+function randVoice(){const en=EESpeech.pool(voices,'mixed');return en.length?rand(en):pickVoice();}
 let playTok=0;let SPEAKERR=null;
 function stopSpeech(){playTok++;try{speechSynthesis.cancel();}catch(e){}}
 function speak(text,mul,voice,keep,onb){
   if(!('speechSynthesis' in window)){toast('この端末では英語の読み上げが使えません');return Promise.resolve();}
   if(!keep)playTok++;
   try{speechSynthesis.cancel();}catch(e){}
-  const u=new SpeechSynthesisUtterance(text);const v=voice||pickVoice();
+  const role=String(text).match(/^([MF]):\s*/);if(role)text=String(text).slice(role[0].length);
+  const u=new SpeechSynthesisUtterance(text);const v=voice||(role?voiceFor(role[1]):pickVoice());
   if(v){u.voice=v;u.lang=v.lang;}else u.lang='en-US';
   const rate=Math.max(0.4,Math.min(1.8,(settings().rate||1)*(mul||1)));u.rate=rate;if(onb)u.onboundary=e=>{if(typeof e.charIndex==='number')onb(e.charIndex);};
   return new Promise(res=>{let done=false;const fin=()=>{if(!done){done=true;res();}};u.onend=fin;u.onerror=e=>{SPEAKERR=e&&e.error;fin();};setTimeout(fin,Math.max(2500,String(text).length*110/rate));speechSynthesis.speak(u);});
@@ -3018,11 +3061,13 @@ function renderStats(){
   const st=settings();
   [['#stTarget',st.targetScore],['#stDate',st.targetDate],['#stNew',st.newPerDay],['#stRate',st.rate],['#stGoal',st.feedGoal],['#stCoach',st.coach||'']].forEach(a=>{const el=$(a[0]);if(document.activeElement!==el)el.value=a[1];});
   $('#stRateV').textContent='×'+Number(st.rate).toFixed(2);
+  $('#stAccent').value=st.accent;$('#stGender').value=st.gender;renderVoiceSelect();
 }
 function renderVoiceSelect(){
   const sel=$('#stVoice');if(!sel)return;const cur=settings().voice;
-  sel.innerHTML='<option value="">自動で選ぶ</option>'+voices.map(v=>'<option value="'+esc(v.name)+'">'+esc(v.name)+'（'+esc(v.lang)+'）</option>').join('');
+  sel.innerHTML='<option value="">アクセント・声のタイプから自動選択</option>'+voices.map(v=>'<option value="'+esc(v.name)+'">'+esc(v.name)+'（'+esc(v.lang)+'）</option>').join('');
   sel.value=voices.some(v=>v.name===cur)?cur:'';
+  const st=settings(),v=pickVoice(),status=$('#stVoiceStatus'),regions=[...new Set(EESpeech.pool(voices,'mixed').map(x=>x.lang))];if(status)status.textContent=v?(st.accent==='mixed'?'動画ごとに声を自動で割り当てます。この端末の対応地域：'+regions.join('・')+'。他地域の声は端末への追加が必要です。声の例：':'使用する声：')+v.name+'（'+v.lang+'）'+(st.accent!=='mixed'&&v.lang.replace(/_/g,'-').toLowerCase()!==st.accent.toLowerCase()?'。指定した地域の声がないため、利用できる英語音声を使います。':'')+(!cur&&st.gender!=='mixed'&&EESpeech.gender(v)!==st.gender?'。希望の声のタイプを確認できないため、利用できる声を使います。':''):'英語音声を読み込み中です。声が表示されない場合は端末に英語音声を追加してください。';
 }
 $('#stTarget').addEventListener('change',e=>saveSettings({targetScore:Math.max(10,Math.min(990,+e.target.value||730))}));
 $('#stDate').addEventListener('change',e=>saveSettings({targetDate:e.target.value}));
@@ -3031,6 +3076,9 @@ $('#stGoal').addEventListener('change',e=>saveSettings({feedGoal:Math.max(30,Mat
 $('#stRate').addEventListener('input',e=>{$('#stRateV').textContent='×'+Number(e.target.value).toFixed(2);});
 $('#stRate').addEventListener('change',e=>saveSettings({rate:+e.target.value}));
 $('#stVoice').addEventListener('change',e=>saveSettings({voice:e.target.value}));
+$('#stAccent').addEventListener('change',e=>saveSettings({accent:e.target.value,voice:''}));
+$('#stGender').addEventListener('change',e=>saveSettings({gender:e.target.value,voice:''}));
+$('#stToeicReset').onclick=()=>{SP.rate=1;V.rate=1;lsSet('ee-srate',1);saveSettings({rate:1,voice:'',accent:'mixed',gender:'mixed',speechProfileVersion:2});toast('TOEIC向け初期設定に戻しました');};
 $('#stCoach').addEventListener('change',e=>{let v=e.target.value.trim();if(v&&!/^https?:\/\//i.test(v))v='https://'+v;saveSettings({coach:v});});
 $('#stTest').onclick=()=>speak('Passengers may now board the express train on track four.');
 $('#scDate').value=dkey();
@@ -3645,7 +3693,8 @@ speak=function(text,mul,voice,keep,onb){
  if(!voices.length)try{loadVoices();}catch(e){}
  let busy=ss.speaking||ss.pending;if(busy){try{ss.cancel();}catch(e){}vLastCancel=Date.now();}busy=busy||Date.now()-vLastCancel<150;
  try{if(ss.paused)ss.resume();}catch(e){}
- const u=new SpeechSynthesisUtterance(String(text));let v=voice||pickVoice();
+ const role=String(text).match(/^([MF]):\s*/);if(role)text=String(text).slice(role[0].length);
+ const u=new SpeechSynthesisUtterance(String(text));let v=voice||(role?voiceFor(role[1]):pickVoice());
  if(v&&!ss.getVoices().some(x=>x.voiceURI===v.voiceURI))v=null; // stale voice objects are ignored silently on some phones
  if(v){u.voice=v;u.lang=v.lang;}else u.lang='en-US';
  const rate=Math.max(0.4,Math.min(1.8,(settings().rate||1)*(mul||1)));u.rate=rate;

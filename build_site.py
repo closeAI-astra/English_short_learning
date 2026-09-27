@@ -99,6 +99,7 @@ data+="window.EE_GENRES=Object.fromEntries(['daily','travel','space','science','
 data+='EE_SHORTS.push(...'+json.dumps(shorts,ensure_ascii=False)+');\n'
 # Data block belongs inside the initial data script, before the main closure.
 block('STUDY_DATA', data, 'window.EE_TOPICS = [')
+block('SPEECH_PROFILE', (ROOT/'speech-profile.js').read_text(encoding='utf-8'), '/* ================= speech ================= */')
 block('STUDY_ENGINE', (ROOT/'study-engine.js').read_text(encoding='utf-8'), '/* ================= boot ================= */')
 block('STUDY_LAB', (ROOT/'study-lab.js').read_text(encoding='utf-8'), '/* ================= boot ================= */')
 change("const GCOL={dino:", "const GCOL={daily:'#238579',space:'#4253A0',tech:'#5364AA',food:'#C26A35',music:'#AD4074',film:'#76569F',sport:'#308069',environment:'#4A8057',work:'#49738F',learning:'#967A37',art:'#B45D71',dino:")

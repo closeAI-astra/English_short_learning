@@ -229,7 +229,8 @@ speak=function(text,mul,voice,keep,onb){
  if(!voices.length)try{loadVoices();}catch(e){}
  let busy=ss.speaking||ss.pending;if(busy){try{ss.cancel();}catch(e){}vLastCancel=Date.now();}busy=busy||Date.now()-vLastCancel<150;
  try{if(ss.paused)ss.resume();}catch(e){}
- const u=new SpeechSynthesisUtterance(String(text));let v=voice||pickVoice();
+ const role=String(text).match(/^([MF]):\s*/);if(role)text=String(text).slice(role[0].length);
+ const u=new SpeechSynthesisUtterance(String(text));let v=voice||(role?voiceFor(role[1]):pickVoice());
  if(v&&!ss.getVoices().some(x=>x.voiceURI===v.voiceURI))v=null; // stale voice objects are ignored silently on some phones
  if(v){u.voice=v;u.lang=v.lang;}else u.lang='en-US';
  const rate=Math.max(0.4,Math.min(1.8,(settings().rate||1)*(mul||1)));u.rate=rate;
