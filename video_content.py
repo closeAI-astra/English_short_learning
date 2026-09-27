@@ -200,8 +200,11 @@ def phrase_id(en):
     """Stable id from the English phrase, so reordering or adding files never breaks review history."""
     return 'phrase-v3-' + re.sub(r'[^a-z0-9]+', '-', en.lower()).strip('-')
 BUILTIN_STORY_KEYS = {s[0] for s in STORIES}
+STORY_DETAILS = {}
 for _f in material_files('stories'):
-    STORIES.extend((d['key'], d['g'], d['title'], d['level'], d['scene'], [tuple(x) for x in d['paras']], [tuple(q) for q in d['qs']]) for d in _read(_f))
+    for d in _read(_f):
+        STORIES.append((d['key'], d['g'], d['title'], d['level'], d['scene'], [tuple(x) for x in d['paras']], [tuple(q) for q in d['qs']]))
+        STORY_DETAILS[d['key']] = {k: d[k] for k in ('explanations', 'series') if k in d}
 PHRASE_FILES = [(f.stem[len('phrases_'):], _read(f)) for f in material_files('phrases')]
 NEW_SHORTS = [s for f in material_files('shorts') for s in _read(f)]
 
@@ -225,7 +228,7 @@ def export():
             # Keep an unmatched paragraph intact instead of inventing alignment.
             scene_n=scene.split('|')[0]+'|'+scene.split('|')[1]+'|'+['clock','magnifier','chat','book','sun'][n%5]
             slides.extend([[scene_n,e,j] for e,j in zip(english,japanese)] if len(english)==len(japanese) else [[scene_n,en,ja]])
-        lessons.append(dict(id='long-'+key,g=g,t=title,level=level,sl=slides, paragraphs=[[scene,en,ja] for en,ja in paras],qs=qs,kind='listen'))
+        lessons.append(dict(id='long-'+key,g=g,t=title,level=level,sl=slides, paragraphs=[[scene,en,ja] for en,ja in paras],qs=qs,kind='listen', **STORY_DETAILS.get(key, {})))
     phrases=[]
     for i,line in enumerate(PHRASE_TEXT.strip().splitlines()):
         en,ja,ex,exja=line.split('|')

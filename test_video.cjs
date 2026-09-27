@@ -12,7 +12,7 @@ ctx.buildQueue=()=>{ctx.W.queue=Array.from({length:30},(_,i)=>({id:'c'+(i%25)}))
 ctx.shGo=i=>calls.push(['go',i]);ctx.shAppend=n=>calls.push(['append',n]);
 vm.createContext(ctx);vm.runInContext('window=globalThis;window.addEventListener=()=>{};',ctx);vm.runInContext(data,ctx);vm.runInContext(source,ctx);
 const get=s=>vm.runInContext(s,ctx);
-const catalog=get('VC');assert.equal(ctx.EE_LONG.length,38);assert.equal(get('VWORDS.length'),445);assert.ok(ctx.EE_LONG.filter(l=>get('vWords')(l)>=330).length>=16,'long readings');assert.equal(catalog.filter(l=>/^toeic\d+-/.test(l.id)).length,41);
+const catalog=get('VC');assert.equal(ctx.EE_LONG.length,52);assert.equal(get('VWORDS.length'),445);assert.ok(ctx.EE_LONG.filter(l=>get('vWords')(l)>=330).length>=30,'long readings');assert.equal(catalog.filter(l=>/^toeic\d+-/.test(l.id)).length,41);
 assert.equal(new Set(catalog.map(x=>x.id)).size,catalog.length);
 assert.equal(new Set(ctx.EE_SHORTS.map(x=>x.id)).size,ctx.EE_SHORTS.length);
 for(const l of ctx.EE_LONG){assert.ok(get('vWords')(l)>=230,l.id);assert.ok(l.sl.length>=15,l.id);assert.ok([3,4].includes(l.qs.length),l.id);assert.ok(l.sl.every(s=>s[1]&&s[2]));for(const q of l.qs)assert.ok(q[2]>=0&&q[2]<q[1].length);}
@@ -47,4 +47,26 @@ const u=new URL(ctx.coachURL('B one.',['A one.','B / one.','C one.']));assert.eq
 assert.equal(new URL(ctx.coachURL('Only.',['Only.'])).searchParams.get('passage'),null);assert.equal(ctx.coachURL(''),'http://127.0.0.1:7860/');
 // Grade cannot be submitted before the playback promise finishes.
 get("V.lesson=VC.find(x=>x.pairs);V.mode='hvpt';V.hp=0;V.hpOrder=V.lesson.pairs.map(()=>0);V.hpHeard=false;V.hpDone=false;vHVPT()");const before=Object.keys(ctx.S.meta.videoMistakes.rows).length;findAll('[data-vhp]',node('#vActivity'))[1].onclick();assert.equal(Object.keys(ctx.S.meta.videoMistakes.rows).length,before);
-console.log('PASS: '+catalog.length+' fixed videos, 38 long readings, 445 phrases, 41 TOEIC decks; finite sessions, saved mistakes, mixed shorts, loop unless something is chosen, questions on every short, coach sentence list, listening answer gate');
+// New routes retain stable ids and cover all added lessons without counting derived episodes.
+const addedShorts=ctx.EE_SHORTS.filter(s=>/^(native|curiosity|bridge850)-/.test(s.id));
+assert.equal(addedShorts.length,110);
+const addedLong=ctx.EE_LONG.filter(l=>l.id.startsWith('long-bridge'));
+assert.equal(addedLong.length,14);
+const routeIds=new Set([...ctx.EE_CURRICULUM.stages,...ctx.EE_CURRICULUM.collections].flatMap(g=>g.ids));
+const allIds=new Set([...ctx.EE_SHORTS,...ctx.EE_LONG].map(l=>l.id));
+for(const id of routeIds)assert.ok(allIds.has(id),'missing route '+id);
+for(const l of [...addedShorts,...addedLong])assert.ok(routeIds.has(l.id),'unreachable addition '+l.id);
+assert.ok(get('vCurriculumHTML()').includes('Native or Weird?'));
+// Answer explanations must survive export and appear only after answering in the detail player.
+for(const l of addedLong)assert.equal(l.explanations.length,l.qs.length,l.id);
+for(const s of addedShorts){assert.ok(s.explanation);assert.equal(get('vExplanation')(s,1),'','do not attach a lesson explanation to generated questions');}
+get("V.lesson=VC.find(l=>l.id==='long-bridgeinvoice');V.slide=0;V.mode='questions';V.answers={};vActivity()");
+assert.ok(!node('#vActivity').innerHTML.includes('理由とつまずき'));
+findAll('[data-vanswer]',node('#vActivity'))[0].onclick();
+assert.ok(node('#vActivity').innerHTML.includes('理由とつまずき'));
+assert.ok(node('#vActivity').innerHTML.includes('注文12台'));
+assert.equal((node('#vActivity').innerHTML.match(/理由とつまずき/g)||[]).length,1);
+const native=addedShorts.find(s=>s.id==='native-13');
+get('V.lesson='+JSON.stringify({...native,qs:ctx.vShortQs(native)})+";V.slide=0;V.mode='questions';V.answers={0:0};vActivity()");
+assert.ok(node('#vActivity').innerHTML.includes('丁寧さを保証しない'));
+console.log('PASS: '+catalog.length+' fixed videos, '+ctx.EE_LONG.length+' long readings, 445 phrases, 41 TOEIC decks; playback, practice, 110 new shorts, 14 new readings, routes and answer explanations');

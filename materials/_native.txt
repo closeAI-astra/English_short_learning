@@ -1,0 +1,215 @@
+words|NATURAL｜I understand と Got it|office|chat|check
+Your colleague explains / where to save the file. / You need a quick acknowledgment.	同僚がファイルの保存場所を説明した。短く「了解」と返したい場面だ。
+“I understand” is correct, / but “Got it” works well / for acknowledging a simple instruction.	I understand は正しい。単純な指示への「了解」には Got it も使いやすい。
+“I see” often signals / that something has become clear. / “That makes sense” acknowledges a reason.	I see は「なるほど分かった」。That makes sense は理由や説明に納得したことを表す。
+Choose your response / according to the situation, / rather than replacing understand every time.	understand を毎回置き換えるのではなく、その場面に合わせて返答を選ぼう。
+colleague=同僚|acknowledgment=受け止めたことの表明|instruction=指示|reason=理由|response=返答
+Which reply briefly acknowledges a file-saving instruction?|Got it.|Long time no see.|I'm bored.|Help yourself.
+Got it は指示を受け取ったという短い返答。⚠️ I understand も自然に使える。深い理解や相手の事情への理解を示す場面まで一律に置き換えない。
+
+words|NATURAL｜How are you? は挨拶にもなる|day|people|chat
+A neighbor says / How are you / while passing you outside your building.	建物の外ですれ違う隣人が How are you と声をかける。
+“Good, thanks. You?” / is a brief greeting response, / not a detailed health report.	Good, thanks. You? は短い挨拶の返事で、詳しい健康報告ではない。
+“I'm fine, thank you” / is also acceptable. / Familiarity and tone affect the conversation.	I'm fine, thank you も使える。親しさや声の調子で会話の印象は変わる。
+A close friend / may genuinely want details. / Notice whether they stop and listen.	親しい友達なら本当に詳しく知りたいこともある。立ち止まって聞こうとしているかにも注目しよう。
+neighbor=隣人|brief=短い|greeting=挨拶|acceptable=差し支えない|details=詳しいこと
+What helps you decide how much to say?|The relationship and situation|The number of letters|A fixed textbook response|The weather alone
+挨拶か、近況をきちんと聞く質問かは関係と状況による。⚠️ 短く答えることが常に正解でも、I'm fine が不自然な決まり文句でもない。
+
+words|SITUATION｜表現を一つ教えてほしい|library|book|chat
+You know a Japanese phrase / but need its English equivalent / during a conversation with a friend.	日本語の表現は知っているが、友達との会話で対応する英語が出てこない。
+Ask “How do you say / this in English?” / when you want an expression translated.	表現を英語にしたいなら How do you say this in English? と聞く。
+Ask “What do you call / this in English?” / when pointing to an unfamiliar object.	知らない物を指して名前を聞くなら What do you call this in English? が使える。
+“Please teach me English” / requests broader instruction, / so it suits a different purpose.	Please teach me English はより広い英語指導の依頼なので、目的が違う。
+equivalent=対応する表現|expression=表現|translated=翻訳された|object=物|purpose=目的
+You need the English name of an object. What can you ask?|What do you call this in English?|Can you teach every lesson?|How old is English?|Where do you work?
+物の呼び名なら What do you call this in English?。⚠️ teach が悪いのではなく、単語一つの質問と継続的な指導依頼を区別する。
+
+words|SITUATION｜トイレ：米語と英語の違い|airport|building|chat
+At an American restaurant, / you need to find / the room with the toilets.	アメリカのレストランで、トイレの場所を知りたい。
+You can ask / “Where is the restroom?” / without explaining your personal need in detail.	Where is the restroom? なら、自分の用事を詳しく説明せずに場所を聞ける。
+“I need to use / the bathroom” is also common / in everyday American English.	I need to use the bathroom も日常のアメリカ英語で使われる。
+In British English, / asking for the toilet / can be ordinary and appropriate too.	イギリス英語では the toilet を使って尋ねるのも普通で適切な場合がある。
+restaurant=レストラン|restroom=化粧室（主に米語）|personal=個人的な|bathroom=トイレ・浴室|appropriate=適切な
+Which statement respects regional usage?|Toilet can be ordinary in British English.|Toilet is always offensive.|Bathroom always means taking a bath.|Restroom is required worldwide.
+米語の店なら restroom が便利。⚠️ toilet を全世界で失礼な語と決めつけない。go to the toilet の the も落とさない。
+
+words|DON'T SAY IT LIKE THAT｜bored と boring|night|film|person
+You are waiting / through a very dull film, / and you want to describe your feeling.	とても退屈な映画を見ていて、自分の気持ちを伝えたい。
+“I'm bored” describes / the feeling you experience. / “The movie is boring” describes its effect.	I'm bored は自分が感じる退屈を、The movie is boring は映画が与える印象を表す。
+“I'm boring” instead / describes you as someone / who makes other people feel bored.	I'm boring だと、他人を退屈させる人だと自分を説明することになる。
+An excited audience / watches an exciting performance. / Check who feels and what causes it.	わくわくする公演を、わくわくした観客が見る。感じる側と原因を確認しよう。
+dull=退屈な|feeling=感情|effect=影響|audience=観客|performance=公演
+You feel little interest in a film. Which describes your feeling?|I'm bored.|I'm boring.|I'm a boring film.|The audience is a film.
+自分の感情は bored、退屈を引き起こすものは boring。⚠️ 人なら必ず -ed ではない。an interesting person のように人も原因側になれる。
+
+words|NATURAL｜I don't know と確信の弱さ|office|chat|calendar
+A colleague asks / whether the meeting starts / at ten or eleven this morning.	同僚が今日の会議は10時か11時かと尋ねる。
+“I don't know” / says you lack the information. / It can be honest and appropriate.	I don't know は情報を知らないということ。正直で適切な返答にもなる。
+“I'm not sure” / signals uncertainty, so use it / when you have incomplete confidence.	I'm not sure は不確かさを示すので、確信が十分でないときに使う。
+Add “I'll check the calendar” / if you can verify it. / Helpfulness comes from the follow-up too.	確かめられるなら I'll check the calendar と続ける。後に続く対応も親切さにつながる。
+information=情報|honest=正直な|uncertainty=不確かさ|confidence=確信|verify=確認する
+You think it starts at ten but need to check. Which fits?|I'm not sure. I'll check.|I guarantee it is eleven.|I refuse to listen.|It never starts.
+曖昧な記憶なら I'm not sure と確認行動を組み合わせる。⚠️ I don't know が常に失礼という意味ではない。
+
+words|SITUATION｜聞き返しを具体的にする|cafe|ear|chat
+The café is noisy, / and you miss / the last part of a friend's sentence.	カフェが騒がしく、友達の話の最後を聞き逃した。
+“Could you say that again?” / is a useful request / when you need the whole sentence repeated.	文全体をもう一度聞きたいなら Could you say that again? が使える。
+“Did you say Tuesday?” / helps you check / a specific detail you almost caught.	一部を聞き取れたなら Did you say Tuesday? で具体的に確認できる。
+“What?” can sound abrupt / with a sharp tone, / but context matters more than a banned word.	What? は強い調子だとぶっきらぼうに聞こえるが、単語の禁止より文脈が大事だ。
+noisy=騒がしい|request=依頼|repeated=繰り返された|specific=具体的な|abrupt=ぶっきらぼうな
+You heard the date imperfectly. Which checks that detail?|Did you say Tuesday?|Where is the café?|How much is lunch?|I'm boring.
+日付だけ不確かなら聞こえた候補を示して確認する。⚠️ Sorry? や What was that? も声の調子によって印象が変わる。
+
+words|NATURAL｜友達をご飯に誘う|cafe|cup|people
+You leave class / with a friend / and suggest getting lunch before going home.	授業の後、友達に帰る前の昼食を提案する。
+“Want to grab some food?” / is an informal invitation / that fits this casual situation.	Want to grab some food? は、この気軽な場面に合うくだけた誘い方だ。
+“Let's eat together” / can also be natural, / especially when sharing a meal is the point.	Let's eat together も、一緒に食事することに重点があるなら自然に使える。
+For a professional invitation, / Would you like to join us / for lunch gives more room to decline.	仕事で誘うなら Would you like to join us for lunch? と、相手が断る余地を持たせられる。
+suggest=提案する|informal=くだけた|invitation=誘い|sharing=共有すること|decline=断る
+Which is a casual invitation to a friend?|Want to grab some food?|Submit your lunch request.|You are required to eat.|Food is prohibited.
+grab some food は気軽に何か食べる誘い。⚠️ Let's eat together も誤りではなく、同席したいことを強調できる。
+
+words|NATURAL｜Long time no see は使える|day|people|clock
+You unexpectedly meet / an old classmate / after several years without seeing each other.	数年会っていなかった昔の同級生に偶然会う。
+“Hey, long time no see!” / is an established informal greeting / for this kind of reunion.	Hey, long time no see! は、このような再会で使われる定着したくだけた挨拶だ。
+“It's been a while” / is another useful option. / Neither expression needs to be banned.	It's been a while も便利な選択肢だ。どちらも禁止する必要はない。
+Follow the greeting / with a genuine question, / such as What have you been up to.	挨拶の後に What have you been up to? など近況を尋ねる質問を続けよう。
+unexpectedly=思いがけず|classmate=同級生|established=定着した|reunion=再会|genuine=心からの
+When does Long time no see fit?|Meeting an old friend after a long gap|Introducing yourself for the first time|Confirming a new invoice|Ending a first interview
+長く会っていない友達との再会に合う。⚠️ 「教科書にあるから実際には使わない」という判断はしない。
+
+words|NATURAL｜趣味を会話につなげる|day|ball|chat
+At a casual gathering, / someone asks / what you enjoy doing outside your classes.	気軽な集まりで、授業以外に何をして楽しむか聞かれた。
+I play soccer / in my free time / gives them a specific activity to ask about.	I play soccer in my free time は、相手が質問を続けやすい具体的な活動を伝える。
+“My hobby is playing soccer” / is grammatical too. / The difference is conversational framing, not correctness.	My hobby is playing soccer も文法的に正しい。違いは正誤ではなく会話での伝え方だ。
+Add a small detail, / like who you play with, / to give the conversation somewhere to go.	誰とプレーするかなどを少し加えると、会話を続ける手がかりになる。
+gathering=集まり|enjoy=楽しむ|activity=活動|grammatical=文法的に正しい|detail=細部
+What makes a hobby answer easier to continue?|A specific detail about the activity|A longer list of unrelated words|Avoiding all follow-up questions|Using only formal labels
+具体的な活動や相手を加えると次の質問につながる。⚠️ My hobby is を誤文として扱わない。
+
+words|NATURAL｜質問の切り出し方|office|chat|document
+During a presentation, / I have a question / clearly signals that you want to ask something.	プレゼン中の I have a question は、質問したいことを明確に示す。
+In a private conversation, / Can I ask you something / can introduce a more personal question.	個人的な会話では Can I ask you something? が少し個人的な質問の前置きにもなる。
+“Quick question” is useful / for a short practical query, / especially among colleagues who know each other.	Quick question は、特に親しい同僚同士の短い実務的な質問に便利だ。
+Choose an opening / that matches the actual request. / A complicated problem may not be quick.	本当に聞きたい内容に合う切り出しを選ぼう。複雑な問題は quick ではないかもしれない。
+presentation=発表|signals=示す|private=個人的な|query=質問|complicated=複雑な
+Which opening fits a brief practical question to a colleague?|Quick question.|Long time no see.|Help yourself.|Congratulations.
+Quick question は短い用件に合う。⚠️ I have a question も会議や授業で自然。長い相談を quick と呼んで相手の時間を軽く扱わない。
+
+words|SITUATION｜No worries と You're good|cafe|cup|chat
+A friend apologizes / for arriving a little late, / and you want to reassure them.	友達が少し遅れたことを謝ったので、気にしなくていいと伝えたい。
+No worries can offer / informal reassurance. / That's all right is another possible response here.	No worries はくだけた安心の返答になる。ここでは That's all right も使える。
+You're good can mean / that no correction is needed, / especially in informal American conversation.	You're good は、特にくだけた米語で「そのままで大丈夫」という意味にもなる。
+After serious harm, / acknowledge the problem first. / Casual reassurance may minimize what happened.	大きな被害があるときは、まず問題を受け止めよう。軽い返答は被害を小さく扱って聞こえることがある。
+apologizes=謝る|reassure=安心させる|correction=修正|harm=被害|minimize=小さく扱う
+What matters when choosing a reassuring response?|How serious the situation is|Whether every phrase is interchangeable|Avoiding any acknowledgment|Using slang in every apology
+軽い遅刻と深刻な問題では返答を変える。⚠️ No worries、You're good、It's all good はどの「大丈夫」にも同じように使えるわけではない。
+
+words|DON'T SAY IT LIKE THAT｜意味を聞くときの温度|meeting|people|chat
+Someone calls your proposal / interesting, but you cannot tell / whether they support it or have concerns.	提案を interesting と言われたが、賛成なのか懸念があるのか分からない。
+“What do you mean?” / can request clarification, / but a challenging tone can make it confrontational.	What do you mean? は確認にもなるが、問い詰める調子だと対立的に聞こえる。
+Adding by that / does not automatically soften it. / Tone and context still shape the meaning.	by that を足せば自動的に柔らかくなるわけではない。声の調子と文脈が意味を左右する。
+Try Could you clarify / which part you mean / to focus on the information you need.	Could you clarify which part you mean? と聞けば、必要な情報に焦点を当てられる。
+proposal=提案|concerns=懸念|clarification=意味の明確化|confrontational=対立的な|clarify=明確にする
+Does adding by that always make a question softer?|No, tone and context still matter.|Yes, in every situation.|Only in written examinations.|It changes the question into thanks.
+by that は対象を指し示すだけで、丁寧さを保証しない。⚠️ 柔らかくしたいなら落ち着いた調子で具体的な確認をする。
+
+words|NATURAL｜want と feel like は意味も違う|cafe|bowl|person
+You are hungry / and tell your roommate / that you want to eat something soon.	お腹がすいて、同居人に何かをすぐ食べたいと伝える。
+“I want to eat something” / is perfectly ordinary / when you are expressing that desire directly.	I want to eat something は、その希望を直接伝える普通の言い方だ。
+“I feel like getting something / to eat” emphasizes / your current mood or inclination instead.	I feel like getting something to eat は、今そうしたい気分を強調する。
+Neither expression is universally better. / After feel like, / use a noun or an ing form.	常に優れている方があるわけではない。feel like の後は名詞か ing 形にする。
+roommate=同居人|desire=希望|directly=直接に|mood=気分|inclination=そうしたい気持ち
+Which sentence follows the pattern for feel like?|I feel like getting a snack.|I feel like get a snack.|I feel like to get a snack.|I feel like got a snack.
+feel like + 動名詞で「〜したい気分」。⚠️ want to を不自然扱いしない。気分を強調するか、希望を直接伝えるかの違い。
+
+words|DON'T SAY IT LIKE THAT｜I agree に am は不要|meeting|chat|check
+Your teammate proposes / an earlier deadline, / and you want to express agreement with the idea.	チームの仲間が締切の前倒しを提案し、その案への賛成を伝えたい。
+Say I agree / because agree already functions / as a verb in this sentence.	I agree と言う。agree 自体がこの文の動詞として働いているからだ。
+“I am agree” / adds an unnecessary verb. / I am in agreement uses a different structure.	I am agree は不要な動詞を足している。I am in agreement は別の構造だ。
+You can partly agree / and still raise a concern. / Agreement does not have to be absolute.	一部に賛成しながら懸念を示すこともできる。賛成は全面的である必要はない。
+teammate=チームの仲間|deadline=締切|agreement=同意|structure=構造|absolute=全面的な
+Which sentence uses agree correctly?|I agree with the proposal.|I am agree with the proposal.|I agreeing with the proposal.|I am agree of the proposal.
+agree は動詞なので I agree with ...。⚠️ I am happy の happy は形容詞で、構造が違う。
+
+words|DON'T SAY IT LIKE THAT｜discuss の後の about|meeting|document|people
+Your group plans / to discuss the budget / before approving a new purchase this afternoon.	グループは午後、新しい購入を承認する前に予算を話し合う予定だ。
+Discuss takes its topic / directly as an object. / You can discuss the budget without about.	discuss は話題を直接目的語に取る。discuss the budget に about は要らない。
+Talk about the budget / uses a different pattern. / Similar meanings do not guarantee identical grammar.	Talk about the budget は別の型。意味が似ていても文法が同じとは限らない。
+Notice the noun pattern / a discussion about the budget / when comparing related forms in a passage.	関連する形を比べるときは、名詞の a discussion about the budget にも注目しよう。
+budget=予算|approving=承認すること|purchase=購入|object=目的語|identical=同一の
+Which sentence is standard English?|We discussed the budget.|We discussed about the budget.|We discussed to the budget.|We discussed of the budget.
+動詞 discuss は直接目的語を取る。⚠️ talk about と discussion about を混ぜない。動詞と名詞をセットで確認する。
+
+words|DON'T SAY IT LIKE THAT｜look forward to meeting|office|mail|calendar
+You finish an email / to a future colleague / before your first meeting next week.	来週初めて会う同僚へのメールを締めくくる。
+I look forward to meeting you / is a conventional closing / that expresses positive anticipation.	I look forward to meeting you は、会うことへの期待を示す定番の結びだ。
+Here to is a preposition, / so meeting follows it. / It is not an infinitive marker.	この to は前置詞なので meeting が続く。不定詞の to ではない。
+Compare I hope to meet you, / where hope takes an infinitive. / Learn the whole pattern together.	不定詞を取る hope の I hope to meet you と比べよう。型全体で覚える。
+colleague=同僚|conventional=慣用的な|anticipation=期待|preposition=前置詞|infinitive=不定詞
+Which closing uses look forward to correctly?|I look forward to meeting you.|I look forward to meet you.|I look forward meeting you.|I look forward to met you.
+look forward to + 名詞・動名詞。⚠️ to を見ただけで後ろを動詞の原形にしない。
+
+words|SITUATION｜試着してもいいですか|city|store|bag
+You find a jacket / in a clothing store / but are unsure whether it fits you.	服の店でジャケットを見つけたが、サイズが合うか分からない。
+Can I try this on / asks for permission / to put the jacket on before buying it.	Can I try this on? は、買う前に着てみる許可を求める。
+If you use it, / put the pronoun between / try and on: Can I try it on.	it を使うなら try と on の間に置き、Can I try it on? とする。
+After trying it on, / ask for a larger size / if the sleeves feel too tight.	試着して袖がきつければ、大きいサイズをお願いしよう。
+jacket=上着|clothing=衣類|permission=許可|pronoun=代名詞|sleeves=袖
+Which question puts it in the right position?|Can I try it on?|Can I try on it?|Can I on try it?|Can I try it to?
+分離できる句動詞でも、目的語が代名詞なら try it on。⚠️ try on this jacket はよいが try on it にはしない。
+
+words|SITUATION｜注文の I'll have|cafe|cup|document
+A server asks / what you would like / after you have looked through the lunch menu.	昼食のメニューを見た後、店員が注文を聞く。
+I'll have the soup, please / presents your choice / in a common restaurant ordering pattern.	I'll have the soup, please は、店で注文を選んで伝えるよく使われる型だ。
+Could I have the soup / also works as a request. / Please and tone help convey politeness.	Could I have the soup? も依頼として使える。please や声の調子も丁寧さを伝える。
+I want soup / expresses a desire, / but a request can fit the service encounter better.	I want soup は希望を表すが、接客の場面には依頼の形がより合うことがある。
+server=給仕する人|menu=メニュー|choice=選択|ordering=注文すること|politeness=丁寧さ
+Which is an ordinary restaurant order?|I'll have the soup, please.|Soup is always forbidden.|I soup having yesterday.|You must desire soup.
+I'll have ... はメニューから選んで注文するときの型。⚠️ I want が文法的に誤りということではない。
+
+words|SITUATION｜Would you mind への返事|library|people|chat
+Someone asks / Would you mind if I sat here / while pointing to the empty chair beside you.	隣の空席を指して Would you mind if I sat here? と聞かれた。
+They are asking / whether you would object, / not simply whether the chair exists nearby.	近くに椅子があるかではなく、座られると困るかを尋ねている。
+No, not at all. Go ahead / clearly gives permission / without leaving your intended meaning uncertain.	No, not at all. Go ahead と言えば、意図を曖昧にせず許可を伝えられる。
+If the seat is taken, / explain that directly / instead of relying on a confusing bare yes.	席が埋まっているなら、紛らわしい yes だけに頼らず直接説明する。
+empty=空の|object=反対する|permission=許可|uncertain=不確かな|directly=直接に
+You are happy for someone to sit beside you. Which is clearest?|Not at all. Go ahead.|Yes, I mind, but I do not.|This seat does not exist.|I refuse to answer anything.
+mind は「気にする・嫌だと思う」。Not at all に Go ahead を続けると許可が明瞭。⚠️ 日本語の「はい、どうぞ」をそのまま Yes にしない。
+
+words|NATURAL｜誘いを断って関係を保つ|day|calendar|chat
+A classmate invites you / to dinner on Friday, / but you have already made another commitment.	同級生が金曜の夕食に誘ってくれたが、すでに別の約束がある。
+I'd love to, / but I already have plans / shows appreciation while explaining your unavailability.	I'd love to, but I already have plans は、好意を受け止めながら都合が悪いことを伝える。
+If you genuinely want / to meet another time, / suggest a specific alternative that you can manage.	本当に別の機会に会いたいなら、実現できる具体的な代案を出そう。
+Do not promise / a future meeting automatically. / A clear, kind refusal can be enough.	自動的に次の約束をしなくてよい。明確で親切な断り方だけで十分なこともある。
+invites=誘う|commitment=約束|appreciation=感謝|alternative=代案|refusal=断り
+What should an alternative invitation reflect?|Your genuine willingness and availability|A promise you cannot keep|A rule that refusal is forbidden|A claim that all plans are canceled
+代案は本当に会いたくて都合がつく場合に出す。⚠️ 丁寧にするための架空の約束や理由は不要。
+
+words|DON'T SAY IT LIKE THAT｜borrow と lend|library|book|people
+You need a textbook / that belongs to your friend / for an assignment due tomorrow morning.	明朝締切の課題のため、友達が持っている教科書を借りたい。
+“Can I borrow your book?” / describes receiving it temporarily. / “Could you lend me your book?” asks them to provide it.	Can I borrow your book? は一時的に借りること。Could you lend me your book? は貸してもらう依頼だ。
+The same exchange / has two perspectives: / the borrower receives, while the lender provides the item.	同じやり取りでも視点は二つある。借り手が受け取り、貸し手が渡す。
+Include a return time / when it matters, / so your friend can decide whether to agree.	必要なら返却時刻も伝え、友達が貸せるか判断できるようにする。
+textbook=教科書|assignment=課題|temporarily=一時的に|exchange=やり取り|return=返却
+You receive a friend's book for one day. What do you do?|Borrow it from your friend|Lend it to your friend|Donate it permanently|Sell it to the library
+受け取る側は borrow ... from、渡す側は lend ... to。⚠️ 主語がどちら側かを先に決める。
+
+words|DON'T SAY IT LIKE THAT｜until と by|office|calendar|document
+Your manager needs / the revised report / before the team meets on Friday afternoon.	金曜午後の会議に間に合うよう、上司が改訂版の報告書を必要としている。
+“Submit it by Friday” / sets the latest acceptable time. / Earlier submission is allowed by this wording.	Submit it by Friday は期限を示す。この言い方なら早く提出してもよい。
+“Work on it until Friday” / describes continuing an activity / up to that point in time.	Work on it until Friday は、金曜まで作業を続けることを表す。
+If timing is important, / confirm the exact hour / instead of assuming the end of the day.	時刻が重要なら、その日の終わりと決めつけず具体的な時間を確認する。
+revised=改訂された|submit=提出する|acceptable=許容される|submission=提出|confirm=確認する
+Which expression gives a submission deadline?|Submit the report by Friday.|Work on the report until Friday.|Keep the report forever.|The report is beside Friday.
+by は「遅くともその時点までに」、until は動作・状態の継続。⚠️ by Friday だけでは具体的な時刻までは確定しない。
+
+words|NATURAL｜Actually の訂正を和らげる|meeting|chat|calendar
+A colleague says / the workshop is on Monday, / but the updated schedule lists Tuesday instead.	同僚が研修は月曜だと言うが、更新された予定では火曜になっている。
+“Actually, it's on Tuesday” / corrects the information, / though delivery can make the correction sound blunt.	Actually, it's on Tuesday は情報を訂正するが、言い方次第ではぶっきらぼうにも聞こえる。
+I think the updated schedule / says Tuesday adds a reference / and leaves room to check together.	I think the updated schedule says Tuesday は根拠を添え、一緒に確認する余地を残す。
+Use uncertainty honestly. / If the schedule is confirmed, / you can be clear without blaming anyone.	不確かさは正直に表す。予定が確定しているなら、誰も責めず明確に伝えられる。
+workshop=研修会|updated=更新された|delivery=伝え方|blunt=ぶっきらぼうな|reference=参照先
+What makes this correction more collaborative?|Referring to the updated schedule|Claiming the colleague always fails|Adding actually to every sentence|Pretending no schedule exists
+更新版という根拠を共有すると、人への批判でなく予定の確認にできる。⚠️ actually 自体が失礼なのではなく、調子と訂正の仕方による。

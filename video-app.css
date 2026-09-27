@@ -191,3 +191,16 @@ select.ytrate option{color:#000}
 #p-phonemes{max-width:1100px;margin:auto}
 @media(max-width:600px){.phgrid{grid-template-columns:1fr}.phdia{max-width:320px;margin:auto;display:block}.phchart{grid-template-columns:repeat(auto-fill,minmax(92px,1fr))}}
 .vtoolbar select,.vcontrols select{background:var(--chip);color:var(--ink);border:1px solid var(--line)}
+/* Ordered practice routes; long titles wrap on narrow phones. */
+.vcurriculum{margin:0 0 24px;padding:clamp(14px,3vw,24px);border:1px solid var(--line,#d7dfe7);border-radius:18px;background:var(--card,#fff);color:var(--ink,#1f2937)}
+.vcurriculum h2{margin:0 0 10px;font-size:clamp(19px,3vw,25px)}
+.vcurriculum p{line-height:1.7}
+.vroute-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0}
+.vroute{min-width:0;padding:12px 14px;border:1px solid var(--line,#d7dfe7);border-radius:12px;margin:8px 0}
+.vroute summary{cursor:pointer;font-weight:700;line-height:1.6}
+.vroute ol{padding-left:24px;margin-bottom:0}.vroute li{margin:7px 0;padding-left:2px}
+.vroute li .btn{text-align:left;white-space:normal;overflow-wrap:anywhere;line-height:1.55;max-width:100%;height:auto}
+.vroute li>span{display:block;margin:3px 0 0 5px}.vroute-goal{border-left:3px solid #238579;padding-left:10px}
+.vexplanation{padding:12px 14px;border-left:3px solid #238579;background:rgba(35,133,121,.09);text-align:left;line-height:1.7;margin:10px 0}
+.vexplanation p{margin:5px 0 0}.endov .vexplanation{font-size:13px;max-height:140px;overflow:auto}
+@media(max-width:650px){.vroute-grid{grid-template-columns:minmax(0,1fr)}.vcollections>.vroute{padding:10px 8px}.vroute{padding:10px}}

@@ -87,6 +87,8 @@ def v_stories(data, err, seen):
             if re.search(r'[？！]', ja): err.append(f'{w} para {j}: Japanese must end sentences with 。 only')
         if not 330 <= total <= 460: err.append(f'{w}: {total} words (330-460)')
         if len(s['qs']) != 4: err.append(f'{w}: needs 4 questions')
+        if 'explanations' in s and (len(s['explanations']) != len(s['qs']) or not all(isinstance(x, str) and x.strip() for x in s['explanations'])):
+            err.append(f'{w}: explanations must contain one nonempty explanation per question')
         for q in s['qs']:
             if not (len(q) == 3 and len(q[1]) == 3 and q[2] in (0, 1, 2)): err.append(f'{w}: bad question {q}')
         if len({q[2] for q in s['qs']}) < 2: err.append(f'{w}: vary the answer positions')
@@ -117,6 +119,8 @@ def v_shorts(data, err, seen):
             stem = word.lower().split()[0][:4]
             if stem not in text: err.append(f'{w}: vocab {word!r} not found in the text')
         q = s.get('q')
+        if 'explanation' in s and not (isinstance(s['explanation'], str) and s['explanation'].strip()):
+            err.append(f'{w}: explanation must be a nonempty string')
         if not (isinstance(q, list) and len(q) == 3 and len(q[1]) == 4 and q[2] in range(4)): err.append(f'{w}: q must be [question, [4 options], index]')
 
 def builtin_ids():

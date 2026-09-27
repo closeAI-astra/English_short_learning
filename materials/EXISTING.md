@@ -2,7 +2,7 @@
 
 新しい教材を作るときは、ここにある id・key・題材・フレーズと重ならないようにしてください。
 
-## ショート（128本）
+## ショート（238本）
 
 id | 分野 | タイトル
 ---|---|---
@@ -40,6 +40,116 @@ m07 | serial | 第7話 消えたボランティア
 m08 | serial | 第8話 急行に乗れ
 m09 | serial | 第9話 羽の正体
 m10 | serial | 第10話 学芸員の告白
+bridge850-01 | learning | Part 1｜動作中と完了状態を分ける
+bridge850-02 | learning | Part 1｜人がいない写真で推測しない
+bridge850-03 | learning | Part 1｜位置関係と似た音の罠
+bridge850-04 | learning | Part 2｜Where に場所名で返さない答え
+bridge850-05 | learning | Part 2｜否定疑問は事実で返す
+bridge850-06 | learning | Part 2｜選択疑問にも第三の答え
+bridge850-07 | learning | Part 2｜依頼と能力の質問
+bridge850-08 | learning | Part 2｜弱く聞こえる語と意味の核
+bridge850-09 | learning | Part 3｜最初の一言で場面をつかむ
+bridge850-10 | learning | Part 3｜三人会話の担当を追う
+bridge850-11 | learning | Part 3｜遠回しな発言の意図
+bridge850-12 | learning | Part 3｜発言と一覧表を突き合わせる
+bridge850-13 | learning | Part 4｜アナウンスの変更前・変更後
+bridge850-14 | learning | Part 4｜理由と次の行動を分ける
+bridge850-15 | learning | Part 4｜留守電の折り返し条件
+bridge850-16 | learning | Part 5｜品詞は空欄の周囲から
+bridge850-17 | learning | Part 5｜長い主語でも動詞を一致させる
+bridge850-18 | learning | Part 5｜時制は基準時点を置く
+bridge850-19 | learning | Part 5｜受動態と誰がするか
+bridge850-20 | learning | Part 5｜代名詞は文の役割で選ぶ
+bridge850-21 | learning | Part 5｜可算・不可算の量表現
+bridge850-22 | learning | Part 5｜形容詞と副詞のかかり先
+bridge850-23 | learning | Part 5｜接続詞と前置詞を見分ける
+bridge850-24 | learning | Part 5｜関係詞の空欄は節の欠けを探す
+bridge850-25 | learning | Part 5｜分詞による後置修飾
+bridge850-26 | learning | Part 5｜比較表現の基準を読む
+bridge850-27 | learning | Part 5｜語彙は一緒に使う語で選ぶ
+bridge850-28 | learning | Part 6｜前後の文から時制を決める
+bridge850-29 | learning | Part 6｜However と Therefore の関係
+bridge850-30 | learning | Part 6｜文挿入は指示語の受け先から
+bridge850-31 | learning | Part 6｜空欄はメールの目的から絞る
+bridge850-32 | learning | Part 7｜根拠は同じ単語で出ない
+bridge850-33 | learning | Part 7｜推論は一歩だけ進める
+bridge850-34 | learning | Part 7｜NOT 問題は全候補を照合
+bridge850-35 | learning | Part 7｜複数文書は共通の番号でつなぐ
+bridge850-36 | learning | Part 7｜時間配分と根拠のある見直し
+curiosity-01 | environment | 環境01｜ペットボトルは燃料になる？
+curiosity-02 | environment | 環境02｜キャップを外す地域・付ける地域
+curiosity-03 | environment | 環境03｜寄付した服はそのまま届く？
+curiosity-04 | environment | 環境04｜汚れた容器を混ぜる前に
+curiosity-05 | environment | 環境05｜その袋、回収箱に入れていい？
+curiosity-06 | environment | 環境06｜再利用カップを返す仕組み
+curiosity-07 | environment | 環境07｜修理できる製品を選ぶ
+curiosity-08 | environment | 環境08｜分別表示が多いほど親切？
+curiosity-09 | environment | 環境09｜食品ロスを発注から減らす
+curiosity-10 | environment | 環境10｜回収量と再生量は違う
+curiosity-11 | daily | 日常01｜横断歩道ボタンは即時切替？
+curiosity-12 | daily | 日常02｜エレベーターの行先を先に入力
+curiosity-13 | daily | 日常03｜電源オフでも電気を使う？
+curiosity-14 | daily | 日常04｜配送予定は予約時刻ではない
+curiosity-15 | daily | 日常05｜待ち人数と待ち時間は別
+curiosity-16 | daily | 日常06｜空いている会議室が使えない理由
+curiosity-17 | daily | 日常07｜地図の最短ルートが最適とは限らない
+curiosity-18 | daily | 日常08｜通知を全部オンにする代償
+curiosity-19 | daily | 日常09｜複合機の印刷待ち
+curiosity-20 | daily | 日常10｜予約メールと仮受付
+curiosity-21 | daily | 日常11｜図書館の取り置き期限
+curiosity-22 | daily | 日常12｜忘れ物は見つかっただけでは返らない
+curiosity-23 | daily | 日常13｜返却期限を延長できない理由
+curiosity-24 | daily | 日常14｜同じ日付でも締切が違う
+curiosity-25 | daily | 日常15｜アプリの取り消しと削除
+curiosity-26 | money | お店01｜大袋は本当に割安？
+curiosity-27 | money | お店02｜通路の端の商品は特売？
+curiosity-28 | money | お店03｜チップ皿があると義務？
+curiosity-29 | money | お店04｜無料配送まであと少し
+curiosity-30 | money | お店05｜ポイントは現金と同じ？
+curiosity-31 | money | お店06｜セット料金の比較
+curiosity-32 | money | お店07｜無料お試しの次に来る請求
+curiosity-33 | money | お店08｜在庫ありと取り置き済み
+curiosity-34 | money | お店09｜値札は同じでも内容量が違う
+curiosity-35 | money | お店10｜返品と交換の条件
+curiosity-36 | money | お店11｜クーポンが使えない理由
+curiosity-37 | money | お店12｜月額料金と年契約
+curiosity-38 | money | お店13｜レシートの小計と合計
+curiosity-39 | money | お店14｜安い見積もりに工事費は入る？
+curiosity-40 | money | お店15｜会員価格の条件
+curiosity-41 | travel | 食旅01｜映画館の売上と利益
+curiosity-42 | food | 食旅02｜解凍魚の表示を読む
+curiosity-43 | travel | 食旅03｜飛行機の座席を多めに売る理由
+curiosity-44 | travel | 食旅04｜航空券の値段だけで比べない
+curiosity-45 | travel | 食旅05｜ホテルの荷物預かりと入室
+curiosity-46 | food | 食旅06｜メニューの代替食材
+curiosity-47 | travel | 食旅07｜搭乗時刻と出発時刻
+curiosity-48 | travel | 食旅08｜乗換時間に移動も入る
+curiosity-49 | food | 食旅09｜予約人数と提供数
+curiosity-50 | travel | 食旅10｜旅行口コミの日付を読む
+native-01 | words | NATURAL｜I understand と Got it
+native-02 | words | NATURAL｜How are you? は挨拶にもなる
+native-03 | words | SITUATION｜表現を一つ教えてほしい
+native-04 | words | SITUATION｜トイレ：米語と英語の違い
+native-05 | words | DON'T SAY IT LIKE THAT｜bored と boring
+native-06 | words | NATURAL｜I don't know と確信の弱さ
+native-07 | words | SITUATION｜聞き返しを具体的にする
+native-08 | words | NATURAL｜友達をご飯に誘う
+native-09 | words | NATURAL｜Long time no see は使える
+native-10 | words | NATURAL｜趣味を会話につなげる
+native-11 | words | NATURAL｜質問の切り出し方
+native-12 | words | SITUATION｜No worries と You're good
+native-13 | words | DON'T SAY IT LIKE THAT｜意味を聞くときの温度
+native-14 | words | NATURAL｜want と feel like は意味も違う
+native-15 | words | DON'T SAY IT LIKE THAT｜I agree に am は不要
+native-16 | words | DON'T SAY IT LIKE THAT｜discuss の後の about
+native-17 | words | DON'T SAY IT LIKE THAT｜look forward to meeting
+native-18 | words | SITUATION｜試着してもいいですか
+native-19 | words | SITUATION｜注文の I'll have
+native-20 | words | SITUATION｜Would you mind への返事
+native-21 | words | NATURAL｜誘いを断って関係を保つ
+native-22 | words | DON'T SAY IT LIKE THAT｜borrow と lend
+native-23 | words | DON'T SAY IT LIKE THAT｜until と by
+native-24 | words | NATURAL｜Actually の訂正を和らげる
 x001 | dino | 泳ぐ恐竜スピノサウルス
 x002 | dino | ステゴサウルスとティラノは出会っていない
 x003 | dino | プテラノドンは恐竜じゃない
@@ -135,7 +245,7 @@ t850-30 | environment | 地震の避難訓練（TOEIC 850）
 t850-31 | money | 保険の契約更新（TOEIC 850）
 t850-32 | daily | 趣味と余暇の過ごし方（TOEIC 850）
 
-## 長文（38本）
+## 長文（52本）
 
 key | 分野 | タイトル
 ---|---|---
@@ -151,6 +261,20 @@ stargazing | space | 星を見る会と曇り空
 poster | art | 遠くから読めるポスター
 running | sport | 初めてのランニングクラブ
 survey | math | アンケートの数字を読む
+bridgeconversation | words | 会話実践：了解・理解・納得の使い分け
+bridgeclarify | words | 会話実践：強く聞こえない確認と依頼
+bridgerecycling | environment | 環境実践：回収案内を読み比べる
+bridgeclothes | environment | 環境実践：寄付イベントと団体への確認
+bridgepricing | money | 買い物実践：単価・送料・条件を同時に読む
+bridgetravel | travel | 旅行実践：変更メールを旅程へ反映する
+bridgelistening | learning | 聞く実践：電話の目的・担当・条件
+bridgeannouncement | learning | 聞く実践：施設案内と例外を整理する
+bridgegrammar | learning | 読む実践：文の骨格で業務メールを直す
+bridgeinsertion | learning | 読む実践：通知の段落と文挿入
+bridgeinvoice | work | 複数文書実践：注文・納品・請求の不一致
+bridgehiring | work | 読解実践：求人の必須条件・歓迎条件
+bridgereport | work | 読解実践：割合・実数・報告の限界
+bridgestudyplan | learning | 総合実践：600点台からの学習を設計する
 featherdinos | dino | 羽毛恐竜はどう見つかったか
 manhattanwalk | nyc | マンハッタンを一日歩く
 issdaily | space | 宇宙ステーションの一日

@@ -1,0 +1,449 @@
+environment|環境01｜ペットボトルは燃料になる？|forest|factory|box
+A used plastic bottle / can follow different routes / after collection, depending on the processing system.	使用済みのプラスチックボトルは、処理の仕組みにより回収後の行き先が変わる。
+Making material for another bottle / keeps plastic in products. / Burning waste instead recovers energy.	次のボトルの原料にすると、プラスチックは製品に残る。廃棄物を燃やす場合はエネルギーを回収する。
+Fuel production and material recycling / are different processes. / Neither label alone tells the whole environmental story.	燃料製造と材料としての再生は別の処理だ。名前だけでは環境への影響全体は分からない。
+Ask what actually happens / to the collected material, / rather than treating every recovery method as identical.	回収方法を全部同じとせず、集めた材料に実際に何が起きるかを確認しよう。
+collection=回収|processing=処理|material=材料|recovers=回収する|identical=同一の
+How does material recycling differ from burning waste for energy?|It keeps material in products.|It always turns plastic into electricity.|It requires no collection.|It is identical to fuel combustion.
+材料再生では素材を製品に使い、燃焼によるエネルギー回収とは区別する。⚠️ PETが何でも簡単に油になる、燃料化なら環境負荷がゼロ、と断定しない。
+
+environment|環境02｜キャップを外す地域・付ける地域|city|box|check
+You see conflicting advice / about leaving bottle caps on / before putting containers into a recycling bin.	資源回収に出す前にキャップを付けたままにするか、異なる案内を見かける。
+Caps and bottles / can use different plastics, / so sorting and processing arrangements matter here.	キャップとボトルは異なるプラスチックを使うことがあり、分別と処理の仕組みが関係する。
+Japanese collection guidance / often asks you to remove caps, / while some overseas programs accept attached caps.	日本の回収案内では外すよう求めることが多いが、海外には付けたまま受け付ける回収もある。
+Follow your local provider's instructions / for the container / instead of copying a rule from another country.	別の国のルールをそのまままねず、地域の回収主体の案内に従おう。
+conflicting=食い違う|containers=容器|sorting=分別|attached=付いた|provider=提供主体
+Which instruction should determine how you prepare a bottle?|Your local collection instructions|A rule from any random country|The color of your kitchen|Your friend's guess about all plastics
+処理設備が違えば適切な出し方も違う。⚠️ 「必ず外す」「必ず付ける」を世界共通ルールにしない。
+
+environment|環境03｜寄付した服はそのまま届く？|warehouse|bag|people
+You donate a coat / and imagine it going directly / to someone who needs warm clothing.	コートを寄付すると、防寒着が必要な人にそのまま渡ると想像する。
+A charity may sell / donated clothes in its shops / and use the proceeds to support its work.	慈善団体は寄付された服を店で売り、その収益を活動に使うことがある。
+Items unsuitable for sale / may follow other routes, / including textile recycling when a program offers it.	販売に向かない物は、その制度があれば繊維の再資源化など別の経路へ進む場合がある。
+Check the organization's policy / before donating damaged items. / A donation label does not guarantee direct distribution.	傷んだ服を寄付する前に団体の方針を確認しよう。「寄付」でも直接配布が保証されるわけではない。
+donate=寄付する|charity=慈善団体|proceeds=売上金|textile=繊維の|distribution=配布
+How can selling a donated coat support a charity?|The proceeds can fund its work.|Every coat must be given away directly.|Selling makes all donations worthless.|The coat automatically becomes a new coat.
+販売収益で支援活動を行う方式もある。⚠️ 一つの団体の方法を、すべての衣類回収や国に当てはめない。
+
+environment|環境04｜汚れた容器を混ぜる前に|cafe|bowl|box
+A takeaway container / still holds leftover sauce / when you finish your lunch at the office.	職場で昼食を終えると、持ち帰り容器にソースが残っている。
+Food residue can interfere / with recycling operations, / so accepted containers usually need to be emptied.	食品の残りは再生処理を妨げることがあるため、対象の容器も通常は中身を空にする必要がある。
+Check whether this material / is accepted locally / before deciding how to prepare the container.	容器をどう処理して出すか決める前に、その素材が地域で回収対象か確認しよう。
+An empty container / is not automatically recyclable. / Its material and the local system both matter.	空の容器なら自動的にリサイクル可能というわけではない。素材と地域の仕組みの両方が重要だ。
+container=容器|leftover=残った|residue=残留物|accepted=受け入れ対象の|locally=地域で
+What should you check before recycling the container?|Whether the local program accepts it|Whether it once contained lunch|Whether its color matches the bin|Whether all empty items are recyclable
+空にすることと、回収対象であることは別条件。⚠️ 洗えばどんな材質でも回収できるわけではない。
+
+environment|環境05｜その袋、回収箱に入れていい？|city|bag|box
+A shopper puts / loose plastic bags / into a bin intended for bottles and cans.	買い物客が、ボトルや缶用の回収箱にばらのビニール袋を入れる。
+Plastic film may require / a separate collection route / rather than the same equipment used for rigid containers.	薄いフィルム状のプラスチックは、硬い容器と同じ設備ではなく別の回収経路を必要とする場合がある。
+The word plastic / describes many different materials / and does not identify a single recycling process.	plastic という語には多くの素材が含まれ、単一の再生処理を指すわけではない。
+Read the accepted-item list / before mixing materials. / Good intentions cannot replace the facility's actual requirements.	混ぜる前に回収対象一覧を読もう。善意は施設の実際の条件の代わりにはならない。
+loose=ばらの|intended=想定された|rigid=硬い|facility=施設|requirements=条件
+Why should you not assume bags belong with bottles?|They may require different processing.|They are always made of paper.|Every facility uses identical equipment.|Good intentions change the material.
+同じプラスチックでも形状や処理方法が違う。⚠️ 自治体や店頭の専用回収の対象条件を確認する。
+
+environment|環境06｜再利用カップを返す仕組み|cafe|cup|coin
+In this fictional café, / customers pay a deposit / when borrowing a reusable takeaway cup.	この架空のカフェでは、持ち帰り用の再利用カップを借りるときに預り金を払う。
+They receive the deposit back / after returning the cup / to an approved collection point nearby.	近くの指定回収場所へ返すと、預り金が戻る。
+The operator must arrange / collection, washing, and redistribution / before the same cup can serve another customer.	同じカップを次の客に使う前に、運営者は回収・洗浄・再配布を手配する必要がある。
+Reuse depends on repeated returns, / not just durable materials. / A cup kept at home cannot circulate.	再利用には丈夫な素材だけでなく繰り返しの返却が必要だ。家に置いたカップは循環しない。
+deposit=預り金|reusable=再利用できる|approved=指定された|redistribution=再配布|circulate=循環する
+What makes this fictional cup system operate?|Customers return cups for washing and reuse.|Customers keep every cup forever.|The deposit replaces washing.|Cups need no collection points.
+この架空の制度では返却、洗浄、再配布が必要。⚠️ 再利用という名前だけで環境優位や利用回数を断定しない。
+
+environment|環境07｜修理できる製品を選ぶ|office|wrench|laptop
+In a fictional office, / two lamps stop working / after their power cables become damaged.	架空の職場で、2台の照明が電源ケーブルの損傷で使えなくなった。
+One supplier offers / replacement parts and repair instructions, / while the other only offers complete replacements.	一方の業者は交換部品と修理案内を用意するが、もう一方は製品全体の交換しか提供しない。
+The purchasing team compares / repair costs and availability / before choosing equipment for its next order.	購買担当は次の発注で製品を選ぶ前に、修理費と部品の入手可能性を比較する。
+A low initial price / does not reveal / the full cost of keeping equipment usable over time.	初期価格が安いだけでは、長く使える状態に保つ総費用は分からない。
+damaged=損傷した|supplier=供給業者|replacement=交換|availability=入手可能性|initial=最初の
+What does the purchasing team compare besides the initial price?|Repair costs and parts availability|Only the packaging color|Only the supplier's logo|The number of windows
+初期費用だけでなく修理費・部品供給も比較するケース。⚠️ すべての製品を自分で安全に修理できるという意味ではない。
+
+environment|環境08｜分別表示が多いほど親切？|office|box|document
+A fictional campus / adds recycling signs / but receives questions about where takeaway lids should go.	架空の大学が分別表示を増やしたが、持ち帰り用のふたをどこに入れるか質問が続く。
+The first sign lists / broad material categories / without showing objects students actually use each day.	最初の表示は大まかな素材分類だけで、学生が毎日使う物を示していない。
+Staff add specific examples / approved by their collection provider / and place matching labels on nearby bins.	職員は回収業者が確認した具体例を加え、近くの箱にも対応する表示を付ける。
+They observe sorting mistakes / before and after the change / to check whether the explanation really helps.	説明が本当に役立つか、変更前後の分別ミスを観察する。
+campus=大学構内|categories=分類|specific=具体的な|matching=対応する|observe=観察する
+How does the campus assess its new signs?|By comparing sorting mistakes before and after|By assuming more text always helps|By removing all examples|By changing only the wall color
+表示の量でなく実際の分別行動で確かめる。⚠️ これは創作ケースで、実測の改善率は示していない。
+
+environment|環境09｜食品ロスを発注から減らす|cafe|clipboard|bowl
+A fictional bakery / regularly has unsold sandwiches / left after its afternoon customers have gone home.	架空のパン屋では、午後の客が帰った後にサンドイッチが売れ残ることが多い。
+The manager records demand / separately for each weekday / instead of preparing the same amount every morning.	店長は毎朝同量を作る代わりに、曜日ごとの需要を記録する。
+Smaller initial batches / can be supplemented later / if staff still have enough time and ingredients.	時間と材料があれば、最初の仕込みを少なくして後から追加できる。
+The team monitors / both waste and stockouts, / since reducing one should not hide the other.	廃棄と品切れの両方を追う。一方を減らしても他方を見落としてはいけない。
+unsold=売れ残った|demand=需要|batches=ひとまとまりの製造分|ingredients=材料|stockouts=品切れ
+Why track stockouts as well as waste?|Producing too little can leave demand unmet.|Waste and demand mean the same thing.|Stockouts always increase supply.|Recording data removes all uncertainty.
+作りすぎと不足を一緒に確認する。⚠️ この話の方法で必ず利益や廃棄率が改善するとは保証していない。
+
+environment|環境10｜回収量と再生量は違う|paper|chart|magnifier
+A fictional report / says a town collected / more recyclable material than it did last year.	架空の報告書に、町の資源回収量が前年より増えたと書かれている。
+Collection measures what enters / the sorting process. / It does not prove that every item becomes another product.	回収量は分別工程に入った量だ。すべてが次の製品になった証拠ではない。
+The reader looks for / rejected material and final outputs / before describing the program's results to others.	読者は結果を人に説明する前に、除去された物と最終的な再生品を確認する。
+Compare the same stages / across reporting periods, / or apparently similar figures may describe different things.	期間同士で同じ段階を比べよう。同じような数字でも別のことを表す場合がある。
+collected=回収した|measures=測定する|rejected=除外された|outputs=生成物|figures=数値
+What does a larger collection figure establish by itself?|More material entered collection.|Every item became a new bottle.|Processing created no waste.|The entire environmental impact fell.
+回収増だけから全量再生や環境負荷減は結論できない。⚠️ 統計では何をどの段階で数えたかを確認する。
+
+daily|日常01｜横断歩道ボタンは即時切替？|city|person|clock
+You press a crossing button / and wonder why / the traffic signal does not change immediately.	横断歩道のボタンを押しても、すぐ信号が変わらず不思議に思う。
+The button can register / a request to cross / within a signal system that coordinates different movements.	ボタンは、複数の通行を調整する信号システムに横断要求を登録する役割を持つ。
+Some signals provide / pedestrian phases automatically / at certain times, so local operation can differ.	時間帯によって自動で歩行者用の時間を設ける信号もあり、動作は場所によって違う。
+Follow the displayed signals / rather than assuming / that repeated pressing gives you immediate permission to cross.	連打すればすぐ渡れると考えず、表示された信号に従おう。
+crossing=横断|register=登録する|coordinates=調整する|pedestrian=歩行者の|permission=許可
+Why might the light not change immediately after a press?|The system coordinates different traffic movements.|The button proves pedestrians are ignored.|Every button is fake.|Repeated pressing always overrides traffic.
+押したら即切替とは限らず、信号全体の調整がある。⚠️ 「押しボタンは全部飾り」という話にしない。
+
+daily|日常02｜エレベーターの行先を先に入力|office|building|people
+In some office buildings, / you enter your destination floor / before stepping into an assigned elevator.	一部のオフィスビルでは、指定されたエレベーターに乗る前に目的階を入力する。
+A destination control system / can group passengers / who are traveling toward the same parts of the building.	行先階を使う制御システムは、同じ方面へ向かう乗客をまとめることができる。
+Watch the displayed assignment / instead of entering / whichever elevator happens to open its doors first.	最初に扉が開いたものへ乗るのではなく、表示された割り当てを確認する。
+The exact arrangement varies, / so read the instructions / when using an unfamiliar building's elevator system.	具体的な仕組みは違うので、初めてのビルでは案内を読もう。
+destination=行き先|assigned=割り当てられた|passengers=乗客|displayed=表示された|arrangement=仕組み
+Which elevator should a passenger use in the described system?|The one assigned on the display|Always the first one to open|Always the largest one|Any one without checking
+行先入力後の割り当てを確認する。⚠️ すべてのエレベーターがこの方式ということではない。
+
+daily|日常03｜電源オフでも電気を使う？|night|laptop|bulb
+A device appears off, / but its remote receiver / or network connection may still need electrical power.	機器がオフに見えても、リモコンの受信部や通信接続は電力を必要とする場合がある。
+This standby consumption / depends on the device / and the settings that remain active after use.	この待機電力は、機器や使用後も有効な設定によって違う。
+Check the product information / or measure consumption / before estimating how much a particular change would save.	特定の変更でどれだけ節約できるか見積もる前に、製品情報や測定値を確認しよう。
+Do not disconnect equipment / that must remain powered / without checking its operating requirements and instructions first.	常時通電が必要な機器は、使用条件や説明書を確認せずに電源を切らない。
+receiver=受信部|electrical=電気の|standby=待機状態の|consumption=消費|estimating=見積もること
+What determines standby consumption?|The device and its active settings|Only the color of the power button|A universal value for all appliances|The price of the room
+機器・設定で待機電力は異なる。⚠️ 根拠のない節約率を使わず、常時動作が必要な設備を一律に切らない。
+
+daily|日常04｜配送予定は予約時刻ではない|city|truck|clock
+In a fictional delivery app, / a parcel has / an estimated arrival window between noon and four.	架空の配送アプリで、荷物の到着見込みが正午から4時と表示されている。
+Estimated means predicted, / not guaranteed at noon. / A later update reflects new information about the route.	estimated は予測で、正午到着の保証ではない。後の更新は経路の新しい情報を反映する。
+The recipient arranges / a safe collection option / because they cannot remain home throughout that window.	受取人はその時間ずっと在宅できないため、安全に受け取れる方法を手配する。
+Distinguish an estimate / from a confirmed appointment / when making plans around a service provider's message.	サービスの通知を基に予定を立てるとき、見込みと確定した予約を区別しよう。
+parcel=荷物|estimated=見積もられた|guaranteed=保証された|recipient=受取人|appointment=予約
+What does estimated arrival mean in this case?|A prediction that may be updated|A guaranteed arrival at noon|A completed delivery|A request to cancel the parcel
+estimated は予測。⚠️ between noon and four を「正午ちょうど」と読まない。
+
+daily|日常05｜待ち人数と待ち時間は別|office|people|hourglass
+A fictional service desk / shows three people ahead / when you take a ticket at the entrance.	架空の窓口で整理券を取ると、前に3人待っていると表示された。
+Each request requires / a different amount of work, / so the number alone cannot determine your waiting time.	用件ごとに作業量が違うため、人数だけでは待ち時間が決まらない。
+Another counter opens / for simple collections, / while complicated applications continue at the original service desk.	簡単な受取専用の窓口が増え、複雑な申請は元の窓口で対応を続ける。
+Check which queue / handles your actual request / before switching lines because another one looks shorter.	短く見える列へ移る前に、自分の用件を扱う列か確認しよう。
+ahead=前に|requires=必要とする|determine=決定する|counter=窓口|applications=申請
+Why can three waiting customers mean different waiting times?|Their requests may take different amounts of work.|Every request takes exactly one minute.|Queue length determines all service times.|A shorter line always accepts every request.
+人数と1人あたりの処理時間の両方が関係する。⚠️ この創作例の「3人」は実測統計ではない。
+
+daily|日常06｜空いている会議室が使えない理由|meeting|calendar|key
+A fictional office calendar / shows an empty room / that is reserved for equipment testing until lunchtime.	架空の職場の予定表では、無人の部屋が昼まで機器テスト用に予約されている。
+Physical emptiness does not mean / booking availability. / The room may be needed for preparation or maintenance.	人がいないことと予約できることは別だ。準備や保守に必要な場合もある。
+An employee contacts / the facilities team / rather than canceling a reservation that belongs to someone else.	社員は他人の予約を消すのではなく、施設担当に連絡する。
+The team suggests / another room with suitable equipment / and updates the calendar to explain the restriction.	担当者は必要な設備のある別室を提案し、制限の理由を予定表に追記する。
+reserved=予約された|availability=利用可能性|maintenance=保守|facilities=施設|restriction=制限
+Why is the empty room unavailable?|It is reserved for equipment testing.|Every empty room is freely available.|The employee owns every reservation.|The calendar lists no restrictions.
+無人でも保守・準備の予約は存在する。⚠️ empty と available を同義にしない。
+
+daily|日常07｜地図の最短ルートが最適とは限らない|city|map|person
+A fictional campus map / suggests a short route / that includes stairs beside the old library entrance.	架空の大学地図が、旧図書館入口横の階段を通る短い経路を示している。
+A visitor carrying equipment / needs a step-free route / even though it takes slightly longer to walk.	機材を運ぶ来訪者は、少し遠回りでも段差のない経路が必要だ。
+The receptionist checks / accessible entrances and temporary closures / before recommending a different path through the campus.	受付は使いやすい入口と臨時の通行止めを確認し、別の構内経路を勧める。
+Best depends on / the traveler's actual constraints, / not just the smallest distance shown on a map.	最適は地図上の最短距離だけでなく、移動する人の条件によって決まる。
+route=経路|step-free=段差のない|accessible=利用しやすい|closures=閉鎖|constraints=条件・制約
+What matters most to this visitor?|A route without steps|The shortest distance at any cost|The oldest entrance|A route through a closed corridor
+この来訪者には段差がないことが条件。⚠️ 最短距離とその人にとっての最適経路は一致しないことがある。
+
+daily|日常08｜通知を全部オンにする代償|office|phone|mail
+In a fictional project team, / frequent app notifications / interrupt employees even when the messages are not urgent.	架空のチームで、緊急でないメッセージの通知も頻繁に作業を中断させている。
+They separate urgent requests / from routine updates / and agree on which channel each message should use.	緊急依頼と定期報告を分け、どの連絡経路を使うか合意する。
+One person remains responsible / for time-sensitive issues / while others check ordinary messages at agreed intervals.	時間の限られた案件には担当者を置き、他の人は決めた間隔で通常の通知を確認する。
+The arrangement is reviewed / after the trial / to ensure that fewer interruptions do not hide important requests.	試行後に運用を見直し、中断を減らすことで重要な依頼を見落としていないか確認する。
+notifications=通知|urgent=緊急の|routine=通常の|intervals=間隔|interruptions=中断
+What protects urgent requests during the trial?|An assigned person monitors time-sensitive issues.|Everyone ignores all messages.|Every message is deleted immediately.|No one has responsibility.
+緊急用の担当を残して通常連絡を整理するケース。⚠️ 通知を切れば必ず生産性が上がるとする実験結果ではない。
+
+daily|日常09｜複合機の印刷待ち|office|printer|document
+At a fictional office, / a large print job / is waiting for a paper size the machine lacks.	架空の職場で、大量印刷のジョブが、機械に入っていないサイズの用紙を待っている。
+Other employees see / their documents waiting behind it / and assume that the printer has stopped working entirely.	他の社員は自分の文書が後ろで待機しているのを見て、印刷機全体の故障だと思う。
+The administrator checks / the job queue and paper settings / before asking anyone to restart the device.	管理者は再起動を頼む前に、印刷待ち一覧と用紙設定を確認する。
+Identifying the blocked request / helps distinguish a settings problem / from a fault that requires technical repair.	止まっている依頼を見つけると、設定の問題と修理が必要な故障を区別しやすい。
+lacks=欠いている|entirely=完全に|administrator=管理者|queue=待ち行列|fault=不具合
+What caused the delay in this scenario?|A job required an unavailable paper size.|Every document was already printed.|The network was proven broken.|The administrator had no information.
+このケースの原因は用紙設定と供給の不一致。⚠️ 待機表示だけでは機械全体の故障と断定できない。
+
+daily|日常10｜予約メールと仮受付|office|mail|check
+A fictional booking service / sends a message / saying that your request has been received for review.	架空の予約サービスが、審査のため申請を受け取ったという通知を送る。
+Received does not necessarily mean / approved or confirmed. / Another message may be needed before the booking is final.	received は必ずしも承認済み・確定済みではない。確定には別の通知が必要な場合がある。
+The customer checks / the status field / rather than relying only on the email's friendly opening sentence.	客はメール冒頭の親しみやすい挨拶だけに頼らず、状態欄を確認する。
+Save the final confirmation / with its reference number / so you can identify the reservation if questions arise.	問い合わせ時に予約を特定できるよう、確定通知と照会番号を保存しよう。
+received=受領した|approved=承認された|confirmed=確定した|status=状態|reference=照会用の
+Which status establishes a completed booking in this scenario?|The final confirmation|The initial receipt for review|A friendly greeting alone|An unfinished application
+received は受領、confirmed は確定。⚠️ 嬉しそうな文面より状態と条件を読む。
+
+daily|日常11｜図書館の取り置き期限|library|book|calendar
+A fictional library / holds a requested book / until Thursday, according to the collection notice sent yesterday.	架空の図書館から昨日届いた通知では、予約本を木曜まで取り置く。
+The notice also lists / reduced opening hours / because the building will undergo maintenance that afternoon.	同じ通知には、その日の午後の保守に伴う開館時間短縮も書かれている。
+The reader combines / the deadline and opening hours / instead of assuming they can arrive late that evening.	読者は夜遅く行けると決めつけず、期限と開館時間を組み合わせる。
+When two conditions apply, / satisfying only one / may still leave you unable to collect the item.	条件が二つあるとき、一方だけ満たしても受け取れないことがある。
+holds=取り置く|notice=通知|reduced=短縮された|undergo=受ける|conditions=条件
+What must the reader check together?|The collection deadline and opening hours|Only the book's color|Only the date of yesterday's email|The author's first name
+取り置き期限内かつ開館時間内という二条件。⚠️ 期限の日なら何時でもよいとは限らない。
+
+daily|日常12｜忘れ物は見つかっただけでは返らない|city|bag|badge
+A fictional station office / finds a black backpack / matching the description in a traveler's missing-item report.	架空の駅の窓口で、紛失届の説明に合う黒いリュックが見つかる。
+The staff ask / for identifying details / before arranging collection with the person who claims it.	職員は持ち主だという人と受取の手配をする前に、識別できる詳しい特徴を尋ねる。
+A general color / may match many bags, / so a distinctive feature provides more useful evidence of ownership.	色だけでは多くのかばんに一致するため、独特の特徴が所有の有力な手がかりになる。
+The traveler describes / a repaired shoulder strap / that was not mentioned in the public found-item notice.	旅行者は、公開された発見通知には載っていない、補修した肩ひもを説明する。
+description=説明|identifying=特定のための|distinctive=特徴的な|ownership=所有|strap=ひも
+Which detail is strongest evidence here?|An unadvertised repair to the shoulder strap|The publicly listed black color alone|The station's name|The fact that backpacks exist
+公開されていない補修箇所が、この話では本人確認の手がかりになる。⚠️ 実際の受取に必要な書類は各施設の案内を確認する。
+
+daily|日常13｜返却期限を延長できない理由|library|laptop|book
+In a fictional lending service, / a laptop renewal / is declined even though the borrower has returned other items promptly.	架空の貸出サービスで、いつも期限を守る利用者でもパソコンの延長が認められなかった。
+Another person has / a reservation for that device, / and the stated policy gives waiting users priority.	別の人の予約があり、明記された規定では待っている利用者を優先する。
+The decision concerns / availability for the next borrower, / rather than a judgment about this user's reliability.	判断は次の利用者への提供に関するもので、この人の信頼性の評価ではない。
+Reading the exception clause / explains why a service / that normally allows renewals can refuse this request.	例外条項を読むと、通常延長できるサービスが今回断る理由が分かる。
+renewal=延長|declined=断られた|promptly=遅れずに|priority=優先|clause=条項
+Why was the renewal declined?|Another user had reserved the laptop.|The borrower was always late.|All renewals were permanently banned.|The laptop had been sold.
+通常の延長規定に、次の予約がある場合という例外が適用された。⚠️ 本文にない人格評価や延滞を推測しない。
+
+daily|日常14｜同じ日付でも締切が違う|office|globe|clock
+A fictional international team / sets a submission deadline / for five in the afternoon in Tokyo.	架空の国際チームが、提出期限を東京時間の午後5時に設定する。
+Members working elsewhere / need the relevant local time / rather than simply copying five into their own calendars.	別の地域のメンバーは、自分の予定表に単純に5時と入れず、対応する現地時刻を確認する。
+The coordinator includes / a time zone and date / in the confirmation sent to every participant.	調整役は全参加者に送る確認で、時間帯と日付を明記する。
+For real appointments, / verify the conversion / because local clock changes can affect the difference between places.	実際の予定では時差変換を確認する。地域の時計変更で場所同士の時差が変わることもある。
+international=国際的な|submission=提出|relevant=該当する|coordinator=調整役|conversion=変換
+What makes the deadline unambiguous across locations?|A date, time, and time zone|Only the number five|Only the word tomorrow|Every participant's first name
+日付・時刻・時間帯を一組にする。⚠️ tomorrow や午後5時だけでは場所によって違う時点を指す。
+
+daily|日常15｜アプリの取り消しと削除|office|phone|document
+In a fictional booking app, / deleting a saved confirmation / does not cancel the underlying room reservation.	架空の予約アプリでは、保存した確認書を削除しても部屋の予約自体は取り消されない。
+The customer must use / the cancellation function / and receive an updated status from the booking service.	利用者は取り消し機能を使い、予約サービスから更新された状態を受け取る必要がある。
+Removing a local record / and changing a service request / are different actions with different consequences for availability.	手元の記録を消すこととサービスへの依頼を変更することでは、空き状況への影響が違う。
+Check the final status / after making a change, / especially when another person depends on that shared resource.	特に共有設備を別の人も使うなら、変更後の最終状態を確認しよう。
+deleting=削除すること|underlying=元になる|cancellation=取り消し|consequences=結果|resource=資源・設備
+Which action cancels the fictional reservation?|Using cancellation and checking the updated status|Deleting a local screenshot|Closing the app window|Removing an email greeting
+このアプリでは予約の取消手続と状態確認が必要。⚠️ 画面上の控えの削除と、サービス側の状態変更を混同しない。
+
+money|お店01｜大袋は本当に割安？|city|store|chart
+In a fictional shop, / one package costs six dollars / and contains three hundred grams of cereal.	架空の店で、あるシリアルは300グラム入りで6ドルだ。
+Another package costs eight dollars / for five hundred grams. / Compare equal quantities rather than package prices alone.	別の袋は500グラムで8ドル。袋の値段だけでなく同じ量で比べよう。
+Per hundred grams, / the first costs two dollars / and the second costs one dollar sixty.	100グラムあたりでは、前者が2ドル、後者が1ドル60セントになる。
+The larger package / has the lower unit price here, / provided you can use what you buy.	この例では大袋の単価が低い。ただし買った量を使い切れるかも考えよう。
+package=包装単位|contains=含む|quantities=量|unit=単位|provided=〜という条件で
+Which fictional package has the lower price per hundred grams?|The five-hundred-gram package|The three-hundred-gram package|They have the same unit price|There is not enough information
+6÷3＝2、8÷5＝1.6 ドル／100g。⚠️ 数値は練習用の架空例。大袋がいつも安いという法則ではない。
+
+money|お店02｜通路の端の商品は特売？|city|store|cart
+A fictional supermarket / places a new snack / on an endcap at the end of an aisle.	架空のスーパーが、新しい菓子を通路端の陳列棚に置く。
+That position increases visibility, / but the displayed price / is unchanged from the regular shelf price this week.	その場所は目に入りやすいが、今週の表示価格は通常棚の価格と同じだ。
+The shopper checks / the price label / instead of treating prominent placement as proof of a discount.	客は目立つ配置を値引きの証拠とせず、価格表示を確認する。
+Placement tells you / where a product is promoted, / while the actual offer tells you what it costs.	配置から分かるのは宣伝場所で、実際の値段は販売条件から分かる。
+endcap=通路端の陳列棚|aisle=通路|visibility=目立ちやすさ|prominent=目立つ|discount=値引き
+What proves there is a discount in this case?|A lower actual price, not placement alone|Being on the endcap|Being near the entrance|Having colorful packaging
+この創作例では通常棚と同価格。⚠️ エンド陳列がすべて有料広告、すべて値引き、とまでは断定しない。
+
+money|お店03｜チップ皿があると義務？|cafe|coin|document
+At a fictional counter, / a customer notices / a tip jar beside a printed service-charge notice.	架空の店のカウンターで、サービス料の案内の横にチップ皿がある。
+A voluntary tip / and a listed service charge / are not necessarily the same type of payment.	任意のチップと明記されたサービス料は、必ずしも同じ種類の支払いではない。
+The customer reads / the notice and receipt / before asking how the charge is handled at this venue.	客は掲示とレシートを読み、この店でその料金をどう扱うか尋ねる。
+Practices vary by place, / so the presence of a jar / alone cannot explain every local expectation or rule.	慣習は場所で違い、皿があるだけでは地域の期待や規則全体は分からない。
+voluntary=任意の|listed=記載された|charge=料金|receipt=領収書|venue=店・会場
+What should the customer avoid assuming?|That a tip jar alone defines the payment rules|That the receipt contains useful details|That they can ask for clarification|That practices can vary by location
+表示・明細・店の説明を確認する練習。⚠️ 国ごとの法的義務や適切な割合を、この話だけから判断しない。
+
+money|お店04｜無料配送まであと少し|city|cart|truck
+In a fictional checkout, / your basket costs thirty dollars, / and shipping adds another five dollars to the total.	架空の会計で、商品は30ドル、送料はさらに5ドルかかる。
+Free shipping starts / at forty dollars, / so you consider adding an unnecessary ten-dollar item to qualify.	送料無料は40ドルからなので、不要な10ドルの商品を足そうか考える。
+Paying for shipping / would cost thirty-five dollars, / while adding the item brings your payment to forty dollars.	送料を払えば35ドル、商品を足すと支払額は40ドルになる。
+Free describes the delivery charge, / not the entire transaction. / Compare totals before changing your shopping plan.	無料なのは送料で、取引全体ではない。買い物を変える前に総額を比べよう。
+basket=買い物かご|shipping=送料|unnecessary=不要な|qualify=条件を満たす|transaction=取引
+Which choice has the lower total in the example?|Paying thirty dollars plus five for shipping|Adding the ten-dollar item|Both cost forty dollars|Shipping doubles the basket price
+30＋5＝35、30＋10＝40。⚠️ 練習用の価格であり、送料無料という名前だけで支出減とは判断しない。
+
+money|お店05｜ポイントは現金と同じ？|city|coin|ticket
+A fictional store / offers reward points / that can be used only on selected purchases next month.	架空の店が、翌月の対象商品購入にだけ使えるポイントを提供する。
+The customer reads / the expiration date and exclusions / before subtracting the rewards from today's effective cost.	客は今日の実質負担からポイントを引く前に、有効期限と対象外条件を読む。
+Points you cannot use / do not provide / the same practical benefit as an immediate cash discount.	使えないポイントは、その場の現金値引きと同じ実益にはならない。
+Check when and where / the reward can be redeemed / instead of comparing headline point totals alone.	大きく表示されたポイント数だけでなく、いつどこで使えるか確認しよう。
+reward=特典|selected=指定された|expiration=有効期限|exclusions=除外条件|redeemed=使用・交換された
+What affects the practical value of these points?|Whether you can use them before expiry|Only the size of the printed number|The assumption that points are always cash|The color of the receipt
+利用条件と有効期限を満たせるかが重要。⚠️ ポイント数を無条件に現金と等価としない。
+
+money|お店06｜セット料金の比較|cafe|bowl|coin
+A fictional café / sells a sandwich for six dollars / and a drink for three dollars when purchased separately.	架空のカフェで、サンドイッチは6ドル、飲み物は単品で3ドルだ。
+The eight-dollar bundle / saves one dollar / if you already want both items for your lunch.	8ドルのセットは、両方欲しいなら1ドル安い。
+If you only need / the sandwich, however, / buying the bundle costs two dollars more than your original plan.	サンドイッチだけ必要なら、セットは元の予定より2ドル多くかかる。
+A bundle's value / depends on what you need, / not only on the discount relative to separate purchases.	セットの価値は単品合計との差額だけでなく、何が必要かによって変わる。
+separately=別々に|bundle=セット|saves=節約する|original=当初の|relative=比較した
+You want only the sandwich. Which costs less?|The six-dollar sandwich alone|The eight-dollar bundle|Separate sandwich and drink|All three choices cost the same
+単品6、セット8、両方を単品9ドル。⚠️ セット値引きと、自分の予定からの支出増は別の比較。
+
+money|お店07｜無料お試しの次に来る請求|office|phone|calendar
+A trial subscription / may convert to paid service / unless you cancel under the stated terms before renewal.	試用の契約は、更新前に定められた条件で解約しないと有料に切り替わる場合がある。
+Read the renewal price / and cancellation instructions / before entering payment details for an apparently free offer.	無料に見える申込みで支払情報を入れる前に、更新価格と解約方法を読もう。
+Keep confirmation of cancellation / and check later statements / to see whether charges match what you agreed to.	解約の確認を残し、後の明細で請求が合意内容と一致するか確認する。
+The word trial / describes an initial period, / not necessarily a promise that the entire service stays free.	trial は最初の試用期間で、サービス全体がずっと無料という約束とは限らない。
+subscription=継続契約|convert=切り替わる|renewal=更新|cancellation=解約|statements=利用明細
+What should you check before accepting a trial?|Renewal price and cancellation terms|Only the word free|Only the background color|An assumption of permanent free access
+試用後の価格と解約条件も契約の一部。⚠️ 個別の法的権利をここで断定せず、実際の規約と請求を確認する。
+
+money|お店08｜在庫ありと取り置き済み|city|store|box
+A fictional shop website / lists a camera in stock, / but the customer has not placed an order yet.	架空の店のサイトではカメラが在庫ありだが、客はまだ注文していない。
+Another buyer may purchase it / before the first customer arrives. / Availability is not the same as a reservation.	最初の客が来店する前に別の人が買う場合がある。在庫と予約は同じではない。
+The customer requests / a confirmed hold / and checks how long the store will keep the item aside.	客は取り置きの確定を頼み、いつまで確保してもらえるか確認する。
+A status message / describes a particular stage, / so match your plans to what the store actually confirms.	状態表示は特定の段階を表すので、店が実際に確認した内容に合わせて計画しよう。
+stock=在庫|purchase=購入する|availability=入手可能性|hold=取り置き|confirms=確認する
+What secures the item in this scenario?|A confirmed hold under the store's terms|Merely seeing in stock online|Remembering the camera's color|Arriving without checking
+在庫表示は見た時点の状態で、本人用の確保とは別。⚠️ in stock と reserved を区別する。
+
+money|お店09｜値札は同じでも内容量が違う|city|store|magnifier
+A fictional detergent package / keeps its price / while the amount inside changes from the previous version.	架空の洗剤が価格を変えずに、旧版から内容量を変える。
+Comparing the package price / alone misses that change. / Unit pricing helps compare costs for equal quantities.	袋の価格だけでは変化を見落とす。単価表示なら同じ量で費用を比べられる。
+For concentrated products, / also read the usage instructions / because equal volumes may not provide equal numbers of washes.	濃縮製品では使用方法も読む。同じ容量で洗える回数が同じとは限らない。
+Choose a comparison unit / that matches the task / instead of assuming every package contains an equivalent amount.	すべての包装が同等量を含むと決めつけず、用途に合う比較単位を選ぼう。
+detergent=洗剤|previous=以前の|quantities=量|concentrated=濃縮された|equivalent=同等の
+Why might price per liter be insufficient for detergent?|Different concentrations can require different doses.|All detergents have identical instructions.|Volume never appears on packages.|Package color determines wash count.
+容量単価に加えて1回の使用量も比較する。⚠️ 量の変化だけから品質や企業の意図まで推測しない。
+
+money|お店10｜返品と交換の条件|city|bag|document
+A fictional store / allows exchanges for size problems / but excludes refunds on a clearly marked clearance item.	架空の店ではサイズ違いの交換は可能だが、明記された処分品は返金対象外だ。
+The customer reads / the policy before purchase / and asks whether the desired replacement size is currently available.	客は購入前に規定を読み、希望する交換サイズの在庫も尋ねる。
+An exchange provides / another item, while a refund / returns money under the applicable terms of that transaction.	exchange は別の商品への交換、refund はその取引に適用される条件に基づく返金だ。
+Do not infer / real legal rights / from this fictional policy; actual protections depend on the applicable rules.	この架空の規定から実際の法的権利を推測しない。現実の保護は適用されるルールによる。
+exchanges=交換|excludes=除外する|refunds=返金|clearance=在庫処分|replacement=交換品
+What does the fictional policy offer for a size problem?|An exchange, subject to its terms|An unconditional refund for every item|A free second purchase|No information about exchanges
+この本文の条件では交換であり返金ではない。⚠️ 現実の消費者の権利を架空の店内ルールで判断しない。
+
+money|お店11｜クーポンが使えない理由|city|ticket|cart
+A fictional coupon / offers a discount / on full-price clothing purchased before the end of the month.	架空のクーポンが、月末までに買う定価の衣類を割引対象にする。
+The customer selects / a discounted jacket / and discovers that sale items are excluded from this particular offer.	客は値下げされた上着を選び、この特典ではセール品が除外されると分かる。
+The expiration date / is only one condition. / Eligible products and minimum spending can impose additional requirements.	期限は条件の一つにすぎない。対象商品や最低購入額にも条件がある場合がある。
+Read the restrictions / together with the headline / before assuming a coupon applies to your entire shopping basket.	買い物全体に使えると考える前に、大きな見出しと制限事項を一緒に読もう。
+coupon=割引券|full-price=定価の|excluded=除外された|eligible=対象となる|restrictions=制限
+Why does the coupon not apply to the jacket?|Sale items are excluded.|All clothing is excluded.|The coupon has no conditions.|The month has already ended in the story.
+対象は full-price clothing、選んだのは sale item。⚠️ 期限内でも対象条件を満たすとは限らない。
+
+money|お店12｜月額料金と年契約|office|calendar|coin
+A fictional service / advertises a monthly equivalent / but charges for a full year at the start.	架空のサービスが月額換算を広告するが、開始時に1年分を請求する。
+The displayed monthly figure / helps compare plans, / yet it does not describe the actual billing schedule here.	月額表示は比較に使えるが、この契約の実際の請求時期を表してはいない。
+The customer checks / the total commitment / and cancellation conditions before deciding whether the plan suits their needs.	客は自分に合うか判断する前に、契約総額と解約条件を確認する。
+Price per month / and payment every month / are different claims, even when the numbers initially look similar.	1か月あたりの価格と毎月払いは、数字が似ていても別の内容だ。
+equivalent=換算額|charges=請求する|billing=請求|commitment=契約上の負担|initially=最初は
+What is the actual billing arrangement in this example?|A full year is charged at the start.|Payments are necessarily monthly.|The first year is free.|The displayed number covers every possible fee.
+月額換算と請求頻度を分けて読む。⚠️ monthly equivalent を monthly payment と取り違えない。
+
+money|お店13｜レシートの小計と合計|cafe|document|coin
+A fictional receipt / lists a food subtotal / before adding a separately described delivery charge to the bill.	架空のレシートに、食品の小計と別記の配送料が載る。
+The subtotal covers / only the listed food items, / while the total includes the additional charge in this example.	この例で subtotal は食品部分だけ、total は追加料金を含む。
+The customer compares / the final amount / with the confirmation shown before they submitted the delivery order.	客は最終金額と、配達注文を確定する前の確認画面を比べる。
+If something differs, / identify the specific line / rather than treating every amount on the receipt as interchangeable.	違いがあれば、どの金額も同じと思わず該当する行を特定しよう。
+receipt=領収書|subtotal=小計|separately=別に|additional=追加の|interchangeable=置き換え可能な
+Which amount includes delivery in this example?|The total|The food subtotal alone|The unit count|The item description
+subtotal は該当部分の小計、total はこの明細の最終合計。⚠️ 本文に書かれていない税率や料金を加えない。
+
+money|お店14｜安い見積もりに工事費は入る？|office|wrench|document
+A fictional supplier / quotes a low equipment price / but lists installation as an optional service charged separately.	架空の業者の機器見積もりは安いが、設置は別料金の任意サービスになっている。
+Another quote includes installation, / so the purchasing team / compares both offers on the same required scope.	別の見積もりは設置込みなので、購買担当は必要な範囲をそろえて比較する。
+They also check / delivery dates and support terms / because the cheapest device may arrive after their opening day.	最安の機器が開業後に届くかもしれないので、納期とサポート条件も確認する。
+A meaningful comparison / requires matching inclusions, / rather than selecting the smallest number at the top of a page.	有意義な比較には含まれる内容をそろえる必要がある。ページ冒頭の最小額だけで決めない。
+supplier=供給業者|quotes=見積もる|installation=設置|scope=範囲|inclusions=含まれるもの
+How should the team compare the quotes?|Use the same required scope, including installation.|Choose the smallest headline without reading.|Assume optional means free.|Ignore all delivery dates.
+比較範囲をそろえてから価格・納期を見る。⚠️ optional は「任意」であって「無料」ではない。
+
+money|お店15｜会員価格の条件|city|store|badge
+A fictional store / displays a lower member price / beside the regular price on selected household products.	架空の店が、一部の日用品に通常価格と安い会員価格を並べている。
+The customer checks / whether membership has a fee / and whether the discount applies to today's intended purchase.	客は会費の有無と、今日買う予定の商品に割引が使えるか確認する。
+If joining costs money, / compare that expense / with the savings you realistically expect from eligible purchases.	入会に費用がかかるなら、対象品から現実に得られそうな節約額と比べる。
+A lower shelf price / is only part / of the decision when access to that price has conditions.	その価格の利用に条件があるなら、安い棚札は判断材料の一部にすぎない。
+member=会員|household=家庭用の|membership=会員資格|expense=費用|eligible=対象の
+What should a shopper consider before joining?|Membership costs and likely eligible savings|Only the member price in large print|A guarantee of unlimited savings|The assumption that joining is always free
+会費と利用見込みを含めて比べる創作ケース。⚠️ 安い単価だけから会員になる方が得とは決まらない。
+
+travel|食旅01｜映画館の売上と利益|night|film|coin
+A cinema earns revenue / from tickets and concessions, / such as drinks and snacks sold before a screening.	映画館には入場券に加え、上映前に売る飲み物や菓子などの売店収入がある。
+Ticket revenue does not / all become profit, / because film rental and operating expenses must also be covered.	チケット売上は全額が利益になるわけではなく、上映料や運営費も賄う必要がある。
+Concessions provide another revenue stream, / but their sales / also involve product costs, staff, and other expenses.	売店は別の収入源だが、仕入れや人員などの費用もかかる。
+Avoid universal profit percentages / without reliable figures. / Revenue describes incoming sales, while profit depends on costs too.	信頼できる数字なしに共通の利益率を語らない。売上は入ってくる販売額で、利益は費用にもよる。
+revenue=売上|concessions=売店販売|screening=上映|rental=使用料|expenses=経費
+Why is ticket revenue not identical to profit?|Costs must be deducted.|All tickets are sold for no money.|Concessions have no costs.|Every cinema has the same profit rate.
+売上から対応する費用を考えて利益を捉える。⚠️ 「ポップコーンだけで儲ける」「全館で同じ利益率」と断定しない。
+
+food|食旅02｜解凍魚の表示を読む|sea|fish|document
+At a seafood counter, / previously frozen means / that the fish was frozen before being offered in thawed form.	鮮魚売場の previously frozen は、一度冷凍した魚を解凍した状態で販売していることを示す。
+The label describes / part of its handling history, / rather than proving quality from that phrase alone.	表示は取扱履歴の一部を示すもので、その語だけで品質が決まるわけではない。
+Storage conditions and handling / still matter for seafood, / whether it is sold fresh, frozen, or thawed.	生・冷凍・解凍のいずれで売られていても、保管条件と取扱いが重要だ。
+Follow the package instructions / and current food-safety guidance / instead of treating frozen as either automatically bad or risk-free.	冷凍なら悪い、あるいは無条件に安全とせず、包装の説明と食品安全の案内に従おう。
+previously=以前に|frozen=冷凍された|thawed=解凍された|handling=取扱い|storage=保管
+What does previously frozen establish?|The fish was frozen earlier.|The fish is automatically unsafe.|No storage instructions matter.|It has never been cold.
+凍結の履歴を伝える表示。⚠️ それだけで品質の優劣、生食可否、病原体の有無は判断できない。
+
+travel|食旅03｜飛行機の座席を多めに売る理由|airport|plane|ticket
+Some airlines sell / more reservations than seats / because they expect some booked passengers not to travel.	航空会社は、予約客の一部が搭乗しないと見込んで座席数を超える予約を販売することがある。
+If more passengers arrive / than the aircraft can carry, / the airline must resolve the shortage of available seats.	搭乗できる人数より多くの客が来れば、航空会社は座席不足に対応しなければならない。
+That commercial practice / is called overbooking. / It does not mean that every flight will leave someone behind.	この販売方法を overbooking という。すべての便で誰かが乗れなくなるという意味ではない。
+Passenger protections vary / by jurisdiction and circumstances, / so check the applicable official guidance for an actual disruption.	旅客の保護は地域や状況によるため、実際のトラブルでは適用される公式案内を確認しよう。
+reservations=予約|passengers=乗客|shortage=不足|overbooking=過剰予約|circumstances=状況
+What assumption motivates the described practice?|Some booked passengers will not travel.|Every aircraft gains extra seats.|All tickets are automatically canceled.|All flights must deny boarding.
+予約者全員が搭乗するとは限らないという予測が背景。⚠️ 補償額や権利を世界共通としない。
+
+travel|食旅04｜航空券の値段だけで比べない|airport|suitcase|coin
+In a fictional comparison, / one airfare excludes checked baggage / while another includes the suitcase you need to bring.	架空の比較で、一方の運賃には必要な預け荷物が含まれず、もう一方には含まれる。
+The cheaper base fare / may not remain cheaper / after adding the services required for this particular trip.	基本運賃が安くても、この旅行に必要なサービスを足した後も安いとは限らない。
+The traveler checks / change conditions and baggage allowances / before comparing the final amounts on both booking pages.	旅行者は変更条件と手荷物枠を確認して、両予約画面の最終金額を比べる。
+Compare equivalent journeys / rather than headline fares, / especially when the tickets include different services or restrictions.	含まれるサービスや制限が違うときは、表示運賃だけでなく同じ旅行条件で比べよう。
+airfare=航空運賃|excludes=含まない|baggage=手荷物|allowances=許容量|restrictions=制限
+Which comparison is most useful for this traveler?|Final costs with required baggage and conditions|Base fares without reading inclusions|Only the airline colors|An assumption that every fare includes bags
+必要な荷物と変更条件をそろえる。⚠️ 運賃の安さと旅行全体の支出の安さは別。
+
+travel|食旅05｜ホテルの荷物預かりと入室|city|suitcase|key
+A fictional hotel / lets guests leave their luggage / before rooms become available in the afternoon.	架空のホテルでは、午後に部屋が使えるようになる前でも荷物を預けられる。
+The guest reads / luggage storage available / and initially assumes that the room is ready for immediate use.	客は luggage storage available を見て、最初はすぐ部屋に入れると思う。
+The receptionist explains / that storage and check-in / are separate services with different availability in this booking.	受付は、この予約では荷物預かりと入室手続は別のサービスで、利用時間も違うと説明する。
+Ask whether early room access / is confirmed, / rather than inferring it from an offer to hold your bags.	荷物を預かるという申し出から推測せず、早期入室が確定しているか尋ねよう。
+luggage=荷物|available=利用できる|storage=保管|immediate=すぐの|access=利用・入室
+What is available before the room is ready?|Luggage storage|Guaranteed immediate room access|A completed room cleaning in every case|An unlimited extension
+この話で先に利用できるのは荷物預かり。⚠️ storage と check-in を同じ条件と読まない。
+
+food|食旅06｜メニューの代替食材|cafe|bowl|document
+A fictional restaurant / announces that one ingredient / is unavailable and offers a modified version of a popular dish.	架空のレストランで、一つの食材が入らず、人気料理の変更版を提供すると告知する。
+The server explains / what has been substituted / instead of describing the replacement as exactly the same meal.	店員は全く同じ料理だと言わず、何を置き換えたか説明する。
+A guest with dietary requirements / asks for current ingredient information / before deciding whether to place an order.	食事上の制限がある客は、注文を決める前に現在の材料情報を尋ねる。
+Similar appearance does not / establish identical ingredients. / Ask the venue directly when the details affect your choice.	見た目が似ていても材料が同じ証拠にはならない。判断に関わるなら店へ直接聞こう。
+ingredient=食材|modified=変更された|substituted=代用された|dietary=食事上の|identical=同一の
+What should the guest request after a substitution?|Current ingredient information|A guarantee based only on appearance|The old menu without updates|Only the dish's original name
+変更後の材料を確認する。⚠️ この架空例から特定の料理のアレルギー安全性を判断しない。
+
+travel|食旅07｜搭乗時刻と出発時刻|airport|plane|clock
+A fictional boarding pass / shows boarding at two / and departure at half past two in the afternoon.	架空の搭乗券に、搭乗開始が午後2時、出発が2時半とある。
+The traveler notices / a separate gate-closing instruction / and realizes arrival at departure time would be too late.	旅行者は別記のゲート締切にも気づき、出発時刻に着くのでは遅いと分かる。
+Boarding, gate closure, and departure / describe different events / in the sequence before an aircraft leaves the airport.	搭乗、ゲート締切、出発は、航空機が空港を出るまでの異なる出来事だ。
+Follow the airline's current instructions / and allow for airport procedures / rather than using departure as your arrival target.	出発を到着目標にせず、航空会社の最新案内と空港での手続に必要な時間を考えよう。
+boarding=搭乗|departure=出発|closure=締切|sequence=順序|procedures=手続
+Why is arriving at departure time unsafe for the plan described?|The gate can close earlier.|Departure always precedes all boarding.|The pass has only one event.|The traveler has no flight.
+別々の時刻が示す出来事を区別する。⚠️ 必要な到着余裕や締切は便・空港の案内で確認する。
+
+travel|食旅08｜乗換時間に移動も入る|airport|map|suitcase
+In a fictional itinerary, / two flights use different terminals / at the same airport on the same afternoon.	架空の旅程で、同じ午後の2便が同じ空港の別ターミナルを使う。
+The gap between flights / must accommodate terminal transfer / as well as any required procedures before the next departure.	便の間隔にはターミナル移動と、次の出発までに必要な手続の時間も含める必要がある。
+The traveler checks / the airline's connection information / instead of judging the itinerary from clock times alone.	旅行者は時刻だけで判断せず、航空会社の乗継情報を確認する。
+A shared airport name / does not guarantee / that the next gate is immediately beside your arrival gate.	同じ空港名でも、次のゲートが到着ゲートのすぐ隣とは限らない。
+itinerary=旅程|terminals=ターミナル|accommodate=余裕を含める|transfer=移動|connection=乗り継ぎ
+What must the traveler consider beyond the time gap?|Terminal transfer and required procedures|Only the airport's name|Only the color of the ticket|An assumption that all gates are adjacent
+場所の移動と手続も時間を使う。⚠️ この創作話から実際の最低乗継時間を設定しない。
+
+food|食旅09｜予約人数と提供数|cafe|people|clipboard
+A fictional caterer / receives a reservation for twenty guests / but needs the final meal choices by Wednesday.	架空のケータリング業者が20人の予約を受けたが、最終的な料理選択は水曜までに必要だ。
+The organizer confirms attendance / and dietary requirements / before submitting the quantities for each menu option to the supplier.	主催者は出席と食事上の制限を確認してから、メニューごとの数量を業者に伝える。
+The total guest count / does not reveal / how many portions of each option the kitchen should prepare.	参加人数の合計だけでは、厨房が各料理を何食準備するか分からない。
+Check that the quantities / add up to the confirmed attendance / before approving the final catering order.	最終発注を承認する前に、料理数の合計が確定参加人数と合うか確認しよう。
+caterer=仕出し業者|attendance=出席|quantities=数量|portions=料理の人数分|approving=承認すること
+What information is still needed after the total guest count?|The quantity of each meal option|Only the building's color|The organizer's favorite music|A claim that everyone wants the same dish
+人数合計とメニュー別内訳は別情報。⚠️ この20人は数量練習用の架空設定。
+
+travel|食旅10｜旅行口コミの日付を読む|city|building|phone
+A fictional traveler / reads an excellent hotel review / written before a major renovation began near the property.	架空の旅行者が、近隣で大規模工事が始まる前に書かれた高評価の宿泊口コミを読む。
+The review describes / that visitor's earlier experience, / not necessarily the conditions during the traveler's upcoming stay.	口コミが示すのは以前の宿泊者の経験で、次の滞在時の状態とは限らない。
+The traveler checks / recent notices and relevant reviews / before asking the hotel about access during the construction work.	旅行者は最近の案内や関係する口コミを読み、工事中の出入りについてホテルに尋ねる。
+Useful evidence needs / a matching time and context, / especially when conditions can change between one visit and another.	滞在ごとに状況が変わるなら、役立つ根拠には時期と文脈の一致が必要だ。
+review=口コミ|renovation=改修|property=施設|upcoming=今度の|construction=工事
+Why might the old review be insufficient?|Conditions changed after it was written.|All positive reviews are false.|The hotel has no address.|Old reviews always describe future construction.
+古い評価が嘘とは限らないが、現在の条件を直接保証しない。⚠️ レビューの時点と自分の滞在条件を照合する。

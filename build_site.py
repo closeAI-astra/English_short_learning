@@ -113,6 +113,8 @@ if validate.main([]):
     raise SystemExit('materials/ に問題があります。上の一覧を直してから、もう一度実行してください。')
 from video_content import export, export_decks, NEW_SHORTS
 long_lessons, phrase_cards = export()
+from curriculum import build_curriculum
+block('CURRICULUM_DATA', 'window.EE_CURRICULUM='+json.dumps(build_curriculum(long_lessons, NEW_SHORTS),ensure_ascii=False)+';\n', 'window.EE_TOPICS = [')
 block('VIDEO_DATA', 'window.EE_LONG='+json.dumps(long_lessons,ensure_ascii=False)+';\nEE_CARDS.push(...'+json.dumps(phrase_cards,ensure_ascii=False)+');\nEE_SHORTS.push(...'+json.dumps(NEW_SHORTS,ensure_ascii=False)+');\nwindow.EE_DECKS='+json.dumps(export_decks(),ensure_ascii=False)+';\n', 'window.EE_TOPICS = [')
 # More backgrounds/items for the illustration kit (art-extra.js runs inside the ART closure).
 block('ART_EXTRA', (ROOT/'art-extra.js').read_text(encoding='utf-8'), '  IT.triceratops=IT.trike;')
@@ -149,10 +151,10 @@ out=ROOT/'docs'  # GitHub Pages: Settings > Pages > Deploy from a branch > /docs
 out.mkdir(exist_ok=True)
 (out/'index.html').write_text(html,encoding='utf-8')
 (out/'.nojekyll').write_text('',encoding='utf-8')
-for name in ['README.md','HVPT_PACK.md']:
+for name in ['README.md','HVPT_PACK.md','CONTENT_EXPANSION_850.md']:
     origin=ROOT/('GITHUB_PAGES_README.md' if name=='README.md' else name)
     if origin.exists():(out/name).write_bytes(origin.read_bytes())
 with zipfile.ZipFile(ROOT/'english-express-github-pages.zip','w',zipfile.ZIP_DEFLATED) as z:
-    for name in ['index.html','.nojekyll','README.md','HVPT_PACK.md']:
+    for name in ['index.html','.nojekyll','README.md','HVPT_PACK.md','CONTENT_EXPANSION_850.md']:
         if (out/name).exists(): z.write(out/name,name)
 print(f'Built standalone index.html + {len(long_lessons)} long readings + {len(phrase_cards)} new phrases + {len(NEW_SHORTS)} new shorts + GitHub Pages ZIP')
