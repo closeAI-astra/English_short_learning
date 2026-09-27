@@ -5,22 +5,22 @@
     "t": "環境01｜ペットボトルは燃料になる？",
     "sl": [
       [
-        "forest|factory|box",
+        "recycling|bottle|bin",
         "A used plastic bottle / can follow different routes / after collection, depending / on the processing system.",
         "使用済みのプラスチックボトルは、処理の仕組みにより回収後の行き先が変わる。"
       ],
       [
-        "forest|factory|box",
+        "recycling|bottle|recycle",
         "Making material for another bottle / keeps plastic in products. / Burning waste instead recovers energy.",
         "次のボトルの原料にすると、プラスチックは製品に残る。廃棄物を燃やす場合はエネルギーを回収する。"
       ],
       [
-        "forest|factory|box",
+        "warehouse|factory|bulb",
         "Fuel production and material recycling / are different processes. / Neither label alone tells the whole / environmental story.",
         "燃料製造と材料としての再生は別の処理だ。名前だけでは環境への影響全体は分からない。"
       ],
       [
-        "forest|factory|box",
+        "paper|document|magnifier",
         "Ask what actually happens / to the collected material, / rather than treating every recovery method / as identical.",
         "回収方法を全部同じとせず、集めた材料に実際に何が起きるかを確認しよう。"
       ]
@@ -66,22 +66,22 @@
     "t": "環境02｜キャップを外す地域・付ける地域",
     "sl": [
       [
-        "city|box|check",
+        "recycling|bottle|question",
         "You see conflicting advice / about leaving bottle caps on / before putting containers into a / recycling bin.",
         "資源回収に出す前にキャップを付けたままにするか、異なる案内を見かける。"
       ],
       [
-        "city|box|check",
+        "paper|bottle|cap",
         "Caps and bottles / can use different plastics, / so sorting / and processing arrangements matter here.",
         "キャップとボトルは異なるプラスチックを使うことがあり、分別と処理の仕組みが関係する。"
       ],
       [
-        "city|box|check",
+        "city|globe|cap",
         "Japanese collection guidance / often asks you to remove caps, / while some overseas programs accept / attached caps.",
         "日本の回収案内では外すよう求めることが多いが、海外には付けたまま受け付ける回収もある。"
       ],
       [
-        "city|box|check",
+        "recycling|document|check",
         "Follow your local provider's instructions / for the container / instead of copying a rule / from another country.",
         "別の国のルールをそのまままねず、地域の回収主体の案内に従おう。"
       ]
@@ -127,22 +127,22 @@
     "t": "環境03｜寄付した服はそのまま届く？",
     "sl": [
       [
-        "warehouse|bag|people",
+        "warehouse|tshirt|bag",
         "You donate a coat / and imagine it going directly / to someone who needs warm clothing.",
         "コートを寄付すると、防寒着が必要な人にそのまま渡ると想像する。"
       ],
       [
-        "warehouse|bag|people",
+        "shop|tshirt|coin",
         "A charity may sell / donated clothes in its shops / and use the proceeds / to support its work.",
         "慈善団体は寄付された服を店で売り、その収益を活動に使うことがある。"
       ],
       [
-        "warehouse|bag|people",
+        "recycling|tshirt|recycle",
         "Items unsuitable for sale / may follow other routes, / including textile recycling / when a program offers it.",
         "販売に向かない物は、その制度があれば繊維の再資源化など別の経路へ進む場合がある。"
       ],
       [
-        "warehouse|bag|people",
+        "paper|document|question",
         "Check the organization's policy / before donating damaged items. / A donation label does not guarantee / direct distribution.",
         "傷んだ服を寄付する前に団体の方針を確認しよう。「寄付」でも直接配布が保証されるわけではない。"
       ]
@@ -188,22 +188,22 @@
     "t": "環境04｜汚れた容器を混ぜる前に",
     "sl": [
       [
-        "cafe|bowl|box",
+        "cafe|bowl|bin",
         "A takeaway container / still holds leftover sauce / when you finish your lunch at / the office.",
         "職場で昼食を終えると、持ち帰り容器にソースが残っている。"
       ],
       [
-        "cafe|bowl|box",
+        "recycling|bowl|question",
         "Food residue can interfere / with recycling operations, / so accepted containers usually need / to be emptied.",
         "食品の残りは再生処理を妨げることがあるため、対象の容器も通常は中身を空にする必要がある。"
       ],
       [
-        "cafe|bowl|box",
+        "paper|document|check",
         "Check whether this material / is accepted locally / before deciding how / to prepare the container.",
         "容器をどう処理して出すか決める前に、その素材が地域で回収対象か確認しよう。"
       ],
       [
-        "cafe|bowl|box",
+        "recycling|bin|magnifier",
         "An empty container / is not automatically recyclable. / Its material / and the local system both matter.",
         "空の容器なら自動的にリサイクル可能というわけではない。素材と地域の仕組みの両方が重要だ。"
       ]
@@ -249,22 +249,22 @@
     "t": "環境05｜その袋、回収箱に入れていい？",
     "sl": [
       [
-        "city|bag|box",
+        "shop|bag|bin",
         "A shopper puts / loose plastic bags / into a bin intended / for bottles and cans.",
         "買い物客が、ボトルや缶用の回収箱にばらのビニール袋を入れる。"
       ],
       [
-        "city|bag|box",
+        "warehouse|bag|gear",
         "Plastic film may require / a separate collection route / rather than the same equipment used / for rigid containers.",
         "薄いフィルム状のプラスチックは、硬い容器と同じ設備ではなく別の回収経路を必要とする場合がある。"
       ],
       [
-        "city|bag|box",
+        "paper|bottle|bag",
         "The word plastic / describes many different materials / and does not identify a single / recycling process.",
         "plastic という語には多くの素材が含まれ、単一の再生処理を指すわけではない。"
       ],
       [
-        "city|bag|box",
+        "recycling|document|check",
         "Read the accepted-item list / before mixing materials. / Good intentions cannot replace the facility's / actual requirements.",
         "混ぜる前に回収対象一覧を読もう。善意は施設の実際の条件の代わりにはならない。"
       ]
@@ -315,17 +315,17 @@
         "この架空のカフェでは、持ち帰り用の再利用カップを借りるときに預り金を払う。"
       ],
       [
-        "cafe|cup|coin",
+        "recycling|cup|check",
         "They receive the deposit back / after returning the cup / to an approved collection point nearby.",
         "近くの指定回収場所へ返すと、預り金が戻る。"
       ],
       [
-        "cafe|cup|coin",
+        "kitchen|cup|recycle",
         "The operator must arrange / collection, washing, and redistribution / before the same cup can serve / another customer.",
         "同じカップを次の客に使う前に、運営者は回収・洗浄・再配布を手配する必要がある。"
       ],
       [
-        "cafe|cup|coin",
+        "hotel|cup|house",
         "Reuse depends on repeated returns, / not just durable materials. / A cup kept at home / cannot circulate.",
         "再利用には丈夫な素材だけでなく繰り返しの返却が必要だ。家に置いたカップは循環しない。"
       ]
@@ -371,22 +371,22 @@
     "t": "環境07｜修理できる製品を選ぶ",
     "sl": [
       [
-        "office|wrench|laptop",
+        "office|bulb|plug",
         "In a fictional office, / two lamps stop working / after their power cables become damaged.",
         "架空の職場で、2台の照明が電源ケーブルの損傷で使えなくなった。"
       ],
       [
-        "office|wrench|laptop",
+        "warehouse|wrench|parcel",
         "One supplier offers / replacement parts and repair instructions, / while the other only offers / complete replacements.",
         "一方の業者は交換部品と修理案内を用意するが、もう一方は製品全体の交換しか提供しない。"
       ],
       [
-        "office|wrench|laptop",
+        "office|document|coin",
         "The purchasing team compares / repair costs and availability / before choosing equipment / for its next order.",
         "購買担当は次の発注で製品を選ぶ前に、修理費と部品の入手可能性を比較する。"
       ],
       [
-        "office|wrench|laptop",
+        "paper|clock|bulb",
         "A low initial price / does not reveal / the full cost of keeping equipment / usable over time.",
         "初期価格が安いだけでは、長く使える状態に保つ総費用は分からない。"
       ]
@@ -432,22 +432,22 @@
     "t": "環境08｜分別表示が多いほど親切？",
     "sl": [
       [
-        "office|box|document",
+        "city|bin|question",
         "A fictional campus / adds recycling signs / but receives questions about / where takeaway lids should go.",
         "架空の大学が分別表示を増やしたが、持ち帰り用のふたをどこに入れるか質問が続く。"
       ],
       [
-        "office|box|document",
+        "paper|wordcards|document",
         "The first sign lists / broad material categories / without showing objects students actually use / each day.",
         "最初の表示は大まかな素材分類だけで、学生が毎日使う物を示していない。"
       ],
       [
-        "office|box|document",
+        "recycling|bottle|check",
         "Staff add specific examples / approved by their collection provider / and place matching labels / on nearby bins.",
         "職員は回収業者が確認した具体例を加え、近くの箱にも対応する表示を付ける。"
       ],
       [
-        "office|box|document",
+        "paper|chart|magnifier",
         "They observe sorting mistakes / before and after the change / to check / whether the explanation really helps.",
         "説明が本当に役立つか、変更前後の分別ミスを観察する。"
       ]
@@ -493,22 +493,22 @@
     "t": "環境09｜食品ロスを発注から減らす",
     "sl": [
       [
-        "cafe|clipboard|bowl",
+        "kitchen|bowl|bin",
         "A fictional bakery / regularly has unsold sandwiches / left after its afternoon customers have / gone home.",
         "架空のパン屋では、午後の客が帰った後にサンドイッチが売れ残ることが多い。"
       ],
       [
-        "cafe|clipboard|bowl",
+        "cafe|calendar|clipboard",
         "The manager records demand / separately for each weekday / instead of preparing the same amount / every morning.",
         "店長は毎朝同量を作る代わりに、曜日ごとの需要を記録する。"
       ],
       [
-        "cafe|clipboard|bowl",
+        "kitchen|bowl|clock",
         "Smaller initial batches / can be supplemented later / if staff still have enough time / and ingredients.",
         "時間と材料があれば、最初の仕込みを少なくして後から追加できる。"
       ],
       [
-        "cafe|clipboard|bowl",
+        "paper|chart|question",
         "The team monitors / both waste and stockouts, / since reducing one should not hide / the other.",
         "廃棄と品切れの両方を追う。一方を減らしても他方を見落としてはいけない。"
       ]
@@ -554,22 +554,22 @@
     "t": "環境10｜回収量と再生量は違う",
     "sl": [
       [
-        "paper|chart|magnifier",
+        "paper|chart|document",
         "A fictional report / says a town collected / more recyclable material than it did / last year.",
         "架空の報告書に、町の資源回収量が前年より増えたと書かれている。"
       ],
       [
-        "paper|chart|magnifier",
+        "warehouse|parcel|bin",
         "Collection measures what enters / the sorting process. / It does not prove / that every item becomes another product.",
         "回収量は分別工程に入った量だ。すべてが次の製品になった証拠ではない。"
       ],
       [
-        "paper|chart|magnifier",
+        "recycling|recycle|factory",
         "The reader looks for / rejected material and final outputs / before describing the program's results / to others.",
         "読者は結果を人に説明する前に、除去された物と最終的な再生品を確認する。"
       ],
       [
-        "paper|chart|magnifier",
+        "paper|chart|measure",
         "Compare the same stages / across reporting periods, / or apparently similar figures may describe / different things.",
         "期間同士で同じ段階を比べよう。同じような数字でも別のことを表す場合がある。"
       ]
@@ -615,22 +615,22 @@
     "t": "日常01｜横断歩道ボタンは即時切替？",
     "sl": [
       [
-        "city|person|clock",
+        "street|signal|person",
         "You press a crossing button / and wonder why / the traffic signal does not / change immediately.",
         "横断歩道のボタンを押しても、すぐ信号が変わらず不思議に思う。"
       ],
       [
-        "city|person|clock",
+        "street|signal|question",
         "The button can register / a request to cross / within a signal system / that coordinates different movements.",
         "ボタンは、複数の通行を調整する信号システムに横断要求を登録する役割を持つ。"
       ],
       [
-        "city|person|clock",
+        "paper|clock|signal",
         "Some signals provide / pedestrian phases automatically / at certain times, / so local operation can differ.",
         "時間帯によって自動で歩行者用の時間を設ける信号もあり、動作は場所によって違う。"
       ],
       [
-        "city|person|clock",
+        "street|signal|check",
         "Follow the displayed signals / rather than assuming / that repeated pressing gives you immediate / permission to cross.",
         "連打すればすぐ渡れると考えず、表示された信号に従おう。"
       ]
@@ -676,22 +676,22 @@
     "t": "日常02｜エレベーターの行先を先に入力",
     "sl": [
       [
-        "office|building|people",
+        "office|elevator|person",
         "In some office buildings, / you enter your destination floor / before stepping into an assigned elevator.",
         "一部のオフィスビルでは、指定されたエレベーターに乗る前に目的階を入力する。"
       ],
       [
-        "office|building|people",
+        "paper|elevator|people",
         "A destination control system / can group passengers / who are traveling toward the same / parts of the building.",
         "行先階を使う制御システムは、同じ方面へ向かう乗客をまとめることができる。"
       ],
       [
-        "office|building|people",
+        "office|elevator|check",
         "Watch the displayed assignment / instead of entering / whichever elevator happens / to open its doors first.",
         "最初に扉が開いたものへ乗るのではなく、表示された割り当てを確認する。"
       ],
       [
-        "office|building|people",
+        "paper|document|question",
         "The exact arrangement varies, / so read the instructions / when using an unfamiliar building's / elevator system.",
         "具体的な仕組みは違うので、初めてのビルでは案内を読もう。"
       ]
@@ -737,22 +737,22 @@
     "t": "日常03｜電源オフでも電気を使う？",
     "sl": [
       [
-        "night|laptop|bulb",
+        "night|plug|laptop",
         "A device appears off, / but its remote receiver / or network connection may still need / electrical power.",
         "機器がオフに見えても、リモコンの受信部や通信接続は電力を必要とする場合がある。"
       ],
       [
-        "night|laptop|bulb",
+        "paper|battery|gear",
         "This standby consumption / depends on the device / and the settings / that remain active after use.",
         "この待機電力は、機器や使用後も有効な設定によって違う。"
       ],
       [
-        "night|laptop|bulb",
+        "paper|measure|document",
         "Check the product information / or measure consumption / before estimating how much a particular / change would save.",
         "特定の変更でどれだけ節約できるか見積もる前に、製品情報や測定値を確認しよう。"
       ],
       [
-        "night|laptop|bulb",
+        "office|plug|check",
         "Do not disconnect equipment / that must remain powered / without checking its operating requirements / and instructions first.",
         "常時通電が必要な機器は、使用条件や説明書を確認せずに電源を切らない。"
       ]
@@ -798,22 +798,22 @@
     "t": "日常04｜配送予定は予約時刻ではない",
     "sl": [
       [
-        "city|truck|clock",
+        "city|truck|parcel",
         "In a fictional delivery app, / a parcel has / an estimated arrival window between noon / and four.",
         "架空の配送アプリで、荷物の到着見込みが正午から4時と表示されている。"
       ],
       [
-        "city|truck|clock",
+        "paper|clock|map",
         "Estimated means predicted, / not guaranteed at noon. / A later update reflects new information / about the route.",
         "estimated は予測で、正午到着の保証ではない。後の更新は経路の新しい情報を反映する。"
       ],
       [
-        "city|truck|clock",
+        "hotel|parcel|key",
         "The recipient arranges / a safe collection option / because they cannot remain home throughout / that window.",
         "受取人はその時間ずっと在宅できないため、安全に受け取れる方法を手配する。"
       ],
       [
-        "city|truck|clock",
+        "paper|calendar|check",
         "Distinguish an estimate / from a confirmed appointment / when making plans around a service / provider's message.",
         "サービスの通知を基に予定を立てるとき、見込みと確定した予約を区別しよう。"
       ]
@@ -859,22 +859,22 @@
     "t": "日常05｜待ち人数と待ち時間は別",
     "sl": [
       [
-        "office|people|hourglass",
+        "office|people|ticket",
         "A fictional service desk / shows three people ahead / when you take a ticket at / the entrance.",
         "架空の窓口で整理券を取ると、前に3人待っていると表示された。"
       ],
       [
-        "office|people|hourglass",
+        "paper|clock|question",
         "Each request requires / a different amount of work, / so the number alone cannot determine / your waiting time.",
         "用件ごとに作業量が違うため、人数だけでは待ち時間が決まらない。"
       ],
       [
-        "office|people|hourglass",
+        "office|clipboard|people",
         "Another counter opens / for simple collections, / while complicated applications continue at the / original service desk.",
         "簡単な受取専用の窓口が増え、複雑な申請は元の窓口で対応を続ける。"
       ],
       [
-        "office|people|hourglass",
+        "paper|document|check",
         "Check which queue / handles your actual request / before switching lines / because another one looks shorter.",
         "短く見える列へ移る前に、自分の用件を扱う列か確認しよう。"
       ]
@@ -920,22 +920,22 @@
     "t": "日常06｜空いている会議室が使えない理由",
     "sl": [
       [
-        "meeting|calendar|key",
+        "meeting|chair|calendar",
         "A fictional office calendar / shows an empty room / that is reserved / for equipment testing until lunchtime.",
         "架空の職場の予定表では、無人の部屋が昼まで機器テスト用に予約されている。"
       ],
       [
-        "meeting|calendar|key",
+        "meeting|gear|wrench",
         "Physical emptiness does not mean / booking availability. / The room may be needed / for preparation or maintenance.",
         "人がいないことと予約できることは別だ。準備や保守に必要な場合もある。"
       ],
       [
-        "meeting|calendar|key",
+        "office|phone|question",
         "An employee contacts / the facilities team / rather than canceling a reservation / that belongs to someone else.",
         "社員は他人の予約を消すのではなく、施設担当に連絡する。"
       ],
       [
-        "meeting|calendar|key",
+        "meeting|projector|check",
         "The team suggests / another room with suitable equipment / and updates the calendar / to explain the restriction.",
         "担当者は必要な設備のある別室を提案し、制限の理由を予定表に追記する。"
       ]
@@ -981,22 +981,22 @@
     "t": "日常07｜地図の最短ルートが最適とは限らない",
     "sl": [
       [
-        "city|map|person",
+        "street|map|stairs",
         "A fictional campus map / suggests a short route / that includes stairs beside the old / library entrance.",
         "架空の大学地図が、旧図書館入口横の階段を通る短い経路を示している。"
       ],
       [
-        "city|map|person",
+        "street|person|parcel",
         "A visitor carrying equipment / needs a step-free route / even though it takes slightly longer / to walk.",
         "機材を運ぶ来訪者は、少し遠回りでも段差のない経路が必要だ。"
       ],
       [
-        "city|map|person",
+        "paper|doorway|map",
         "The receptionist checks / accessible entrances and temporary closures / before recommending a different path through / the campus.",
         "受付は使いやすい入口と臨時の通行止めを確認し、別の構内経路を勧める。"
       ],
       [
-        "city|map|person",
+        "paper|map|check",
         "Best depends on / the traveler's actual constraints, / not just the smallest distance shown / on a map.",
         "最適は地図上の最短距離だけでなく、移動する人の条件によって決まる。"
       ]
@@ -1042,22 +1042,22 @@
     "t": "日常08｜通知を全部オンにする代償",
     "sl": [
       [
-        "office|phone|mail",
+        "office|phone|bell",
         "In a fictional project team, / frequent app notifications / interrupt employees even / when the messages are not urgent.",
         "架空のチームで、緊急でないメッセージの通知も頻繁に作業を中断させている。"
       ],
       [
-        "office|phone|mail",
+        "paper|mail|hourglass",
         "They separate urgent requests / from routine updates / and agree on / which channel each message should use.",
         "緊急依頼と定期報告を分け、どの連絡経路を使うか合意する。"
       ],
       [
-        "office|phone|mail",
+        "office|person|phone",
         "One person remains responsible / for time-sensitive issues / while others check ordinary messages at / agreed intervals.",
         "時間の限られた案件には担当者を置き、他の人は決めた間隔で通常の通知を確認する。"
       ],
       [
-        "office|phone|mail",
+        "paper|clipboard|check",
         "The arrangement is reviewed / after the trial / to ensure / that fewer interruptions do not hide / important requests.",
         "試行後に運用を見直し、中断を減らすことで重要な依頼を見落としていないか確認する。"
       ]
@@ -1108,17 +1108,17 @@
         "架空の職場で、大量印刷のジョブが、機械に入っていないサイズの用紙を待っている。"
       ],
       [
-        "office|printer|document",
+        "office|people|question",
         "Other employees see / their documents waiting behind it / and assume / that the printer has stopped / working entirely.",
         "他の社員は自分の文書が後ろで待機しているのを見て、印刷機全体の故障だと思う。"
       ],
       [
-        "office|printer|document",
+        "paper|clipboard|gear",
         "The administrator checks / the job queue and paper settings / before asking anyone / to restart the device.",
         "管理者は再起動を頼む前に、印刷待ち一覧と用紙設定を確認する。"
       ],
       [
-        "office|printer|document",
+        "office|wrench|check",
         "Identifying the blocked request / helps distinguish a settings problem / from a fault / that requires technical repair.",
         "止まっている依頼を見つけると、設定の問題と修理が必要な故障を区別しやすい。"
       ]
@@ -1164,22 +1164,22 @@
     "t": "日常10｜予約メールと仮受付",
     "sl": [
       [
-        "office|mail|check",
+        "office|mail|document",
         "A fictional booking service / sends a message / saying that your request has been / received for review.",
         "架空の予約サービスが、審査のため申請を受け取ったという通知を送る。"
       ],
       [
-        "office|mail|check",
+        "paper|question|check",
         "Received does not necessarily mean / approved or confirmed. / Another message may be needed / before the booking is final.",
         "received は必ずしも承認済み・確定済みではない。確定には別の通知が必要な場合がある。"
       ],
       [
-        "office|mail|check",
+        "paper|document|magnifier",
         "The customer checks / the status field / rather than relying only / on the email's friendly opening sentence.",
         "客はメール冒頭の親しみやすい挨拶だけに頼らず、状態欄を確認する。"
       ],
       [
-        "office|mail|check",
+        "paper|mail|check",
         "Save the final confirmation / with its reference number / so you can identify the reservation / if questions arise.",
         "問い合わせ時に予約を特定できるよう、確定通知と照会番号を保存しよう。"
       ]
@@ -1230,17 +1230,17 @@
         "架空の図書館から昨日届いた通知では、予約本を木曜まで取り置く。"
       ],
       [
-        "library|book|calendar",
+        "library|clock|wrench",
         "The notice also lists / reduced opening hours / because the building will undergo maintenance / that afternoon.",
         "同じ通知には、その日の午後の保守に伴う開館時間短縮も書かれている。"
       ],
       [
-        "library|book|calendar",
+        "paper|calendar|clock",
         "The reader combines / the deadline and opening hours / instead of assuming they can arrive / late that evening.",
         "読者は夜遅く行けると決めつけず、期限と開館時間を組み合わせる。"
       ],
       [
-        "library|book|calendar",
+        "library|book|check",
         "When two conditions apply, / satisfying only one / may still leave you unable / to collect the item.",
         "条件が二つあるとき、一方だけ満たしても受け取れないことがある。"
       ]
@@ -1286,22 +1286,22 @@
     "t": "日常12｜忘れ物は見つかっただけでは返らない",
     "sl": [
       [
-        "city|bag|badge",
+        "city|bag|phone",
         "A fictional station office / finds a black backpack / matching the description / in a traveler's missing-item report.",
         "架空の駅の窓口で、紛失届の説明に合う黒いリュックが見つかる。"
       ],
       [
-        "city|bag|badge",
+        "office|badge|question",
         "The staff ask / for identifying details / before arranging collection / with the person who claims it.",
         "職員は持ち主だという人と受取の手配をする前に、識別できる詳しい特徴を尋ねる。"
       ],
       [
-        "city|bag|badge",
+        "paper|bag|magnifier",
         "A general color / may match many bags, / so a distinctive feature provides more / useful evidence of ownership.",
         "色だけでは多くのかばんに一致するため、独特の特徴が所有の有力な手がかりになる。"
       ],
       [
-        "city|bag|badge",
+        "paper|bag|wrench",
         "The traveler describes / a repaired shoulder strap / that was not mentioned / in the public found-item notice.",
         "旅行者は、公開された発見通知には載っていない、補修した肩ひもを説明する。"
       ]
@@ -1347,22 +1347,22 @@
     "t": "日常13｜返却期限を延長できない理由",
     "sl": [
       [
-        "library|laptop|book",
+        "library|laptop|calendar",
         "In a fictional lending service, / a laptop renewal / is declined even though the borrower / has returned other items promptly.",
         "架空の貸出サービスで、いつも期限を守る利用者でもパソコンの延長が認められなかった。"
       ],
       [
-        "library|laptop|book",
+        "library|people|ticket",
         "Another person has / a reservation for that device, / and the stated policy gives waiting / users priority.",
         "別の人の予約があり、明記された規定では待っている利用者を優先する。"
       ],
       [
-        "library|laptop|book",
+        "paper|laptop|handshake",
         "The decision concerns / availability for the next borrower, / rather than a judgment about this / user's reliability.",
         "判断は次の利用者への提供に関するもので、この人の信頼性の評価ではない。"
       ],
       [
-        "library|laptop|book",
+        "paper|document|magnifier",
         "Reading the exception clause / explains why a service / that normally allows renewals can refuse / this request.",
         "例外条項を読むと、通常延長できるサービスが今回断る理由が分かる。"
       ]
@@ -1408,22 +1408,22 @@
     "t": "日常14｜同じ日付でも締切が違う",
     "sl": [
       [
-        "office|globe|clock",
+        "office|globe|calendar",
         "A fictional international team / sets a submission deadline / for five in the afternoon / in Tokyo.",
         "架空の国際チームが、提出期限を東京時間の午後5時に設定する。"
       ],
       [
-        "office|globe|clock",
+        "paper|clock|globe",
         "Members working elsewhere / need the relevant local time / rather than simply copying five into / their own calendars.",
         "別の地域のメンバーは、自分の予定表に単純に5時と入れず、対応する現地時刻を確認する。"
       ],
       [
-        "office|globe|clock",
+        "office|mail|calendar",
         "The coordinator includes / a time zone and date / in the confirmation sent / to every participant.",
         "調整役は全参加者に送る確認で、時間帯と日付を明記する。"
       ],
       [
-        "office|globe|clock",
+        "paper|clock|magnifier",
         "For real appointments, / verify the conversion / because local clock changes can affect / the difference between places.",
         "実際の予定では時差変換を確認する。地域の時計変更で場所同士の時差が変わることもある。"
       ]
@@ -1474,17 +1474,17 @@
         "架空の予約アプリでは、保存した確認書を削除しても部屋の予約自体は取り消されない。"
       ],
       [
-        "office|phone|document",
+        "paper|calendar|check",
         "The customer must use / the cancellation function / and receive an updated status / from the booking service.",
         "利用者は取り消し機能を使い、予約サービスから更新された状態を受け取る必要がある。"
       ],
       [
-        "office|phone|document",
+        "paper|document|question",
         "Removing a local record / and changing a service request / are different actions / with different consequences for availability.",
         "手元の記録を消すこととサービスへの依頼を変更することでは、空き状況への影響が違う。"
       ],
       [
-        "office|phone|document",
+        "office|people|check",
         "Check the final status / after making a change, / especially when another person depends / on that shared resource.",
         "特に共有設備を別の人も使うなら、変更後の最終状態を確認しよう。"
       ]
@@ -1530,22 +1530,22 @@
     "t": "お店01｜大袋は本当に割安？",
     "sl": [
       [
-        "city|store|chart",
+        "shop|bowl|price",
         "In a fictional shop, / one package costs six dollars / and contains three hundred grams / of cereal.",
         "架空の店で、あるシリアルは300グラム入りで6ドルだ。"
       ],
       [
-        "city|store|chart",
+        "shop|bowl|measure",
         "Another package costs eight dollars / for five hundred grams. / Compare equal quantities / rather than package prices alone.",
         "別の袋は500グラムで8ドル。袋の値段だけでなく同じ量で比べよう。"
       ],
       [
-        "city|store|chart",
+        "paper|coin|chart",
         "Per hundred grams, / the first costs two dollars / and the second costs one / dollar sixty.",
         "100グラムあたりでは、前者が2ドル、後者が1ドル60セントになる。"
       ],
       [
-        "city|store|chart",
+        "shop|cart|check",
         "The larger package / has the lower unit price here, / provided you can use what / you buy.",
         "この例では大袋の単価が低い。ただし買った量を使い切れるかも考えよう。"
       ]
@@ -1591,22 +1591,22 @@
     "t": "お店02｜通路の端の商品は特売？",
     "sl": [
       [
-        "city|store|cart",
+        "shop|price|cart",
         "A fictional supermarket / places a new snack / on an endcap at the end / of an aisle.",
         "架空のスーパーが、新しい菓子を通路端の陳列棚に置く。"
       ],
       [
-        "city|store|cart",
+        "shop|price|megaphone",
         "That position increases visibility, / but the displayed price / is unchanged / from the regular shelf price / this week.",
         "その場所は目に入りやすいが、今週の表示価格は通常棚の価格と同じだ。"
       ],
       [
-        "city|store|cart",
+        "paper|price|magnifier",
         "The shopper checks / the price label / instead of treating prominent placement / as proof of a discount.",
         "客は目立つ配置を値引きの証拠とせず、価格表示を確認する。"
       ],
       [
-        "city|store|cart",
+        "shop|receipt|check",
         "Placement tells you / where a product is promoted, / while the actual offer tells you / what it costs.",
         "配置から分かるのは宣伝場所で、実際の値段は販売条件から分かる。"
       ]
@@ -1652,22 +1652,22 @@
     "t": "お店03｜チップ皿があると義務？",
     "sl": [
       [
-        "cafe|coin|document",
+        "cafe|tipjar|document",
         "At a fictional counter, / a customer notices / a tip jar beside a printed / service-charge notice.",
         "架空の店のカウンターで、サービス料の案内の横にチップ皿がある。"
       ],
       [
-        "cafe|coin|document",
+        "paper|tipjar|receipt",
         "A voluntary tip / and a listed service charge / are not necessarily the same type / of payment.",
         "任意のチップと明記されたサービス料は、必ずしも同じ種類の支払いではない。"
       ],
       [
-        "cafe|coin|document",
+        "cafe|receipt|question",
         "The customer reads / the notice and receipt / before asking how the charge is / handled at this venue.",
         "客は掲示とレシートを読み、この店でその料金をどう扱うか尋ねる。"
       ],
       [
-        "cafe|coin|document",
+        "paper|globe|tipjar",
         "Practices vary by place, / so the presence of a jar / alone cannot explain every local expectation / or rule.",
         "慣習は場所で違い、皿があるだけでは地域の期待や規則全体は分からない。"
       ]
@@ -1713,22 +1713,22 @@
     "t": "お店04｜無料配送まであと少し",
     "sl": [
       [
-        "city|cart|truck",
+        "shop|cart|coin",
         "In a fictional checkout, / your basket costs thirty dollars, / and shipping adds another five dollars / to the total.",
         "架空の会計で、商品は30ドル、送料はさらに5ドルかかる。"
       ],
       [
-        "city|cart|truck",
+        "city|truck|price",
         "Free shipping starts / at forty dollars, / so you consider adding an unnecessary / ten-dollar item to qualify.",
         "送料無料は40ドルからなので、不要な10ドルの商品を足そうか考える。"
       ],
       [
-        "city|cart|truck",
+        "paper|coin|chart",
         "Paying for shipping / would cost thirty-five dollars, / while adding the item brings your / payment to forty dollars.",
         "送料を払えば35ドル、商品を足すと支払額は40ドルになる。"
       ],
       [
-        "city|cart|truck",
+        "shop|receipt|check",
         "Free describes the delivery charge, / not the entire transaction. / Compare totals / before changing your shopping plan.",
         "無料なのは送料で、取引全体ではない。買い物を変える前に総額を比べよう。"
       ]
@@ -1774,22 +1774,22 @@
     "t": "お店05｜ポイントは現金と同じ？",
     "sl": [
       [
-        "city|coin|ticket",
+        "shop|badge|coin",
         "A fictional store / offers reward points / that can be used only / on selected purchases next month.",
         "架空の店が、翌月の対象商品購入にだけ使えるポイントを提供する。"
       ],
       [
-        "city|coin|ticket",
+        "paper|calendar|coupon",
         "The customer reads / the expiration date and exclusions / before subtracting the rewards / from today's effective cost.",
         "客は今日の実質負担からポイントを引く前に、有効期限と対象外条件を読む。"
       ],
       [
-        "city|coin|ticket",
+        "paper|coin|question",
         "Points you cannot use / do not provide / the same practical benefit / as an immediate cash discount.",
         "使えないポイントは、その場の現金値引きと同じ実益にはならない。"
       ],
       [
-        "city|coin|ticket",
+        "shop|coupon|check",
         "Check when and where / the reward can be redeemed / instead of comparing headline point / totals alone.",
         "大きく表示されたポイント数だけでなく、いつどこで使えるか確認しよう。"
       ]
@@ -1835,22 +1835,22 @@
     "t": "お店06｜セット料金の比較",
     "sl": [
       [
-        "cafe|bowl|coin",
+        "cafe|bowl|cup",
         "A fictional café / sells a sandwich for six dollars / and a drink / for three dollars when purchased separately.",
         "架空のカフェで、サンドイッチは6ドル、飲み物は単品で3ドルだ。"
       ],
       [
-        "cafe|bowl|coin",
+        "cafe|menu|price",
         "The eight-dollar bundle / saves one dollar / if you already want both items / for your lunch.",
         "8ドルのセットは、両方欲しいなら1ドル安い。"
       ],
       [
-        "cafe|bowl|coin",
+        "paper|coin|question",
         "If you only need / the sandwich, however, / buying the bundle costs two dollars / more than your original plan.",
         "サンドイッチだけ必要なら、セットは元の予定より2ドル多くかかる。"
       ],
       [
-        "cafe|bowl|coin",
+        "cafe|receipt|check",
         "A bundle's value / depends on what you need, / not only / on the discount relative / to separate purchases.",
         "セットの価値は単品合計との差額だけでなく、何が必要かによって変わる。"
       ]
@@ -1901,17 +1901,17 @@
         "試用の契約は、更新前に定められた条件で解約しないと有料に切り替わる場合がある。"
       ],
       [
-        "office|phone|calendar",
+        "paper|price|document",
         "Read the renewal price / and cancellation instructions / before entering payment details / for an apparently free offer.",
         "無料に見える申込みで支払情報を入れる前に、更新価格と解約方法を読もう。"
       ],
       [
-        "office|phone|calendar",
+        "office|mail|receipt",
         "Keep confirmation of cancellation / and check later statements / to see / whether charges match what you / agreed to.",
         "解約の確認を残し、後の明細で請求が合意内容と一致するか確認する。"
       ],
       [
-        "office|phone|calendar",
+        "paper|hourglass|question",
         "The word trial / describes an initial period, / not necessarily a promise / that the entire service stays free.",
         "trial は最初の試用期間で、サービス全体がずっと無料という約束とは限らない。"
       ]
@@ -1957,22 +1957,22 @@
     "t": "お店08｜在庫ありと取り置き済み",
     "sl": [
       [
-        "city|store|box",
+        "shop|camera|price",
         "A fictional shop website / lists a camera in stock, / but the customer has not placed / an order yet.",
         "架空の店のサイトではカメラが在庫ありだが、客はまだ注文していない。"
       ],
       [
-        "city|store|box",
+        "shop|people|camera",
         "Another buyer may purchase it / before the first customer arrives. / Availability is not the same / as a reservation.",
         "最初の客が来店する前に別の人が買う場合がある。在庫と予約は同じではない。"
       ],
       [
-        "city|store|box",
+        "shop|calendar|check",
         "The customer requests / a confirmed hold / and checks how long the store / will keep the item aside.",
         "客は取り置きの確定を頼み、いつまで確保してもらえるか確認する。"
       ],
       [
-        "city|store|box",
+        "paper|document|check",
         "A status message / describes a particular stage, / so match your plans / to what the store actually confirms.",
         "状態表示は特定の段階を表すので、店が実際に確認した内容に合わせて計画しよう。"
       ]
@@ -2018,22 +2018,22 @@
     "t": "お店09｜値札は同じでも内容量が違う",
     "sl": [
       [
-        "city|store|magnifier",
+        "shop|bottle|price",
         "A fictional detergent package / keeps its price / while the amount inside changes / from the previous version.",
         "架空の洗剤が価格を変えずに、旧版から内容量を変える。"
       ],
       [
-        "city|store|magnifier",
+        "paper|measure|chart",
         "Comparing the package price / alone misses that change. / Unit pricing helps compare costs / for equal quantities.",
         "袋の価格だけでは変化を見落とす。単価表示なら同じ量で費用を比べられる。"
       ],
       [
-        "city|store|magnifier",
+        "kitchen|bottle|measure",
         "For concentrated products, / also read the usage instructions / because equal volumes may not provide / equal numbers of washes.",
         "濃縮製品では使用方法も読む。同じ容量で洗える回数が同じとは限らない。"
       ],
       [
-        "city|store|magnifier",
+        "paper|chart|check",
         "Choose a comparison unit / that matches the task / instead of assuming every package contains / an equivalent amount.",
         "すべての包装が同等量を含むと決めつけず、用途に合う比較単位を選ぼう。"
       ]
@@ -2079,22 +2079,22 @@
     "t": "お店10｜返品と交換の条件",
     "sl": [
       [
-        "city|bag|document",
+        "shop|tshirt|document",
         "A fictional store / allows exchanges for size problems / but excludes refunds / on a clearly marked clearance item.",
         "架空の店ではサイズ違いの交換は可能だが、明記された処分品は返金対象外だ。"
       ],
       [
-        "city|bag|document",
+        "shop|tshirt|question",
         "The customer reads / the policy before purchase / and asks / whether the desired replacement size is / currently available.",
         "客は購入前に規定を読み、希望する交換サイズの在庫も尋ねる。"
       ],
       [
-        "city|bag|document",
+        "paper|tshirt|coin",
         "An exchange provides / another item, while a refund / returns money under the applicable terms / of that transaction.",
         "exchange は別の商品への交換、refund はその取引に適用される条件に基づく返金だ。"
       ],
       [
-        "city|bag|document",
+        "paper|document|magnifier",
         "Do not infer / real legal rights / from this fictional policy; actual protections / depend on the applicable rules.",
         "この架空の規定から実際の法的権利を推測しない。現実の保護は適用されるルールによる。"
       ]
@@ -2140,22 +2140,22 @@
     "t": "お店11｜クーポンが使えない理由",
     "sl": [
       [
-        "city|ticket|cart",
+        "shop|coupon|calendar",
         "A fictional coupon / offers a discount / on full-price clothing purchased / before the end of the month.",
         "架空のクーポンが、月末までに買う定価の衣類を割引対象にする。"
       ],
       [
-        "city|ticket|cart",
+        "shop|tshirt|price",
         "The customer selects / a discounted jacket / and discovers / that sale items are excluded / from this particular offer.",
         "客は値下げされた上着を選び、この特典ではセール品が除外されると分かる。"
       ],
       [
-        "city|ticket|cart",
+        "paper|coupon|question",
         "The expiration date / is only one condition. / Eligible products / and minimum spending can impose / additional requirements.",
         "期限は条件の一つにすぎない。対象商品や最低購入額にも条件がある場合がある。"
       ],
       [
-        "city|ticket|cart",
+        "paper|document|check",
         "Read the restrictions / together with the headline / before assuming a coupon applies / to your entire shopping basket.",
         "買い物全体に使えると考える前に、大きな見出しと制限事項を一緒に読もう。"
       ]
@@ -2201,22 +2201,22 @@
     "t": "お店12｜月額料金と年契約",
     "sl": [
       [
-        "office|calendar|coin",
+        "office|calendar|price",
         "A fictional service / advertises a monthly equivalent / but charges / for a full year at / the start.",
         "架空のサービスが月額換算を広告するが、開始時に1年分を請求する。"
       ],
       [
-        "office|calendar|coin",
+        "paper|coin|clock",
         "The displayed monthly figure / helps compare plans, / yet it does not describe the / actual billing schedule here.",
         "月額表示は比較に使えるが、この契約の実際の請求時期を表してはいない。"
       ],
       [
-        "office|calendar|coin",
+        "office|document|magnifier",
         "The customer checks / the total commitment / and cancellation conditions / before deciding / whether the plan suits their needs.",
         "客は自分に合うか判断する前に、契約総額と解約条件を確認する。"
       ],
       [
-        "office|calendar|coin",
+        "paper|calendar|receipt",
         "Price per month / and payment every month / are different claims, even / when the numbers initially look similar.",
         "1か月あたりの価格と毎月払いは、数字が似ていても別の内容だ。"
       ]
@@ -2262,22 +2262,22 @@
     "t": "お店13｜レシートの小計と合計",
     "sl": [
       [
-        "cafe|document|coin",
+        "cafe|receipt|coin",
         "A fictional receipt / lists a food subtotal / before adding a separately described delivery / charge to the bill.",
         "架空のレシートに、食品の小計と別記の配送料が載る。"
       ],
       [
-        "cafe|document|coin",
+        "paper|receipt|price",
         "The subtotal covers / only the listed food items, / while the total includes the additional / charge in this example.",
         "この例で subtotal は食品部分だけ、total は追加料金を含む。"
       ],
       [
-        "cafe|document|coin",
+        "office|phone|receipt",
         "The customer compares / the final amount / with the confirmation shown / before they submitted the delivery order.",
         "客は最終金額と、配達注文を確定する前の確認画面を比べる。"
       ],
       [
-        "cafe|document|coin",
+        "paper|document|magnifier",
         "If something differs, / identify the specific line / rather than treating every amount / on the receipt as interchangeable.",
         "違いがあれば、どの金額も同じと思わず該当する行を特定しよう。"
       ]
@@ -2323,22 +2323,22 @@
     "t": "お店14｜安い見積もりに工事費は入る？",
     "sl": [
       [
-        "office|wrench|document",
+        "warehouse|gear|price",
         "A fictional supplier / quotes a low equipment price / but lists installation / as an optional service charged separately.",
         "架空の業者の機器見積もりは安いが、設置は別料金の任意サービスになっている。"
       ],
       [
-        "office|wrench|document",
+        "office|wrench|receipt",
         "Another quote includes installation, / so the purchasing team / compares both offers / on the same required scope.",
         "別の見積もりは設置込みなので、購買担当は必要な範囲をそろえて比較する。"
       ],
       [
-        "office|wrench|document",
+        "city|truck|calendar",
         "They also check / delivery dates and support terms / because the cheapest device may arrive / after their opening day.",
         "最安の機器が開業後に届くかもしれないので、納期とサポート条件も確認する。"
       ],
       [
-        "office|wrench|document",
+        "paper|document|check",
         "A meaningful comparison / requires matching inclusions, / rather than selecting the smallest number / at the top of a page.",
         "有意義な比較には含まれる内容をそろえる必要がある。ページ冒頭の最小額だけで決めない。"
       ]
@@ -2384,22 +2384,22 @@
     "t": "お店15｜会員価格の条件",
     "sl": [
       [
-        "city|store|badge",
+        "shop|badge|price",
         "A fictional store / displays a lower member price / beside the regular price / on selected household products.",
         "架空の店が、一部の日用品に通常価格と安い会員価格を並べている。"
       ],
       [
-        "city|store|badge",
+        "paper|document|question",
         "The customer checks / whether membership has a fee / and whether the discount applies / to today's intended purchase.",
         "客は会費の有無と、今日買う予定の商品に割引が使えるか確認する。"
       ],
       [
-        "city|store|badge",
+        "paper|coin|chart",
         "If joining costs money, / compare that expense / with the savings you realistically expect / from eligible purchases.",
         "入会に費用がかかるなら、対象品から現実に得られそうな節約額と比べる。"
       ],
       [
-        "city|store|badge",
+        "shop|cart|check",
         "A lower shelf price / is only part / of the decision / when access to / that price has conditions.",
         "その価格の利用に条件があるなら、安い棚札は判断材料の一部にすぎない。"
       ]
@@ -2445,22 +2445,22 @@
     "t": "食旅01｜映画館の売上と利益",
     "sl": [
       [
-        "night|film|coin",
+        "stage|film|popcorn",
         "A cinema earns revenue / from tickets and concessions, / such as drinks / and snacks sold before a screening.",
         "映画館には入場券に加え、上映前に売る飲み物や菓子などの売店収入がある。"
       ],
       [
-        "night|film|coin",
+        "paper|ticket|coin",
         "Ticket revenue does not / all become profit, / because film rental / and operating expenses must also / be covered.",
         "チケット売上は全額が利益になるわけではなく、上映料や運営費も賄う必要がある。"
       ],
       [
-        "night|film|coin",
+        "cafe|popcorn|receipt",
         "Concessions provide another revenue stream, / but their sales / also involve product costs, / staff, and other expenses.",
         "売店は別の収入源だが、仕入れや人員などの費用もかかる。"
       ],
       [
-        "night|film|coin",
+        "paper|chart|magnifier",
         "Avoid universal profit percentages / without reliable figures. / Revenue describes incoming sales, / while profit depends on costs too.",
         "信頼できる数字なしに共通の利益率を語らない。売上は入ってくる販売額で、利益は費用にもよる。"
       ]
@@ -2506,22 +2506,22 @@
     "t": "食旅02｜解凍魚の表示を読む",
     "sl": [
       [
-        "sea|fish|document",
+        "sea|fish|thermometer",
         "At a seafood counter, / previously frozen means / that the fish was frozen / before being offered in thawed form.",
         "鮮魚売場の previously frozen は、一度冷凍した魚を解凍した状態で販売していることを示す。"
       ],
       [
-        "sea|fish|document",
+        "paper|fish|document",
         "The label describes / part of its handling history, / rather than proving quality / from that phrase alone.",
         "表示は取扱履歴の一部を示すもので、その語だけで品質が決まるわけではない。"
       ],
       [
-        "sea|fish|document",
+        "kitchen|fish|thermometer",
         "Storage conditions and handling / still matter for seafood, / whether it is sold fresh, / frozen, or thawed.",
         "生・冷凍・解凍のいずれで売られていても、保管条件と取扱いが重要だ。"
       ],
       [
-        "sea|fish|document",
+        "paper|document|check",
         "Follow the package instructions / and current food-safety guidance / instead of treating frozen / as either automatically bad or risk-free.",
         "冷凍なら悪い、あるいは無条件に安全とせず、包装の説明と食品安全の案内に従おう。"
       ]
@@ -2572,17 +2572,17 @@
         "航空会社は、予約客の一部が搭乗しないと見込んで座席数を超える予約を販売することがある。"
       ],
       [
-        "airport|plane|ticket",
+        "airport|seat|people",
         "If more passengers arrive / than the aircraft can carry, / the airline must resolve the shortage / of available seats.",
         "搭乗できる人数より多くの客が来れば、航空会社は座席不足に対応しなければならない。"
       ],
       [
-        "airport|plane|ticket",
+        "paper|plane|question",
         "That commercial practice / is called overbooking. / It does not mean / that every flight will leave / someone behind.",
         "この販売方法を overbooking という。すべての便で誰かが乗れなくなるという意味ではない。"
       ],
       [
-        "airport|plane|ticket",
+        "paper|passport|document",
         "Passenger protections vary / by jurisdiction and circumstances, / so check the applicable official guidance / for an actual disruption.",
         "旅客の保護は地域や状況によるため、実際のトラブルでは適用される公式案内を確認しよう。"
       ]
@@ -2628,22 +2628,22 @@
     "t": "食旅04｜航空券の値段だけで比べない",
     "sl": [
       [
-        "airport|suitcase|coin",
+        "airport|suitcase|price",
         "In a fictional comparison, / one airfare excludes checked baggage / while another includes the suitcase you / need to bring.",
         "架空の比較で、一方の運賃には必要な預け荷物が含まれず、もう一方には含まれる。"
       ],
       [
-        "airport|suitcase|coin",
+        "paper|plane|receipt",
         "The cheaper base fare / may not remain cheaper / after adding the services required / for this particular trip.",
         "基本運賃が安くても、この旅行に必要なサービスを足した後も安いとは限らない。"
       ],
       [
-        "airport|suitcase|coin",
+        "paper|suitcase|document",
         "The traveler checks / change conditions and baggage allowances / before comparing the final amounts / on both booking pages.",
         "旅行者は変更条件と手荷物枠を確認して、両予約画面の最終金額を比べる。"
       ],
       [
-        "airport|suitcase|coin",
+        "airport|ticket|check",
         "Compare equivalent journeys / rather than headline fares, / especially when the tickets include different / services or restrictions.",
         "含まれるサービスや制限が違うときは、表示運賃だけでなく同じ旅行条件で比べよう。"
       ]
@@ -2689,22 +2689,22 @@
     "t": "食旅05｜ホテルの荷物預かりと入室",
     "sl": [
       [
-        "city|suitcase|key",
+        "hotel|suitcase|clock",
         "A fictional hotel / lets guests leave their luggage / before rooms become available / in the afternoon.",
         "架空のホテルでは、午後に部屋が使えるようになる前でも荷物を預けられる。"
       ],
       [
-        "city|suitcase|key",
+        "hotel|doorway|question",
         "The guest reads / luggage storage available / and initially assumes / that the room is ready / for immediate use.",
         "客は luggage storage available を見て、最初はすぐ部屋に入れると思う。"
       ],
       [
-        "city|suitcase|key",
+        "hotel|suitcase|window",
         "The receptionist explains / that storage and check-in / are separate services / with different availability in this booking.",
         "受付は、この予約では荷物預かりと入室手続は別のサービスで、利用時間も違うと説明する。"
       ],
       [
-        "city|suitcase|key",
+        "hotel|speech|check",
         "Ask whether early room access / is confirmed, / rather than inferring it / from an offer / to hold your bags.",
         "荷物を預かるという申し出から推測せず、早期入室が確定しているか尋ねよう。"
       ]
@@ -2750,22 +2750,22 @@
     "t": "食旅06｜メニューの代替食材",
     "sl": [
       [
-        "cafe|bowl|document",
+        "cafe|menu|bowl",
         "A fictional restaurant / announces that one ingredient / is unavailable / and offers a modified version of / a popular dish.",
         "架空のレストランで、一つの食材が入らず、人気料理の変更版を提供すると告知する。"
       ],
       [
-        "cafe|bowl|document",
+        "kitchen|bowl|document",
         "The server explains / what has been substituted / instead of describing the replacement / as exactly the same meal.",
         "店員は全く同じ料理だと言わず、何を置き換えたか説明する。"
       ],
       [
-        "cafe|bowl|document",
+        "cafe|person|question",
         "A guest with dietary requirements / asks for current ingredient information / before deciding whether / to place an order.",
         "食事上の制限がある客は、注文を決める前に現在の材料情報を尋ねる。"
       ],
       [
-        "cafe|bowl|document",
+        "paper|menu|magnifier",
         "Similar appearance does not / establish identical ingredients. / Ask the venue directly / when the details affect your choice.",
         "見た目が似ていても材料が同じ証拠にはならない。判断に関わるなら店へ直接聞こう。"
       ]
@@ -2811,22 +2811,22 @@
     "t": "食旅07｜搭乗時刻と出発時刻",
     "sl": [
       [
-        "airport|plane|clock",
+        "airport|boardingpass|clock",
         "A fictional boarding pass / shows boarding at two / and departure at half past two / in the afternoon.",
         "架空の搭乗券に、搭乗開始が午後2時、出発が2時半とある。"
       ],
       [
-        "airport|plane|clock",
+        "airport|doorway|clock",
         "The traveler notices / a separate gate-closing instruction / and realizes arrival at departure time / would be too late.",
         "旅行者は別記のゲート締切にも気づき、出発時刻に着くのでは遅いと分かる。"
       ],
       [
-        "airport|plane|clock",
+        "paper|plane|calendar",
         "Boarding, gate closure, and departure / describe different events / in the sequence / before an aircraft leaves the airport.",
         "搭乗、ゲート締切、出発は、航空機が空港を出るまでの異なる出来事だ。"
       ],
       [
-        "airport|plane|clock",
+        "airport|boardingpass|check",
         "Follow the airline's current instructions / and allow for airport procedures / rather than using departure / as your arrival target.",
         "出発を到着目標にせず、航空会社の最新案内と空港での手続に必要な時間を考えよう。"
       ]
@@ -2872,22 +2872,22 @@
     "t": "食旅08｜乗換時間に移動も入る",
     "sl": [
       [
-        "airport|map|suitcase",
+        "airport|map|plane",
         "In a fictional itinerary, / two flights use different terminals / at the same airport / on the same afternoon.",
         "架空の旅程で、同じ午後の2便が同じ空港の別ターミナルを使う。"
       ],
       [
-        "airport|map|suitcase",
+        "airport|stairs|clock",
         "The gap between flights / must accommodate terminal transfer / as well / as any required procedures / before the next departure.",
         "便の間隔にはターミナル移動と、次の出発までに必要な手続の時間も含める必要がある。"
       ],
       [
-        "airport|map|suitcase",
+        "paper|document|question",
         "The traveler checks / the airline's connection information / instead of judging the itinerary / from clock times alone.",
         "旅行者は時刻だけで判断せず、航空会社の乗継情報を確認する。"
       ],
       [
-        "airport|map|suitcase",
+        "airport|doorway|map",
         "A shared airport name / does not guarantee / that the next gate is immediately / beside your arrival gate.",
         "同じ空港名でも、次のゲートが到着ゲートのすぐ隣とは限らない。"
       ]
@@ -2933,22 +2933,22 @@
     "t": "食旅09｜予約人数と提供数",
     "sl": [
       [
-        "cafe|people|clipboard",
+        "cafe|people|calendar",
         "A fictional caterer / receives a reservation for twenty guests / but needs the final meal choices / by Wednesday.",
         "架空のケータリング業者が20人の予約を受けたが、最終的な料理選択は水曜までに必要だ。"
       ],
       [
-        "cafe|people|clipboard",
+        "cafe|menu|clipboard",
         "The organizer confirms attendance / and dietary requirements / before submitting the quantities / for each menu option / to the supplier.",
         "主催者は出席と食事上の制限を確認してから、メニューごとの数量を業者に伝える。"
       ],
       [
-        "cafe|people|clipboard",
+        "kitchen|bowl|people",
         "The total guest count / does not reveal / how many portions of each option / the kitchen should prepare.",
         "参加人数の合計だけでは、厨房が各料理を何食準備するか分からない。"
       ],
       [
-        "cafe|people|clipboard",
+        "paper|chart|check",
         "Check that the quantities / add up to the confirmed attendance / before approving the final catering order.",
         "最終発注を承認する前に、料理数の合計が確定参加人数と合うか確認しよう。"
       ]
@@ -2994,22 +2994,22 @@
     "t": "食旅10｜旅行口コミの日付を読む",
     "sl": [
       [
-        "city|building|phone",
+        "hotel|phone|calendar",
         "A fictional traveler / reads an excellent hotel review / written before a major renovation began / near the property.",
         "架空の旅行者が、近隣で大規模工事が始まる前に書かれた高評価の宿泊口コミを読む。"
       ],
       [
-        "city|building|phone",
+        "hotel|document|clock",
         "The review describes / that visitor's earlier experience, / not necessarily the conditions during the / traveler's upcoming stay.",
         "口コミが示すのは以前の宿泊者の経験で、次の滞在時の状態とは限らない。"
       ],
       [
-        "city|building|phone",
+        "city|building|wrench",
         "The traveler checks / recent notices and relevant reviews / before asking the hotel about access / during the construction work.",
         "旅行者は最近の案内や関係する口コミを読み、工事中の出入りについてホテルに尋ねる。"
       ],
       [
-        "city|building|phone",
+        "paper|calendar|magnifier",
         "Useful evidence needs / a matching time and context, / especially when conditions can change between / one visit and another.",
         "滞在ごとに状況が変わるなら、役立つ根拠には時期と文脈の一致が必要だ。"
       ]

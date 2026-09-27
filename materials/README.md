@@ -90,3 +90,6 @@ ChatGPT・Gemini・Claude など、どの AI でも使えます。
 追加内容・学習順・根拠・限界は `../CONTENT_EXPANSION_850.md` を参照。ショートの任意項目 `explanation` は元の確認問題への日本語解説、長文の `explanations` は `qs` と同順・同数の解説です。解答後に表示されます。既存データは変更不要です。
 
 この拡張分の編集元は `_native.txt`、`_curiosity.txt`、`_bridge850.txt`、`_bridge_readings.txt`。編集後は `python materials/_build_expansion.py` で対応JSONを再生成し、通常の検証・ビルドを実行してください。生成済みJSONだけを直すと再生成時に上書きされます。英文の既存区切りを保ちつつ長い塊を節・前置詞の境界付近で補分割しています。学習順と参照先は `../curriculum.py` で管理し、不明な教材IDがあればビルドは停止します。
+
+
+動画の場面イラストは `../scene_content.py` で追加110本の各4場面を指定します。図形・背景を増やす場合は `../art-topic.js` にSVGを追加し、このフォルダーの `validate.py` の利用可能名にも追加します。再生成・ビルド後に `node test_art.cjs` を実行してください。長文・フレーズの自動選択は `../video-app.js` の字幕キーワードで管理しています。

@@ -5,22 +5,22 @@
     "t": "Part 1｜動作中と完了状態を分ける",
     "sl": [
       [
-        "warehouse|person|box",
+        "warehouse|person|parcel",
         "Imagine a worker / lifting a box / while several other boxes are already / stacked beside the loading area.",
         "作業員が箱を持ち上げ、別の箱が搬入場所の横に積まれている場面を想像しよう。"
       ],
       [
-        "warehouse|person|box",
+        "warehouse|parcel|clock",
         "The worker is lifting a box / describes the ongoing action. / The boxes are stacked describes their / current state.",
         "The worker is lifting a box は動作中、The boxes are stacked は現在の状態を表す。"
       ],
       [
-        "warehouse|person|box",
+        "paper|parcel|people",
         "Being stacked would describe / an action in progress, / so it needs evidence / that someone is arranging them now.",
         "being stacked なら進行中の動作なので、今積んでいる根拠が必要になる。"
       ],
       [
-        "warehouse|person|box",
+        "warehouse|magnifier|check",
         "For a real photograph, / check visible evidence / instead of inventing an activity / from objects that merely appear nearby.",
         "実際の写真では、近くの物から動作を想像せず、見える根拠を確認しよう。"
       ]
@@ -71,17 +71,17 @@
         "机に書類が広がり、椅子が下に入っているが、人はいない場面を想像しよう。"
       ],
       [
-        "office|desk|document",
+        "paper|document|magnifier",
         "Papers are lying on the desk / describes a visible arrangement / without inventing a person / who is currently working there.",
         "Papers are lying on the desk は、作業中の人を想像せず目に見える配置を表す。"
       ],
       [
-        "office|desk|document",
+        "office|question|person",
         "A person is preparing a report / would require additional evidence / that the scene / as described does not provide.",
         "A person is preparing a report には、今の場面説明にはない追加の根拠が必要だ。"
       ],
       [
-        "office|desk|document",
+        "paper|check|document",
         "Separate what is present / from what probably happened earlier, / because a plausible story is not / a visible fact.",
         "見えているものと、それ以前に起きたかもしれないことを分けよう。ありそうな話は目に見える事実ではない。"
       ]
@@ -127,22 +127,22 @@
     "t": "Part 1｜位置関係と似た音の罠",
     "sl": [
       [
-        "city|bicycle|building",
+        "street|bicycle|building",
         "Imagine several bicycles / parked beside a building / rather than being ridden across the / road by commuters.",
         "自転車が建物の横に止まっており、通勤者が道路を横切って乗っているわけではない場面を想像しよう。"
       ],
       [
-        "city|bicycle|building",
+        "paper|bicycle|map",
         "Beside identifies a position / next to another object. / Across describes a different spatial relationship / in this context.",
         "beside は物の隣の位置を表す。across はこの文脈で別の位置・移動関係を表す。"
       ],
       [
-        "city|bicycle|building",
+        "paper|ear|wordcards",
         "Hearing a familiar word / does not make / the entire description match the scene / you are examining.",
         "聞き覚えのある語があっても、文全体が場面に一致するとは限らない。"
       ],
       [
-        "city|bicycle|building",
+        "street|bicycle|check",
         "Check subject, action, and location / as separate pieces / before accepting a sentence containing the / correct object name.",
         "物の名前が合う文を選ぶ前に、主語・動作・場所を分けて確認する。"
       ]
@@ -188,22 +188,22 @@
     "t": "Part 2｜Where に場所名で返さない答え",
     "sl": [
       [
-        "office|document|chat",
+        "office|document|question",
         "Someone asks / Where is the revised contract / because they cannot find it / in the shared folder.",
         "共有フォルダに見つからず、Where is the revised contract? と尋ねられる。"
       ],
       [
-        "office|document|chat",
+        "office|person|document",
         "Maya has the latest copy / can answer indirectly / by identifying the person / who currently has that document.",
         "Maya has the latest copy は、持っている人を示す間接的な答えになる。"
       ],
       [
-        "office|document|chat",
+        "paper|speech|bulb",
         "A reply need not / repeat the question's grammar / to provide relevant information / that helps the speaker move forward.",
         "質問と同じ文法を繰り返さなくても、相手の役に立つ関係した情報で答えられる。"
       ],
       [
-        "office|document|chat",
+        "paper|ear|question",
         "Ask what the speaker needs, / then evaluate the reply / rather than matching only the first / question word.",
         "疑問詞だけを対応させず、話し手が何を知りたいかを考えて返答を評価しよう。"
       ]
@@ -249,22 +249,22 @@
     "t": "Part 2｜否定疑問は事実で返す",
     "sl": [
       [
-        "meeting|people|calendar",
+        "office|people|calendar",
         "Your colleague asks / Didn't you attend the training / after noticing your name / on last week's participant list.",
         "先週の参加者名簿に名前を見つけた同僚が Didn't you attend the training? と聞く。"
       ],
       [
-        "meeting|people|calendar",
+        "paper|speech|check",
         "If you attended, / Yes, I did / confirms the positive fact despite the / negative wording of the question.",
         "参加したなら Yes, I did で、否定形の質問でも肯定の事実を伝える。"
       ],
       [
-        "meeting|people|calendar",
+        "paper|wordcards|question",
         "If you did not attend, / No, I didn't / reports the negative fact / rather than agreeing with Japanese wording.",
         "参加していないなら No, I didn't と、英語では事実の否定を答える。"
       ],
       [
-        "meeting|people|calendar",
+        "office|speech|ear",
         "Adding a short explanation / reduces ambiguity, / especially when a bare yes could / leave the listener uncertain.",
         "Yes だけでは曖昧なこともあるので、短い説明を加えると伝わりやすい。"
       ]
@@ -315,17 +315,17 @@
         "機器業者との手配を確認するのに、メールか電話か同僚が尋ねる。"
       ],
       [
-        "office|mail|phone",
+        "paper|check|document",
         "I've already confirmed everything / can be a relevant reply / because it removes the need / for either proposed action.",
         "I've already confirmed everything は、どちらの連絡も不要になったと伝える有効な答えだ。"
       ],
       [
-        "office|mail|phone",
+        "paper|wordcards|question",
         "The offered choices / do not exhaust / every possible response / that could sensibly address the / underlying situation.",
         "提示された選択肢だけが、その状況に筋の通る返答のすべてではない。"
       ],
       [
-        "office|mail|phone",
+        "office|calendar|check",
         "Listen for completed actions / and changed plans / before assuming the answer must name / exactly one option.",
         "選択肢の一つを言う答えに決めつけず、完了済みの行動や予定変更を聞こう。"
       ]
@@ -371,22 +371,22 @@
     "t": "Part 2｜依頼と能力の質問",
     "sl": [
       [
-        "office|box|chat",
+        "office|person|parcel",
         "A coworker carrying boxes / asks Can you open the door / while both of their hands / are occupied.",
         "箱で両手がふさがっている同僚が Can you open the door? と聞く。"
       ],
       [
-        "office|box|chat",
+        "office|doorway|question",
         "The sentence functions / as a request for help, / not mainly / as a test of your / physical ability.",
         "この文は主に能力確認ではなく、手伝いの依頼として働く。"
       ],
       [
-        "office|box|chat",
+        "office|doorway|speech",
         "Sure, let me get that / offers the requested action / and fits the immediate practical purpose / of the exchange.",
         "Sure, let me get that は頼まれた行動を申し出て、その場の目的に合う。"
       ],
       [
-        "office|box|chat",
+        "paper|speech|check",
         "Identify the speech function / as well as the grammar / when deciding / which response naturally follows a question.",
         "自然な返答を選ぶときは、文法だけでなく発話の役割を見極める。"
       ]
@@ -432,22 +432,22 @@
     "t": "Part 2｜弱く聞こえる語と意味の核",
     "sl": [
       [
-        "office|ear|chat",
+        "paper|ear|wave",
         "In connected speech, / unstressed words can sound weaker / than the words carrying important new / information in a sentence.",
         "つながった発話では、強勢のない語が重要な新情報の語より弱く聞こえることがある。"
       ],
       [
-        "office|ear|chat",
+        "paper|speech|wordcards",
         "Could you send it / may flow as one phrase, / while send / and the surrounding context help identify / the request.",
         "Could you send it は一続きに聞こえることがあり、send と文脈が依頼の把握を助ける。"
       ],
       [
-        "office|ear|chat",
+        "library|headphones|document",
         "Replay a short stretch, / compare it with the transcript, / and then listen again / without looking at the words.",
         "短い範囲を聞き直し、原稿と照合した後、文字を見ずもう一度聞こう。"
       ],
       [
-        "office|ear|chat",
+        "stage|people|ear",
         "Synthetic speech is useful practice, / but real speakers vary / in accent, rhythm, / and how they connect neighboring sounds.",
         "合成音声は練習に使えるが、実際の話者はアクセント・リズム・音のつながり方が異なる。"
       ]
@@ -493,22 +493,22 @@
     "t": "Part 3｜最初の一言で場面をつかむ",
     "sl": [
       [
-        "office|phone|wrench",
+        "office|phone|printer",
         "A caller says / The copier we rented yesterday / is leaving dark marks / on every printed page this morning.",
         "電話の相手が、昨日借りたコピー機で今朝すべての印刷物に黒い汚れが出ると話す。"
       ],
       [
-        "office|phone|wrench",
+        "office|printer|question",
         "The opening establishes / a rental and an equipment problem / before any repair time / or address is mentioned.",
         "修理時刻や住所が出る前に、冒頭でレンタルと機器の問題が分かる。"
       ],
       [
-        "office|phone|wrench",
+        "paper|document|check",
         "Those details support / the likely purpose of the call, / while later sentences explain what the / speakers decide to do.",
         "その情報が電話の目的を支え、後の文で対応が分かる。"
       ],
       [
-        "office|phone|wrench",
+        "office|calendar|speech",
         "Keep the purpose / separate from the final action, / because a conversation can begin / with a complaint and end differently.",
         "会話は苦情で始まって別の対応で終わるため、目的と最後の行動は分けよう。"
       ]
@@ -559,17 +559,17 @@
         "架空の会議で、アナは会場へ連絡、ベンは予算修正、カーラは参加者へ通知する。"
       ],
       [
-        "meeting|people|clipboard",
+        "office|phone|calendar",
         "Later, Ben offers / to handle the venue call too, / because Ana must leave / for another appointment that afternoon.",
         "その後、アナが別の予定で出るため、ベンが会場への電話も引き受ける。"
       ],
       [
-        "meeting|people|clipboard",
+        "paper|people|wordcards",
         "Update the responsibility map / when a task changes hands / rather than keeping only the first / assignment you heard.",
         "最初の割り当てだけを保持せず、担当が移ったら更新する。"
       ],
       [
-        "meeting|people|clipboard",
+        "meeting|clipboard|check",
         "Track each speaker / together with their latest task / to answer / who will do what / after the conversation ends.",
         "話者と最終の担当を対応させ、会話後に誰が何をするか答えよう。"
       ]
@@ -615,22 +615,22 @@
     "t": "Part 3｜遠回しな発言の意図",
     "sl": [
       [
-        "meeting|clock|chat",
+        "meeting|clock|people",
         "A meeting is running late, / and a participant says / I have a train / to catch in twenty minutes.",
         "会議が長引き、参加者が20分後の電車に乗る予定だと言う。"
       ],
       [
-        "meeting|clock|chat",
+        "street|train|clock",
         "The literal statement / describes a travel constraint, / but in this context it can / signal a need to finish soon.",
         "文字通りには移動の制約だが、この文脈では早く終えたい意図を示しうる。"
       ],
       [
-        "meeting|clock|chat",
+        "paper|speech|question",
         "The inference depends / on the ongoing meeting / and the approaching departure, / not on the word train alone.",
         "推論は train だけでなく、会議中で出発が近いという状況に基づく。"
       ],
       [
-        "meeting|clock|chat",
+        "meeting|people|check",
         "Choose the interpretation / supported by the surrounding conversation / rather than inventing a hidden attitude / without contextual evidence.",
         "根拠なく隠れた感情を作らず、前後の会話が支える解釈を選ぼう。"
       ]
@@ -676,22 +676,22 @@
     "t": "Part 3｜発言と一覧表を突き合わせる",
     "sl": [
       [
-        "paper|chart|ear",
+        "paper|calendar|chart",
         "A fictional schedule / lists Cedar at ten, / Maple at eleven, / and Pine at twelve / for separate workshop sessions.",
         "架空の予定表に、Cedar が10時、Maple が11時、Pine が12時の研修とある。"
       ],
       [
-        "paper|chart|ear",
+        "paper|ear|clock",
         "The speaker says / Please attend the eleven o'clock session / because the earlier workshop has already / reached its capacity.",
         "話者は早い回が満員なので11時の回に参加してほしいと言う。"
       ],
       [
-        "paper|chart|ear",
+        "paper|chart|magnifier",
         "Match the spoken time / to the corresponding entry / rather than choosing a familiar room / name from the list.",
         "聞き覚えのある名前を選ぶのではなく、聞いた時刻を対応する欄と結び付ける。"
       ],
       [
-        "paper|chart|ear",
+        "paper|document|check",
         "This combines two sources: / the schedule supplies the label, / and the speech identifies / which entry is relevant.",
         "予定表が名称を、発言が該当する項目を与える。二つの情報源を組み合わせる問題だ。"
       ]
@@ -737,22 +737,22 @@
     "t": "Part 4｜アナウンスの変更前・変更後",
     "sl": [
       [
-        "airport|megaphone|plane",
+        "airport|plane|boardingpass",
         "A fictional announcement / says the flight originally used / gate twelve / but will now depart / from gate eighteen.",
         "架空の案内が、元は12番ゲートだった便は18番から出ると告げる。"
       ],
       [
-        "airport|megaphone|plane",
+        "paper|clock|wordcards",
         "Originally marks the earlier arrangement, / while now introduces / the updated information passengers should use / for their next action.",
         "originally は以前、now は更新情報を示し、乗客の次の行動に関わる。"
       ],
       [
-        "airport|megaphone|plane",
+        "paper|ear|question",
         "The first number / is not automatically the answer. / Listen for correction signals / before committing to a location.",
         "最初の番号が自動的に正解ではない。場所を決める前に訂正の合図を聞こう。"
       ],
       [
-        "airport|megaphone|plane",
+        "airport|boardingpass|check",
         "Summarize the change / as old location to new location / so competing details do not remain / equally active in memory.",
         "古い場所から新しい場所への変更と整理し、二つを同列に記憶しないようにする。"
       ]
@@ -798,22 +798,22 @@
     "t": "Part 4｜理由と次の行動を分ける",
     "sl": [
       [
-        "office|megaphone|calendar",
+        "office|megaphone|gear",
         "A fictional office message / says routine maintenance / will interrupt the network tomorrow morning / for a scheduled inspection.",
         "架空の社内案内が、予定された点検のため明朝ネットワークが一時停止すると伝える。"
       ],
       [
-        "office|megaphone|calendar",
+        "office|document|phone",
         "Staff are asked / to save their work beforehand / and use the printed contact list / if urgent calls are needed.",
         "職員は事前に作業を保存し、緊急の電話には印刷した連絡先一覧を使うよう求められる。"
       ],
       [
-        "office|megaphone|calendar",
+        "paper|question|wordcards",
         "The maintenance explains / why the interruption happens, / while the saving instruction tells employees / what action to take.",
         "保守は停止理由、保存の指示は社員が取る行動を表す。"
       ],
       [
-        "office|megaphone|calendar",
+        "office|clipboard|check",
         "For each question, / identify whether it asks / for cause, purpose, audience, / or the next required step.",
         "各設問が原因・目的・聞き手・次の行動のどれを尋ねるかを見極めよう。"
       ]
@@ -859,22 +859,22 @@
     "t": "Part 4｜留守電の折り返し条件",
     "sl": [
       [
-        "office|phone|document",
+        "office|phone|parcel",
         "A fictional voicemail / asks a client to call back / only if the proposed delivery date / is inconvenient.",
         "架空の留守電が、提示した納品日では都合が悪い場合だけ折り返すよう求める。"
       ],
       [
-        "office|phone|document",
+        "paper|calendar|check",
         "If the date works, / no reply is necessary / under the instructions given / in this particular message.",
         "その日でよければ、このメッセージの指示では返信不要だ。"
       ],
       [
-        "office|phone|document",
+        "paper|wordcards|question",
         "Only if introduces / a condition for the action, / so missing it can reverse your / understanding of the request.",
         "only if は行動の条件を示し、聞き落とすと依頼の理解が逆になることがある。"
       ],
       [
-        "office|phone|document",
+        "office|phone|calendar",
         "Record both the action / and its trigger / instead of remembering call back / without the condition attached to it.",
         "call back だけでなく、行動とそれを必要にする条件を一緒に捉えよう。"
       ]
@@ -920,22 +920,22 @@
     "t": "Part 5｜品詞は空欄の周囲から",
     "sl": [
       [
-        "office|document|pencil",
+        "office|clipboard|document",
         "Consider the sentence / The team completed a thorough inspection / before reopening the facility / to visitors yesterday afternoon.",
         "The team completed a thorough inspection before reopening the facility to visitors yesterday afternoon という文を考える。"
       ],
       [
-        "office|document|pencil",
+        "paper|wordcards|pencil",
         "After a thorough, / the sentence needs a noun / naming the activity / that the team completed before reopening.",
         "a thorough の後には、再開前に終えた活動を指す名詞が必要だ。"
       ],
       [
-        "office|document|pencil",
+        "paper|book|wordcards",
         "Inspect is a verb, / inspection is a noun, / and carefully has a different grammatical / job as an adverb.",
         "inspect は動詞、inspection は名詞、carefully は別の役割を持つ副詞だ。"
       ],
       [
-        "office|document|pencil",
+        "office|document|check",
         "Determine the required role / before comparing word meanings, / then check / whether the completed sentence makes sense / in context.",
         "語義を比べる前に必要な役割を決め、完成した文が文脈に合うか確認する。"
       ]
@@ -981,22 +981,22 @@
     "t": "Part 5｜長い主語でも動詞を一致させる",
     "sl": [
       [
-        "office|box|document",
+        "office|mail|document",
         "Consider A list of suppliers / is attached to the email / that the purchasing manager sent / this morning.",
         "A list of suppliers is attached to the email that the purchasing manager sent this morning という文を考える。"
       ],
       [
-        "office|box|document",
+        "paper|wordcards|magnifier",
         "The subject's head / is the singular noun list, / while of suppliers tells you what / the list contains.",
         "主語の中心は単数の list。of suppliers は一覧に何が載るかを補う。"
       ],
       [
-        "office|box|document",
+        "paper|wordcards|question",
         "The nearby plural suppliers / does not control / the main verb's agreement / in this sentence about one list.",
         "近くの複数形 suppliers が、この一つの一覧を述べる主節動詞の一致を決めるわけではない。"
       ],
       [
-        "office|box|document",
+        "paper|document|check",
         "Temporarily bracket modifiers, / identify the head, / and restore the details / after selecting the verb / that agrees with it.",
         "修飾語を一旦括り、中心語を見つけ、一致する動詞を選んでから詳細を戻そう。"
       ]
@@ -1042,22 +1042,22 @@
     "t": "Part 5｜時制は基準時点を置く",
     "sl": [
       [
-        "office|clock|document",
+        "meeting|calendar|document",
         "Consider By the time / the meeting began, / the assistant had already distributed the / revised agenda to every participant.",
         "By the time the meeting began, the assistant had already distributed the revised agenda to every participant という文を考える。"
       ],
       [
-        "office|clock|document",
+        "paper|clock|calendar",
         "Both events are past, / but distributing the agenda / happened before the later reference point / when the meeting began.",
         "どちらも過去だが、資料配布は会議開始という後の基準時点より前に起きた。"
       ],
       [
-        "office|clock|document",
+        "paper|calendar|wordcards",
         "Had distributed marks / that earlier completed action / relative to the past event used / as the reference point.",
         "had distributed は、過去の基準時点に対して前に完了した動作を示す。"
       ],
       [
-        "office|clock|document",
+        "paper|clock|pencil",
         "Draw the event order / before choosing a tense / rather than selecting a form / from a time word alone.",
         "時間の語だけで形を選ばず、出来事の順を描いてから時制を決めよう。"
       ]
@@ -1103,22 +1103,22 @@
     "t": "Part 5｜受動態と誰がするか",
     "sl": [
       [
-        "warehouse|box|truck",
+        "warehouse|parcel|truck",
         "Consider The replacement parts / will be delivered tomorrow / by the supplier responsible / for maintaining our production equipment.",
         "The replacement parts will be delivered tomorrow by the supplier responsible for maintaining our production equipment という文を考える。"
       ],
       [
-        "warehouse|box|truck",
+        "paper|parcel|wordcards",
         "The parts receive / the delivery action, / so the passive structure uses be / followed by the past participle delivered.",
         "部品は届けられる側なので、受動態は be + 過去分詞 delivered になる。"
       ],
       [
-        "warehouse|box|truck",
+        "warehouse|person|parcel",
         "The supplier will deliver / the parts expresses / the same relationship / with the agent serving / as the sentence's subject.",
         "The supplier will deliver the parts なら、動作主を主語にして同じ関係を述べる。"
       ],
       [
-        "warehouse|box|truck",
+        "paper|document|check",
         "Choose the voice / by matching subject and action, / then select the tense / and any auxiliary verbs needed.",
         "主語と動作の関係から態を選び、次に時制と必要な助動詞を決めよう。"
       ]
@@ -1164,22 +1164,22 @@
     "t": "Part 5｜代名詞は文の役割で選ぶ",
     "sl": [
       [
-        "office|people|document",
+        "meeting|people|badge",
         "Consider The manager asked / the new employees / to introduce themselves / before the training session started / this morning.",
         "The manager asked the new employees to introduce themselves before the training session started this morning という文を考える。"
       ],
       [
-        "office|people|document",
+        "paper|person|wordcards",
         "The employees introduce / those same employees, / so the reflexive pronoun themselves points / back to the people doing it.",
         "社員が紹介するのは同じ社員自身なので、再帰代名詞 themselves が動作する人へ戻る。"
       ],
       [
-        "office|people|document",
+        "paper|wordcards|pencil",
         "Their modifies a noun, / while them can receive / an action / without itself marking this same-person relationship / in the clause.",
         "their は名詞を修飾し、them は目的語になれるが、それ自体ではこの同一人物関係を示さない。"
       ],
       [
-        "office|people|document",
+        "meeting|document|check",
         "Check the grammatical role / and the intended reference / rather than choosing a pronoun only / because it sounds familiar.",
         "聞き慣れた代名詞を選ぶのではなく、文法上の役割と指す対象を確認する。"
       ]
@@ -1225,22 +1225,22 @@
     "t": "Part 5｜可算・不可算の量表現",
     "sl": [
       [
-        "office|laptop|box",
+        "office|laptop|projector",
         "Consider We need / additional equipment for the workshop / before more participants can join the / practical training session.",
         "We need additional equipment for the workshop before more participants can join the practical training session という文を考える。"
       ],
       [
-        "office|laptop|box",
+        "paper|wordcards|measure",
         "Equipment is uncountable / in this ordinary usage, / so we do not add a / plural ending to it.",
         "この通常の用法では equipment は不可算なので、複数語尾を付けない。"
       ],
       [
-        "office|laptop|box",
+        "office|gear|parcel",
         "For individual objects, / say pieces of equipment / or name the specific devices / that the workshop requires.",
         "個々の物は pieces of equipment と言うか、必要な装置名を具体的に挙げる。"
       ],
       [
-        "office|laptop|box",
+        "paper|book|check",
         "Check noun countability / before choosing many, much, / or a number / that directly modifies the following / noun phrase.",
         "many・much・数詞を選ぶ前に、後ろの名詞が数えられるか確認しよう。"
       ]
@@ -1286,22 +1286,22 @@
     "t": "Part 5｜形容詞と副詞のかかり先",
     "sl": [
       [
-        "office|document|magnifier",
+        "office|person|document",
         "Consider The editor / carefully reviewed the document / before sending the final version / to the client yesterday afternoon.",
         "The editor carefully reviewed the document before sending the final version to the client yesterday afternoon という文を考える。"
       ],
       [
-        "office|document|magnifier",
+        "paper|pencil|wordcards",
         "Carefully describes how / the editor reviewed it, / so an adverb modifies the action / rather than naming a quality / of paper.",
         "carefully はどのように確認したかを表すので、紙の性質でなく動作を副詞で修飾する。"
       ],
       [
-        "office|document|magnifier",
+        "paper|book|document",
         "A careful review / instead uses an adjective / to describe the noun review / in a different grammatical construction.",
         "a careful review では別の構造になり、名詞 review を形容詞で説明する。"
       ],
       [
-        "office|document|magnifier",
+        "office|document|check",
         "Identify what is modified / before selecting the form, / since the same idea can appear / in different sentence patterns.",
         "同じ意味でも文の型が違うため、形を選ぶ前に何を修飾するか見極めよう。"
       ]
@@ -1352,17 +1352,17 @@
         "雨でも屋外行事を行ったと説明するとき、Although it rained と Despite the rain を比べる。"
       ],
       [
-        "rain|umbrella|calendar",
+        "paper|wordcards|pencil",
         "Although introduces a clause / with a subject and verb, / while despite is followed here by / a noun phrase.",
         "although は主語と動詞のある節を導き、ここで despite の後は名詞句になる。"
       ],
       [
-        "rain|umbrella|calendar",
+        "paper|speech|question",
         "Both can express contrast, / but their following structures differ. / Meaning alone cannot decide between them / in a gap.",
         "両方とも対比を示せるが、後ろの構造が違う。穴埋めでは意味だけで選べない。"
       ],
       [
-        "rain|umbrella|calendar",
+        "paper|document|check",
         "Inspect the words / immediately after the blank / before checking / whether the logical relationship fits the / whole sentence.",
         "文全体の論理に合うか見る前に、空欄直後の構造を調べよう。"
       ]
@@ -1408,22 +1408,22 @@
     "t": "Part 5｜関係詞の空欄は節の欠けを探す",
     "sl": [
       [
-        "office|badge|people",
+        "office|person|printer",
         "Consider The technician / who repaired the printer / will return tomorrow / to inspect the remaining equipment / in our office.",
         "The technician who repaired the printer will return tomorrow to inspect the remaining equipment in our office という文を考える。"
       ],
       [
-        "office|badge|people",
+        "paper|wordcards|person",
         "Inside the relative clause, / who serves as subject / of repaired and refers back / to the technician being described.",
         "関係節内の who は repaired の主語で、説明対象の technician を指す。"
       ],
       [
-        "office|badge|people",
+        "paper|map|question",
         "Where describes a place relationship / rather than supplying / the person / who performs the action / in this particular clause.",
         "where は場所関係を示し、この節で動作する人を補う役割ではない。"
       ],
       [
-        "office|badge|people",
+        "office|document|check",
         "Locate the missing role / inside the clause, / then connect it / to the noun / that the clause modifies.",
         "節内で欠けている役割を見つけて、修飾される名詞と結び付けよう。"
       ]
@@ -1469,22 +1469,22 @@
     "t": "Part 5｜分詞による後置修飾",
     "sl": [
       [
-        "office|document|check",
+        "office|mail|calendar",
         "Consider Applications received / after the deadline / will be reviewed during the next / recruitment cycle rather than this one.",
         "Applications received after the deadline will be reviewed during the next recruitment cycle rather than this one という文を考える。"
       ],
       [
-        "office|document|check",
+        "paper|document|magnifier",
         "Received after the deadline / describes which applications / the rule applies to / without introducing another complete main clause.",
         "received after the deadline は、別の主節を作らず、規則がどの申請に適用されるかを説明する。"
       ],
       [
-        "office|document|check",
+        "office|parcel|check",
         "The applications are received / by someone else, / so the past participle expresses the / passive relationship in this modifier.",
         "申請は誰かに受け取られる側なので、過去分詞が修飾部の受動関係を示す。"
       ],
       [
-        "office|document|check",
+        "meeting|people|wordcards",
         "Compare employees attending the workshop, / where the employees / actively attend / and the present participle has an / active meaning.",
         "employees attending the workshop では社員が参加する側なので、現在分詞が能動関係を示す。"
       ]
@@ -1535,17 +1535,17 @@
         "The revised plan is more economical than the original proposal when installation costs are included in both estimates という文を考える。"
       ],
       [
-        "paper|chart|coin",
+        "paper|wordcards|measure",
         "More economical compares two options, / while the most economical / would identify one option within a / relevant comparison group.",
         "more economical は二つの比較、the most economical は比較集団の中で最も経済的なものを示す。"
       ],
       [
-        "paper|chart|coin",
+        "paper|price|chart",
         "Words such as much / can strengthen a comparative, / so much cheaper describes a larger / difference in price.",
         "much などで比較級を強められ、much cheaper は価格差が大きいことを表す。"
       ],
       [
-        "paper|chart|coin",
+        "paper|document|check",
         "Check both the comparison structure / and the comparison basis / to avoid answering / with a grammatical but unsupported claim.",
         "文法的には正しくても根拠のない主張を選ばないよう、比較構造と基準を確認する。"
       ]
@@ -1591,22 +1591,22 @@
     "t": "Part 5｜語彙は一緒に使う語で選ぶ",
     "sl": [
       [
-        "office|document|handshake",
+        "office|document|clock",
         "A manager asks / the team to meet a deadline / and submit a proposal / before the client reviews competing offers.",
         "上司はチームに締切を守り、顧客が競合の提案を検討する前に提案書を出すよう求める。"
       ],
       [
-        "office|document|handshake",
+        "paper|wordcards|handshake",
         "Meet a deadline / is a common combination / whose meaning differs / from meeting a person / for the first time.",
         "meet a deadline はよく使う組み合わせで、初めて人に会う meet とは意味が違う。"
       ],
       [
-        "office|document|handshake",
+        "office|mail|check",
         "Submit a proposal / describes formally sending it / for consideration, / rather than approving the proposal / or rejecting it afterward.",
         "submit a proposal は検討のため正式に提出することで、その後の承認・却下とは違う。"
       ],
       [
-        "office|document|handshake",
+        "paper|book|wordcards",
         "Learn vocabulary with / its typical partners and context / so familiar words remain recognizable / when used in workplace settings.",
         "よく一緒に使う語と文脈を含めて学び、知っている語を職場の用法でも認識できるようにしよう。"
       ]
@@ -1657,17 +1657,17 @@
         "架空のメールが、昨日移転を終えたことと来週の対応を知らせる。"
       ],
       [
-        "office|mail|calendar",
+        "office|desk|clock",
         "The next sentence says / staff will use temporary desks / until their permanent workstations are installed / on Friday morning.",
         "次の文では、金曜朝に常設机が設置されるまで仮机を使うと述べる。"
       ],
       [
-        "office|mail|calendar",
+        "paper|clock|wordcards",
         "One message can contain / past, present, and future references, / so nearby sentences establish the timeline / for each blank.",
         "一通の文書に過去・現在・未来が混在するため、前後の文で各空欄の時間を確かめる。"
       ],
       [
-        "office|mail|calendar",
+        "paper|calendar|check",
         "Do not force / every verb into one tense / simply because the email starts / with an event that happened yesterday.",
         "メールの始めが昨日の出来事だからといって、すべての動詞を同じ時制にしない。"
       ]
@@ -1713,22 +1713,22 @@
     "t": "Part 6｜However と Therefore の関係",
     "sl": [
       [
-        "office|chart|document",
+        "warehouse|parcel|chart",
         "A fictional report / says demand increased, / but limited supplies prevented the company / from fulfilling every order this week.",
         "架空の報告書に、需要は増えたが供給制約で全注文には対応できなかったとある。"
       ],
       [
-        "office|chart|document",
+        "paper|wordcards|question",
         "However can signal / the contrast between demand / and the difficulty of supplying enough / products to satisfy it.",
         "however は、需要と、それを満たす供給の難しさの対比を示せる。"
       ],
       [
-        "office|chart|document",
+        "office|mail|check",
         "Therefore would introduce / a consequence supported / by the preceding information / rather than merely any sentence / that follows it.",
         "therefore は単に次の文ではなく、前の情報に基づく結果を導く。"
       ],
       [
-        "office|chart|document",
+        "paper|document|pencil",
         "Summarize the relationship / in ordinary words first, / then select a connector / that expresses the same logical link.",
         "まず平易な言葉で文同士の関係をまとめ、同じ論理を表す接続表現を選ぼう。"
       ]
@@ -1774,22 +1774,22 @@
     "t": "Part 6｜文挿入は指示語の受け先から",
     "sl": [
       [
-        "office|document|people",
+        "office|calendar|document",
         "A fictional notice / introduces a revised booking system / and then describes a new confirmation / screen for room reservations.",
         "架空の通知で改訂された予約システムを紹介し、新しい予約確認画面を説明する。"
       ],
       [
-        "office|document|people",
+        "paper|wordcards|question",
         "The sentence This change / should reduce duplicate bookings / needs a preceding description / that identifies the change being discussed.",
         "This change should reduce duplicate bookings には、何の変更かを特定する先行説明が必要だ。"
       ],
       [
-        "office|document|people",
+        "office|document|check",
         "Place it after / the relevant change is introduced / rather than / before the reader has any way / to identify its reference.",
         "読み手が指す対象を特定できる前でなく、関係する変更の紹介後に置く。"
       ],
       [
-        "office|document|people",
+        "paper|book|pencil",
         "Check the following sentence too, / because a good insertion / connects naturally / to both sides of the / surrounding passage.",
         "後ろの文も確認しよう。よい挿入は前後両方へ自然につながる。"
       ]
@@ -1840,17 +1840,17 @@
         "架空のメールが研修中止を謝罪し、登録者へ支払金が戻ると説明する。"
       ],
       [
-        "office|mail|ticket",
+        "paper|receipt|calendar",
         "The purpose is / to explain cancellation and refunds, / so a sentence about repayment timing / would fit the message naturally.",
         "目的は中止と返金の説明なので、返金時期の文は自然に合う。"
       ],
       [
-        "office|mail|ticket",
+        "office|badge|question",
         "A grammatically correct sentence / about hiring new staff / could still be irrelevant / to this message / and its intended readers.",
         "新規採用について文法的に正しい文でも、この通知と読者には無関係かもしれない。"
       ],
       [
-        "office|mail|ticket",
+        "paper|document|check",
         "Use grammar to eliminate errors, / then test relevance / against the writer's purpose / and the information already provided nearby.",
         "文法で誤りを除いた後、筆者の目的と周囲の情報から関連性を確認する。"
       ]
@@ -1896,22 +1896,22 @@
     "t": "Part 7｜根拠は同じ単語で出ない",
     "sl": [
       [
-        "office|document|magnifier",
+        "office|calendar|clipboard",
         "A fictional notice / says registration is mandatory / for anyone wishing / to attend the safety workshop next / Thursday afternoon.",
         "架空の通知に、来週木曜午後の安全研修に参加する人は登録必須とある。"
       ],
       [
-        "office|document|magnifier",
+        "paper|wordcards|check",
         "A question may say / participants are required to register / using different words / to express the same obligation / as the notice.",
         "設問では participants are required to register と言い換え、同じ義務を表すことがある。"
       ],
       [
-        "office|document|magnifier",
+        "paper|book|magnifier",
         "Mandatory and required / share the relevant meaning here, / although the exact wording no longer / matches word for word.",
         "mandatory と required はこの文脈で意味が対応し、語句はそのまま一致しない。"
       ],
       [
-        "office|document|magnifier",
+        "paper|document|question",
         "Match the underlying claim / and its conditions / instead of accepting an option just / because it repeats a visible keyword.",
         "見えるキーワードの繰り返しだけで選ばず、主張と条件が一致するか比べよう。"
       ]
@@ -1957,22 +1957,22 @@
     "t": "Part 7｜推論は一歩だけ進める",
     "sl": [
       [
-        "office|mail|calendar",
+        "office|mail|document",
         "A fictional email / thanks the recipient / for submitting a revised proposal / that now includes installation costs / and maintenance support.",
         "架空のメールが、設置費と保守サポートを含む改訂提案書の提出に礼を述べる。"
       ],
       [
-        "office|mail|calendar",
+        "paper|document|clock",
         "Calling the proposal revised / supports an inference / that an earlier version existed / before the document currently being discussed.",
         "提案書を revised と呼ぶことから、今の文書より前の版があったと推測できる。"
       ],
       [
-        "office|mail|calendar",
+        "paper|coin|question",
         "It does not establish / that the proposal was approved / or that the recipient has already / received full payment for it.",
         "承認されたことや、相手がすでに全額を受け取ったことまでは分からない。"
       ],
       [
-        "office|mail|calendar",
+        "paper|document|check",
         "Separate necessary or well-supported implications / from possible stories / that require extra assumptions absent / from the actual text.",
         "本文が十分支える含意と、書かれていない仮定を足した物語を分けよう。"
       ]
@@ -2018,22 +2018,22 @@
     "t": "Part 7｜NOT 問題は全候補を照合",
     "sl": [
       [
-        "paper|document|check",
+        "cafe|ticket|document",
         "A fictional event notice / includes admission, refreshments, and materials / in the registration fee, / while parking must be paid separately.",
         "架空の行事案内では入場・軽食・資料が参加料に含まれ、駐車料金は別払いだ。"
       ],
       [
-        "paper|document|check",
+        "paper|clipboard|check",
         "If asked what / is not included, / first mark the three items / that the notice explicitly places inside / the fee.",
         "含まれないものを聞かれたら、まず含むと明記された三項目を確認する。"
       ],
       [
-        "paper|document|check",
+        "city|car|coin",
         "Then verify the remaining choice / against the exception / instead of choosing an unfamiliar word / without checking the text.",
         "知らない語を選ぶのでなく、残った候補を例外の記述と照合する。"
       ],
       [
-        "paper|document|check",
+        "paper|wordcards|magnifier",
         "Keep the question's negative wording / visible in your reasoning / because overlooking not reverses the task / you are trying to solve.",
         "not を見落とすと課題が逆になるため、否定の条件を保ったまま考えよう。"
       ]
@@ -2079,22 +2079,22 @@
     "t": "Part 7｜複数文書は共通の番号でつなぐ",
     "sl": [
       [
-        "office|mail|document",
+        "office|document|desk",
         "A fictional order lists / reference K twenty / for a desk / that the customer expects / to receive on Monday.",
         "架空の注文書で、月曜着予定の机に照会番号 K twenty が付いている。"
       ],
       [
-        "office|mail|document",
+        "office|mail|calendar",
         "A later email / mentions the same reference / and changes delivery / to Wednesday / because the original vehicle needs repairs.",
         "後のメールが同じ番号に触れ、元の車両の修理で配達を水曜に変更する。"
       ],
       [
-        "office|mail|document",
+        "paper|document|magnifier",
         "The shared reference / links the two documents, / while the later message updates one / detail without replacing the entire order.",
         "共通番号が文書をつなぎ、後の通知は注文全体ではなく一つの内容を更新する。"
       ],
       [
-        "office|mail|document",
+        "paper|calendar|check",
         "Track identifiers and dates / across the documents / before combining facts / that might otherwise belong / to different customers or purchases.",
         "別の客や購入の情報を混ぜないよう、文書間の番号と日付を追ってから結び付けよう。"
       ]
@@ -2140,22 +2140,22 @@
     "t": "Part 7｜時間配分と根拠のある見直し",
     "sl": [
       [
-        "library|clock|book",
+        "library|book|clock",
         "In timed reading practice, / record where you lose time / and whether errors come / from vocabulary, syntax, or missing evidence.",
         "時間を測る読解練習では、時間がかかった場所と、誤りの原因が語彙・構文・根拠の見落としかを記録する。"
       ],
       [
-        "library|clock|book",
+        "paper|hourglass|question",
         "A difficult question / can consume time needed / for several later questions / that you could answer / with reasonable confidence.",
         "難問一つに、後で自信を持って解ける複数問の時間を使ってしまうことがある。"
       ],
       [
-        "library|clock|book",
+        "paper|pencil|calendar",
         "Use a provisional answer / and a planned return point / when practice shows / that further reading is no / longer productive.",
         "練習でこれ以上読んでも進まないと分かったら、仮の答えを置き、戻る目印を決める。"
       ],
       [
-        "library|clock|book",
+        "library|document|check",
         "Review the supporting sentence afterward, / not just the answer key, / and retest the skill / in a different passage.",
         "後では正解番号だけでなく根拠文を確認し、別の文章で同じ技能を再確認しよう。"
       ]

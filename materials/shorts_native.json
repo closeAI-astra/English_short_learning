@@ -5,22 +5,22 @@
     "t": "NATURAL｜I understand と Got it",
     "sl": [
       [
-        "office|chat|check",
+        "office|people|speech",
         "Your colleague explains / where to save the file. / You need a quick acknowledgment.",
         "同僚がファイルの保存場所を説明した。短く「了解」と返したい場面だ。"
       ],
       [
-        "office|chat|check",
+        "office|document|check",
         "“I understand” is correct, / but “Got it” works well / for acknowledging a simple instruction.",
         "I understand は正しい。単純な指示への「了解」には Got it も使いやすい。"
       ],
       [
-        "office|chat|check",
+        "meeting|question|bulb",
         "“I see” often signals / that something has become clear. / “That makes sense” acknowledges a reason.",
         "I see は「なるほど分かった」。That makes sense は理由や説明に納得したことを表す。"
       ],
       [
-        "office|chat|check",
+        "office|speech|wordcards",
         "Choose your response / according to the situation, / rather than replacing understand every time.",
         "understand を毎回置き換えるのではなく、その場面に合わせて返答を選ぼう。"
       ]
@@ -66,22 +66,22 @@
     "t": "NATURAL｜How are you? は挨拶にもなる",
     "sl": [
       [
-        "day|people|chat",
+        "street|person|speech",
         "A neighbor says / How are you / while passing you outside your building.",
         "建物の外ですれ違う隣人が How are you と声をかける。"
       ],
       [
-        "day|people|chat",
+        "street|speech|check",
         "“Good, thanks. You?” / is a brief greeting response, / not a detailed health report.",
         "Good, thanks. You? は短い挨拶の返事で、詳しい健康報告ではない。"
       ],
       [
-        "day|people|chat",
+        "paper|wordcards|ear",
         "“I'm fine, thank you” / is also acceptable. / Familiarity and tone affect the conversation.",
         "I'm fine, thank you も使える。親しさや声の調子で会話の印象は変わる。"
       ],
       [
-        "day|people|chat",
+        "day|people|heart",
         "A close friend / may genuinely want details. / Notice whether they stop and listen.",
         "親しい友達なら本当に詳しく知りたいこともある。立ち止まって聞こうとしているかにも注目しよう。"
       ]
@@ -127,22 +127,22 @@
     "t": "SITUATION｜表現を一つ教えてほしい",
     "sl": [
       [
-        "library|book|chat",
+        "library|book|question",
         "You know a Japanese phrase / but need its English equivalent / during a conversation with a friend.",
         "日本語の表現は知っているが、友達との会話で対応する英語が出てこない。"
       ],
       [
-        "library|book|chat",
+        "library|wordcards|speech",
         "Ask “How do you say / this in English?” / when you want an expression translated.",
         "表現を英語にしたいなら How do you say this in English? と聞く。"
       ],
       [
-        "library|book|chat",
+        "paper|bottle|question",
         "Ask “What do you call / this in English?” / when pointing to an unfamiliar object.",
         "知らない物を指して名前を聞くなら What do you call this in English? が使える。"
       ],
       [
-        "library|book|chat",
+        "library|people|book",
         "“Please teach me English” / requests broader instruction, / so it suits a different purpose.",
         "Please teach me English はより広い英語指導の依頼なので、目的が違う。"
       ]
@@ -188,22 +188,22 @@
     "t": "SITUATION｜トイレ：米語と英語の違い",
     "sl": [
       [
-        "airport|building|chat",
+        "cafe|person|question",
         "At an American restaurant, / you need to find / the room with the toilets.",
         "アメリカのレストランで、トイレの場所を知りたい。"
       ],
       [
-        "airport|building|chat",
+        "hotel|doorway|speech",
         "You can ask / “Where is the restroom?” / without explaining your personal need / in detail.",
         "Where is the restroom? なら、自分の用事を詳しく説明せずに場所を聞ける。"
       ],
       [
-        "airport|building|chat",
+        "paper|wordcards|chat",
         "“I need to use / the bathroom” is also common / in everyday American English.",
         "I need to use the bathroom も日常のアメリカ英語で使われる。"
       ],
       [
-        "airport|building|chat",
+        "city|globe|wordcards",
         "In British English, / asking for the toilet / can be ordinary and appropriate too.",
         "イギリス英語では the toilet を使って尋ねるのも普通で適切な場合がある。"
       ]
@@ -249,22 +249,22 @@
     "t": "DON'T SAY IT LIKE THAT｜bored と boring",
     "sl": [
       [
-        "night|film|person",
+        "stage|film|person",
         "You are waiting / through a very dull film, / and you want / to describe your feeling.",
         "とても退屈な映画を見ていて、自分の気持ちを伝えたい。"
       ],
       [
-        "night|film|person",
+        "paper|person|wordcards",
         "“I'm bored” describes / the feeling you experience. / “The movie is boring” describes / its effect.",
         "I'm bored は自分が感じる退屈を、The movie is boring は映画が与える印象を表す。"
       ],
       [
-        "night|film|person",
+        "paper|people|question",
         "“I'm boring” instead / describes you as someone / who makes other people feel bored.",
         "I'm boring だと、他人を退屈させる人だと自分を説明することになる。"
       ],
       [
-        "night|film|person",
+        "stage|speaker|heart",
         "An excited audience / watches an exciting performance. / Check who feels / and what causes it.",
         "わくわくする公演を、わくわくした観客が見る。感じる側と原因を確認しよう。"
       ]
@@ -310,22 +310,22 @@
     "t": "NATURAL｜I don't know と確信の弱さ",
     "sl": [
       [
-        "office|chat|calendar",
+        "office|people|calendar",
         "A colleague asks / whether the meeting starts / at ten or eleven this morning.",
         "同僚が今日の会議は10時か11時かと尋ねる。"
       ],
       [
-        "office|chat|calendar",
+        "paper|question|document",
         "“I don't know” / says you lack the information. / It can be honest and appropriate.",
         "I don't know は情報を知らないということ。正直で適切な返答にもなる。"
       ],
       [
-        "office|chat|calendar",
+        "paper|question|wordcards",
         "“I'm not sure” / signals uncertainty, so use it / when you have incomplete confidence.",
         "I'm not sure は不確かさを示すので、確信が十分でないときに使う。"
       ],
       [
-        "office|chat|calendar",
+        "office|calendar|check",
         "Add “I'll check the calendar” / if you can verify it. / Helpfulness comes from the follow-up too.",
         "確かめられるなら I'll check the calendar と続ける。後に続く対応も親切さにつながる。"
       ]
@@ -371,22 +371,22 @@
     "t": "SITUATION｜聞き返しを具体的にする",
     "sl": [
       [
-        "cafe|ear|chat",
+        "cafe|people|ear",
         "The café is noisy, / and you miss / the last part of a / friend's sentence.",
         "カフェが騒がしく、友達の話の最後を聞き逃した。"
       ],
       [
-        "cafe|ear|chat",
+        "cafe|speech|ear",
         "“Could you say that again?” / is a useful request / when you need the whole / sentence repeated.",
         "文全体をもう一度聞きたいなら Could you say that again? が使える。"
       ],
       [
-        "cafe|ear|chat",
+        "paper|calendar|question",
         "“Did you say Tuesday?” / helps you check / a specific detail you almost caught.",
         "一部を聞き取れたなら Did you say Tuesday? で具体的に確認できる。"
       ],
       [
-        "cafe|ear|chat",
+        "paper|speech|mouth",
         "“What?” can sound abrupt / with a sharp tone, / but context matters more than a / banned word.",
         "What? は強い調子だとぶっきらぼうに聞こえるが、単語の禁止より文脈が大事だ。"
       ]
@@ -432,22 +432,22 @@
     "t": "NATURAL｜友達をご飯に誘う",
     "sl": [
       [
-        "cafe|cup|people",
+        "cafe|people|bowl",
         "You leave class / with a friend / and suggest getting lunch / before going home.",
         "授業の後、友達に帰る前の昼食を提案する。"
       ],
       [
-        "cafe|cup|people",
+        "cafe|menu|speech",
         "“Want to grab some food?” / is an informal invitation / that fits this casual situation.",
         "Want to grab some food? は、この気軽な場面に合うくだけた誘い方だ。"
       ],
       [
-        "cafe|cup|people",
+        "cafe|bowl|heart",
         "“Let's eat together” / can also be natural, / especially when sharing a meal is / the point.",
         "Let's eat together も、一緒に食事することに重点があるなら自然に使える。"
       ],
       [
-        "cafe|cup|people",
+        "meeting|people|speech",
         "For a professional invitation, / Would you like to join us / for lunch gives more room / to decline.",
         "仕事で誘うなら Would you like to join us for lunch? と、相手が断る余地を持たせられる。"
       ]
@@ -493,22 +493,22 @@
     "t": "NATURAL｜Long time no see は使える",
     "sl": [
       [
-        "day|people|clock",
+        "street|people|clock",
         "You unexpectedly meet / an old classmate / after several years / without seeing each other.",
         "数年会っていなかった昔の同級生に偶然会う。"
       ],
       [
-        "day|people|clock",
+        "street|speech|heart",
         "“Hey, long time no see!” / is an established informal greeting / for this kind of reunion.",
         "Hey, long time no see! は、このような再会で使われる定着したくだけた挨拶だ。"
       ],
       [
-        "day|people|clock",
+        "paper|wordcards|speech",
         "“It's been a while” / is another useful option. / Neither expression needs to be banned.",
         "It's been a while も便利な選択肢だ。どちらも禁止する必要はない。"
       ],
       [
-        "day|people|clock",
+        "day|people|question",
         "Follow the greeting / with a genuine question, / such as What have you been / up to.",
         "挨拶の後に What have you been up to? など近況を尋ねる質問を続けよう。"
       ]
@@ -554,22 +554,22 @@
     "t": "NATURAL｜趣味を会話につなげる",
     "sl": [
       [
-        "day|ball|chat",
+        "day|people|ball",
         "At a casual gathering, / someone asks / what you enjoy doing outside / your classes.",
         "気軽な集まりで、授業以外に何をして楽しむか聞かれた。"
       ],
       [
-        "day|ball|chat",
+        "day|ball|clock",
         "I play soccer / in my free time / gives them a specific activity / to ask about.",
         "I play soccer in my free time は、相手が質問を続けやすい具体的な活動を伝える。"
       ],
       [
-        "day|ball|chat",
+        "paper|wordcards|speech",
         "“My hobby is playing soccer” / is grammatical too. / The difference is conversational framing, / not correctness.",
         "My hobby is playing soccer も文法的に正しい。違いは正誤ではなく会話での伝え方だ。"
       ],
       [
-        "day|ball|chat",
+        "day|ball|people",
         "Add a small detail, / like who you play with, / to give the conversation somewhere / to go.",
         "誰とプレーするかなどを少し加えると、会話を続ける手がかりになる。"
       ]
@@ -615,22 +615,22 @@
     "t": "NATURAL｜質問の切り出し方",
     "sl": [
       [
-        "office|chat|document",
+        "stage|speaker|question",
         "During a presentation, / I have a question / clearly signals that you want / to ask something.",
         "プレゼン中の I have a question は、質問したいことを明確に示す。"
       ],
       [
-        "office|chat|document",
+        "office|people|speech",
         "In a private conversation, / Can I ask you something / can introduce a more personal question.",
         "個人的な会話では Can I ask you something? が少し個人的な質問の前置きにもなる。"
       ],
       [
-        "office|chat|document",
+        "office|clock|question",
         "“Quick question” is useful / for a short practical query, / especially among colleagues / who know each other.",
         "Quick question は、特に親しい同僚同士の短い実務的な質問に便利だ。"
       ],
       [
-        "office|chat|document",
+        "paper|document|clock",
         "Choose an opening / that matches the actual request. / A complicated problem may not / be quick.",
         "本当に聞きたい内容に合う切り出しを選ぼう。複雑な問題は quick ではないかもしれない。"
       ]
@@ -676,22 +676,22 @@
     "t": "SITUATION｜No worries と You're good",
     "sl": [
       [
-        "cafe|cup|chat",
+        "cafe|person|clock",
         "A friend apologizes / for arriving a little late, / and you want to reassure them.",
         "友達が少し遅れたことを謝ったので、気にしなくていいと伝えたい。"
       ],
       [
-        "cafe|cup|chat",
+        "cafe|speech|heart",
         "No worries can offer / informal reassurance. / That's all right is another possible / response here.",
         "No worries はくだけた安心の返答になる。ここでは That's all right も使える。"
       ],
       [
-        "cafe|cup|chat",
+        "paper|wordcards|check",
         "You're good can mean / that no correction is needed, / especially in informal American conversation.",
         "You're good は、特にくだけた米語で「そのままで大丈夫」という意味にもなる。"
       ],
       [
-        "cafe|cup|chat",
+        "paper|people|heart",
         "After serious harm, / acknowledge the problem first. / Casual reassurance may minimize what happened.",
         "大きな被害があるときは、まず問題を受け止めよう。軽い返答は被害を小さく扱って聞こえることがある。"
       ]
@@ -737,22 +737,22 @@
     "t": "DON'T SAY IT LIKE THAT｜意味を聞くときの温度",
     "sl": [
       [
-        "meeting|people|chat",
+        "meeting|document|question",
         "Someone calls your proposal / interesting, but you cannot tell / whether they support it / or have concerns.",
         "提案を interesting と言われたが、賛成なのか懸念があるのか分からない。"
       ],
       [
-        "meeting|people|chat",
+        "meeting|speech|question",
         "“What do you mean?” / can request clarification, / but a challenging tone can make / it confrontational.",
         "What do you mean? は確認にもなるが、問い詰める調子だと対立的に聞こえる。"
       ],
       [
-        "meeting|people|chat",
+        "paper|wordcards|ear",
         "Adding by that / does not automatically soften it. / Tone and context still shape / the meaning.",
         "by that を足せば自動的に柔らかくなるわけではない。声の調子と文脈が意味を左右する。"
       ],
       [
-        "meeting|people|chat",
+        "meeting|question|bulb",
         "Try Could you clarify / which part you mean / to focus / on the information you need.",
         "Could you clarify which part you mean? と聞けば、必要な情報に焦点を当てられる。"
       ]
@@ -798,22 +798,22 @@
     "t": "NATURAL｜want と feel like は意味も違う",
     "sl": [
       [
-        "cafe|bowl|person",
+        "kitchen|person|bowl",
         "You are hungry / and tell your roommate / that you want / to eat something soon.",
         "お腹がすいて、同居人に何かをすぐ食べたいと伝える。"
       ],
       [
-        "cafe|bowl|person",
+        "kitchen|speech|bowl",
         "“I want to eat something” / is perfectly ordinary / when you are expressing / that desire directly.",
         "I want to eat something は、その希望を直接伝える普通の言い方だ。"
       ],
       [
-        "cafe|bowl|person",
+        "paper|heart|bowl",
         "“I feel like getting something / to eat” emphasizes / your current mood or inclination instead.",
         "I feel like getting something to eat は、今そうしたい気分を強調する。"
       ],
       [
-        "cafe|bowl|person",
+        "paper|wordcards|pencil",
         "Neither expression is universally better. / After feel like, / use a noun / or an ing form.",
         "常に優れている方があるわけではない。feel like の後は名詞か ing 形にする。"
       ]
@@ -859,22 +859,22 @@
     "t": "DON'T SAY IT LIKE THAT｜I agree に am は不要",
     "sl": [
       [
-        "meeting|chat|check",
+        "meeting|people|calendar",
         "Your teammate proposes / an earlier deadline, / and you want / to express agreement with the idea.",
         "チームの仲間が締切の前倒しを提案し、その案への賛成を伝えたい。"
       ],
       [
-        "meeting|chat|check",
+        "paper|speech|check",
         "Say I agree / because agree already functions / as a verb in this sentence.",
         "I agree と言う。agree 自体がこの文の動詞として働いているからだ。"
       ],
       [
-        "meeting|chat|check",
+        "paper|wordcards|pencil",
         "“I am agree” / adds an unnecessary verb. / I am / in agreement uses a different structure.",
         "I am agree は不要な動詞を足している。I am in agreement は別の構造だ。"
       ],
       [
-        "meeting|chat|check",
+        "meeting|speech|question",
         "You can partly agree / and still raise a concern. / Agreement does not have / to be absolute.",
         "一部に賛成しながら懸念を示すこともできる。賛成は全面的である必要はない。"
       ]
@@ -920,22 +920,22 @@
     "t": "DON'T SAY IT LIKE THAT｜discuss の後の about",
     "sl": [
       [
-        "meeting|document|people",
+        "meeting|document|coin",
         "Your group plans / to discuss the budget / before approving a new purchase / this afternoon.",
         "グループは午後、新しい購入を承認する前に予算を話し合う予定だ。"
       ],
       [
-        "meeting|document|people",
+        "paper|document|wordcards",
         "Discuss takes its topic / directly as an object. / You can discuss the budget / without about.",
         "discuss は話題を直接目的語に取る。discuss the budget に about は要らない。"
       ],
       [
-        "meeting|document|people",
+        "paper|speech|pencil",
         "Talk about the budget / uses a different pattern. / Similar meanings do not guarantee / identical grammar.",
         "Talk about the budget は別の型。意味が似ていても文法が同じとは限らない。"
       ],
       [
-        "meeting|document|people",
+        "paper|book|wordcards",
         "Notice the noun pattern / a discussion about the budget / when comparing related forms / in a passage.",
         "関連する形を比べるときは、名詞の a discussion about the budget にも注目しよう。"
       ]
@@ -986,17 +986,17 @@
         "来週初めて会う同僚へのメールを締めくくる。"
       ],
       [
-        "office|mail|calendar",
+        "office|speech|handshake",
         "I look forward to meeting you / is a conventional closing / that expresses positive anticipation.",
         "I look forward to meeting you は、会うことへの期待を示す定番の結びだ。"
       ],
       [
-        "office|mail|calendar",
+        "paper|wordcards|pencil",
         "Here to is a preposition, / so meeting follows it. / It is not an infinitive marker.",
         "この to は前置詞なので meeting が続く。不定詞の to ではない。"
       ],
       [
-        "office|mail|calendar",
+        "paper|wordcards|check",
         "Compare I hope to meet you, / where hope takes an infinitive. / Learn the whole pattern together.",
         "不定詞を取る hope の I hope to meet you と比べよう。型全体で覚える。"
       ]
@@ -1042,22 +1042,22 @@
     "t": "SITUATION｜試着してもいいですか",
     "sl": [
       [
-        "city|store|bag",
+        "shop|tshirt|question",
         "You find a jacket / in a clothing store / but are unsure / whether it fits you.",
         "服の店でジャケットを見つけたが、サイズが合うか分からない。"
       ],
       [
-        "city|store|bag",
+        "shop|tshirt|person",
         "Can I try this on / asks for permission / to put the jacket / on before buying it.",
         "Can I try this on? は、買う前に着てみる許可を求める。"
       ],
       [
-        "city|store|bag",
+        "paper|wordcards|pencil",
         "If you use it, / put the pronoun between / try and on: / Can I try it on.",
         "it を使うなら try と on の間に置き、Can I try it on? とする。"
       ],
       [
-        "city|store|bag",
+        "shop|tshirt|measure",
         "After trying it on, / ask for a larger size / if the sleeves feel too tight.",
         "試着して袖がきつければ、大きいサイズをお願いしよう。"
       ]
@@ -1103,22 +1103,22 @@
     "t": "SITUATION｜注文の I'll have",
     "sl": [
       [
-        "cafe|cup|document",
+        "cafe|menu|person",
         "A server asks / what you would like / after you have looked through the / lunch menu.",
         "昼食のメニューを見た後、店員が注文を聞く。"
       ],
       [
-        "cafe|cup|document",
+        "cafe|bowl|speech",
         "I'll have the soup, please / presents your choice / in a common restaurant ordering pattern.",
         "I'll have the soup, please は、店で注文を選んで伝えるよく使われる型だ。"
       ],
       [
-        "cafe|cup|document",
+        "cafe|speech|heart",
         "Could I have the soup / also works as a request. / Please and tone help convey politeness.",
         "Could I have the soup? も依頼として使える。please や声の調子も丁寧さを伝える。"
       ],
       [
-        "cafe|cup|document",
+        "paper|wordcards|bowl",
         "I want soup / expresses a desire, / but a request can fit the / service encounter better.",
         "I want soup は希望を表すが、接客の場面には依頼の形がより合うことがある。"
       ]
@@ -1164,22 +1164,22 @@
     "t": "SITUATION｜Would you mind への返事",
     "sl": [
       [
-        "library|people|chat",
+        "library|chair|person",
         "Someone asks / Would you mind / if I sat here / while pointing / to the empty chair beside you.",
         "隣の空席を指して Would you mind if I sat here? と聞かれた。"
       ],
       [
-        "library|people|chat",
+        "library|chair|question",
         "They are asking / whether you would object, / not simply / whether the chair exists nearby.",
         "近くに椅子があるかではなく、座られると困るかを尋ねている。"
       ],
       [
-        "library|people|chat",
+        "library|speech|check",
         "No, not at all. Go ahead / clearly gives permission / without leaving your intended meaning uncertain.",
         "No, not at all. Go ahead と言えば、意図を曖昧にせず許可を伝えられる。"
       ],
       [
-        "library|people|chat",
+        "library|chair|speech",
         "If the seat is taken, / explain that directly / instead of relying / on a confusing bare yes.",
         "席が埋まっているなら、紛らわしい yes だけに頼らず直接説明する。"
       ]
@@ -1225,22 +1225,22 @@
     "t": "NATURAL｜誘いを断って関係を保つ",
     "sl": [
       [
-        "day|calendar|chat",
+        "day|people|calendar",
         "A classmate invites you / to dinner on Friday, / but you have already made / another commitment.",
         "同級生が金曜の夕食に誘ってくれたが、すでに別の約束がある。"
       ],
       [
-        "day|calendar|chat",
+        "paper|speech|heart",
         "I'd love to, / but I already have plans / shows appreciation while explaining your unavailability.",
         "I'd love to, but I already have plans は、好意を受け止めながら都合が悪いことを伝える。"
       ],
       [
-        "day|calendar|chat",
+        "paper|calendar|check",
         "If you genuinely want / to meet another time, / suggest a specific alternative / that you can manage.",
         "本当に別の機会に会いたいなら、実現できる具体的な代案を出そう。"
       ],
       [
-        "day|calendar|chat",
+        "paper|speech|question",
         "Do not promise / a future meeting automatically. / A clear, / kind refusal can be enough.",
         "自動的に次の約束をしなくてよい。明確で親切な断り方だけで十分なこともある。"
       ]
@@ -1286,7 +1286,7 @@
     "t": "DON'T SAY IT LIKE THAT｜borrow と lend",
     "sl": [
       [
-        "library|book|people",
+        "library|book|person",
         "You need a textbook / that belongs to your friend / for an assignment due tomorrow morning.",
         "明朝締切の課題のため、友達が持っている教科書を借りたい。"
       ],
@@ -1296,12 +1296,12 @@
         "Can I borrow your book? は一時的に借りること。Could you lend me your book? は貸してもらう依頼だ。"
       ],
       [
-        "library|book|people",
+        "paper|book|handshake",
         "The same exchange / has two perspectives: / the borrower receives, / while the lender provides the item.",
         "同じやり取りでも視点は二つある。借り手が受け取り、貸し手が渡す。"
       ],
       [
-        "library|book|people",
+        "paper|book|clock",
         "Include a return time / when it matters, / so your friend can decide / whether to agree.",
         "必要なら返却時刻も伝え、友達が貸せるか判断できるようにする。"
       ]
@@ -1347,22 +1347,22 @@
     "t": "DON'T SAY IT LIKE THAT｜until と by",
     "sl": [
       [
-        "office|calendar|document",
+        "office|document|calendar",
         "Your manager needs / the revised report / before the team meets / on Friday afternoon.",
         "金曜午後の会議に間に合うよう、上司が改訂版の報告書を必要としている。"
       ],
       [
-        "office|calendar|document",
+        "paper|calendar|check",
         "“Submit it by Friday” / sets the latest acceptable time. / Earlier submission is allowed by / this wording.",
         "Submit it by Friday は期限を示す。この言い方なら早く提出してもよい。"
       ],
       [
-        "office|calendar|document",
+        "paper|clock|pencil",
         "“Work on it until Friday” / describes continuing an activity / up to that point in time.",
         "Work on it until Friday は、金曜まで作業を続けることを表す。"
       ],
       [
-        "office|calendar|document",
+        "office|calendar|question",
         "If timing is important, / confirm the exact hour / instead of assuming the end of / the day.",
         "時刻が重要なら、その日の終わりと決めつけず具体的な時間を確認する。"
       ]
@@ -1408,22 +1408,22 @@
     "t": "NATURAL｜Actually の訂正を和らげる",
     "sl": [
       [
-        "meeting|chat|calendar",
+        "meeting|calendar|people",
         "A colleague says / the workshop is on Monday, / but the updated schedule lists / Tuesday instead.",
         "同僚が研修は月曜だと言うが、更新された予定では火曜になっている。"
       ],
       [
-        "meeting|chat|calendar",
+        "paper|speech|ear",
         "“Actually, it's on Tuesday” / corrects the information, / though delivery can make the correction / sound blunt.",
         "Actually, it's on Tuesday は情報を訂正するが、言い方次第ではぶっきらぼうにも聞こえる。"
       ],
       [
-        "meeting|chat|calendar",
+        "meeting|calendar|document",
         "I think the updated schedule / says Tuesday adds a reference / and leaves room to check together.",
         "I think the updated schedule says Tuesday は根拠を添え、一緒に確認する余地を残す。"
       ],
       [
-        "meeting|chat|calendar",
+        "meeting|people|check",
         "Use uncertainty honestly. / If the schedule is confirmed, / you can be clear / without blaming anyone.",
         "不確かさは正直に表す。予定が確定しているなら、誰も責めず明確に伝えられる。"
       ]

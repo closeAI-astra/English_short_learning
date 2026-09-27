@@ -5,9 +5,12 @@ Source rows: header, four or five EN<TAB>JA slides, vocabulary, question,
 Japanese answer explanation. The correct option is authored first and rotated.
 """
 import json
+import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parent))
+from scene_content import SHORT_SCENES
 
 def sense_groups(text):
     """Keep authored boundaries; break long groups at clause/preposition boundaries."""
@@ -32,6 +35,11 @@ def compile_shorts(filename, prefix, series):
         lines = block.splitlines()
         genre, title, scene = lines[0].split('|', 2)
         slides = [[scene, sense_groups(line.split('\t')[0]), line.split('\t')[1]] for line in lines[1:-3]]
+        scenes = SHORT_SCENES[f'{prefix}-{number:02}']
+        if len(scenes) != len(slides):
+            raise ValueError(f'{prefix}-{number:02}: each slide needs its own illustration')
+        for slide, visual in zip(slides, scenes):
+            slide[0] = visual
         vocab = [item.split('=') for item in lines[-3].split('|')]
         question, *options = lines[-2].split('|')
         position = (number - 1) % 4
